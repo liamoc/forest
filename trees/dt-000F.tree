@@ -1,7 +1,7 @@
 \import{dt-macros}
 \author{liamoc}
-\taxon{example}
-\title{the domain #{\mathbb{B}_\bot \times \mathbb{B}_\bot}}
+\taxon{Example}
+\title{The domain #{\mathbb{B}_\bot \times \mathbb{B}_\bot}}
 \figure{\tex{\usepackage{tikz}}{
 \begin{tikzpicture}
 	\node (ff) at (0,1) {$(F,F)$};
@@ -27,4 +27,4 @@
 				 (tb.north) -- (tf);
 \end{tikzpicture}
 }}
-\p{As can be seen above, the domain #{\mathbb{B}_\bot \times \mathbb{B}_\bot} is not flat, but it is still a [[dt-000G]].}
+\p{As can be seen above, the domain #{\mathbb{B}_\bot \times \mathbb{B}_\bot} is not flat, but it is still a [pointed poset](dt-000G).}

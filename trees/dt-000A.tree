@@ -1,5 +1,5 @@
 \import{dt-macros}
 \author{liamoc}
-\title{the bottom value}
+\title{The bottom value}
 \p{Following [Scott](danascott), we introduce a special \em{bottom} value #{\bot} to our semantic domains.
 ##{\bot\ \text{represents}\ \begin{cases}\text{an undefined value;}\\\text{an error value;}\\\text{a \emph{non-terminating} computation.} \end{cases}}}

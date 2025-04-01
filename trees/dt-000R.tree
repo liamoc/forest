@@ -18,5 +18,5 @@ How do we ensure that solutions exist for such recursive equations? And, if mult
  \end{cases}
 \end{array}
 }
-Looking at it this way, we can see that any solution to this equation must be an element of our semantic domain #{X \in \mathbf{C}} such that #{f(X) = X}. In other words, the problem of finding solutions to our recursive equations can be cast as the problem of finding a [[dt-000S]] for \em{non-recursive} higher-order functions.
+Looking at it this way, we can see that any solution to this equation must be an element of our semantic domain #{X \in \mathbf{C}} such that #{f(X) = X}. In other words, the problem of finding solutions to our recursive equations can be cast as the problem of finding a [fixed point](dt-000S) for \em{non-recursive} higher-order functions.
 }

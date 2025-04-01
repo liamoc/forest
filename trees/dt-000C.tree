@@ -1,8 +1,8 @@
 \import{dt-macros}
 \author{liamoc}
-\taxon{example}
-\title{information ordering for flat domains}
-\p{Consider a [[dt-0008]] #{X_\bot}. There is a natural [[dt-000B]] #{\sqsubseteq} on #{X_\bot}:}
+\taxon{Example}
+\title{Information ordering for flat domains}
+\p{Consider a [flat domain](dt-0008) #{X_\bot}. There is a natural [information ordering](dt-000B) #{\sqsubseteq} on #{X_\bot}:}
 \figure{\tex{\usepackage{tikz}}{\begin{tikzpicture}
 	\node (d1) at (-1,0) {$\cdots$};
 	\node (d2) at (4,0) {$\cdots$};

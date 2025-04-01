@@ -1,5 +1,5 @@
 \import{conf-name-macros}
-\taxon{conference}
+\taxon{Conference}
 \title{\conf-name{ML '16}{ML Family Workshop 2016}}
 \date{2016-09}
 \meta{venue}{Nara, Japan}

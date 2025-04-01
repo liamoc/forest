@@ -1,0 +1,6 @@
+\author{liamoc}
+\import{refs-datalog}
+\title{Workshop papers}
+\query\datalog{
+  ?X -: {\rel/my-references ?X} {\rel/has-tag ?X '{workshop}}
+}

@@ -1,6 +1,6 @@
 \import{dt-macros}
-\title{the \cal{C} Language (without loops)}
-\taxon{definition}
+\title{The \cal{C} Language (without loops)}
+\taxon{Definition}
 \author{liamoc}
 \p{ Using notation similar to \em{Backus-Naur Form} (BNF):
 ##{

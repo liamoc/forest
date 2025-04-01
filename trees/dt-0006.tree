@@ -1,6 +1,6 @@
 \import{dt-macros}
 \author{liamoc}
-\title{recursively defined programs}
+\title{Recursively defined programs}
 \p{
 Suppose we extended [the \cal{C} language](dt-0000) with a while loop construct:
 ##{

@@ -1,5 +1,5 @@
 \import{refs-datalog}
-\title{property-based testing}
+\title{Property-based testing}
 \taxon{Research Theme}
 \author{liamoc}
 \p{I'm interested in bringing more formal methods techniques into the world of testing and traditional software engineering via the avenue of property-based testing.}

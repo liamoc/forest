@@ -1,7 +1,7 @@
 \import{dt-macros}
 \title{Monotonic Functions}
 \author{liamoc}
-\p{If we model our semantic domains for values with [[dt-000G]]s, then programs are modelled by functions between such [[dm-0004]]s. But, not all functions are suitable:}
+\p{If we model our semantic domains for values with [pointed poset](dt-000G)s, then programs are modelled by functions between such [poset](dm-0004)s. But, not all functions are suitable:}
 \transclude{dt-000I}
 \p{It stands to reason that the amount of information we get out of our functions should grow as we increase the amount of information we put into them.
 Such functions are called \em{monotonic} with respect to our information ordering.}
@@ -11,7 +11,7 @@ Such functions are called \em{monotonic} with respect to our information orderin
   \put\transclude/toc{false}
   \put\transclude/numbered{false}
 \subtree{
-\taxon{thesis}
+\taxon{Thesis}
 \p{Computable functions are [monotonic](dt-000J) (observe that #{H} is not).	}
 }
 }

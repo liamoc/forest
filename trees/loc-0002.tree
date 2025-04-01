@@ -1,14 +1,14 @@
-\title{students}
+\title{Students}
 \author{liamoc}
 \subtree{
- \title{doctoral students}
+ \title{Doctoral students}
  \ul{
  \li{ [[rayhana]]: 2023–present. Linear Temporal Logic with finite observations. Jointly supervised with [[rvg]] at the [[uoe]]. }
  }
  \scope{
 \put\transclude/toc{false}
  \subtree{
- \title{secondary supervisions}
+ \title{Secondary supervisions}
  \ul{
  \li{ [[tudor]]: 2021–present, primary supervisor is [[wadler]] at the [[uoe]]. }
  \li{ [[mathieu]]: 2022–present, primary supervisor is [[tgrosser]] at the [[cam]]. }
@@ -17,14 +17,14 @@
 }
 
 \subtree{
- \title{masters students}
+ \title{Masters students}
  \ul{
  \li{ Shaonan Li: 2022, [[uoe]]. \em{Exploring the 8-bit demoscene.}}
  }
 }
 
 \subtree{
- \title{bachelors students}
+ \title{Bachelors students}
  \ul{
  \li{[[jackb]]: 2025, [[anu]] Semester Project. \em{A File Format for Holbert Proofs.}}
  \li{[[sandwichman]]: 2023-2024, [[uoe]]. \em{Concurrent Games in Agda.}}

@@ -1,7 +1,7 @@
 \import{dt-macros}
 \author{liamoc}
-\title{[[dt-0001]] for [[dt-0000]]}
-\taxon{example}
+\title{[Denotational semantics](dt-0001) for [the \cal{C} language (without loops)](dt-0000)}
+\taxon{Example}
 \p{We shall first select a semantic domain for each syntactic class:
 ##{
 \begin{array}{lcl}

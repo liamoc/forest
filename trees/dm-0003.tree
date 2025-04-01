@@ -1,4 +1,4 @@
-\taxon{definition}
+\taxon{Definition}
 \author{liamoc}
-\title{antisymmetry}
+\title{Antisymmetry}
 \p{A binary relation #{\mathcal{R} \subseteq X \times X} is \em{antisymmetric} iff, for all #{x, y \in X}, if #{x\ \mathcal{R}\ y} and #{y\ \mathcal{R}\ x} then  #{x = y}.}

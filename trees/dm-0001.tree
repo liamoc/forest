@@ -1,4 +1,4 @@
-\taxon{definition}
+\taxon{Definition}
 \author{liamoc}
-\title{reflexivity}
+\title{Reflexivity}
 \p{A binary relation #{\mathcal{R} \subseteq X \times X} is \em{reflexive} iff, for all #{x \in X}, #{x\ \mathcal{R}\ x}.}

@@ -1,6 +1,6 @@
 \import{dt-macros}
-\taxon{definition}
-\title{denotational semantics}
+\taxon{Definition}
+\title{Denotational semantics}
 \author{liamoc}
 \p{A \em{denotational semantics} consists of, for each syntactic class \cal{X} in a language:
 \ol{

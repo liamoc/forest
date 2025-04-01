@@ -1,6 +1,6 @@
 \import{dt-macros}
 \author{liamoc}
-\title{information ordering}
-\taxon{definition}
-\p{An information ordering is a [[dm-0000]] on denotations, written #{a \sqsubseteq b}. This indicates that #{b} is \em{approximated by}, or carries \em{more information} than, or is \em{more well-defined} than #{a}.
-Naturally, [[dt-000A]], being totally uninformative, is always the least element in this ordering.}
+\title{Information ordering}
+\taxon{Definition}
+\p{An information ordering is a [partial order](dm-0000) on denotations, written #{a \sqsubseteq b}. This indicates that #{b} is \em{approximated by}, or carries \em{more information} than, or is \em{more well-defined} than #{a}.
+Naturally, [the bottom value](dt-000A), being totally uninformative, is always the least element in this ordering.}

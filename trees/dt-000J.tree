@@ -1,6 +1,6 @@
 \import{dt-macros}
-\taxon{definition}
+\taxon{Definition}
 \author{liamoc}
-\title{monotonicity}
-\p{A function #{f : X \rightarrow Y} between [[dm-0004]]s #{X} and #{Y} is \em{monotone} (or \em{monotonic}) if, for all #{x, y \in X}:
+\title{Monotonicity}
+\p{A function #{f : X \rightarrow Y} between [poset](dm-0004)s #{X} and #{Y} is \em{monotone} (or \em{monotonic}) if, for all #{x, y \in X}:
 ##{ x \sqsubseteq y\; \text{implies}\; f(x) \sqsubseteq f(y) }}

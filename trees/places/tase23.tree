@@ -1,5 +1,5 @@
 \import{conf-name-macros}
-\taxon{conference}
+\taxon{Conference}
 \title{\conf-name{TASE '23}{17th International Symposium on Theoretical Aspects of Software Engineering}}
 \date{2023-07}
 \meta{venue}{Bristol, United Kingdom}

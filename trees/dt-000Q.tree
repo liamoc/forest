@@ -1,7 +1,7 @@
 \import{dt-macros}
-\taxon{exercise}
+\taxon{Exercise}
 \author{liamoc}
 \ol{
-\li{Give an example of a [[dm-0004]] #{A} and a [monotonic](dt-000J) function #{f : A \rightarrow A} such that #{f} \em{doesn't} have a [[dt-000S]].}
-\li{Give an example of a [[dm-0004]] #{A} and a  [monotonic](dt-000J) function #{f : A \rightarrow A} such that #{f} has \em{multiple} [[dt-000S]]s.}
+\li{Give an example of a [poset](dm-0004) #{A} and a [monotonic](dt-000J) function #{f : A \rightarrow A} such that #{f} \em{doesn't} have a [fixed point](dt-000S).}
+\li{Give an example of a [poset](dm-0004) #{A} and a  [monotonic](dt-000J) function #{f : A \rightarrow A} such that #{f} has \em{multiple} [fixed point](dt-000S)s.}
 }

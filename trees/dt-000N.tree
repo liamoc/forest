@@ -1,4 +1,4 @@
 \import{dt-macros}
-\taxon{exercise}
+\taxon{Exercise}
 \author{liamoc}
 \p{Consider the functions #{\mathbb{B}_\bot \rightarrow \mathbb{B}_\bot}. Which ones are [monotonic](dt-000J)? There are a total of 27 such functions but only three significant classes.}

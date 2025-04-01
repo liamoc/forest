@@ -1,8 +1,8 @@
 \import{dt-macros}
 \author{liamoc}
-\taxon{construction}
-\title{product of two pointed posets}
-\p{Given two [[dt-000G]]s #{X} and #{Y}, the [product](dm-0005) [[dm-0004]] #{X \times Y} is ordered as follows:
+\taxon{Construction}
+\title{Product of two pointed posets}
+\p{Given two [pointed poset](dt-000G)s #{X} and #{Y}, the [product](dm-0005) [poset](dm-0004) #{X \times Y} is ordered as follows:
 ##{ (x,y) \sqsubseteq_{X \times Y} (x',y') \quad \text{iff} \quad x \sqsubseteq_X x' \land y \sqsubseteq_Y y' }
 Intuitively, this says that "the information content of a pair of values is increased by increasing the information of either or both of its component values".}
-\p{This [product](dm-0005) [[dm-0004]] is also pointed, with bottom value #{\bot_{X \times Y}} being #{(\bot_A, \bot_B)}.}
+\p{This [product](dm-0005) [poset](dm-0004) is also pointed, with bottom value #{\bot_{X \times Y}} being #{(\bot_A, \bot_B)}.}

@@ -1,6 +1,6 @@
 \import{conf-name-macros}
 \title{\conf-name{POPL '23}{50th ACM SIGPLAN Symposium on Principles of Programming Languages}}
-\taxon{conference}
+\taxon{Conference}
 \date{2023-01}
 \meta{venue}{Boston, Massachusetts, USA}
 \meta{external}{https://popl23.sigplan.org/}

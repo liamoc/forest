@@ -1,5 +1,5 @@
 \import{conf-name-macros}
-\taxon{conference}
+\taxon{Conference}
 \meta{doi}{10.1007/978-3-030-03418-4}
 \title{\conf-name{ISoLA '18}{8th International Symposium On Leveraging Applications of Formal Methods, Verification and Validation}}
 \date{2018-11}

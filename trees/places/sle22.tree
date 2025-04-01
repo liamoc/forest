@@ -1,5 +1,5 @@
 \import{conf-name-macros}
-\taxon{conference}
+\taxon{Conference}
 \meta{doi}{10.1145/3567512}
 \title{\conf-name{SLE '22}{15th ACM SIGPLAN International Conference on Software Language Engineering}}
 \date{2022-12}

@@ -1,5 +1,5 @@
 \import{dt-macros}
 \author{liamoc}
-\taxon{definition}
-\title{strictness}
-\p{A function #{f : X \rightarrow Y} on pointed posets #{X} and #{Y} is \em{strict} if it preserves [[dt-000A]], i.e. #{f(\bot_X) = \bot_Y}. }
+\taxon{Definition}
+\title{Strictness}
+\p{A function #{f : X \rightarrow Y} on pointed posets #{X} and #{Y} is \em{strict} if it preserves [the bottom value](dt-000A), i.e. #{f(\bot_X) = \bot_Y}. }

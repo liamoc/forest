@@ -1,5 +1,5 @@
 \import{conf-name-macros}
-\taxon{conference}
+\taxon{Conference}
 \meta{doi}{10.1145/3122975}
 \title{\conf-name{TyDe '17}{2nd ACM SIGPLAN International Workshop on Type-Driven Development}}
 \date{2017-09}

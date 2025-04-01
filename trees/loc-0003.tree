@@ -1,4 +1,4 @@
-\title{academic community roles}
+\title{Academic community roles}
 \author{liamoc}
 
 \ul{
@@ -12,7 +12,7 @@
 }
 
 \subtree{
-  \title{program committees}
+  \title{Program committees}
   \ul{
     \li{[[haskell25]]}
     \li{[[fproper25]]}
@@ -29,7 +29,7 @@
 }
 
 \subtree{
-  \title{other reviewing}
+  \title{Other reviewing}
   \ul{
   \li{External Review, [[tase23]]}
   \li{External Review, [[esop22]]}

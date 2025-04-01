@@ -1,5 +1,5 @@
 \import{dt-macros}
-\title{denotational semantics}
+\title{Denotational semantics}
 \author{liamoc}
 \p{In this course we are concerned with programming languages, which, as with natural languages, consist of a \em{syntax} and \em{semantics}.
  The syntax of a language is, for our purposes, merely an inductively-defined tree structure (i.e. abstract syntax).}

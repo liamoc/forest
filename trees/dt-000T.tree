@@ -4,8 +4,8 @@
 \scope{
   \put\transclude/toc{false}
   \put\transclude/numbered{false}
-\subtree{\taxon{problem}
-\p{Not all [monotonic](dt-000J) functions on [[dm-0004]]s have [[dt-000S]], and some have \em{multiple} [[dt-000S]]s!}
+\subtree{\taxon{Problem}
+\p{Not all [monotonic](dt-000J) functions on [posets](dm-0004) have [fixed points](dt-000S), and some have \em{multiple} [fixed point](dt-000S)s!}
 }}
 \p{So, requiring our functions to be monotonic is insufficient to guarantee that a single "best" solution exists. }
 \p{Intuitively, recursive programs are executed by "unfolding" as much as necessary to get a result. We would like to characterise our domains to ensure that solutions always exist, and to allow us to pick the solutions that are "minimal" in the sense that they rely on a minimal amount of unfolding.}

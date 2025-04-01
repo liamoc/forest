@@ -1,4 +1,4 @@
-\taxon{definition}
+\taxon{Definition}
 \author{liamoc}
-\title{cartesian product}
+\title{Cartesian product}
 \p{The cartesian product of two sets #{X} and #{Y} is the set of pairs #{ \{ (x,y) \mid x \in X \land y \in Y \} }.}

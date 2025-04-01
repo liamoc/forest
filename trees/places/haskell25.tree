@@ -1,5 +1,5 @@
 \import{conf-name-macros}
-\taxon{conference}
+\taxon{Conference}
 \title{\conf-name{Haskell '25}{18th ACM SIGPLAN Haskell Symposium}}
 \date{2025-10}
 \meta{venue}{Singapore}

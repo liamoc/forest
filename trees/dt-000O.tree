@@ -1,5 +1,5 @@
 \import{dt-macros}
-\taxon{exercise}
+\taxon{Exercise}
 \author{liamoc}
 \p{Let #{\mathbf{K}_K} denote the chain of values #{x_1, x_2, x_3, \dots, x_K} where #{a \leq b} implies #{x_a \sqsubseteq x_b}. There is one [monotonic](dt-000J) function #{\mathbf{K}_1 \rightarrow \mathbf{K}_1}:}
 \figure{\tex{\usepackage{tikz}}{
