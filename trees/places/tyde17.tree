@@ -1,0 +1,9 @@
+\import{conf-name-macros}
+\taxon{conference}
+\meta{doi}{10.1145/3122975}
+\title{\conf-name{TyDe '17}{2nd ACM SIGPLAN International Workshop on Type-Driven Development}}
+\date{2017-09}
+\meta{venue}{[[ox]]}
+\meta{external}{https://tydeworkshop.org/2017}
+
+\p{Colocated with ICFP'17. An instance of the [[tyde]].}

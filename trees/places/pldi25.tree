@@ -1,0 +1,6 @@
+\import{conf-name-macros}
+\taxon{conference}
+\title{\conf-name{PLDI '25}{46th ACM SIGPLAN International Conference on Programming Language Design and Implementation}}
+\date{2025-06}
+\meta{venue}{Seoul, Republic of Korea}
+\meta{external}{https://pldi22.sigplan.org/}

@@ -1,0 +1,7 @@
+\taxon{Course}
+\title{Algorithmic Verification}
+\author{hoefner}
+\author{liamoc}
+\meta{venue}{[[unsw]]}
+\meta{external}{https://www.cse.unsw.edu.au/~cs3153}
+\p{model checking, temporal logic, static analysis and abstract interpretation.}

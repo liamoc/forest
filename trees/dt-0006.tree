@@ -1,0 +1,33 @@
+\import{dt-macros}
+\author{liamoc}
+\title{recursively defined programs}
+\p{
+Suppose we extended [the \cal{C} language](dt-0000) with a while loop construct:
+##{
+\mathcal{C}\; \Coloneqq\; \cdots \mid \mathsf{while}\ \mathcal{B}\ \mathsf{do}\ \mathcal{C}\ \mathsf{od}
+}
+The intuitive way to assign a semantics would be to use a \em{recursive function}:
+##{
+\llbracket \mathsf{while}\ b\ \mathsf{do}\ c\ \mathsf{od} \rrbracket_\mathcal{C}\ \sigma\; = \; \begin{cases}  \llbracket \mathsf{while}\ b\ \mathsf{do}\ c\ \mathsf{od} \rrbracket_\mathcal{C}\ (\llbracket c \rrbracket_\mathcal{C}\ \sigma) & \text{if}\ \llbracket b \rrbracket_\mathcal{B}\ \sigma = T \\
+  	     \sigma & \text{otherwise}
+ \end{cases}
+}
+However, such an equation is not a good definition. If we consider the trivial infinite loop program #{L \triangleq \mathsf{while}\ \mathsf{true}\ \mathsf{do}\ \mathsf{skip}\ \mathsf{od}}, and compute its semantics, we end up with:
+##{
+\llbracket \mathsf{while}\ \mathsf{true}\ \mathsf{do}\ \mathsf{skip}\ \mathsf{od} \rrbracket_\mathcal{C}\ \sigma \; = \; \llbracket \mathsf{while}\ \mathsf{true}\ \mathsf{do}\ \mathsf{skip}\ \mathsf{od} \rrbracket_\mathcal{C}\ \sigma
+}
+This equation is satisfied by \em{any} function #{\Sigma \rightarrow \Sigma},
+so it doesn't tell us which function corresponds to the program #{L}.}
+\p{More generally, allowing our functions to be (generally) recursive causes these issues. The loop program #{L} gives rise to the recursive equation #{\ell(x) = \ell(x)}, which has an infinite number of solutions. }
+
+\p{If we add recursion to our programming language, we could have programs that give rise to more complex recursive equations like #{f(x) = f(x) + 1}. By contrast to #{\ell(x)}, #{f(x)} \em{has no solutions} (assuming #{f(x)} operates on integers). }
+\scope{
+  \put\transclude/toc{false}
+  \put\transclude/numbered{false}
+\subtree{
+\taxon{Upshot}
+\p{
+We need an \em{explicit} notion of "non-termination" on the semantics level, to properly deal with general recursion (or iteration).
+}
+}
+}

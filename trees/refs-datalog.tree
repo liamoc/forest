@@ -1,0 +1,4 @@
+\def\rel/my-references{liamoc.query.my-references}
+\execute\datalog{
+ \rel/my-references ?X -: {\rel/has-author ?X @{liamoc}} {\rel/is-reference ?X}
+}

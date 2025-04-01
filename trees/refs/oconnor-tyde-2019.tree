@@ -1,0 +1,11 @@
+\title{Deferring the Details and Deriving Programs}
+\taxon{reference}
+\meta{venue}{[[tyde19]]}
+\author{liamoc}
+\date{2019-08-18}
+\meta{doi}{10.1145/3331554.3342605}
+\meta{download}{\route-asset{assets/deferring.pdf}}
+\tag{refereed}
+\p{A commonly-used technique in dependently-typed programming is to encode invariants about a data structure into its type, thus ensuring that the data structure is correct by construction. Unfortunately, this often necessitates the embedding of explicit proof terms within the data structure, which are not part of the structure conceptually, but merely supplied to ensure that the data invariants are maintained. As the complexity of the specifications in the types increases, these additional terms tend to clutter definitions, reducing readability. We introduce a technique where these proof terms can be supplied later, by constructing the data structure within a proof delay applicative functor. We apply this technique to Trip, our new language for Hoare-logic verification of imperative programs embedded in Agda, where our applicative functor is used as the basis for a verification condition generator, turning the typed holes of Agda into a method for stepwise derivation of a program from its specification in the form of a Hoare triple.}
+
+\meta{video}{https://www.youtube.com/watch?v=2euFCCeMZOM}

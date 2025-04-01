@@ -1,0 +1,15 @@
+\import{dt-macros}
+\title{the \cal{C} Language (without loops)}
+\taxon{definition}
+\author{liamoc}
+\p{ Using notation similar to \em{Backus-Naur Form} (BNF):
+##{
+\begin{array}{lcl}
+\cal{E} & \Coloneqq & n \mid x \mid \cal{E}_1 + \cal{E}_2 \mid \cal{E}_1 - \cal{E}_2\\
+\cal{B} & \Coloneqq & \syn{false} \mid \syn{true} \mid \neg \cal{B} \mid \cal{E}_1 = \cal{E}_2\\
+\cal{C} & \Coloneqq & \syn{skip} \mid x := \cal{E} \mid \cal{C}_1 ; \cal{C}_2 \mid \syn{if}\ \cal{B}\ \syn{then}\ \cal{C}_1\ \syn{else}\ \cal{C}_2\\
+x & \in & \cal{V}\; \textit{(variables)}\\
+n & \in & \nat
+\end{array}
+}
+}

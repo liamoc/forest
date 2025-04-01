@@ -1,0 +1,8 @@
+\import{refs-datalog}
+\title{temporal logic}
+\taxon{Research Theme}
+\author{liamoc}
+\p{As one of the most common ways to specify reactive systems, temporal logic hasn't gotten as much attention as it deserves. I hope to expand on the theory of temporal logics as well as put them into more practical software engineering tools.}
+ \query\datalog{
+  ?X -: {\rel/my-references ?X} {\rel/has-tag ?X '{temporal-logic}}
+ }

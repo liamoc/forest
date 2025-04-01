@@ -1,0 +1,8 @@
+\import{conf-name-macros}
+\taxon{conference}
+\title{\conf-name{PEPM '24}{ACM SIGPLAN International Workshop on Partial Evaluation and Program Manipulation}}
+\date{2024-01}
+\meta{venue}{London, United Kingdom}
+\meta{doi}{10.1145/3635800}
+\meta{external}{https://popl24.sigplan.org/home/pepm-2024}
+\p{Colocated with [[popl24]].}

@@ -1,0 +1,23 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{example}
+\title{information ordering for flat domains}
+\p{Consider a [[dt-0008]] #{X_\bot}. There is a natural [[dt-000B]] #{\sqsubseteq} on #{X_\bot}:}
+\figure{\tex{\usepackage{tikz}}{\begin{tikzpicture}
+	\node (d1) at (-1,0) {$\cdots$};
+	\node (d2) at (4,0) {$\cdots$};
+		\node (d4) at (3.5,-1) {$\cdots$};
+		\node (d4) at (-0.5,-1) {$\cdots$};
+	\node[anchor=west] (d3) at (5,-2) {(bottom)};
+	\node[anchor=west] (d3) at (5,0) {(elements of $X$)};
+	\node (a1) at (0,0) {$\bullet$} ;
+	\node (a2) at (1,0) {$\bullet$} ;
+	\node (a3) at (2,0) {$\bullet$} ;
+	\node (a4) at (3,0) {$\bullet$} ;
+	\node (bot) at (1.5,-2) {$\bot$};
+	\draw[ thick] (bot) -- (a1);
+	\draw[ thick] (bot) -- (a2);
+	\draw[ thick] (bot) -- (a3);
+	\draw[ thick] (bot) -- (a4);
+\end{tikzpicture}}}
+\p{Formally, we say #{x \sqsubseteq y} iff #{(x = y \lor x = \bot)}.}

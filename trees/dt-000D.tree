@@ -1,0 +1,8 @@
+\import{dt-macros}
+\author{liamoc}
+\title{combining domains}
+\p{Some of our semantics may depend on the combination of multiple domains, i.e. semantic functions of multiple arguments. As an example, the semantics of an
+\syn{if} statement combines the semantics of the condition and the semantics of each of the two branches. In such scenarios, our domains are no longer flat — we must generalise to [[dt-000G]]s.}
+\transclude{dt-000G}
+\transclude{dt-000E}
+\transclude{dt-000F}

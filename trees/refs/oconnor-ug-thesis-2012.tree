@@ -1,0 +1,10 @@
+\title{Formalising GHC's Type System}
+\taxon{reference}
+\meta{venue}{Undergraduate Thesis, [[unsw]]}
+\author{liamoc}
+\date{2012-10}
+\meta{download}{\route-asset{assets/reportb.pdf}}
+\tag{thesis}
+\p{GHC, a Haskell compiler, offers numerous extensions to the standard Haskell type system. Each of these extensions is usually specified only semi-formally, and only in isolation. Very little work has been done examining type system properties when multiple type system extensions are combined, which is the scenario actually being faced by GHC developers. To address this, the GHC team published OutsideIn(X), a mostly-rigorous formulation of GHC's type inference system, which encompasses every type system extension developed for GHC to date.}
+\p{We formalise OutsideIn(X) in a mechanical proof assistant, in order to provide a body of formal work upon which future extensions can be developed. By using a mechanical proof assistant we not only ensure correctness of our proofs and complete rigor in our definitions, but also make possible the incremental development of the formal work alongside the more practically-minded type checker implementation in GHC. This additional accessibility will hopefully prevent further extensions from being developed without regard to the effect such an extension may have on other parts of the type system.}
+\p{Our formalisation is developed in Agda. As a dependently typed programming language which enforces totality, Agda doubles as a proof assistant. It is still under heavy development, and is quite experimental. By formalising OutsideIn(X) in Agda, we demonstrate its readiness for type system work, and also provide an example to encourage further type systems research in Agda.}

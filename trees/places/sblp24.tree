@@ -1,0 +1,6 @@
+\import{conf-name-macros}
+\taxon{conference}
+\title{\conf-name{SBLP '24}{28th Brazilian Symposium on Programming Languages}}
+\date{2024-09}
+\meta{venue}{Curitiba, Paraná, Brazil}
+\meta{external}{https://cbsoft.sbc.org.br/2024/sblp/}

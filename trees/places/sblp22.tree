@@ -1,0 +1,7 @@
+\import{conf-name-macros}
+\taxon{conference}
+\title{\conf-name{SBLP '22}{26th Brazilian Symposium on Programming Languages}}
+\date{2022-09}
+\meta{doi}{10.1145/3561320}
+\meta{venue}{Online (Brazil)}
+\meta{external}{https://cbsoft2022.facom.ufu.br/sblp.php}

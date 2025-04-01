@@ -1,0 +1,19 @@
+\title{File Systems Deserve Verification Too!}
+\taxon{reference}
+\meta{venue}{[[plos13]]}
+\author{gckeller}
+\author{tobym}
+\author/literal{Sidney Amani}
+\author{liamoc}
+\author{zilinc}
+\author/literal{Leonid Ryzhyk}
+\author{gklein}
+\author{heiser}
+\date{2013-11-03}
+\meta{doi}{10.1145/2525528.2525530}
+\tag{cogent}
+\tag{refereed}
+
+\p{File systems are too important, and current ones are too buggy, to remain unverified. Yet the most successful verification methods for functional correctness remain too expensive for current file system implementations --- we need verified correctness but at reasonable cost. This paper presents our vision and ongoing work to achieve this goal for a new high-performance flash file system, called BilbyFs. BilbyFs is carefully designed to be highly modular, so it can be verified against a high-level functional specification one component at a time. This modular implementation is captured in a set of domain specific languages from which we produce the design-level specification, as well as its optimised C implementation. Importantly, we also automatically generate the proof linking these two artefacts. The combination of these features dramatically reduces verification effort. Verified file systems are now within reach for the first time.}
+
+\meta{source}{[Available from TS](https://trustworthy.systems/publications/nictaabstracts/Keller_MAOCRKH_13.abstract)}

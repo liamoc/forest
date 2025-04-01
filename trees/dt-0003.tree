@@ -1,0 +1,10 @@
+\import{dt-macros}
+\title{denotational semantics}
+\author{liamoc}
+\p{In this course we are concerned with programming languages, which, as with natural languages, consist of a \em{syntax} and \em{semantics}.
+ The syntax of a language is, for our purposes, merely an inductively-defined tree structure (i.e. abstract syntax).}
+\transclude{dt-0000}
+\p{In the language above, there are three \em{syntactic classes}: \cal{E}, \cal{B}, and \cal{C}.}
+\transclude{dt-0001}
+\transclude{dt-0002}
+\transclude{dt-0004}

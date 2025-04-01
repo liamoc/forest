@@ -1,0 +1,7 @@
+\import{conf-name-macros}
+\taxon{conference}
+\meta{doi}{10.1109/CSF.2019.00008}
+\title{\conf-name{CSF '19}{32nd IEEE Computer Security Foundations Symposium }}
+\date{2019-06}
+\meta{venue}{Hoboken, New Jersey, USA}
+\meta{external}{https://web.stevens.edu/csf2019/}

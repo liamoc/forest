@@ -1,0 +1,8 @@
+\import{conf-name-macros}
+\taxon{conference}
+\title{\conf-name{ML '16}{ML Family Workshop 2016}}
+\date{2016-09}
+\meta{venue}{Nara, Japan}
+\meta{external}{https://www.mlworkshop.org/ml-family-workshops/2016}
+
+\p{Colocated with [ICFP'16](icfp16).}

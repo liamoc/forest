@@ -1,0 +1,7 @@
+\import{conf-name-macros}
+\taxon{conference}
+\meta{doi}{10.1007/978-3-319-66107-0}
+\title{\conf-name{ITP '17}{8th International Conference on Interactive Theorem Proving}}
+\date{2017-09}
+\meta{external}{http://itp2017.cic.unb.br/}
+\meta{venue}{Brasilia, Brazil}

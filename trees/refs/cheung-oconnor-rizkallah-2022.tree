@@ -1,0 +1,13 @@
+\title{Overcoming Restraint: Composing Verification of Foreign Functions with Cogent}
+\taxon{reference}
+\meta{venue}{[[cpp22]]}
+\author{lcheung}
+\author{liamoc}
+\author{crizkallah}
+\date{2022-01-11}
+\meta{doi}{10.1145/3497775.350368}
+\meta{doi}{10.48550/arXiv.2102.09920}
+\tag{cogent}
+\tag{refereed}
+\p{Cogent is a restricted functional language designed to reduce the cost of developing verified systems code. Because of its sometimes-onerous restrictions, such as the lack of support for recursion and its strict uniqueness type system, Cogent provides an escape hatch in the form of a foreign function interface (FFI) to C code. This poses a problem when verifying Cogent programs, as imported C components do not enjoy the same level of static guarantees that Cogent does. Previous verification of file systems implemented in Cogent merely assumed that their C components were correct and that they preserved the invariants of Cogent’s type system. In this paper, we instead prove such obligations. We demonstrate how they smoothly compose with existing Cogent theorems, and result in a correctness theorem of the overall Cogent-C system. The Cogent FFI constraints ensure that key invariants of Cogent’s type system are maintained even when calling C code. We verify reusable higher-order and polymorphic functions including a generic loop combinator and array iterators and demonstrate their application to several examples including binary search and the BilbyFs file system. We demonstrate the feasibility of verification of mixed Cogent-C systems, and provide some insight into verification of software comprised of code in multiple languages with differing levels of static guarantees.}
+\meta{video}{https://www.youtube.com/watch?v=0x5DYZcXJcc}

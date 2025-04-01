@@ -1,0 +1,6 @@
+\import{conf-name-macros}
+\taxon{conference}
+\title{\conf-name{FProPer '25}{2nd ACM SIGPLAN Workshop on Functional Programming for Productivity and Performance}}
+\date{2025-10}
+\meta{venue}{Singapore}
+\meta{external}{https://conf.researchr.org/home/icfp-splash-2025/fproper-2025}

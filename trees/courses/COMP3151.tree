@@ -1,0 +1,7 @@
+\taxon{Course}
+\title{Foundations of Concurrency}
+\author{kaie}
+\author{liamoc}
+\meta{venue}{[[unsw]]}
+\meta{external}{https://www.cse.unsw.edu.au/~cs3151}
+\p{reading, writing, and formally reasoning about concurrent programs}

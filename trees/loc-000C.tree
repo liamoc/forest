@@ -1,0 +1,10 @@
+\import{refs-datalog}
+\title{semantics}
+\author{liamoc}
+\taxon{Research Theme}
+\p{While I haven't had much opportunity to do research purely in semantics, I am fascinated by the field and eager to work on problems in that area.}
+\p{This can range from denotational semantics of programming languages, to concurrency semantics, to the semantics of logics.}
+
+ \query\datalog{
+  ?X -: {\rel/my-references ?X} {\rel/has-tag ?X '{semantics}}
+ }

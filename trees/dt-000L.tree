@@ -1,0 +1,12 @@
+\import{dt-macros}
+\author{liamoc}
+\title{Recursion}
+\p{So far, our semantic domains have just been (functions of) \em{sets}. While these have the advantage of being mathematically simple and intuitive, two language features make these sets insufficient for our purposes:
+\ol{
+\li{\em{Recursively defined programs}, for dealing with recursion and loops, and}
+\li{\em{Recursively defined semantic domains}, for dealing with \em{higher-order} programs.}
+}
+}
+\transclude{dt-0006}
+\transclude{dt-0007}
+\p{We will return to this problem later on! For now, let's focus on representing non-termination.}

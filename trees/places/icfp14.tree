@@ -1,0 +1,7 @@
+\import{conf-name-macros}
+\taxon{conference}
+\title{\conf-name{ICFP '14}{19th ACM SIGPLAN International Conference on Functional Programming}}
+\date{2014-09}
+\meta{doi}{10.1145/2628136}
+\meta{venue}{Gothenburg, Sweden}
+\meta{external}{https://icfpconference.org/icfp2014/}

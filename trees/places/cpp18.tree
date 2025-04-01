@@ -1,0 +1,8 @@
+\import{conf-name-macros}
+\taxon{conference}
+\meta{doi}{10.1145/3176245}
+\title{\conf-name{CPP '18}{7th ACM SIGPLAN International Conference on Certified Programs and Proofs}}
+\date{2018-01}
+\meta{venue}{Los Angeles, California, USA}
+\meta{external}{https://popl18.sigplan.org/track/CPP-2018}
+\p{Colocated with POPL'18.}

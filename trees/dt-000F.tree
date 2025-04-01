@@ -1,0 +1,30 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{example}
+\title{the domain #{\mathbb{B}_\bot \times \mathbb{B}_\bot}}
+\figure{\tex{\usepackage{tikz}}{
+\begin{tikzpicture}
+	\node (ff) at (0,1) {$(F,F)$};
+	\node (ft) at (1.5,1) {$(F,T)$};
+	\node (tf) at (3,1) {$(T,F)$};
+	\node (tt) at (4.5,1) {$(T,T)$};
+	\node (fb) at (0,-1) {$(F,\bot)$};
+	\node (bt) at (1.5,-1) {$(\bot,T)$};
+	\node (bf) at (3,-1) {$(\bot,F)$};
+	\node (tb) at (4.5,-1) {$(T,\bot)$};
+	\node (bb) at (2.25,-3) {$(\bot,\bot)$};
+	\draw[thick] (bb) -- (fb)
+				 (bb) -- (bt)
+				 (bb) -- (bf)
+				 (bb) -- (tb)
+				 (fb.north) -- (ft)
+				 (fb.north) -- (ff)
+				 (bt.north) -- (tt)
+				 (bt.north) -- (ft);
+	\draw[thick,preaction={draw, line width=5pt, white}] (bf.north) -- (ff)
+					 (bf.north) -- (tf)
+				 (tb.north) -- (tt)
+				 (tb.north) -- (tf);
+\end{tikzpicture}
+}}
+\p{As can be seen above, the domain #{\mathbb{B}_\bot \times \mathbb{B}_\bot} is not flat, but it is still a [[dt-000G]].}

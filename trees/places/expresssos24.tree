@@ -1,0 +1,8 @@
+\import{conf-name-macros}
+\taxon{conference}
+\meta{doi}{10.1145/2872362}
+\title{\conf-name{EXPRESS/SOS '24}{Combined 31st International Workshop on Expressiveness in Concurrency and 21st Workshop on Structural Operational Semantics}}
+\date{2024-11}
+\meta{venue}{Calgary, Canada}
+\meta{external}{https://express-sos2022.github.io/}
+\p{Colocated with CONCUR'24.}

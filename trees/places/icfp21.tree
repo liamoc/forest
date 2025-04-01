@@ -1,0 +1,6 @@
+\import{conf-name-macros}
+\taxon{conference}
+\title{\conf-name{ICFP '21}{26th ACM SIGPLAN International Conference on Functional Programming}}
+\date{2021-08}
+\meta{venue}{Online}
+\meta{external}{https://icfp21.sigplan.org/}

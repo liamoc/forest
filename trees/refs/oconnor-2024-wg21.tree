@@ -1,0 +1,9 @@
+\title{Putting the Past Behind Us (but not forgetting it)}
+\taxon{reference}
+\meta{venue}{[[wg21]] Meeting, Kloster Neustadt an der Weinstraße, Germany}
+\author{liamoc}
+\date{2024-04}
+\tag{talk}
+\tag{temporal-logic}
+\tag{semantics}
+\p{In this talk I demonstrated how the well known Zipper structure of Huet, later generalised by McBride, can be used to equip any modal logic with inverse modalities. In particular, this allows us to equip any temporal logic, including CTL, with a notion of linear past.}

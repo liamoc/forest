@@ -1,0 +1,8 @@
+\import{conf-name-macros}
+\taxon{conference}
+\title{\conf-name{FoSSaCS '21}{24th International Conference on Foundations of Software Science and Computation Structures}}
+\date{2021-03}
+\meta{venue}{Luxembourg}
+\meta{doi}{10.1007/978-3-030-71995-1}
+\meta{external}{https://etaps.org/2021/fossacs.html}
+\p{ Held as Part of the European Joint Conferences on Theory and Practice of Software.}

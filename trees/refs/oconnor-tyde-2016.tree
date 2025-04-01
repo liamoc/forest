@@ -1,0 +1,13 @@
+\title{Applications of Applicative Proof Search}
+\taxon{reference}
+\meta{venue}{[[tyde16]]}
+\author{liamoc}
+\date{2016-09-18}
+\meta{doi}{10.1145/2976022.2976030}
+\meta{download}{\route-asset{assets/applications.pdf}}
+\tag{pbt}
+\tag{temporal-logic}
+\tag{refereed}
+\p{In this paper, we develop a library of typed proof search procedures, and demonstrate their remarkable utility as a mechanism for proof-search and automation. We describe a framework for describing proof-search procedures in Agda, with a library of tactical combinators based on applicative functors. This framework is very general, so we demonstrate the approach with two common applications from the field of software verification: a library for property-based testing in the style of SmallCheck, and the embedding of a basic model checker inside our framework, which we use to verify the correctness of common concurrency algorithms.}
+
+\meta{video}{https://www.youtube.com/watch?v=qiI3Avnp0XA}

@@ -1,0 +1,39 @@
+\title{students}
+\author{liamoc}
+\subtree{
+ \title{doctoral students}
+ \ul{
+ \li{ [[rayhana]]: 2023–present. Linear Temporal Logic with finite observations. Jointly supervised with [[rvg]] at the [[uoe]]. }
+ }
+ \scope{
+\put\transclude/toc{false}
+ \subtree{
+ \title{secondary supervisions}
+ \ul{
+ \li{ [[tudor]]: 2021–present, primary supervisor is [[wadler]] at the [[uoe]]. }
+ \li{ [[mathieu]]: 2022–present, primary supervisor is [[tgrosser]] at the [[cam]]. }
+ }
+ }}
+}
+
+\subtree{
+ \title{masters students}
+ \ul{
+ \li{ Shaonan Li: 2022, [[uoe]]. \em{Exploring the 8-bit demoscene.}}
+ }
+}
+
+\subtree{
+ \title{bachelors students}
+ \ul{
+ \li{[[jackb]]: 2025, [[anu]] Semester Project. \em{A File Format for Holbert Proofs.}}
+ \li{[[sandwichman]]: 2023-2024, [[uoe]]. \em{Concurrent Games in Agda.}}
+ \li{[[sandwichman]]: 2023, [[uoe]] LFCS Internship Project. \em{Branching Bisimulation Games in Agda.}}
+ \li{[[aria]]: 2023-2024, [[uoe]]. \em{Candelabra: Efficient selection of ideal container implementations.}}
+ \li{Scott Maxwell: 2023-2024, [[uoe]]. \em{Metamorphosis: An automatic collection implementation selector.}}
+ \li{[[keshen]]: 2022-2023, [[uoe]]. \em{Formal Verification of Partition Refinement Algorithms.}}
+ \li{[[rayhana]]: 2021-2022, [[uoe]]. \em{Equality and Rewriting in the Holbert Proof Assistant.}}
+ \li{Chris Perceval-Maxwell: 2021-2022, [[uoe]]. \em{Elimination and Induction in the Holbert Proof Assistant.}}
+ \li{Yining Liu: 2021-2022, [[uoe]]. \em{Textbook Features in the Holbert Proof Assistant.}}
+ }
+}

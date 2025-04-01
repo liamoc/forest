@@ -1,0 +1,11 @@
+\title{Close Encounters of the Higher Kind: Emulating Constructor Classes in Standard ML}
+\taxon{reference}
+\meta{venue}{[[ml16]]}
+\author{yutakang}
+\author{liamoc}
+\date{2016-08-11}
+\tag{workshop}
+\meta{doi}{10.48550/arXiv.1608.03350}
+\p{We implement a library for encoding constructor classes in Standard ML, including elaboration from minimal definitions, and automatic instantiation of superclasses.}
+\meta{source}{[Available from TS](https://trustworthy.systems/publications/nictaabstracts/Nagashima_OConnor_16.abstract)}
+\meta{video}{https://www.youtube.com/watch?v=A2BJ6HRPRyg}

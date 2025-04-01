@@ -1,0 +1,10 @@
+\taxon{definition}
+\author{liamoc}
+\title{partial order}
+\p{A binary relation #{(\sqsubseteq) \subseteq X \times X} is a \em{partial order} if it is, for all #{x, y, z \in X}:
+\ul{
+\li{ [reflexive](dm-0001): #{x \sqsubseteq x}, }
+\li{ [transitive](dm-0002): #{x \sqsubseteq y} and #{y \sqsubseteq z} implies #{x \sqsubseteq z},}
+\li{ [antisymmetric](dm-0003): #{x \sqsubseteq y} and #{y \sqsubseteq x} implies #{x = y}. }
+}
+}

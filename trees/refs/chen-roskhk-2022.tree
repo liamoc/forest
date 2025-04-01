@@ -1,0 +1,20 @@
+
+\title{Property-based Testing: Climbing the Stairway to Verification}
+\taxon{reference}
+\meta{venue}{[[sle22]]}
+\author{zilinc}
+\author{crizkallah}
+\author{liamoc}
+\author/literal{Partha Susarla}
+\author{gklein}
+\author{heiser}
+\author{gckeller}
+\date{2022-12-01}
+\meta{doi}{10.1145/3567512.3567520}
+\tag{cogent}
+\tag{pbt}
+\tag{refereed}
+\meta{source}{\strong{Best Artifact Award}}
+\p{Property-based testing (PBT) is a powerful tool that is widely available in modern programming languages. It has been used to reduce formal software verification effort. We demonstrate how PBT can be used in conjunction with formal verification to incrementally gain greater assurance in code correctness by integrating PBT into the verification framework of Cogent---a programming language equipped with a certifying compiler for developing high-assurance systems components. Specifically, for PBT and formal verification to work in tandem, we structure the tests to mirror the refinement proof that we used in Cogent's verification framework: The expected behaviour of the system under test is captured by a functional correctness specification, which mimics the formal specification of the system, and we test the refinement relation between the implementation and the specification. We exhibit the additional benefits that this mutualism brings to developers and demonstrate the techniques we used in this style of PBT, by studying two concrete examples.}
+
+\meta{source}{[Available from TS](https://trustworthy.systems/publications/papers/Chen_ROSKHK_22.abstract)}

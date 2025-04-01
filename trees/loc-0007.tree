@@ -1,0 +1,60 @@
+\import{table-macros}
+\title{teaching}
+\author{liamoc}
+\p{The following teaching engagements were/are all at [[anu]]:}
+\table{
+\tr{\td{2025}\td{ [[COMP1100]]. Lecturer.}}
+}
+\p{The following teaching engagements were all at [[uoe]]:}
+\table{
+\tr{\td{2024}\td{ [[typesig-dt]] (15 students). Invited Lecturer.}}
+\tr{\td{}\td{ [[mcs]] (30 students). Lecturer Convenor, Tutor.}}
+\tr{\td{2023} \td{[[itcs]] (40 students). Lecturer Convenor.}}
+\tr{\td{}\td{ [[dmp]]. Tutor.}}
+\tr{ \td{2022} \td{[[itcs]] (20 students). Lecturer Convenor.}}
+\tr{ \td{} \td{[[inf1a]]. Tutor.}}
+\tr{ \td{2021} \td{[[itcs]] (35 students). Lecturer, Tutor.}}
+\tr{ \td{} \td{[[inf1a]]. Tutor.}}
+\tr{ \td{2020} \td{[[inf1a]]. Tutor Supervisor.}}
+}
+
+\p{The following teaching engagements were all at [[unsw]]:
+\table{
+\tr{\td{2020}\td{ [[COMP3161]] (190 students). Lecturer.}}
+\tr{\td{}\td{ [[COMP3151]] (28 students). Lecturer Convenor.}}
+\tr{\td{}\td{ [[COMP3141]] (308 students). Lecturer Convenor. }}
+\tr{\td{}\td{ [[COMP3153]] (18 students). Lecturer Convenor. }}
+\tr{\td{}\td{ [[COMP2111]]. Course Administrator.}}
+\tr{\td{2019}\td{ [[COMP3161]] (111 students). \br \small{#{100\%} teacher satisfaction. #{95.1\%} course satisfaction.} }}
+\tr{\td{}\td{ [[COMP3141]] (196 students). Lecturer Convenor. \br \small{  #{97.3\%} teacher satisfaction. #{93.9\%} course satisfaction.}}}
+\tr{\td{2018}\td{ [[COMP3161]] (96 students). Lecturer Convenor, Tutor. \br \small{#{98.1\%} teacher satisfaction.  #{100\%} course satisfaction.}}}
+\tr{\td{}\td{ [[COMP2111]]. Tutor (6 tutorials), Relief Lecturer.}}
+\tr{\td{}\td{ \small{#{94.1\%} teacher satisfaction.}}}
+\tr{\td{}\td{ [[COMP3141]]. Course Designer and Administrator.}}
+\tr{\td{}\td{ [[COMP6752]]. Tutor (1 tutorial).}}
+\tr{\td{2017}\td{ [[COMP3151]]. Tutor (3 tutorials), Relief Lecturer.}}
+\tr{\td{}\td{ [[COMP3141]]. Course Administrator.}}
+\tr{\td{}\td{ [[COMP3161]]. Tutor (4 tutorials), Relief Lecturer.}}
+\tr{\td{}\td{ [[COMP2111]]. Tutor (5 tutorials), Relief Lecturer.}}
+\tr{\td{2016}\td{ [[COMP3141]]. Course Administrator, Relief Lecturer.}}
+\tr{\td{}\td{ [[COMP3161]]. Tutor (3 tutorials), Relief Lecturer.}}
+\tr{\td{}\td{ [[COMP2111]]. Tutor (4 tutorials), Relief Lecturer.}}
+\tr{\td{2015}\td{ [[COMP3141]]. Course Administrator, Relief Lecturer.}}
+\tr{\td{}\td{ [[COMP3161]]. Tutor (3 tutorials), Relief Lecturer.}}
+\tr{\td{}\td{ [[COMP2111]]. Tutor (3 tutorials).}}
+\tr{\td{}\td{ [[SENG2011]]. Tutor (3 tutorials).}}
+\tr{\td{2014}\td{ [[COMP3161]]. Tutor (3 tutorials), Relief Lecturer.}}
+\tr{\td{}\td{ [[SENG2011]]. Tutor (3 tutorials).}}
+\tr{\td{}\td{ [[COMP1927]]. Tutor (2 tute/labs), Relief Lecturer.}}
+\tr{\td{2013}\td{ [[COMP3161]]. Tutor (2 tutorials), Relief Lecturer.}}
+\tr{\td{}\td{ [[COMP3151]]. Tutor (2 tutorials), Relief Lecturer.}}
+\tr{\td{2012}\td{ [[COMP1927]]. Tutor (2 tute/labs), Relief Lecturer, Developing Assignments.}}
+\tr{\td{2011}\td{ [[COMP3161]]. Tutor (2 tutorials), Developing Assignments.}}
+\tr{\td{}\td{ [[COMP3141]]. Tutor (1 disabled student).}}
+\tr{\td{}\td{ [[COMP1927]]. Tutor (2 tute/labs).}}
+\tr{\td{2010}\td{ [[COMP3161]]. Tutor (3 tutorials).}}
+\tr{\td{}\td{ [[COMP2911]]. Tutor (2 tutorials, 2 consultation hours).}}
+\tr{\td{2009}\td{ [[COMP1927]]. Tutor (1 tute/lab, 3 consultation hours), Developing Assignments.}}
+\tr{\td{}\td{ [[COMP1911]]. Tutor (1 tute/lab).}}
+}
+}

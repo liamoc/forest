@@ -1,0 +1,10 @@
+\import{dt-macros}
+\taxon{definition}
+\title{denotational semantics}
+\author{liamoc}
+\p{A \em{denotational semantics} consists of, for each syntactic class \cal{X} in a language:
+\ol{
+\li{A \em{semantic domain} #{D} which can be any set of mathematical objects (although, as we will see later, it is helpful if it obeys certain properties).}
+\li{A \em{valuation function} #{\sems{\cdot} : \cal{X} \rightarrow D}. We require that this function be a \em{homomorphism}, that is that it is \em{compositional}. This means that the valuation (or \em{denotation}) of an expression should be made from the denotation of its components. In other words, for each syntactic constructor #{C(e_1,e_2,\dots)}, we should have a mathematical operation #{f(x_1,x_2,\dots)} such that the denotation of #{C} can be defined as: ##{\sems{C(e_1, e_2, \dots)} = f(\sems{e_1}, \sems{e_2}, \dots)}}
+}
+}

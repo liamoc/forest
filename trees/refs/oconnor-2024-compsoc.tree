@@ -1,0 +1,8 @@
+\title{Why Domain Theory Matters}
+\taxon{reference}
+\meta{venue}{[[uoe]] CompSoc Meeting}
+\author{liamoc}
+\date{2024-01}
+\tag{talk}
+\tag{semantics}
+\p{In this talk I give whirlwind tour of denotational semantics, an oft-neglected but very important branch of theoretical computer science, which truly connects computer programs to mathematics}

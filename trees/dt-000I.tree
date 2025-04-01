@@ -1,0 +1,8 @@
+\import{dt-macros}
+\taxon{example}
+\author{liamoc}
+\title{the halting query}
+\p{The function #{H : \mathbb{B}_\bot \rightarrow \mathbb{B}_\bot} seems to let us solve the halting problem, assuming #{\bot} represents non-termination:
+##{
+	H(v) \; = \; \begin{cases} F & \text{if}\ v = \bot \\ T & \text{otherwise} \end{cases}
+}}

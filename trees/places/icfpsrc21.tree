@@ -1,0 +1,7 @@
+\import{conf-name-macros}
+\taxon{conference}
+\title{[ICFP '21](icfp21) Student Research Competition}
+\date{2021-08}
+\meta{venue}{Online}
+\meta{external}{https://icfp21.sigplan.org/track/icfp-2021-student-research-competition}
+\p{Part of [[icfp21]].}

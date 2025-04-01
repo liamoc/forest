@@ -1,0 +1,15 @@
+\import{dt-macros}
+\author{liamoc}
+\title{flat domains and information ordering}
+\transclude{dt-000A}
+\transclude{dt-0008}
+\transclude{dt-000B}
+\transclude{dt-000C}
+\scope{
+  \put\transclude/toc{false}
+  \put\transclude/numbered{false}
+\subtree{
+\taxon{warning}
+\p{Don't confuse the [[dt-000B]] on numbers, i.e. #{\sqsubseteq} on #{\mathbb{Z}_\bot}, with the \em{numerical} ordering #{\leq} on #{\mathbb{Z}}. We know #{0 \leq 1}, but #{0} and #{1} are not comparable in our flat [[dt-000B]].}
+}
+}

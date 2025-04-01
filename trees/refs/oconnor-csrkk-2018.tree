@@ -1,0 +1,17 @@
+\title{Bringing Effortless Refinement of Data Layouts to Cogent}
+\taxon{reference}
+\meta{venue}{[[isola18]]}
+\author{liamoc}
+\author{zilinc}
+\author/literal{Partha Susarla}
+\author{crizkallah}
+\author{gklein}
+\author{gckeller}
+\date{2018-10-29}
+\meta{doi}{10.1007/978-3-030-03418-4_9}
+\tag{cogent}
+\tag{invited}
+\p{The language Cogent allows low-level operating system components to be modelled as pure mathematical functions operating on algebraic data types, which makes it highly suitable for verification in an interactive theorem prover. Furthermore, the Cogent compiler translates these models into imperative C programs, and provides a proof that this compilation is a refinement of the functional model. There remains a gap, however, between the C data structures used in the operating system, and the algebraic data types used by Cogent. This forces the programmer to write a large amount of boilerplate marshalling code to connect the two, which can lead to a significant runtime performance overhead due to excessive copying.}
+\p{In this paper, we outline our design for a data description language and data refinement framework, called Dargent, which provides the programmer with a means to specify how Cogent represents its algebraic data types. From this specification, the compiler can then generate the C code which manipulates the C data structures directly. Once fully realised, this extension will enable more code to be automatically verified by Cogent, smoother interoperability with C, and substantially improved performance of the generated code.}
+
+\meta{source}{[Available from TS](https://trustworthy.systems/publications/csiroabstracts/OConnorDavis_CSRKK_18.abstract)}

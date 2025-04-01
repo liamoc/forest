@@ -1,0 +1,6 @@
+\taxon{Course}
+\title{Modelling Concurrent Systems}
+\meta{venue}{[[unsw]]}
+\author{rvg}
+\meta{external}{https://www.cse.unsw.edu.au/~cs6752}
+\p{Process algebra, bisimulation, comparative concurrency semantics.}

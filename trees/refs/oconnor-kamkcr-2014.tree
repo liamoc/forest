@@ -1,0 +1,16 @@
+\title{CDSL Version 1: Simplifying Verification with Linear Types}
+\taxon{reference}
+\meta{venue}{NICTA Technical Report}
+
+\author{liamoc}
+\author{gckeller}
+\author/literal{Sidney Amani}
+\author{tobym}
+\author{gklein}
+\author{zilinc}
+\author{crizkallah}
+\date{2014-10}
+\tag{cogent}
+
+\p{We introduce a purely functional domain specific language, CDSL, which aims to substantially reduce the cost of producing efficient, verified file system code. Given an executable specification of a file system, the CDSL compiler generates C code and, when fully implemented, will also generate an Isabelle/HOL proof linking the specification and the C implementation. We present two operational semantics for CDSL: (1) a value semantics, well suited for verification, and (2) an update semantics, which can be mapped to efficient C code. We outline the equivalence proof between these two semantics and discuss how the type system guarantees properties like termination, correct error handling, absence of memory leaks and aliasing.}
+\meta{source}{[Available from TS](https://trustworthy.systems/publications/nictaabstracts/OConnorDavis_KAMKCR_14:tr.abstract)}

@@ -1,0 +1,14 @@
+\import{table-macros}
+\title{professional history}
+\author{liamoc}
+\ul{
+\li{2024–present: \strong{Senior Lecturer}, [[anu]]\br
+\em{Foundations Cluster}\br
+Foundations Computing Facilities Representative (2024–present)}
+\li{2020–2024: \strong{Lecturer}, [[uoe]] \br \em{Laboratory for Foundations of Computer Science (LFCS)} \br LFCS Postgraduate Research Coordinator (2022–2024), LFCS EDI Representative (2021–2022)}
+\li{2019–2020: \strong{Senior Research Officer}, [[unsw]].}
+\li{2009–2020: \strong{Casual Academic} (Teaching), [[unsw]].}
+\li{2013–2014: \strong{Research Engineer}, [[nicta]].}
+\li{2011–2013: \strong{Research Assistant}, [[nicta]].}
+\li{2009–2010: \strong{Software Engineer} (Internship), [[google-syd]].}
+}

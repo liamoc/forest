@@ -1,0 +1,9 @@
+\import{dt-macros}
+\taxon{exercise}
+\author{liamoc}
+\p{Give a semantics to the \syn{proc} construct:
+	\ol{
+	\li{ #{\llbracket \mathsf{proc}\ c \rrbracket_\mathcal{E}\ \sigma\ =\ ?}}
+	\li{ #{\llbracket x \rrbracket_\mathcal{C}\ \sigma\ =\ ?}}
+}
+}

@@ -1,0 +1,7 @@
+\taxon{Course}
+\title{Domain Theory ([[typesig]])}
+\meta{venue}{[[uoe]]}
+\author{liamoc}
+\meta{external}{https://typesig.pl/resources/domain-theory}
+\p{I ran this course as an opt-in invited lecture series with [[typesig]] at [[uoe]]. Suprisingly, around 15 students consistently showed up throughout.}
+\p{Topics include denotational semantics, fixed points, categories and constructions, PCF, scott domains, recursive domains, and powerdomains.}

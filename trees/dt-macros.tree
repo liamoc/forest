@@ -1,0 +1,5 @@
+\def\cal[body]{#{\mathcal{\body}}}
+\def\syn[body]{#{\mathsf{\body}}}
+\def\pow[body]{#{\mathcal{P}(\body)}}
+\def\sems[body]{#{\llbracket \body \rrbracket}}
+\def\nat{#{\mathbb{N}}}

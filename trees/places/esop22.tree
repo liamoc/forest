@@ -1,0 +1,8 @@
+\import{conf-name-macros}
+\taxon{conference}
+\title{\conf-name{ESOP '22}{31st European Symposium on Programming}}
+\date{2022-04}
+\meta{venue}{Munich, Germany}
+\meta{doi}{10.1007/978-3-030-99336-8}
+\meta{external}{https://etaps.org/2022/esop}
+\p{ Held as Part of the European Joint Conferences on Theory and Practice of Software.}

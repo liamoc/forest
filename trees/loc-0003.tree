@@ -1,0 +1,49 @@
+\title{academic community roles}
+\author{liamoc}
+
+\ul{
+\li{ Observer, [[wg21]], 2024–present.}
+\li{ Organiser, [[icfpc25]], 2025. }
+\li{ Editor (Social Media), [[jfp]], 2020–present. }
+\li{ Member at Large, [[tyde]] Steering Committee, 2022–2024. }
+\li{ Publicity Chair, [[spli]], 2022–2024. }
+\li{ Organiser and Designer, [[typesig]] Advent of Proof, 2023. }
+\li{ Problem Designer, [[typesig]] Advent of Proof, 2024. }
+}
+
+\subtree{
+  \title{program committees}
+  \ul{
+    \li{[[haskell25]]}
+    \li{[[fproper25]]}
+    \li{[[aplas25]]}
+    \li{[[icfp25]]}
+    \li{[[pldi25]]}
+    \li{[[sblp24]]}
+    \li{[[pepm24]]}
+    \li{[[aplas23]]}
+    \li{[[sblp22]]}
+    \li{[[icfpsrc21]]}
+    \li{[[tyde17]]}
+  }
+}
+
+\subtree{
+  \title{other reviewing}
+  \ul{
+  \li{External Review, [[tase23]]}
+  \li{External Review, [[esop22]]}
+  \li{External Review, [[fossacs21]]}
+  \li{External Review, [[jfp]], 2020}
+  \li{External Review, [[cpp18]]}
+  \li{External Review, [[popl16]]}
+  \li{Artifact Evaluation, [[icfp18]]}
+  \li{Subreviewer, [[csf19]]}
+  \li{Subreviewer, [[asplos19]]}
+  \li{Subreviewer, [[itp17]]}
+  \li{Subreviewer, [[icfp15]]}
+  \li{Subreviewer, [[popl15]]}
+  \li{Subreviewer, [[icfp14]]}
+  \li{Subreviewer, [[aplas13]]}
+  }
+}

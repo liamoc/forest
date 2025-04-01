@@ -1,0 +1,6 @@
+\import{dt-macros}
+\taxon{definition}
+\author{liamoc}
+\title{fixed point}
+\p{A value #{x} is a \em{fixed point} of a function #{f} if #{f(x) = x}.
+}

@@ -1,12 +1,13 @@
+\import{table-macros}
 \title{Liam O'Connor}
 \taxon{person}
 \meta{external}{https://liamoc.net}
 \meta{institution}{[[anu]]}
 \meta{orcid}{0000-0003-2765-4269}
 \meta{position}{Senior Lecturer}
+\<html:img>[class]{portrait}[src]{\route-asset{assets/me.jpeg}}
+\p{I am a Senior Lecturer in Foundations at the [[anu]] School of Computing, on [[loc-000D]]. I'm also an Honorary Fellow at the [[uoe]] Laboratory for Foundations of Computer Science, where I worked until 2024.}
+\p{Lately, my research has been focused on [[loc-000A]], [[loc-000C]] and [[loc-000B]], but I have very broad research interests. See my [personal bibliography](loc-0001) for a full list of my work.}
+\p{Previously, I lectured courses at [[unsw]], where I did my PhD with [[gckeller]] and the Trustworthy Systems Team lead by [[heiser]], focusing on the [[cogent]] project.}
 
-\p{I am a Senior Lecturer in Foundations at the [[anu]] School of Computing, and Honorary Fellow at the [[uoe]] Laboratory for Foundations of Computer Science. Previously, I lectured courses at [[unsw]], where I did my PhD with [[gckeller]].}
-
-
-
-
+\p{More details about me can be found on my [[loc-0004]].}

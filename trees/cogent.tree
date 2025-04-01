@@ -1,0 +1,12 @@
+\import{refs-datalog}
+\title{Cogent}
+\author{liamoc}
+\taxon{Research Theme}
+\meta{external}{https://trustworthy.systems/projects/OLD/cogent}
+\p{Originally part of my [doctorate](loc-0005/0) and, for a time, as ongoing research work, I designed the Cogent programming language, and I was for many years a contributor to its associated verification framework and compiler.}
+\p{This project was part of the long-term vision of the Trustworthy Systems team lead by [[heiser]] (formerly at [[nicta]], now at [[unsw]]), to reduce the cost and effort required to make formally verified systems.}
+\p{In the past I have also worked with the Trustworthy Systems team on the l4.verified project and tools for the Isabelle theorem prover.}
+
+ \query\datalog{
+  ?X -: {\rel/my-references ?X} {\rel/has-tag ?X '{cogent}}
+ }

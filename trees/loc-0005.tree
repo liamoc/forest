@@ -1,0 +1,27 @@
+\import{table-macros}
+\title{education}
+\author{liamoc}
+
+\scope{
+\put\transclude/toc{false}
+\subtree{
+\title{Doctor of Philosophy (Computer Science), [[unsw]]}
+\meta{venue}{[[unsw]]}
+\ul{
+\li{ \em{Thesis:} [[oconnor-thesis-2019]]. \br Winner of the [[core]] John Makepeace Bennett Dissertation Award. \br Project received the [[nicta]] Impact Award.  \br Nominated for the [[unsw]] Malcolm Chaikin Prize. }
+\li{ \em{Primary Advisor:} [[gckeller]]. \br \em{Secondary Advisors:} [[heiser]], [[crizkallah]]. }
+}
+}
+
+\subtree{
+\title{Bachelor of Science (Hons), Computer Science, [[unsw]]}
+\meta{venue}{[[unsw]]}
+\ul{
+\li{ Honours First Class. Dean's List. \br
+     Winner of the CSE Undergraduate Performance Award in 2012, 2011 and 2008.\br
+     Winner of the Macquarie Bank Performance Award, 2008 }
+\li{ \em{Thesis:} [[oconnor-ug-thesis-2012]]. }
+\li{ \em{Advisor:} [[chak]]. }
+}
+}
+}

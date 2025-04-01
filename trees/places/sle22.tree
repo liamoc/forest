@@ -1,0 +1,7 @@
+\import{conf-name-macros}
+\taxon{conference}
+\meta{doi}{10.1145/3567512}
+\title{\conf-name{SLE '22}{15th ACM SIGPLAN International Conference on Software Language Engineering}}
+\date{2022-12}
+\meta{venue}{Auckland, New Zealand}
+\meta{external}{https://2022.splashcon.org/home/sle-2022}

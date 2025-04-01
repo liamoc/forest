@@ -1,0 +1,11 @@
+\import{dt-macros}
+\title{First Steps into Domains}
+\taxon{Lecture}
+\author{liamoc}
+\p{This lecture is based on material from [[haskellhutt]], [[danascott]], [[jstoy]], [[cgunter]], and [[gwinskel]].}
+\transclude{dt-0003}
+\transclude{dt-000L}
+\transclude{dt-0009}
+\transclude{dt-000D}
+\transclude{dt-000H}
+\transclude{dt-000U}

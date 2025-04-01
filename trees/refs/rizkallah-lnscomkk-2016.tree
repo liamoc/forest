@@ -1,0 +1,19 @@
+\title{A Framework for the Automatic Formal Verification of Refinement from Cogent to C}
+\taxon{reference}
+\meta{venue}{[[itp16]]}
+\author{crizkallah}
+\author/literal{Japheth Lim}
+\author{yutakang}
+\author{tsewell}
+\author{zilinc}
+\author{liamoc}
+\author{tobym}
+\author{gckeller}
+\author{gklein}
+\tag{refereed}
+\date{2016-08-07}
+\meta{doi}{10.1007/978-3-319-43144-4_20}
+\tag{cogent}
+\p{Our language Cogent simplifies verification of systems software using a certifying compiler, which produces a proof that the generated C code is a refinement of the original Cogent program. Despite the fact that Cogent itself contains a number of refinement layers, the semantic gap between even the lowest level of Cogent semantics and the generated C code remains large. In this paper we close this gap with an automated refinement framework which validates the compiler’s code generation phase. This framework makes use of existing C verification tools and introduces a new technique to relate the type systems of Cogent and C. }
+
+\meta{source}{[Available from TS](https://trustworthy.systems/publications/nictaabstracts/Rizkallah_LNSCOMKK_16.abstract)}

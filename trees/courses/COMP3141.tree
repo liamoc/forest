@@ -1,0 +1,8 @@
+\taxon{Course}
+\title{Software System Design and Implementation}
+\author{liamoc}
+\author{gckeller}
+\author{chak}
+\meta{venue}{[[unsw]]}
+\meta{external}{https://www.cse.unsw.edu.au/~cs3141}
+\p{functional programming, denotational design and property based testing.}

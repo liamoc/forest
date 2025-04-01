@@ -1,0 +1,15 @@
+\title{The Cogent Case for Property-Based Testing}
+\taxon{reference}
+\meta{venue}{[[plos17]]}
+\author{zilinc}
+\author{liamoc}
+\author{gckeller}
+\author{gklein}
+\author{heiser}
+\date{2017-10-28}
+\meta{doi}{10.1145/3144555.3144556}
+\tag{cogent}
+\tag{pbt}
+\tag{refereed}
+\p{Property-based testing can play an important role in reducing the cost of formal verification: It has been demonstrated to be effective at detecting bugs and finding inconsistencies in specifications, and thus can eliminate effort wasted on fruitless proof attempts. We argue that in addition, property-based testing enables an incremental approach to a fully verified system, by allowing replacement of automatically generated tests of properties stated in the specification by formal proofs. We demonstrate this approach on the verification of systems code, discuss the implications on systems design, and outline the integration of property-based testing into the Cogent framework.}
+\meta{source}{[Available from TS](https://trustworthy.systems/publications/nictaabstracts/Chen_OKKH_17.abstract)}

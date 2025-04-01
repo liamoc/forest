@@ -1,0 +1,5 @@
+\taxon{definition}
+\author{liamoc}
+\title{poset}
+\p{A partially ordered set, or \em{poset} for short, is a pair #{(X, \sqsubseteq)} of a set #{X} equipped with a [[dm-0000]] #{(\sqsubseteq) \subseteq X \times X}.}
+\p{ Sometimes, when [[dm-0000]] is arbitrary or clear from context, the set #{X} itself may be referred to as a poset.}

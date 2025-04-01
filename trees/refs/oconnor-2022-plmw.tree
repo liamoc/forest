@@ -1,0 +1,8 @@
+\title{Writing Valuable Papers}
+\taxon{reference}
+\meta{venue}{[POPL '22](popl22) Programming Languages Mentoring Workshop}
+\author{liamoc}
+\date{2022-01}
+\meta{video}{https://www.youtube.com/watch?v=ycM6OOxGF_0}
+\tag{talk}
+\p{Most materials aimed at teaching people how to write, even within an academic context, focus largely on giving a rules-based framework for structure and prose style. These frameworks are based on outdated and inaccurate models of knowledge and are not suitable for academic writing. In this talk I will try to challenge some of the assumptions you have about writing papers, what (and who) writing papers is for, and how to think about writing as part of a research process.}

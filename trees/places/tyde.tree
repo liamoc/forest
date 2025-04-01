@@ -1,0 +1,6 @@
+\taxon{Conference Series}
+\meta{doi}{10.1145/3331554}
+\title{Workshop on Type-Driven Development}
+\meta{external}{https://tydeworkshop.org/}
+
+\p{The workshop on Type-driven Development aims to show how static type information may be used effectively in the development of computer programs. Colocated with ICFP, this workshop brings together leading researchers and practitioners who are using or exploring types as a means of program development.}

@@ -1,0 +1,8 @@
+\title{Mutual Exclusion: Harder than you Think!}
+\taxon{reference}
+\meta{venue}{[[uoe]] CompSoc Meeting}
+\author{liamoc}
+\author{rvg}
+\date{2023-01}
+\tag{talk}
+\p{It’s well known that some problems in computer science are unsolvable — finding a recipe to tell whether an arbitrary computer program halts is a classic example. But in the world of concurrency, the most classical problem, mutual exclusion, is widely considered to be solved. In this talk we will examine the assumptions that have led concurrency theorists to this conclusion, and show that, unless either an assumption about hardware or a requirement of the problem are relaxed, this most famous problem of concurrency theory has, in fact, no satisfactory solution.}

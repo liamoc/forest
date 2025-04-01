@@ -1,0 +1,20 @@
+\title{Refinement through Restraint: Bringing Down the Cost of Verification}
+\taxon{reference}
+\meta{venue}{[[icfp16]]}
+\author{liamoc}
+\author{zilinc}
+\author{crizkallah}
+\author/literal{Sidney Amani}
+\author/literal{Japheth Lim}
+\author{tobym}
+\author{yutakang}
+\author{tsewell}
+\author{gklein}
+\date{2016-09-04}
+\meta{doi}{10.1145/2951913.2951940}
+\tag{cogent}
+\tag{refereed}
+
+\p{We present a framework aimed at significantly reducing the cost of verifying certain classes of systems software, such as file systems. Our framework allows for equational reasoning about systems code written in our new language, Cogent. Cogent is a restricted, polymorphic, higher-order, and purely functional language with linear types and without the need for a trusted runtime or garbage collector. Linear types allow us to assign two semantics to the language: one imperative, suitable for efficient C code generation; and one functional, suitable for equational reasoning and verification. As Cogent is a restricted language, it is designed to easily interoperate with existing C functions and to connect to existing C verification frameworks. Our framework is based on certifying compilation: For a well-typed Cogent program, our compiler produces C code, a high-level shallow embedding of its semantics in Isabelle/HOL, and a proof that the C code correctly refines this embedding. Thus one can reason about the full semantics of real-world systems code productively and equationally, while retaining the interoperability and leanness of C. The compiler certificate is a series of language-level proofs and per-program translation validation phases, combined into one coherent top-level theorem in Isabelle/HOL.}
+\meta{source}{[Available from TS](https://trustworthy.systems/publications/nictaabstracts/OConnor_CRALMNSK_16.abstract)}
+\meta{video}{https://www.youtube.com/watch?v=sJwcm_worfM}

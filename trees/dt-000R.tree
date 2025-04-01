@@ -1,0 +1,22 @@
+\import{dt-macros}
+\title{From recursion to fixed points}
+\author{liamoc}
+\p{
+Consider our recursive \syn{while} loop semantics from \ref{dt-0006}:
+
+##{
+\llbracket \mathsf{while}\ b\ \mathsf{do}\ c\ \mathsf{od} \rrbracket_\mathcal{C}\ \sigma\; = \; \begin{cases}  \llbracket \mathsf{while}\ b\ \mathsf{do}\ c\ \mathsf{od} \rrbracket_\mathcal{C}\ (\llbracket c \rrbracket_\mathcal{C}\ \sigma) & \text{if}\ \llbracket b \rrbracket_\mathcal{B}\ \sigma = T \\
+  	     \sigma & \text{otherwise}
+ \end{cases}
+}
+How do we ensure that solutions exist for such recursive equations? And, if multiple solutions exist, how do we decide which one to pick? To address these questions, let's factor out everything in our definition except the recursion into a separate (higher-order) function:
+##{
+\begin{array}{l}
+\llbracket \mathsf{while}\ b\ \mathsf{do}\ c\ \mathsf{od} \rrbracket_\mathcal{C} = f(\llbracket \mathsf{while}\ b\ \mathsf{do}\ c\ \mathsf{od} \rrbracket_\mathcal{C}) \\[0.5em]
+\qquad \text{where}\; f(X)\ \sigma\; \triangleq \; \begin{cases}  X\ (\llbracket c \rrbracket_\mathcal{C}\ \sigma) & \text{if}\ \llbracket b \rrbracket_\mathcal{B}\ \sigma = T \\
+  	     \sigma & \text{otherwise}
+ \end{cases}
+\end{array}
+}
+Looking at it this way, we can see that any solution to this equation must be an element of our semantic domain #{X \in \mathbf{C}} such that #{f(X) = X}. In other words, the problem of finding solutions to our recursive equations can be cast as the problem of finding a [[dt-000S]] for \em{non-recursive} higher-order functions.
+}

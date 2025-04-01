@@ -1,0 +1,7 @@
+\import{conf-name-macros}
+\taxon{conference}
+\meta{doi}{10.1145/2951913}
+\title{\conf-name{ICFP '16}{21st ACM SIGPLAN International Conference on Functional Programming}}
+\date{2016-09}
+\meta{venue}{Nara, Japan}
+\meta{external}{https://conf.researchr.org/home/icfp-2016}

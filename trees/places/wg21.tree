@@ -1,0 +1,13 @@
+\title{IFIP Working Group 2.1: Algorithmic Languages and Calculi}
+\taxon{institution}
+\meta{external}{https://ifipwg21wiki.cs.kuleuven.be/}
+\p{
+IFIP Working Group 2.1 on Algorithmic Languages and Calculi is a working group of the International Federation for Information Processing (IFIP). Its scope includes:
+\ul{
+\li{Study of calculation of programs from specifications}
+\li{Design of notations for such calculation}
+\li{Formulation of algorithm theories, using such notations}
+\li{Investigation of software support for program derivation}
+\li{Continuing responsibility for ALGOL 60 and ALGOL 68}
+}
+}

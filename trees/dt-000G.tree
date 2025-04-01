@@ -1,0 +1,5 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{definition}
+\title{pointed poset}
+\p{A \em{pointed [[dm-0004]]} is a [partially ordered set](dm-0004) with a [bottom value](dt-000A).}

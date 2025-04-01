@@ -1,0 +1,7 @@
+\taxon{Course}
+\title{Introduction to Theoretical Computer Science}
+\author{liamoc}
+\author{jcb}
+\meta{venue}{[[uoe]]}
+\meta{external}{https://opencourse.inf.ed.ac.uk/itcs}
+\p{Automata theory, computability theory, complexity theory, lambda calculus.}

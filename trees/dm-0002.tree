@@ -1,0 +1,4 @@
+\taxon{definition}
+\author{liamoc}
+\title{transitivity}
+\p{A binary relation #{\mathcal{R} \subseteq X \times X} is \em{transitive} iff, for all #{x, y, z \in X}, if #{x\ \mathcal{R}\ y} and #{y\ \mathcal{R}\ z} then  #{x\ \mathcal{R}\ z}.}

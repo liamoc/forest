@@ -1,0 +1,15 @@
+\title{Provably Trustworthy Systems}
+\taxon{reference}
+\meta{venue}{[[philtransA]], Volume 375, Issue 2104}
+\author{gklein}
+\author/literal{June Andronick}
+\author{gckeller}
+\author/literal{Daniel Matichuk}
+\author{tobym}
+\author{liamoc}
+\date{2017-09-04}
+\meta{doi}{10.1098/rsta.2015.0404}
+\tag{cogent}
+\tag{invited}
+\p{We present recent work on building and scaling trustworthy systems with formal, machine-checkable proof from the ground up, including the operating system kernel, at the level of binary machine code. We first give a brief overview of the seL4 microkernel verification and how it can be used to build verified systems. We then show two complementary techniques for scaling these methods to larger systems: proof engineering, to estimate verification effort; and code/proof co-generation, for scalable development of provably trustworthy applications.}
+\p{This article is part of the themed issue ‘Verified trustworthy software systems’.}

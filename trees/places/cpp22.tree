@@ -1,0 +1,9 @@
+\import{conf-name-macros}
+\taxon{conference}
+\meta{doi}{10.1145/3497775}
+\title{\conf-name{CPP '22}{11th ACM SIGPLAN International Conference on Certified Programs and Proofs}}
+\date{2022-01}
+\meta{venue}{Philadelphia, Pennsylvania, USA}
+\meta{external}{https://popl22.sigplan.org/home/CPP-2022}
+
+\p{Colocated with POPL'22.}

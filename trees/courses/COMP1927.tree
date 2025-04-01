@@ -1,0 +1,5 @@
+\taxon{Course}
+\title{Computing 2}
+\meta{venue}{[[unsw]]}
+\meta{external}{https://www.cse.unsw.edu.au/~cs1927}
+\p{Heap-alloocation, trees, lists and algorithms in C.}

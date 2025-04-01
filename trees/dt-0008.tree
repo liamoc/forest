@@ -1,0 +1,5 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{definition}
+\title{flat domain}
+\p{Given a set #{X}, the \em{flat domain} (or \em{lifted set}) #{X_\bot} is just the set #{X \cup \{ \bot \}} (where #{\bot \notin X}).}

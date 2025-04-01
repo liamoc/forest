@@ -1,0 +1,13 @@
+\title{Holbert: Reading, Writing, Proving and Learning in the Browser}
+\taxon{reference}
+\meta{venue}{[[hatra22]]}
+\author{liamoc}
+\author{rayhana}
+\date{2022-10-17}
+\meta{doi}{10.48550/arXiv.2210.11411}
+\tag{workshop}
+\meta{external}{https://liamoc.net/hatra-2022/}
+\p{
+This paper presents Holbert: a work-in-progress pedagogical proof assistant and online textbook platform, aimed at the educational use-case, specifically for the teaching of programming language theory. Holbert allows proof exercises and rule definitions to be embedded directly in an online textbook, where proofs and rules can be manipulated using a graphical interface. We give an overview of the logical foundations of Holbert, examples of its use, and give an update as to its current implementation status.
+}
+\meta{video}{https://www.youtube.com/watch?v=Rdb7P5MJZLw}

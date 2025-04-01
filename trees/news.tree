@@ -1,0 +1,47 @@
+\import{table-macros}
+\title{News}
+\author{liamoc}
+\table{
+\tr{
+ \th{ 2025-03-22 }
+ \td{I have joined the PC for [[haskell25]]. }
+}
+\tr{
+ \th{ 2025-03-13 }
+ \td{I have joined the PC for [[fproper25]]. }
+}
+\tr{
+ \th{ 2025-02-04 }
+ \td{ [[jackb]] has joined me for a semester project working on [Holbert](oconnor-amjad-2022). }
+}
+\tr{
+ \th{ 2025-01-08 }
+ \td{I have joined the PC for [[aplas25]]. }
+}
+\tr{
+ \th{ 2024-11-05 }
+ \td{I have joined the PC for [[icfp25]]. }
+}
+\tr{
+ \th{ 2024-10-22 }
+ \td{I have joined the PC for [[pldi25]]. }
+}
+\tr{
+ \th{ 2024-09-17 }
+ \td{I have agreed to organise the [[icfpc25]]. }
+}
+\tr{
+ \th{2024-09-30 }
+ \td{I was delighted to spend a week with the [WG2.1](wg21) folks here at the [ANU](anu).}
+}
+\tr{
+ \th{ 2024-09-09 }
+ \td{Our student [[rayhana]] has published her first paper, [[amjad-vanglabbeek-oconnor-2024]] at [EXPRESS/SOS](expresssos24). }
+}
+\tr{
+ \th{ 2024-07-30 }
+ \td{I have taken a new position as a Senior Lecturer at the [[anu]]. }
+}
+
+
+}

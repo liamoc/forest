@@ -1,0 +1,18 @@
+\title{Cogent: Uniqueness Types and Certifying Compilation}
+\taxon{reference}
+\meta{venue}{[[jfp]], Volume 31, Issue on Secure Compilation}
+\author{liamoc}
+\author{zilinc}
+\author{crizkallah}
+\author{vjackson}
+\author/literal{Sidney Amani}
+\author{gklein}
+\author{tobym}
+\author{tsewell}
+\author{gckeller}
+\date{2021-10-27}
+\meta{doi}{10.1017/S095679682100023X}
+\tag{cogent}
+\tag{refereed}
+\p{This paper presents a framework aimed at significantly reducing the cost of proving functional correctness for low-level operating systems components. The framework is designed around a new functional programming language, Cogent. A central aspect of the language is its uniqueness type system, which eliminates the need for a trusted runtime or garbage collector while still guaranteeing memory safety, a crucial property for safety and security. Moreover, it allows us to assign two semantics to the language: The first semantics is imperative, suitable for efficient C code generation, and the second is purely functional, providing a user-friendly interface for equational reasoning and verification of higher-level correctness properties. The refinement theorem connecting the two semantics allows the compiler to produce a proof via translation validation certifying the correctness of the generated C code with respect to the semantics of the Cogent source program. We have demonstrated the effectiveness of our framework for implementation and for verification through two file system implementations.}
+\p{This paper is largely based on [my](liamoc) [PhD Thesis](oconnor-thesis-2019).}

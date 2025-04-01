@@ -1,0 +1,21 @@
+
+\xmlns:html{http://www.w3.org/1999/xhtml}
+\def\table[body]{
+  \<html:table>{\body}
+}
+\def\small[body]{
+  \<html:small>{\body}
+}
+\def\br{\<html:br>}
+\def\tr[body]{
+  \<html:tr>{\body}
+}
+\def\td[body]{
+  \<html:td>{\body}
+}
+\def\th[body]{
+  \<html:th>{\body}
+}
+\def\hr{
+  \<html:hr>{}
+}

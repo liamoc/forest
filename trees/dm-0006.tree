@@ -1,0 +1,5 @@
+\import{dt-macros}
+\taxon{definition}
+\author{liamoc}
+\title{power set}
+\p{The power set of #{X}, often written #{\pow{X}}, is the set of all subsets of #{X}: ##{ \pow{X} = \{ Y \mid Y \subseteq X \}  }. }
