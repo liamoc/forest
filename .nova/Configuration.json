@@ -1,0 +1,5 @@
+{
+  "editor.default_syntax" : "forester",
+  "workspace.color" : 3,
+  "workspace.preview_root" : "output"
+}
