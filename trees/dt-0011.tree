@@ -1,4 +1,5 @@
 \taxon{Example}
+\title{Power sets are directed}
 \p{The [power set](dm-0006) of any set #{X} is directed under #{\subseteq}.}
 \p{ \strong{Below}: #{\cal{P}(\{1,2,3\})}: }
 \figure{\tex{\usepackage{tikz}}{

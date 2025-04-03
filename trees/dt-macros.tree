@@ -3,3 +3,4 @@
 \def\pow[body]{#{\mathcal{P}(\body)}}
 \def\sems[body]{#{\llbracket \body \rrbracket}}
 \def\nat{#{\mathbb{N}}}
+\def\Set[body]{#{\{\body\}}}

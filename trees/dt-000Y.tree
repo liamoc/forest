@@ -1,7 +1,7 @@
 \title{Chains and Unfolding}
 \p{Intuitively, recursive programs are executed by "unfolding" as much as necessary to get a result. We would like to characterise our domains to ensure that solutions always exist, and to allow us to pick the solutions that are "minimal" in the sense that they rely on a minimal amount of unfolding.}
-\p{After converting a recursive program into a non-recursive [monotonic](dt-000J) higher order function #{f}, the [fixed point](dt-000S) we desire would intuitively be the [limit](todo) of the [ascending Kleene chain](dt-000X) of #{f}: }
+\p{After converting a recursive program into a non-recursive [monotonic](dt-000J) higher order function #{f}, the [fixed point](dt-000S) we desire would intuitively be the \em{limit} of the [ascending Kleene chain](dt-000X) of #{f}, i.e. #{f(f(f(f(\dots))))}: }
 \transclude{dt-000X}
-\p{Each element of [this chain](dt-000X) is another "unfolding" of the recursion.}
+\p{Each successive element of [this chain](dt-000X) is another "unfolding" of the recursion.}
 \transclude{dt-000V}
 \transclude{dt-000W}

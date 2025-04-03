@@ -1,7 +1,12 @@
 \taxon{Theorem}
+\title{Chain → Directed}
 \author{liamoc}
 \p{All non-empty [chains](dt-000V) are [directed](dt-0010).}
+\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
 \subtree{
 \taxon{Proof}
-\p{Let #{C} be a chain. Then, given two elements #{x,y \in C} we know from [totality](dm-0008) that either #{x \sqsubseteq y} or #{y \subseteq x}. If #{x \sqsubseteq y}, then #{y} is the [upperbound], otherwise #{x} is the [upperbound]. } 
+\p{Let #{C} be a [chain](dt-000V). Then, given two elements #{x,y \in C} we know from [totality](dm-0008) that either #{x \sqsubseteq y} or #{y \sqsubseteq x}. If #{x \sqsubseteq y}, then #{y} is the [upper bound](dm-000C), otherwise #{x} is the [upper bound](dm-000C). } 
+}
 }

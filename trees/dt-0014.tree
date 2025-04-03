@@ -1,0 +1,17 @@
+\import{dt-macros}
+\taxon{Theorem}
+\title{Alternative characterisation of directedness}
+\author{liamoc}
+\p{A subset #{Y \subseteq X} of a [poset](dm-0004) #{X} is [directed](dt-0010) iff every \em{finite} subset of #{Y' \subseteq Y} has an [upper bound](dm-000C) in #{Y}.}
+\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
+\subtree{
+\taxon{Proof}
+\ul{ 
+\li{\strong{⇐}: Every pair of elements #{x,y \in Y} has an  [upper bound](dm-000C) simply by taking the  [upper bound](dm-000C) of the set #{ \Set{x,y}. }
+\li{\strong{⇒}: Given a finite set #{ X = \Set{x_1,x_2,\dots, x_n} }, we can show it has an [upper bound](dm-000C) by an inductive process, first taking the [upper bound](dm-000C) of #{x_1} and #{x_2}, and then taking the [upper bound](dm-000C)  of that an #{x_3} and so on until we have an [upper bound](dm-000C) for the whole set. This induction works because the set #{X} is finite.}
+}
+}
+}
+}

@@ -1,0 +1,3 @@
+\taxon{Definition}
+\title{Upper bound}
+\p{An \em{upper bound} of a set #{Y} is some #{x} such that #{\forall y \in Y.\ y \sqsubseteq x} (where #{\sqsubseteq} is some [partial order](dm-0000)).}

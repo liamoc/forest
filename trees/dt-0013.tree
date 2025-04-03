@@ -3,7 +3,7 @@
 \p{
 	A subset #{Y \subseteq X} of a [poset](dm-0004) #{X} is \em{consistent} iff
 	##{\exists x \in X.\ \forall y \in Y.\ y \sqsubseteq x}
-	Such an #{x} is called an [upper bound] of #{Y}.
+	Such an #{x} is called an [upper bound](dm-000C) of #{Y}.
 	\figure{\tex{\usepackage{tikz}}{
 	\begin{tikzpicture}
 		\node (a) at (-0.8,0) {$\bullet$};

@@ -2,7 +2,7 @@
 \title{Directed set}
 \author{liamoc}
 \p{
-Formally, A non-empty subset #{Y \subseteq X} of a [poset](dm-0004) #{(X,\sqsubseteq)} is \em{directed} iff: ##{\forall x, y \in Y.\ \exists z \in Y.\ x \sqsubseteq z \land y \sqsubseteq z}
+Formally, a non-empty subset #{Y \subseteq X} of a [poset](dm-0004) #{(X,\sqsubseteq)} is \em{directed} iff: ##{\forall x, y \in Y.\ \exists z \in Y.\ x \sqsubseteq z \land y \sqsubseteq z}
 \figure{\tex{\usepackage{tikz}}{
 \begin{tikzpicture}
 \draw[dotted, thick] (0,0) circle (1.5 cm);
@@ -24,6 +24,6 @@ Formally, A non-empty subset #{Y \subseteq X} of a [poset](dm-0004) #{(X,\sqsubs
 \end{tikzpicture}
 }
 }
-The #{z} above is an [upper bound] of #{x} and #{y}. Hence, a non-empty set is \em{directed} iff every pair of values has an [upperbound] \em{in the set}.}
+The #{z} above is an [upper bound](dm-000C) of #{x} and #{y}. Hence, a non-empty set is \em{directed} iff every pair of values has an [upper bound](dm-000C) \em{in the set}.}
 \p{Intuitively, directed sets are "going somewhere" — given two elements we can always find a "greater" one in the set.}
 
