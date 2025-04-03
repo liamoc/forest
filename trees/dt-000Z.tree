@@ -1,0 +1,6 @@
+\title{From chains to directed sets}
+\p{While [#{\omega}-chains](dt-000W) are technically sufficient for [denotational semantics](dt-0001), for our purposes it is a little more convenient to think in terms of [directed sets](dt-0010) rather than [chains](dt-000V).}
+\transclude{dt-0010}
+\transclude{dt-0011}
+\transclude{dt-0012}
+\transclude{dt-0013}

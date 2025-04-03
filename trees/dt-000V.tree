@@ -1,0 +1,7 @@
+\taxon{Definition}
+\title{Chain}
+\author{liamoc}
+\p{
+	A \em{chain} in a [poset](dm-0004) #{X} is a [totally ordered](dm-0007) subset of #{X}. That is, a subset #{Y \subseteq X} is a \em{chain} iff:
+	##{\forall x, y \in Y.\; x \sqsubseteq y \lor y \sqsubseteq x}
+}

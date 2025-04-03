@@ -1,0 +1,5 @@
+\taxon{Definition}
+\author{liamoc}
+\title{Totality}
+\p{A binary relation #{\mathcal{R} \subseteq X \times X} is \em{total} iff, for all #{x, y \in X}, either #{x\ \mathcal{R}\ y} or #{y\ \mathcal{R}\ x}.
+}

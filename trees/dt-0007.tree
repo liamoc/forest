@@ -30,10 +30,10 @@ has the same effects on the variable #{a} as the program:
 \transclude{dt-000P}
 Unfolding the definition of #{\Sigma}, we end up with a recursive equation for the definition of #{\mathbf{C}}:
 ##{\mathbf{C} \; = \; (\mathcal{V} \rightarrow (\mathbb{Z} \uplus \mathbf{C})) \rightarrow (\mathcal{V} \rightarrow (\mathbb{Z} \uplus \mathbf{C}))}
-Such equations have \em{no} set-theoretic solution, even if we weaken equality to mere \em{set isomorphism} (here notated #{\simeq}).
+Such equations have \em{no} set-theoretic solution, even if we weaken equality to mere [set isomorphism](dm-000B) (here notated #{\simeq}).
 }
 \subtree{\taxon{Example}\title{A simpler equation with no solution}
-\p{Consider the recursive equation #{X = X \rightarrow \mathbb{B}}. Cantor's theorem says that there is no set #{X} such that #{X \simeq \pow{X}} (where #{\pow{X}} is the [[dm-0006]] of #{X}), and seeing as #{\pow{X} \simeq (X \rightarrow \mathbb{B})} it follows that #{X = X \rightarrow \mathbb{B}} has no solution.}
+\p{Consider the recursive equation #{X = X \rightarrow \mathbb{B}}. Cantor's theorem says that there is no set #{X} such that #{X \simeq \pow{X}} (where #{\pow{X}} is the [power set](dm-0006) of #{X}), and seeing as #{\pow{X} \simeq (X \rightarrow \mathbb{B})} it follows that #{X = X \rightarrow \mathbb{B}} has no solution.}
 }
 \p{Any kind of \em{higher-order} construct leads to such recursive domain equations.}
 \scope{

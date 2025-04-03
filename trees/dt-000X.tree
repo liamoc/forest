@@ -1,0 +1,7 @@
+\title{Ascending Kleene chain}
+\taxon{Example}
+\p{
+	Given a [pointed poset](dt-000G) #{(X,\subseteq)} and a [monotonic](dt-000J) function #{f : X \rightarrow X}, the \em{ascending Kleene chain} is the [#{\omega}-chain](dt-000W):
+	##{ \bot \sqsubseteq f(\bot) \sqsubseteq f(f(\bot)) \sqsubseteq f(f(f(\bot))) \sqsubseteq \cdots}
+	Because #{\bot} is the [bottom element](dt-000A), we know that #{\bot \sqsubseteq f(\bot)}. Each subsequent step in the chain exists because of [monotonicity](dt-000J).
+}

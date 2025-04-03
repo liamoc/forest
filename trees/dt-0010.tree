@@ -1,0 +1,29 @@
+\taxon{Definition}
+\title{Directed set}
+\author{liamoc}
+\p{
+Formally, A non-empty subset #{Y \subseteq X} of a [poset](dm-0004) #{(X,\sqsubseteq)} is \em{directed} iff: ##{\forall x, y \in Y.\ \exists z \in Y.\ x \sqsubseteq z \land y \sqsubseteq z}
+\figure{\tex{\usepackage{tikz}}{
+\begin{tikzpicture}
+\draw[dotted, thick] (0,0) circle (1.5 cm);
+\draw[dotted, thick] (5,0) circle (1.5 cm);	
+\node at (2.5,0) {\Huge $\Rightarrow$ };
+\node at (2.5,0.6) {$\exists z$ };
+\node at (-0.7,-0.5) { \Large $\bullet$ };
+\node at (-0.7,-0.8) { $x$ };
+\node at (0.7,-0.5) { \Large $\bullet$ };
+\node at (0.7,-0.8) { $y$ };
+\node (x) at (4.3,-0.5) { \Large $\bullet$ };
+\node  at (4.3,-0.8) { $x$ };
+\node (y) at (5.7,-0.5) { \Large $\bullet$ };
+\node  at (5.7,-0.8) { $y$ };
+\node (z)at (5,0.5) { \Large $\bullet$ };
+\node  at (5,0.8) { $z$ };
+\draw[thick] (x) -- (z)
+	  (y) -- (z);
+\end{tikzpicture}
+}
+}
+The #{z} above is an [upper bound] of #{x} and #{y}. Hence, a non-empty set is \em{directed} iff every pair of values has an [upperbound] \em{in the set}.}
+\p{Intuitively, directed sets are "going somewhere" — given two elements we can always find a "greater" one in the set.}
+

@@ -1,0 +1,7 @@
+\taxon{Definition}
+\title{#{\omega}-chain}
+\author{liamoc}
+\p{
+	An \em{#{\omega}-chain} is a [chain](dt-000V) that is [countable](dm-0009). In other words, it is a sequence of elements #{x_{i \in \mathbb{N}}} such that:
+	##{x_0 \sqsubseteq x_1 \sqsubseteq x_2 \sqsubseteq x_3 \dots}
+}

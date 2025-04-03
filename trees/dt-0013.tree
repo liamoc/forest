@@ -1,0 +1,30 @@
+\taxon{Definition}
+\title{Consistent subsets}
+\p{
+	A subset #{Y \subseteq X} of a [poset](dm-0004) #{X} is \em{consistent} iff
+	##{\exists x \in X.\ \forall y \in Y.\ y \sqsubseteq x}
+	Such an #{x} is called an [upper bound] of #{Y}.
+	\figure{\tex{\usepackage{tikz}}{
+	\begin{tikzpicture}
+		\node (a) at (-0.8,0) {$\bullet$};
+		\node (b) at (0.8,0) {$\bullet$};
+		\node (c) at (0,-1) {$\bullet$};
+		\draw[thick] (c) -- (a) (c) -- (b);
+		\draw[dashed, rounded corners=0.4cm] (-1.2,-0.4) rectangle (1.2,0.4);
+		\node (foo) at (2,-1.5) {a non-\emph{consistent} set};
+		\draw[->,thick] (foo) edge[bend right] (1.2,0);
+		\node (a) at (4.2,0) {$\bullet$};
+		\node (b) at (5.8,0) {$\bullet$};
+		\node (x) at (4.2,1) {$\bullet$};
+		\node (y) at (5.8,1) {$\bullet$};
+		\node (c) at (5,-1) {$\bullet$};
+		\draw[thick] (c) -- (a) (c) -- (b) (a) -- (x) (a) -- (y) (b) -- (x) (b) -- (y);
+		\draw[dashed, rounded corners=0.4cm] (3.8,-0.4) rectangle (6.2,0.4);
+		\node (foo) at (7,-1.2) {a \emph{consistent} set};
+		\draw[->,thick] (foo) edge[bend right] (6.2,0);
+		\node (foo) at (2,1) {upper bound};
+		\draw[->,thick] (foo) edge[bend left] (x);
+		\draw[->,thick] (foo) edge[bend left] (y);
+	\end{tikzpicture}
+	}}
+}

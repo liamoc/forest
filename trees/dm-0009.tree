@@ -1,0 +1,6 @@
+\taxon{Definition}
+\title{Countable sets}
+\author{liamoc}
+\p{
+	A set #{X} is \em{countable} if it can be put into a [one-to-one correspondence](dm-000A) with the natural numbers #{\mathbb{N}}.
+}

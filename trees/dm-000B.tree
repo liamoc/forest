@@ -1,0 +1,6 @@
+\taxon{Definition}
+\title{Set isomorphism}
+\author{liamoc}
+\p{
+	Two sets #{A} and #{B} are \em{isomorphic}, written #{A \simeq B}, iff a [bijection](dm-000A) exists between them.
+}

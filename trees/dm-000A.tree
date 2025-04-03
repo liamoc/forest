@@ -1,0 +1,6 @@
+\taxon{Definition}
+\title{Set bijection}
+\author{liamoc}
+\p{
+	A \em{bijection} between sets #{A} and #{B} is a one to one correspondence between their elements. That is, #{R \subseteq A \times B} is a \em{bijection} between #{A} and #{B} if, for each #{x \in A}, there is exactly one #{y \in B} such that #{x\ R\ y}, and vice versa.
+}

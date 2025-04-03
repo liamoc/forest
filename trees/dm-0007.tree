@@ -1,0 +1,5 @@
+\taxon{Definition}
+\author{liamoc}
+\title{Total order}
+\p{A \em{total order} is a [partial order](dm-0000) that also satisfies [totality](dm-0008).
+}
