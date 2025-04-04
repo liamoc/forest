@@ -2,3 +2,11 @@
 \taxon{Exercise}
 \author{liamoc}
 \p{Consider the functions #{\mathbb{B}_\bot \rightarrow \mathbb{B}_\bot}. Which ones are [monotonic](dt-000J)? There are a total of 27 such functions but only three significant classes.}
+\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
+\put\transclude/expanded{false}
+\subtree{
+  \taxon{Solution}
+  \p{The three classes are the nine [strict](dt-000K) functions (which map #{\bot} to #{\bot}), which are all [monotonic](dt-000J), the two non-strict constant functions (which ignore their input and return #{\True} and #{\False} respectively), which are also monotonic, and the 16 non-monotonic functions.}
+}}

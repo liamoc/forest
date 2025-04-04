@@ -1,5 +1,5 @@
 \import{dt-macros}
-\title{First Steps into Domains}
+\title{Semantics and recursion}
 \taxon{Lecture}
 \author{liamoc}
 \p{This lecture is based on material from [[haskellhutt]], [[danascott]], [[jstoy]], [[cgunter]], and [[gwinskel]].}

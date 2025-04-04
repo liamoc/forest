@@ -6,4 +6,15 @@
 	\li{ #{\llbracket \mathsf{proc}\ c \rrbracket_\mathcal{E}\ \sigma\ =\ ?}}
 	\li{ #{\llbracket x \rrbracket_\mathcal{C}\ \sigma\ =\ ?}}
 }
+\scope{
+	\put\transclude/toc{false}
+	\put\transclude/numbered{false}
+	\put\transclude/expanded{false}
+	\subtree{
+\taxon{Solution}
+\ol{
+	\li{ #{\llbracket \mathsf{proc}\ c \rrbracket_\mathcal{E}\ \sigma\ =\ \llbracket c \rrbracket_\cal{C}}}
+		\li{ #{\llbracket x \rrbracket_\mathcal{C}\ \sigma\ =\ \sigma(x)(\sigma)}}
+	}
 }
+}}

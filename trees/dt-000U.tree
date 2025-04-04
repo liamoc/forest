@@ -1,9 +1,10 @@
 \import{dt-macros}
-\title{Fixed Points}
+\title{Fixed points}
 \author{liamoc}
 \transclude{dt-000R}
 \transclude{dt-000S}
-\transclude{dt-000Q}
 \transclude{dt-000T}
 \transclude{dt-000Y}
 \transclude{dt-000Z}
+\transclude{dt-0016}
+\transclude{dt-001E}

@@ -1,0 +1,3 @@
+\taxon{Corollary}
+\author{liamoc}
+\p{From \ref{dt-0014} we can see that a \em{finite} set #{S} is [directed](dt-0010) iff it has a \em{top} element #{\top}, i.e. #{\forall x \in S.\ x \sqsubseteq \top}.}

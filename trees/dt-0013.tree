@@ -1,5 +1,5 @@
 \taxon{Definition}
-\title{Consistent subsets}
+\title{Consistent subset}
 \p{
 	A subset #{Y \subseteq X} of a [poset](dm-0004) #{X} is \em{consistent} iff
 	##{\exists x \in X.\ \forall y \in Y.\ y \sqsubseteq x}

@@ -1,0 +1,6 @@
+\taxon{Theorem}
+\title{Pointedness via lubs}
+\author{liamoc}
+\p{
+  A [poset](dm-0004) #{Y} is [pointed](dt-000G) iff #{\bigsqcup \emptyset} exists, as the [lub](dt-0017) of an empty set is just the [bottom element](dt-000A) in the [poset](dm-0004), i.e. #{\bigsqcup \emptyset = \bot}.
+}

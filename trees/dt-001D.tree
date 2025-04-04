@@ -1,0 +1,9 @@
+\taxon{Definition}
+\author{liamoc}
+\title{Complete partial order}
+\p{A \em{complete partial order} or \em{cpo} (more specifically a \em{directed complete partial order} or \em{dcpo}) is a [poset](dm-0004) where [lubs](dt-0017) exist for the empty set and for all [directed](dt-0010) subsets. That is, a \em{cpo} is a [poset](dm-0004) #{A} such that:
+\ol{
+  \li{#{A} has a [bottom element](dt-000A) #{\bot \in A}, that is the [lub of the empty set](dt-0019), and}
+  \li{#{\bigsqcup X} exists for all [directed](dt-0010) #{X \subseteq A}.}
+}
+}  

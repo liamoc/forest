@@ -1,0 +1,4 @@
+\title{Commutativity}
+\author{liamoc}
+\taxon{Definition}
+\p{ A binary operator #{\bullet} is \em{commutative} iff, for all #{x} and #{y}, #{x \bullet y = y \bullet x}.}

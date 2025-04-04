@@ -1,0 +1,4 @@
+\title{Idempotence (of binary operators)}
+\author{liamoc}
+\taxon{Definition}
+\p{ A binary operator #{\bullet} is \em{idempotent} iff, for all #{x}, #{x \bullet x = x}.}

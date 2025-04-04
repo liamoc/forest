@@ -8,7 +8,7 @@ Suppose we extended [the \cal{C} language](dt-0000) with a while loop construct:
 }
 The intuitive way to assign a semantics would be to use a \em{recursive function}:
 ##{
-\llbracket \mathsf{while}\ b\ \mathsf{do}\ c\ \mathsf{od} \rrbracket_\mathcal{C}\ \sigma\; = \; \begin{cases}  \llbracket \mathsf{while}\ b\ \mathsf{do}\ c\ \mathsf{od} \rrbracket_\mathcal{C}\ (\llbracket c \rrbracket_\mathcal{C}\ \sigma) & \text{if}\ \llbracket b \rrbracket_\mathcal{B}\ \sigma = T \\
+\llbracket \mathsf{while}\ b\ \mathsf{do}\ c\ \mathsf{od} \rrbracket_\mathcal{C}\ \sigma\; = \; \begin{cases}  \llbracket \mathsf{while}\ b\ \mathsf{do}\ c\ \mathsf{od} \rrbracket_\mathcal{C}\ (\llbracket c \rrbracket_\mathcal{C}\ \sigma) & \text{if}\ \llbracket b \rrbracket_\mathcal{B}\ \sigma = \True \\
   	     \sigma & \text{otherwise}
  \end{cases}
 }

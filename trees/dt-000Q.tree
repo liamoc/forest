@@ -2,6 +2,23 @@
 \taxon{Exercise}
 \author{liamoc}
 \ol{
-\li{Give an example of a [poset](dm-0004) #{A} and a [monotonic](dt-000J) function #{f : A \rightarrow A} such that #{f} \em{doesn't} have a [fixed point](dt-000S).}
+\li{Give an example of a [poset](dm-0004) #{A} and a [monotonic](dt-000J) function #{f : A \rightarrow A} such that #{f} \em{doesn't} have a [fixed point](dt-000S).
+\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
+\put\transclude/expanded{false}
+\subtree{
+  \taxon{Solution}
+  \p{In the poset #{(\mathbb{N},\leq)}, the function #{f(x) = x + 1} has no fixed points.}
+}}
+}
 \li{Give an example of a [poset](dm-0004) #{A} and a  [monotonic](dt-000J) function #{f : A \rightarrow A} such that #{f} has \em{multiple} [fixed point](dt-000S)s.}
+\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
+\put\transclude/expanded{false}
+\subtree{
+  \taxon{Solution}
+  \p{In the poset #{(\mathbb{N},\leq)}, the function #{f(x) = x} has infinitely many fixed points.}
+}}
 }

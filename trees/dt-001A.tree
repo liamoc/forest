@@ -1,0 +1,2 @@
+\title{Information intuition}
+\p{When the [poset](dm-0004) #{Y} from \ref{dt-0017} is ordered by our [information ordering](dt-000B), the intuition of the [lub](dt-0017) #{\bigsqcup X} is that it combines all of the information content of all the elements of #{X} but it does \em{not} add any additional information (hence \em{least}).}

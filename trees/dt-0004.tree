@@ -28,14 +28,14 @@ Here, #{\Sigma} represents the set of \em{states}, which contains the values ass
 and #{\llbracket\cdot\rrbracket_\mathcal{B} : \mathcal{B} \rightarrow \mathbf{B}}:
 ##{
 \begin{array}{lcl}
-	\llbracket \mathsf{false} \rrbracket_\mathcal{B}\ \sigma & = & F \\
-	\llbracket \mathsf{true} \rrbracket_\mathcal{B}\ \sigma & = & T \\
-	\llbracket \neg b \rrbracket_\mathcal{B}\ \sigma & = & \begin{cases}F & \text{if}\ \llbracket b \rrbracket_\mathcal{B}\ \sigma = T \\
-  			T & \text{otherwise}
+	\llbracket \mathsf{false} \rrbracket_\mathcal{B}\ \sigma & = & \False \\
+	\llbracket \mathsf{true} \rrbracket_\mathcal{B}\ \sigma & = & \True \\
+	\llbracket \neg b \rrbracket_\mathcal{B}\ \sigma & = & \begin{cases}\False & \text{if}\ \llbracket b \rrbracket_\mathcal{B}\ \sigma = \True \\
+  			\True & \text{otherwise}
  \end{cases}
 \\[1.1em]
-	\llbracket e_1 = e_2 \rrbracket_\mathcal{B}\ \sigma & = & \begin{cases}T & \text{if}\ \llbracket e_1 \rrbracket_\mathcal{E}\ \sigma = \llbracket e_2 \rrbracket_\mathcal{E}\ \sigma \\
-  			F & \text{otherwise}
+	\llbracket e_1 = e_2 \rrbracket_\mathcal{B}\ \sigma & = & \begin{cases}\True & \text{if}\ \llbracket e_1 \rrbracket_\mathcal{E}\ \sigma = \llbracket e_2 \rrbracket_\mathcal{E}\ \sigma \\
+  			\False & \text{otherwise}
  \end{cases}
  \end{array}
 }
@@ -45,7 +45,7 @@ and #{\llbracket\cdot\rrbracket_\mathcal{C} : \mathcal{C} \rightarrow \mathbf{C}
 	\llbracket \mathsf{skip} \rrbracket_\mathcal{C}\ \sigma & = & \sigma \\
 	\llbracket x := e \rrbracket_\mathcal{C}\ \sigma & = & \sigma\left(x \mapsto \llbracket e \rrbracket_\mathcal{E}\right) \\
 	\llbracket c_1 ; c_2 \rrbracket_\mathcal{C}\ \sigma & = & \llbracket c_2 \rrbracket_\mathcal{C}\ \left(\llbracket c_1 \rrbracket_\mathcal{C}\ \sigma\right) \\[0.3em]
-	\llbracket \textsf{if}\ b\ \textsf{then}\ c_1\ \textsf{else}\ c_2 \rrbracket_\mathcal{C}\ \sigma & = & \begin{cases}\llbracket c_1 \rrbracket_\mathcal{C}\ \sigma & \text{if}\ \llbracket b \rrbracket_\mathcal{B}\ \sigma = T \\
+	\llbracket \textsf{if}\ b\ \textsf{then}\ c_1\ \textsf{else}\ c_2 \rrbracket_\mathcal{C}\ \sigma & = & \begin{cases}\llbracket c_1 \rrbracket_\mathcal{C}\ \sigma & \text{if}\ \llbracket b \rrbracket_\mathcal{B}\ \sigma = \True \\
   			\llbracket c_2 \rrbracket_\mathcal{C}\ \sigma & \text{otherwise}
  \end{cases}
  \end{array}

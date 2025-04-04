@@ -1,0 +1,7 @@
+\import{dt-macros}
+\taxon{Corollary}
+\title{Properties of #{\sqcup}}
+\author{liamoc}
+\p{
+  When [lubs](dt-0017) exist, the binary #{\sqcup} operator is [idempotent](dm-000D), [commutative](dm-000E), and [associative](dm-000F). Also, we have that #{x \sqsubseteq y} iff #{x \sqcup y = y}.
+}

@@ -1,0 +1,4 @@
+\title{Associativity}
+\author{liamoc}
+\taxon{Definition}
+\p{ A binary operator #{\bullet} is \em{associative} iff, for all #{x}, #{y} and #{z}, #{x \bullet (y \bullet z) = (x \bullet y) \bullet z}. That is, the grouping with parentheses doesn't matter.}

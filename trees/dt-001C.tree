@@ -1,0 +1,11 @@
+\import{dt-macros}
+\taxon{Exercise}
+\p{ What is the [lub](dt-0017) operator on subsets #{X \subseteq \nat} of the [poset](dm-0004) #{(\nat,\leq)}?}
+\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
+\put\transclude/expanded{false}
+\subtree{
+  \taxon{Solution}
+  \p{The [lub](dt-0017) operator is \em{maximum}.}
+}}

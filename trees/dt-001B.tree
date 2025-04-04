@@ -1,0 +1,8 @@
+\import{dt-macros}
+\taxon{Example}
+\title{[Lubs](dt-0017) in [the domain #{\bools_\bot \times \bools_\bot}](dt-000F)}
+\ul{
+  \li{ #{(\bot, \False) \sqcup (\True,\bot) = (\True,\False)} }
+  \li{ #{(\bot, \False) \sqcup (\bot,\bot) = (\bot,\False)} }
+  \li{ #{(\bot, \False) \sqcup (\True, \True)} does not exist.}
+}

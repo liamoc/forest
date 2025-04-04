@@ -5,7 +5,7 @@
 Consider our recursive \syn{while} loop semantics from \ref{dt-0006}:
 
 ##{
-\llbracket \mathsf{while}\ b\ \mathsf{do}\ c\ \mathsf{od} \rrbracket_\mathcal{C}\ \sigma\; = \; \begin{cases}  \llbracket \mathsf{while}\ b\ \mathsf{do}\ c\ \mathsf{od} \rrbracket_\mathcal{C}\ (\llbracket c \rrbracket_\mathcal{C}\ \sigma) & \text{if}\ \llbracket b \rrbracket_\mathcal{B}\ \sigma = T \\
+\llbracket \mathsf{while}\ b\ \mathsf{do}\ c\ \mathsf{od} \rrbracket_\mathcal{C}\ \sigma\; = \; \begin{cases}  \llbracket \mathsf{while}\ b\ \mathsf{do}\ c\ \mathsf{od} \rrbracket_\mathcal{C}\ (\llbracket c \rrbracket_\mathcal{C}\ \sigma) & \text{if}\ \llbracket b \rrbracket_\mathcal{B}\ \sigma = \True \\
   	     \sigma & \text{otherwise}
  \end{cases}
 }
@@ -13,7 +13,7 @@ How do we ensure that solutions exist for such recursive equations? And, if mult
 ##{
 \begin{array}{l}
 \llbracket \mathsf{while}\ b\ \mathsf{do}\ c\ \mathsf{od} \rrbracket_\mathcal{C} = f(\llbracket \mathsf{while}\ b\ \mathsf{do}\ c\ \mathsf{od} \rrbracket_\mathcal{C}) \\[0.5em]
-\qquad \text{where}\; f(X)\ \sigma\; \triangleq \; \begin{cases}  X\ (\llbracket c \rrbracket_\mathcal{C}\ \sigma) & \text{if}\ \llbracket b \rrbracket_\mathcal{B}\ \sigma = T \\
+\qquad \text{where}\; f(X)\ \sigma\; \triangleq \; \begin{cases}  X\ (\llbracket c \rrbracket_\mathcal{C}\ \sigma) & \text{if}\ \llbracket b \rrbracket_\mathcal{B}\ \sigma = \True \\
   	     \sigma & \text{otherwise}
  \end{cases}
 \end{array}

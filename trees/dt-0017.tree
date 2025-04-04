@@ -1,0 +1,11 @@
+\import{dt-macros}
+\taxon{Definition}
+\title{Least upper bound}
+\author{liamoc}
+\p{Let #{X \subseteq Y} be a subset of a [poset](dm-0004) #{Y}. An element #{y \in Y} is a \em{least upper bound} (or \em{lub}) for #{X} iff:
+\ol{
+  \li{ It is an [upper bound](dm-000C): #{\forall x \in X.\ x \sqsubseteq y}}
+  \li{ It is less than any other [upper bound](dm-000C): #{\forall y' \in Y.\ (\forall x \in X. x \sqsubseteq y') \Rightarrow y \sqsubseteq y'}}
+}
+It follows that lubs are unique if they exist. We write the lub of a set #{X} as #{\bigsqcup X}, and usually write #{x \sqcup y} as a shorthand for #{\bigsqcup \Set{x,y}}.
+}

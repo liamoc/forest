@@ -1,10 +1,10 @@
 \import{dt-macros}
-\title{Monotonic Functions}
+\title{Monotonic functions}
 \author{liamoc}
 \p{If we model our semantic domains for values with [pointed poset](dt-000G)s, then programs are modelled by functions between such [poset](dm-0004)s. But, not all functions are suitable:}
 \transclude{dt-000I}
 \p{It stands to reason that the amount of information we get out of our functions should grow as we increase the amount of information we put into them.
-Such functions are called \em{monotonic} with respect to our information ordering.}
+Such functions are called \em{monotonic} with respect to our [information ordering](dt-000B).}
 \transclude{dt-000J}
 \transclude{dt-000K}
 \scope{

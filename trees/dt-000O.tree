@@ -45,5 +45,24 @@
 }
 \ol{
 	\li{ Write down the monotonic functions #{\mathbf{K}_3 \rightarrow \mathbf{K}_3}.}
+	\scope{
+	\put\transclude/toc{false}
+	\put\transclude/numbered{false}
+	\put\transclude/expanded{false}
+	\subtree{
+    \taxon{Solution}
+    \p{When drawn as a diagram like the above, the monotonic functions are all those whose lines do not cross.}
+  }}
 	\li{ Write a simple recursive program to calculate the number of monotonic functions #{\mathbf{K}_n \rightarrow \mathbf{K}_m}.}
+	\scope{
+	\put\transclude/toc{false}
+	\put\transclude/numbered{false}
+	\put\transclude/expanded{false}
+	\subtree{
+	  \taxon{Solution}
+\p{In Haskell:}
+    \pre{monotonics :: Int -> Int -> Int
+monotonics n 1 = 1
+monotonics n m = sum [monotonics (n-x) (m-1) | x <- [0..n]]}
+}}
 }
