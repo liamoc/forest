@@ -1,0 +1,9 @@
+\import{dt-macros}
+\taxon{Remark}
+\title{[Lubs](dt-0017) of chains}
+\p{The \em{limit} of the [ascending Kleene chain](dt-000X) of a [monotonic](dt-000J) function #{f : X \rightarrow X} is the same as the [least upper bound](dt-0017) of the set #{\Set{ f^n(\bot) \mid n \in \nat}} (where #{f^n} is the #{n}-fold self-composition of the function #{f}). If we require that our semantic domain #{X} is a [cpo](dt-001D), we know that this limit exists. 
+\scope{
+  \put\transclude/toc{false}
+  \put\transclude/numbered{false}
+\subtree{\taxon{Thesis}
+\p{Our semantic domains are [cpos](dt-001D), ensuring the presence of these limits.}}}}

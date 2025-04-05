@@ -1,0 +1,15 @@
+\import{dt-macros}
+\taxon{Theorem}
+\author{liamoc}
+\title{Alternative definition of continuity}
+\p{A function #{f : A \rightarrow B} on [cpos](dt-001D) #{A} and #{B} is [continuous](dt-001J) iff:
+\ol{
+	\li{#{f} is [monotonic](dt-000J), and}
+	\li{#{f(\bigsqcup X) = \bigsqcup \{ f(x) \mid x \in X \}}, for all [directed](dt-0010) #{X \subseteq A}}
+}
+\scope{
+  \put\transclude/toc{false}
+  \put\transclude/numbered{false}
+\subtree{\taxon{Proof}
+\p{The second condition here is identical to that of \ref{dt-001J}. The [monotonicity](dt-000J) requirement is equivalent to the first condition of \ref{dt-001J}, with one direction shown by \ref{dt-001L}, and the other shown by the solution of \ref{dt-001N}. }}}
+}

@@ -1,0 +1,17 @@
+\import{dt-macros}
+\title{Continuity and Fixed Points}
+\p{By choosing a [cpo](dt-001D) for our semantic domain, we can ensure that the [Kleene chain](dt-000X) has a limit. However, it is not guaranteed that the limit we find will be a [fixed point](dt-000S) to our [monotonic](dt-000J) function #{f}.}
+\transclude{dt-001K}
+\p{
+To address this problem, we shall strengthen our requirement on functions from mere [monotonicity](dt-000J) to \em{continuity}.}
+\transclude{dt-001J}
+\transclude{dt-001L}
+\transclude{dt-001M}
+\transclude{dt-001N}
+\transclude{dt-001O}
+\scope{
+  \put\transclude/toc{false}
+  \put\transclude/numbered{false}
+\subtree{\taxon{Thesis}
+\p{Computable functions are [continuous](dt-001J) functions on [cpos](dt-001D).}
+}}

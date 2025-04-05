@@ -1,0 +1,11 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Exercise}
+\p{Show that if a function on [cpos](dt-001D) #{f : A \rightarrow B} is [monotonic](dt-000J), then #{\bigsqcup \Set{ f(x) \mid x \in X }}  exists for any [directed](dt-0010) #{X \subseteq A} (i.e.the first condition for [continuity](dt-001J) in \ref{dt-001J}).}
+\p{\strong{Hint}: It suffices to show that #{\Set{ f(x) \mid x \in X } \subseteq B} is [directed](dt-0010).}
+\scope{
+  \put\transclude/toc{false}
+  \put\transclude/numbered{false}
+  \put\transclude/expanded{false}
+\subtree{\taxon{Solution}
+\p{Because #{B} is a [cpo](dt-001D), it suffices to show that #{\Set{ f(x) \mid x \in X } \subseteq B} is [directed](dt-0010). Let #{a,b \in \Set{ f(x) \mid x \in X }}. Let #{x_a, x_b \in X} be the values that #{f} maps to #{a} and #{b} respectively, i.e. #{f(x_a) = a} and #{f(x_b) = b}. Because #{X} is [directed](dt-0010), an [upper bound](dm-000C) of #{x_a} and #{x_b} exists in #{X}. Call this [upper bound](dm-000C) #{x_c}. Because #{x_a \sqsubseteq x_c} and #{x_b \sqsubseteq x_c}, we know that #{f(x_a) = a \sqsubseteq f(x_c)} and #{f(x_b) = b \sqsubseteq f(x_c)} by [monotonicity](dt-000J) of #{f}. Also, #{f(x_c) \in \Set{ f(x) \mid x \in X }} because #{x_c \in X}. Therefore, because two arbitrary elements in #{\Set{ f(x) \mid x \in X }} have an [upper bound](dm-000C) within the set, the set #{\Set{ f(x) \mid x \in X }} is [directed](dt-0010).     }}}

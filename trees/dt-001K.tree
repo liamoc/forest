@@ -1,0 +1,20 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Problem}
+\title{Monotonicity is insufficient}
+\p{Consider this [monotonic](dt-000J) function #{g} defined over a [cpo](dt-001D) #{(\mathbb{R} \cup \{\infty,-\infty\}, \leq)}:
+##{g(x) = \begin{cases}
+				\tan^{-1} x & \text{if}\ x < 0\\
+				1 & \text{otherwise}
+			  \end{cases}
+ }
+ Note this function is not continuous at 0. Starting from our [#{\bot} element](dt-000A) #{-\infty}, we can see that the limit of the [ascending Kleene chain](dt-000X) is #{0}:
+ ##{
+ \begin{array}{lcl}
+ g(-\infty) & = & -\frac{\pi}{2}\\
+ g(-\frac{\pi}{2}) & = & -1\\
+ g(-1) & \approx & -0.78\\	
+ \end{array}
+ }
+ But #{g(0) = 1}! — the [lub](dt-0017) of the [Kleene chain](dt-000X) is \em{not} a [fixed point](dt-000S)! 
+}

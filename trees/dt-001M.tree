@@ -1,0 +1,12 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Example}
+\title{[Monotonic](dt-000J) but not [continuous](dt-001J)}
+\p{Consider this function from #{\mathbb{N} \cup \Set{\infty} \rightarrow \Set{\top,\bot}}, defined by:
+	##{f(x) = \begin{cases}
+					\bot & \text{if}\ x \in \mathbb{N}\\
+					\top & \text{otherwise}
+				  \end{cases}
+	}
+	This function is [monotonic](dt-000J), but, taking #{X = \mathbb{N}} (which is a [directed](dt-0010) subset of the [cpo](dt-001D) #{\mathbb{N} \cup \{\infty\}}), then #{f(\bigsqcup \mathbb{N}) = f(\infty) = \top}, but #{\bigsqcup \{ f(n) \mid n \in \mathbb{N} \} = \bigsqcup \{ \bot \} = \bot}. Thus, this function is not [continuous](dt-001J).
+}

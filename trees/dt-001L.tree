@@ -1,0 +1,11 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Theorem}
+\title{Continuity implies monotonicity}
+\p{All [continuous](dt-001J) functions are [monotonic](dt-000J).
+\scope{
+  \put\transclude/toc{false}
+  \put\transclude/numbered{false}
+\subtree{\taxon{Proof}
+\p{Consider two elements #{x, y} of a [cpo](dt-001D) where #{x \sqsubseteq y}. Then #{\Set{x,y}} is [directed](dt-0010) with a [lub](dt-0017) of #{y}. By the second condition in \ref{dt-001J}, we get #{f(y) = f(x) \sqcup f(y)} which is equivalent to #{f(x) \sqsubseteq f(y)}.}
+}}}

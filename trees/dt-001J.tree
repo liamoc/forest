@@ -1,0 +1,11 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{Continuity}
+\p{A function #{f : A \rightarrow B} on [cpos](dt-001D) #{A} and #{B} is \em{continuous} iff for all [directed](dt-0010) #{X \subseteq A},
+\ol{
+	\li{#{\bigsqcup \{ f(x) \mid x \in X \}} exists, and}
+	\li{#{f(\bigsqcup X) = \bigsqcup \{ f(x) \mid x \in X \}}, i.e., #{f} preserves [lubs](dt-0017).}
+}
+The intuition behind continuity is that "nothing is suddenly invented at infinity": our function will behave analogously at the limit as it does for each element in our [chain](dt-000V).
+}
