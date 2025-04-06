@@ -6,5 +6,9 @@
 \put\transclude/heading{false}
 \transclude{liamoc}
 \put\transclude/heading{true}
+\transclude{loc-000E}
+\subtree{\title{Lecture notes}
+\p{[[dt-001Y]]}
+}
 \transclude{news}
 }

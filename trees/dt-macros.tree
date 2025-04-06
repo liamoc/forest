@@ -9,3 +9,6 @@
 \def\Set[body]{#{\{\body\}}}
 \def\fixop{#{\textbf{fix}}}
 \def\acr[distance]{\\[\distance]}
+\def\lsquare{\startverb[\stopverb}
+\def\rparen{\startverb)\stopverb}
+\def\op-cl-int[x][y]{\lsquare\x,\y\rparen}

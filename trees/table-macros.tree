@@ -19,3 +19,4 @@
 \def\hr{
   \<html:hr>{}
 }
+\def\kbd[body]{\<html:kbd>{\body}}

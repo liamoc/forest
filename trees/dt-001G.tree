@@ -8,6 +8,7 @@
   \li{ #{(\nat,\leq)}}
   \li{ #{(\nat \cup \Set{\infty}, \leq)}}
   \li{ #{ ([0,1] \subseteq \mathbb{R}, \leq)}}
+  \li{ #{ (\op-cl-int{0}{1} \subseteq \mathbb{R}, \leq)}}
   \li{ #{ (\mathbb{Q}, \leq)}}
   \li{ A [flat domain](dt-0008) #{S_\bot} for some set #{S}.}          
 }
@@ -22,7 +23,8 @@
 \li{ #{(\cal{P}(S), \subseteq)} is a [cpo](dt-001D) as the [lub](dt-0017) is just the union. }
 \li{ #{(\nat,\leq)} is \em{not} a [cpo](dt-001D), as the [#{\omega}-chain](dt-000W) #{1 \leq 2 \leq 3 \leq \cdots} has no [lub](dt-0017).}
 \li{ #{(\nat \cup \Set{\infty}, \leq)} is a [cpo](dt-001D), as #{\infty} is the [lub](dt-0017) of any non-repeating [chain](dt-000V).  }
-\li{ #{ ([0,1] \subseteq \mathbb{R}, \leq)} is a [cpo](dt-001D) with maximum as the [lub](dt-0017), but the open range (excluding 1) is not.}
+\li{ #{ ([0,1] \subseteq \mathbb{R}, \leq)} is a [cpo](dt-001D) with maximum as the [lub](dt-0017).}
+\li{#{ (\op-cl-int{0}{1} \subseteq \mathbb{R}, \leq)} is \em{not} a [cpo](dt-001D), as the set #{\Set{0.9,0.99,0.999,\dots}} has a [lub](dt-0017) of #{1 \notin \op-cl-int{0}{1}}.}
 \li{ #{ (\mathbb{Q}, \leq)} is \em{not} a [cpo](dt-001D), and not just because it lacks a [lub](dt-0017) for #{\mathbb{Q}} itself, but also it doesn't contain #{\sqrt{2}}, which can be expressed as the [lub](dt-0017) of an infinite sequence of rational approximations. }
 \li{ A [flat domain](dt-0008) #{S_\bot} for some set #{S} is a [cpo](dt-001D), as the largest [chains](dt-000V) have two elements, and we always pick the non-#{\bot} one as the [lub](dt-0017). }    
   }

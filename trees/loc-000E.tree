@@ -1,3 +1,4 @@
-\date{2025-03-28}
-\tag{news}
-\title{Testing!}
+\import{table-macros}
+\author{liamoc}
+\title{About this website}
+\p{This website is a "forest" created using the [Forester tool](https://www.forester-notes.org), a system of evergreen hypertext notes developed by, among others, [[jonsterling]] and [[kentookura]].  To search my forest, press \kbd{Ctrl}+\kbd{K}.}
