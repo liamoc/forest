@@ -7,3 +7,5 @@
 \def\True{#{\mathit{T}}}
 \def\False{#{\mathit{F}}}
 \def\Set[body]{#{\{\body\}}}
+\def\fixop{#{\textbf{fix}}}
+\def\acr[distance]{\\[\distance]}

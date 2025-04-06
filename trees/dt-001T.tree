@@ -1,0 +1,25 @@
+\import{dt-macros}
+\taxon{Exercise}
+\author{liamoc}
+\ol{
+\li{Write down the first few approximations #{\Phi^m(\bot)} to #{\fixop(\Phi)}, where the higher order function #{\Phi : (\mathbb{Z}_\bot \rightarrow [\mathbb{Z}_\bot]) \rightarrow (\mathbb{Z}_\bot \rightarrow [\mathbb{Z}_\bot])} is given by:
+##{\Phi(f) = \lambda n.\ n :: f (n+1)}
+What is #{\Phi^m(\bot)}? What is #{\fixop(\Phi)}?}
+		\scope{
+   \put\transclude/toc{false}
+   \put\transclude/numbered{false}
+   \put\transclude/expanded{false}
+ \subtree{\taxon{Solution}
+ \p{The approximations are #{\Set{ \lambda n.\ \bot,  \lambda n.\ n :: \bot, \lambda n.\ n :: (n + 1) :: \bot, \dots }}. The limit is a function that, given a natural number #{n}, produces the infinite list of natural numbers starting from #{n}.}
+ }}
+\li{Repeat the same process, but this time for a new higher order function  #{\Phi : (\mathbb{Z}_\bot \rightarrow \mathbb{Z}_\bot) \rightarrow (\mathbb{Z}_\bot \rightarrow \mathbb{Z}_\bot)} given by:
+##{\Phi(f) = \lambda n.\ \text{if}\ n = 0\ \text{then}\ 0\ \text{else}\ f(n-2)}}
+	\scope{
+   \put\transclude/toc{false}
+   \put\transclude/numbered{false}
+   \put\transclude/expanded{false}
+ \subtree{\taxon{Solution}
+\p{The #{n}th approximation returns #{0} if the input number 
+is non-negative, even and less than #{2n}, otherwise it diverges (returns #{\bot}). The limit returns #{0} for any non-negative even number, and diverges otherwise. }
+ }}
+}

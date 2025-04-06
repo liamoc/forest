@@ -1,0 +1,40 @@
+\import{dt-macros}
+\taxon{Exercise}
+\author{liamoc}
+\ol{
+\li{Show that if #{A} and #{B} are [posets](dm-0004) and #{X \subseteq A \times B} is [directed](dt-0010) (by the ordering in \ref{dt-000E}), then the subsets #{\pi_0(X) \subseteq A} and #{\pi_1(X) \subseteq B} (defined below) are also [directed](dt-0010).
+ ##{ \begin{array}{lcl}
+		 \pi_0(X) & = & \{ a \in A \mid \exists b \in B.\ (a,b) \in X \}\\
+		  \pi_1(X) & = & \{ b \in B \mid \exists a \in A.\ (a,b) \in X \}\\
+ \end{array}
+ }
+\scope{
+   \put\transclude/toc{false}
+   \put\transclude/numbered{false}
+   \put\transclude/expanded{false}
+ \subtree{\taxon{Solution}
+ \p{Given two elements #{x,y \in \pi_0(X)}, we know that there exists #{b_x, b_y \in B} such that #{(x,b_x) \in X} and #{(y,b_y) \in X}. Because #{X} is [directed](dt-0010), we can conclude that there exists an [upper bound](dm-000C) #{(z, b_z) \in X} where #{x \sqsubseteq z} and #{y \sqsubseteq z}. As #{z \in \pi_0(X)}, #{z} is an [upper bound](dm-000C) in #{\pi_0(X)} for both #{x} and #{y} and thus #{\pi_0(X)} is [directed](dt-0010). The proof for #{\pi_1} is analogous.
+ }
+ }}
+}
+\li{ Give an example of a set #{X \subseteq \{\top,\bot\}\times\{\top,\bot\}} such that #{\pi_0(X)} and #{\pi_1(X)} are [directed](dt-0010), but #{X} is not.
+\scope{
+  \put\transclude/toc{false}
+  \put\transclude/numbered{false}
+  \put\transclude/expanded{false}
+\subtree{\taxon{Solution}
+\p{#{X = \Set{(\top,\bot), (\bot,\top)}} is not directed as the two elements are not comparable, but #{\pi_0(X) = \pi_1(X) = \Set{\top,\bot}} which is directed as #{\bot \sqsubseteq \top}.}
+}}
+}
+\li{ Show that if #{A} and #{B} are [cpos](dt-001D) and #{X \subseteq A \times B} is [directed](dt-0010), then ##{\bigsqcup X = \left(\bigsqcup \pi_0(X), \bigsqcup\pi_1(X)\right)}
+\strong{Note}: Together with #{\bot_{A\times B} = (\bot_A, \bot_B)} this shows that the [Cartesian product](dm-0005) of two [cpos](dt-001D) is itself a [cpo](dt-001D).}
+\scope{
+   \put\transclude/toc{false}
+   \put\transclude/numbered{false}
+   \put\transclude/expanded{false}
+ \subtree{\taxon{Solution}
+ \p{
+ Let #{(x,y) = \left(\bigsqcup \pi_0(X), \bigsqcup\pi_1(X)\right)}. Because of the ordering in \ref{dt-000E}, #{(x,y)} is certainly \em{a} [upper bound](dm-000C) of the directed set #{X}. To show it is the \em{least} [upper bound](dm-000C), assume for the sake of contradiction that #{(x,y)} is \em{not} the [least upper bound](dt-0017) of #{X}. Then, there must be a #{(v,w)\sqsubset (x,y)} such that #{\forall x \in X.\ x \sqsubseteq (v,w)}. But then, #{v} would be a lesser [upper bound](dm-000C) for #{\pi_0(X)} than #{x}, which is supposed to be the [lub](dt-0017). Thus there is a contradiction, and #{(x,y)} must be the [lub](dt-0017) of #{X}.
+ }
+ }}
+}

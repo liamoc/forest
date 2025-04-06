@@ -1,0 +1,13 @@
+\import{dt-macros}
+\title{Semantics of loops}
+\author{liamoc}
+\p{Armed with [the \fixop operator](dt-001Q), we can return to our semantics of #{\mathsf{while}} loops from \ref{dt-0006} and \ref{dt-000R}, and at last define their semantics without relying on dubious recursive definitions:
+##{
+\begin{array}{l}
+\llbracket \mathsf{while}\ b\ \mathsf{do}\ c\ \mathsf{od} \rrbracket_\mathcal{C} = \fixop(f)\acr{0.5em}
+\qquad \text{where}\; f(X)\ \sigma\; \triangleq \; \begin{cases}  X\ (\llbracket c \rrbracket_\mathcal{C}\ \sigma) & \text{if}\ \llbracket b \rrbracket_\mathcal{B}\ \sigma = \True \\ 
+		   \sigma & \text{otherwise}
+ \end{cases} 
+\end{array}
+}}
+\p{Proof that #{f} is [continuous](dt-001J) is technically required but is omitted here.}

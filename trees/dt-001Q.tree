@@ -1,0 +1,5 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{The \fixop operator}
+\p{Let #{\fixop(f)} denote the least [fixed point](dt-000S) of the [continuous function](dt-001J) #{f}, that is #{\bigsqcup_{n\in \mathbb{N}}f^{n}(\bot)}, guaranteed to exist by \ref{dt-001P}.}

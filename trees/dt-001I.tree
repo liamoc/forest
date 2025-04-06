@@ -15,3 +15,7 @@ To address this problem, we shall strengthen our requirement on functions from m
 \subtree{\taxon{Thesis}
 \p{Computable functions are [continuous](dt-001J) functions on [cpos](dt-001D).}
 }}
+\transclude{dt-001W}
+\transclude{dt-001P}
+\transclude{dt-001Q}
+\transclude{dt-001S}

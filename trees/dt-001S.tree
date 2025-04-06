@@ -1,0 +1,31 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Exercise}
+\ol{
+	\li{What is #{\fixop(\mathsf{id})} where #{\mathsf{id}} is the identity function on #{\mathbb{B}_\bot}?
+	\scope{
+	  \put\transclude/toc{false}
+	  \put\transclude/numbered{false}
+	  \put\transclude/expanded{false}
+	\subtree{\taxon{Solution} ##{\bigsqcup \Set{ \bot, \mathsf{id}(\bot), \mathsf{id}(\mathsf{id}(\bot)), \dots } = \bot}}}
+	 }
+	\li{What is #{\fixop(\kappa_\False)} where #{\kappa_\False} is the constant function that always returns #{\False}?
+	 \scope{
+	   \put\transclude/toc{false}
+	   \put\transclude/numbered{false}
+	   \put\transclude/expanded{false}
+	 \subtree{\taxon{Solution} ##{\bigsqcup \{ \bot, \kappa_F(\bot), \kappa_F(\kappa_F(\bot)), \dots \} = \False}}}}
+	\li{What is #{\fixop(f)} where 
+		##{\begin{array}{l}
+		f : [\mathbb{N}_\bot] \rightarrow [\mathbb{N}_\bot]\\
+		f(x) = 1::x	
+		\end{array}}
+		(where #{[\mathbb{N}_\bot]} denotes Haskell-style lazy lists of #{\mathbb{N}_\bot})?
+		\scope{
+		   \put\transclude/toc{false}
+		   \put\transclude/numbered{false}
+		   \put\transclude/expanded{false}
+		 \subtree{\taxon{Solution}
+\p{##{\bigsqcup \{ \bot, 1::\bot, 1::1::\bot, \dots \} = 1::1::1::\cdots}
+Here  #{\fixop(f)}  would be the semantics of the recursive definition #{\mathsf{ones} = 1 :: \mathsf{ones}}.}}}}
+}

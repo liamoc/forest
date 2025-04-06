@@ -1,0 +1,24 @@
+\import{dt-macros}
+\taxon{Theorem}
+\title{The Kleene fixed point theorem}
+\p{Let #{(S, \sqsubseteq)} be a [cpo](dt-001D) and #{f : S \rightarrow S} be a [continuous](dt-001J) function. Then the [lub](dt-0017) of the [Kleene chain](dt-000X) #{\bigsqcup_{n\in \mathbb{N}}f^{n}(\bot)} is the least [fixed point](dt-000S) of #{f}.}
+\scope{
+  \put\transclude/toc{false}
+  \put\transclude/numbered{false}
+\subtree{\taxon{Proof}
+\p{We apply [continuity](dt-001J) to show that it is a [fixed point](dt-000S):
+	
+	##{\begin{array}{lclr}
+	f(\bigsqcup_{n \in \mathbb{N}} f^n(\bot)	) & = & 
+	\bigsqcup_{n \in \mathbb{N}} f(f^n(\bot)) & 
+	\text{(continuity)} \acr{0.5em}
+		&=& \bigsqcup_{n \in \mathbb{N}} f^{n+1}(\bot)\acr{0.5em}
+		&=& \bigsqcup_{n=1,2\dots}f^{n}(\bot)
+		&\qquad\text{(reindexing)}\acr{0.5em}
+		&=& \bot \sqcup \bigsqcup_{n=1,2\dots}f^{n}(\bot)\acr{0.5em}
+			&=&\bigsqcup_{n\in \mathbb{N}}f^{n}(\bot)\acr{0.5em}
+	\end{array}
+	}
+	To see that it is the \em{least} [fixed point](dt-000S): Let #{y} be a [fixed point](dt-000S) of #{f}. We know that #{\bot \sqsubseteq y} by [definition of #{\bot}](dt-000A). Taking #{f} of both sides, we get #{f(\bot) \sqsubseteq y}. We can continue this inductively and thus we know that, for all #{n \in \mathbb{N}}, #{f^n(\bot) \sqsubseteq y}. Because #{y} is, therefore, an [upper bound](dm-000C) of the [ascending Kleene chain](dt-000X), it must also be at least as large as the [lub](dt-0017) of that [chain](dt-000V).
+}
+}}

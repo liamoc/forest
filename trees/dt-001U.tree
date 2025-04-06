@@ -1,0 +1,16 @@
+\import{dt-macros}
+\title{Semantics of recursive functions}
+\author{liamoc}
+\p{Consider the function #{\Phi \in (\mathbb{N}_\bot \rightarrow \mathbb{N}_\bot) \rightarrow (\mathbb{N}_\bot \rightarrow \mathbb{N}_\bot)}, given by:
+##{\Phi(f) = \lambda n.\ \text{if}\ n = 0\ \text{then}\ 1\ \text{else}\ n\cdot f(n-1)}
+Looking at the first few elements of our [Kleene chain](dt-000X), we get:
+##{
+\begin{array}{lcl}
+	\Phi^0(\bot) & = & \lambda n.\ \bot \quad \text{(i.e. $\bot_{\mathbb{N}_\bot \rightarrow \mathbb{N}_\bot}$)}\\
+	\Phi^1(\bot) & = & \lambda n.\ \text{if}\ n = 0\ \text{then}\ 1\ \text{else}\ \bot\\
+	\Phi^2(\bot) & = & \lambda n.\ \text{if}\ n = 0\ \text{then}\ 1\ \text{else}\ n\cdot(\text{if}\ n - 1 = 0\ \text{then}\ 1\ \text{else}\ \bot)\\
+	\cdots
+\end{array}
+}
+Continuing on, we see that the #{m}th approximation #{\Phi^m(\bot)} to  #{\fixop(\Phi)} is the function that gives #{x!} for all #{x} up to #{m}, and diverges (#{\bot}) for all other arguments. Hence the limit #{\fixop(\Phi)} is the \em{factorial} function on #{\mathbb{N}_\bot}!
+}
