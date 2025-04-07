@@ -3,11 +3,7 @@
 \author{liamoc}
 \p{These lecture notes are based on the material I used to teach the [[typesig-dt]] course at the [[uoe]] in 2024.}
 \transclude{dt-0005}
-\subtree{
-\taxon{Lecture}
-\title{Constructions on cpos and PCF}
-\p{todo}
-}
+\transclude{dt-001Z}
 \subtree{
 \taxon{Lecture}
 \title{Scott Domains}
