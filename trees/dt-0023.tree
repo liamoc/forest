@@ -1,0 +1,30 @@
+\import{dt-macros}
+\import{table-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{The split function}
+\p{
+  \<html:div>[class]{sidefigure}{\tex{\usepackage{string-diagrams}}{
+  \begin{tikzpicture}
+    \node[box, box ports west = 1, box ports east = 2, minimum width=3cm, minimum height=3cm] (A) {};
+    \node[dot] at (A.east.1) {};
+    \node[dot] at (A.east.2) {};
+    \node[dot] at (A.west.1) {};
+    \node[dot] (X) at ([xshift=1cm]A.west.1) {};
+    \node[box,thick] (f) at ([xshift=-1cm]A.east.1) {f};
+    \node[box,thick] (g) at ([xshift=-1cm]A.east.2) {g};
+    \wires[thick]{
+      f = { west = X.north, east=A.east.1},
+      g = { west = X.south, east=A.east.2},
+      X = { west = A.west.1 }
+    }{}
+  \end{tikzpicture}}}
+  Construction of pairs is captured by the \em{split} function: If #{f : A \rightarrow B} and #{g : B \rightarrow C}, then \em{split}, written #{\langle f , g \rangle}, is defined as:
+  
+ 
+  ##{
+  \begin{array}{lr}
+    \langle f , g \rangle : A \rightarrow B \times C\\
+    \langle f , g \rangle\ a = (f(a), g(a))	
+  \end{array}
+  }}

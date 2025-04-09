@@ -1,5 +1,24 @@
+\import{dt-macros}
+\import{table-macros}
 \taxon{Lecture}
 \title{Constructions on [cpos](dt-001D) and PCF}
 \author{liamoc}
 \p{This lecture is based on material from [[haskellhutt]], [[danascott]], [[jstoy]], [[cgunter]], and [[gwinskel]].}
-\p{todo}
+\subtree{
+\title{Products}
+\p{Recall \ref{dt-000E}, which showed that the [product](dm-0005) of two [pointed posets](dt-000G) is itself a [pointed poset](dt-000G).
+
+In \ref{dt-001X} you may also have shown that #{A \times B} is also a [cpo](dt-001D) if #{A} and #{B} are [cpos](dt-001D), with this definition for [lubs](dt-0017):
+##{
+\bigsqcup X \; = \; \left(\bigsqcup \{ x \mid \exists y.\ (x,y) \in X \}, \bigsqcup \{ y \mid \exists x.\ (x,y) \in X \}\right)
+}
+This definition can be made a little more comprehensible by defining it in terms of the two projection operators for pairs:
+}
+\transclude{dt-0020}
+\transclude{dt-0021}
+\transclude{dt-0022}
+\transclude{dt-0023}
+\transclude{dt-0024}
+}
+
+

@@ -1,0 +1,45 @@
+\import{dt-macros}
+\import{table-macros}
+\author{liamoc}
+\taxon{Definition}
+\title{Projection operators for [products](dm-0005)}  
+\p{Destruction of pairs is captured by the two \em{projection} operators, defined as follows:}
+\table{
+  \tr{
+    \td{
+      \tex{\usepackage{string-diagrams}}{
+      \begin{tikzpicture}
+        \node at (-1.5cm,0) {$ $};
+        \node[box, box ports west = 2, box ports east = 2, minimum width=2cm, minimum height=2cm] (A) {};
+        \node[dot] at (A.west.1) {};
+        \node[dot] at (A.east.1) {};
+        \draw[thick] (A.west.1) -- (A.east.1);
+        \draw[thick,-|] (A.west.2) -- ([xshift=-1cm]A.east.2);
+        \node at ([xshift=-1cm,yshift=-0.8cm]A.east.2) {$\pi_1$};
+        \node[dot] at (A.west.2) {};
+      \end{tikzpicture}
+      }
+    }
+    \td{
+      ##{
+      \begin{array}{lcl}
+      \pi_0 : A \times B \rightarrow A & \qquad  & \pi_1 : A \times B \rightarrow B \\
+      \pi_0(x, y) = x & & \pi_1(x, y) = y \\
+      \end{array}
+      }
+    }
+    \td{
+      \tex{\usepackage{string-diagrams}}{
+      \begin{tikzpicture}
+        \node[box, box ports west = 2, box ports east = 2, minimum width=2cm, minimum height=2cm] (B) at (12cm,0) {};
+        \node[dot] at (B.west.1) {};
+        \node[dot] at (B.east.2) {};
+        \draw[thick] (B.west.2) -- (B.east.2);
+        \draw[thick,-|] (B.west.1) -- ([xshift=-1cm]B.east.1);
+        \node at ([xshift=-1cm,yshift=-0.8cm]B.east.2) {$\pi_2$};
+        \node[dot] at (B.west.2) {};
+      \end{tikzpicture}
+      }
+    }
+  }
+}

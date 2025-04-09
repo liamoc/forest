@@ -1,0 +1,13 @@
+\import{dt-macros}
+\import{table-macros}
+\taxon{Construction}
+\author{liamoc}
+\title{Product of [cpos](dt-001D)}
+
+\p{Given [cpos](dt-001D) #{A} and #{B}, the [product](dt-000G) #{A \times B} is itself a [cpo](dt-001D), ordered by 
+##{ (x,y) \sqsubseteq_{X \times Y} (x',y') \quad \text{iff} \quad x \sqsubseteq_X x' \land y \sqsubseteq_Y y' }
+with bottom value #{\bot_{X \times Y}} being #{(\bot_A, \bot_B)}. [Least upper bounds](dt-0017) are found by taking the [lubs](dt-0017) of each component:}
+
+##{
+  \bigsqcup X \; = \; \left(\bigsqcup \{ \pi_0(x) \mid x \in X \}, \bigsqcup \{ \pi_1(x) \mid x \in X \}\right)
+}

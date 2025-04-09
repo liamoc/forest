@@ -1,0 +1,23 @@
+\import{dt-macros}
+\import{table-macros}
+\taxon{Theorem}
+\author{liamoc}
+  \p{For [continuous functions](dt-001J) #{f} and #{g}, the [split function](dt-0023) #{\langle f, g \rangle} is [continuous](dt-001J).}
+  \scope{
+    \put\transclude/toc{false}
+    \put\transclude/numbered{false}
+  \subtree{\taxon{Proof}
+  \ul{
+  \li{ \em{#{\langle f, g \rangle} is [monotonic](dt-000J)}. Let #{x \sqsubseteq y \in A}. Then: ##{\begin{array}{lclr}  
+          \langle f , g \rangle\ x & = & (f(x), g(x)) & \text{(def)}\\
+           & \sqsubseteq & (f(y), g(y)) & \text{(monotonicity of $f$,$g$)}\\
+           & = & \langle f , g \rangle\ y & \text{(def)}
+              \end{array}}}
+  \li{ \em{#{\langle f , g \rangle} preserves [lubs](dt-0017) of [directed](dt-0010) sets}. Let #{X \subseteq A} be [directed](dt-0010). Then:}
+   ##{\begin{array}{lclr}  
+          \langle f , g \rangle\ (\bigsqcup X) & = & (f(\bigsqcup X), g(\bigsqcup X)) & \text{(def)}\\
+           & = & (\bigsqcup \{ f(x) \mid x \in X \}, \bigsqcup \{ g(x) \mid x \in X \}) & \text{(continuity of $f$,$g$)}\\
+           & = & \bigsqcup \{ \langle f , g \rangle\ x \mid x \in X \} & \text{(def)}
+              \end{array}}
+  }
+}}
