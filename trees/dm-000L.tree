@@ -1,0 +1,14 @@
+\import{dt-macros}
+\author{liamoc}
+\title{Commutative Diagrams}
+\p{When working in a [category](dm-000G), we can state many theorems compactly using \em{commutative diagrams}, such as this diagram for products:
+\figure{
+\tex{\usepackage{tikz-cd}}{
+	\begin{tikzcd}[row sep=large]
+		& A  \arrow[dl, "f",labels=above left]\arrow[dr,"g"]\arrow[d,"{\langle f, g \rangle}", dashed, labels=description] & \\
+	B & B \times C \ar[l, "{\pi_0}",labels=below] \ar[r, "{\pi_1}",labels=below]& C 	
+	\end{tikzcd}
+	}
+}
+ In these diagrams, the objects are \em{vertices} in the diagram, and the morphisms are the \em{arrows} in the diagram (we typically omit identity morphisms and morphisms that are just compositions of other morphisms). Looking at the above diagram, we can equate the two paths from #{A} to #{B} and the two paths from #{A} to #{C}, and produce the equations #{\pi_0 \circ \langle f, g \rangle = f} and #{\pi_1 \circ \langle f, g \rangle = g}. We adopt the convention that dotted lines indicate uniqueness, meaning that, from the diagram above, we can also infer the law: ##{\pi_0 \circ h = f \land \pi_1 \circ h = g \implies  h = \langle f , g \rangle}
+}

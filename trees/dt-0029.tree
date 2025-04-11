@@ -1,0 +1,14 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{Universal property for [cpo products](dt-0021)}
+##{ (\pi_0 \circ h = f \land \pi_1 \circ h = g)\ \text{iff}\ h = \langle f , g \rangle}
+\p{As [commuting diagram](dm-000L) on the [category](dm-000G) #{\mathbf{Cpo}}:}
+\figure{
+\tex{\usepackage{tikz-cd}}{
+	\begin{tikzcd}[row sep=large]
+		& A  \arrow[dl, "f",labels=above left]\arrow[dr,"g"]\arrow[d,"{\langle f, g \rangle}", dashed, labels=description] & \\
+	B & B \times C \ar[l, "{\pi_0}",labels=below] \ar[r, "{\pi_1}",labels=below]& C 	
+	\end{tikzcd}
+	}
+}

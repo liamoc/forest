@@ -1,0 +1,4 @@
+\taxon{Definition}
+\title{Category}
+\author{liamoc}
+\p{A \em{category} #{C}consists of a collection of things (\em{objects}) and a collection of arrows between these things (\em{morphisms}). If there is a morphism #{A \xrightarrow{f} B} and a morphism #{B \xrightarrow{g} C}, we also have the composed morphism #{A \xrightarrow{g \circ f} C}. This composition operator must be [associative](dm-000F). Additionally each object #{X} has an \em{identity} morphism #{X \xrightarrow{\mathsf{id}_X} X}, such that for an arrow #{X \xrightarrow{a} Y}, #{a \circ \mathsf{id}_X = \mathsf{id}_Y \circ a = a}. }

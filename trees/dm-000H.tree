@@ -1,0 +1,6 @@
+\title{The [category](dm-000G) #{\mathbf{Set}}}
+\author{liamoc}
+\taxon{Example}
+\p{
+	The [category](dm-000G) #{\mathbf{Set}} is the [category](dm-000G) where the objects are (small) \em{sets}, the morphisms are functions between these sets, composition is function composition (#{(g \circ f)(x) \triangleq g(f(x))}) and identity is just the identity function #{\lambda x. x}.
+}

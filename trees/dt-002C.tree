@@ -1,0 +1,15 @@
+\title{Derived properties of [cpo products](dt-0021)}
+\author{liamoc}
+\p{
+ The [universal property](dt-0029) is called such because \em{all} the familiar properties of [products](dt-0021) follow from it – thinking in pictures helps to see how (Indeed, the  [universal property](dt-0029) \em{characterises} products up to isomorphism):}
+\ol{
+\li{ #{\pi_0 \circ (f \times g) = f \circ \pi_0}}
+\li{ #{\pi_1 \circ (f \times g) = g \circ \pi_1}}
+\li{ #{(f \times g) \circ \langle h , i \rangle = \langle f \circ h, g \circ i \rangle}}
+\li{ #{\langle f , g \rangle \circ h = \langle f \circ h, g \circ h \rangle}}
+\li{ #{\mathsf{id}_A \times \mathsf{id}_B = \mathsf{id}_{A \times B} \quad (*)}}
+\li{ #{(f \circ g) \times (h \circ i) = (f \circ h) \times (g \circ i) \quad (**)}}
+}
+\p{
+These last two statements #{(*)} and #{(**)} show that #{\times} is a \em{bifunctor} on the [category #{\textbf{Cpo}}](dt-002B), i.e., a [functor](dm-000J) #{\textbf{Cpo} \times \textbf{Cpo} \rightarrow \textbf{Cpo}}.
+}

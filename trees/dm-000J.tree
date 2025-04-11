@@ -1,0 +1,11 @@
+\title{Functor}
+\author{liamoc}
+\taxon{Definition}
+\p{
+A \em{functor} #{F} from a [category](dm-000G) #{\mathbf{C}} to a [category](dm-000G) #{\mathbf{D}} consists of an \em{object mapping} that maps objects of #{\mathbf{C}} to objects of #{\mathbf{D}}, and a \em{morphism mapping} that maps morphisms of #{\mathbf{C}} to morphisms of #{\mathbf{D}} such that:
+\ul{
+\li{For each #{A \xrightarrow{m} B} in #{\mathbf{C}}, we have a morphism #{F(A) \xrightarrow{F(m)} F(B)} in #{\mathbf{D}}.}
+\li{ For each object #{A} in #{\mathbf{C}}, the equation #{F(\mathsf{id}_A) = \mathsf{id}_{F(A)}} holds in #{\mathbf{D}}. }
+\li{ For a pair of morphism #{A \xrightarrow{f} B \xrightarrow{g} C} in #{\mathbf{C}}, the equation #{F (g \circ f) = F(g) \circ F(f)} holds in #{\mathbf{D}}. }
+}
+}

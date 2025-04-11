@@ -1,0 +1,20 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Exercise}
+\p{Prove that the three properties in \ref{dt-0027} are equivalent to the [universal property for products](dt-0029)}
+##{(\pi_0 \circ h = f \land \pi_1 \circ h = g)\ \text{iff}\ h = \langle f , g \rangle}
+\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
+\put\transclude/expanded{false}
+\subtree{
+\taxon{Solution}
+\p{ Showing in both directions:
+	\ol{
+		\li{ \em{The three properties follow from the universal property:}
+	The first two properties follow from the universal property where #{h} is  set to #{\langle f , g \rangle}. The third property follows from the universal property where #{f} is set to #{\pi_0\circ h} and #{g} is set to #{\pi_1\circ h}.}
+\li{\em{The universal property follows from the universal property:}
+In the #{\Rightarrow} direction of the universal property follows from the third property, and the #{\Leftarrow} direction follows from the first two.
+}}}
+}
+}

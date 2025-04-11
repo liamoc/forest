@@ -1,0 +1,42 @@
+\import{dt-macros}
+\import{table-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{The #{\mathit{swap}} function}
+\table{
+	\tr{
+		\td{\tex{\usepackage{string-diagrams}}{\begin{tikzpicture}
+			\node[box, box ports west = 2, box ports east = 2, minimum width=3cm, minimum height=3cm] (ZZ) at (-9cm,0) {};
+			\draw[thick] (ZZ.west.1) -- (ZZ.east.2);
+			\draw[thick] (ZZ.west.2) -- (ZZ.east.1);
+			\node[dot] at (ZZ.east.1) {};
+			\node[dot] at (ZZ.east.2) {};
+			\node[dot] at (ZZ.west.1) {};
+			\node[dot] at (ZZ.west.2) {};
+			\node at (-6.3cm,0) {\Large $=$};
+		\end{tikzpicture} }
+		\td{
+			\tex{\usepackage{string-diagrams}}{
+		\begin{tikzpicture}		
+		\node[box, box ports west = 1, box ports east = 2, minimum width=3cm, minimum height=3cm] (A) {};
+		\node[dot] (ae) at ([yshift=-0.2cm]A.east.1) {};
+		\node[dot] (ae2) at ([yshift=0.2cm]A.east.2) {};
+		\node[dot] (aw) at ([yshift=0.15cm]A.west.1) {};
+			\node[dot] (aw2) at ([yshift=-0.15cm]A.west.1) {};
+		\node[dot] (X) at ([xshift=1cm,yshift=0.15cm]A.west.1) {};
+		\node[dot] (Y) at ([xshift=0.7cm,yshift=-0.15cm]A.west.1) {};
+		\node[box,thick, box ports west=2, box ports east=2] (f) at ([xshift=-1cm]A.east.1) {};
+		\node[box,thick, box ports west=2, box ports east=2] (g) at ([xshift=-1cm]A.east.2) {};
+		\wires[thick]{
+			f = { west.1 = X.north, west.2 = Y.north,  east.2=ae.west},
+			g = { west.1 = X.south, west.2 = Y.south, east.1=ae2.west},
+			X = { west = aw.east },
+			Y = { west = aw2.east },
+		}{};
+		\draw[thick] (f.west.2) -- (f.east.2); 
+		\draw[thick,-|] (f.west.1) -- ([xshift=0.4cm]f.west.1); 
+		\draw[thick] (g.west.1) -- (g.east.1); 
+		\draw[thick,-|] (g.west.2) -- ([xshift=0.4cm]g.west.2); 	
+		\end{tikzpicture}}}
+}\td{#{\begin{array}{l}\mathit{swap} : A \times B \rightarrow B \times A \\ \mathit{swap} = \langle \pi_1 , \pi_0 \rangle \end{array}}}
+}}

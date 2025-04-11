@@ -1,0 +1,119 @@
+\import{dt-macros}
+\import{table-macros}
+\title{Pictorial Properties}
+\author{liamoc}
+\p{The following properties of our [projection](dt-0020) and [split](dt-0023) functions follow from the pictorial reasoning we see on the right:}
+\table{
+\tr{\td{
+	 ##{\pi_0 \circ \langle f , g \rangle = f}}
+	 \td{\tex{\usepackage{string-diagrams}}{
+ \begin{tikzpicture}
+	\node[box, box ports west = 1, box ports east = 1, minimum width=3cm, minimum height=3cm] (ZZ) at (6cm,8cm) {};
+	\node[box, box ports west = 1, box ports east = 2, minimum width=4cm, minimum height=3cm] (A) at (0.5cm,8cm) {};
+	\node[dot] (ae) at ([yshift=-0.25cm]A.east.1) {};
+%	\node[dot] (ae2) at ([yshift=0.25cm]A.east.2) {};
+	\node[dot] (aw) at ([yshift=0cm]A.west.1) {};
+	\node[dot] (aw2) at ([yshift=-0cm]A.west.1) {};
+	\node[dot] (X) at ([xshift=1cm]A.west.1) {};
+	\node[box,thick, box ports west=1, box ports east=1] (fff) at ([xshift=-2cm]A.east.1) { f };
+	\node[box,thick, box ports west=1, box ports east=1] (ggg) at ([xshift=-2cm]A.east.2) { g };
+	\node[box,thick, box ports west=2, box ports east=2, minimum height=2cm] (f) at ([xshift=3.25cm]A.west.1) {};
+%	\node[box,thick, box ports west=2, box ports east=2] (g) at ([xshift=-0.75cm]A.east.2) {};	
+	\wires[thick]{
+		fff = { west.1 = X.north,  east.1=f.west.1},
+		ggg = { west.1 = X.south }, %$ east.2=g.west.2},
+		X = { west = aw.east, north = fff.west.1, south = ggg.west.1 },
+		fff = { east.1 = f.west.1 },
+		ggg = { east.1 = f.west.2 },
+		f = { east.1 = ae.west },
+%		g = { east.2 = ae2.west },		
+	}{};
+	\draw[thick] (f.west.1) -- (f.east.1); 
+	\draw[thick,-|] (f.west.2) -- ([xshift=0.4cm]f.west.2); 
+%	\draw[thick] (g.west.2) -- (g.east.2); 
+%	\draw[thick,-|] (g.west.1) -- ([xshift=0.4cm]g.west.1); 	
+	
+	\node[box,thick, box ports west=1, box ports east=1] (ff) at ([xshift=-1.5cm]ZZ.east.1) {f};
+	\node at (3.35cm,8cm) {\Large $=$};
+	\draw[thick] (ZZ.east.1) -- (ff.east);
+	\draw[thick] (ZZ.west.1) -- (ff.west.1);
+	\node[dot] at (ZZ.east.1) {};
+	\node[dot] at (ZZ.west.1) {};  
+\end{tikzpicture} }}}
+\tr{\td{
+	##{\pi_1 \circ \langle f , g \rangle = g}}
+	\td{\tex{\usepackage{string-diagrams}}{
+	\begin{tikzpicture}
+	\node[box, box ports west = 1, box ports east = 1, minimum width=3cm, minimum height=3cm] (ZZ) at (6cm,4cm) {};
+	\node[box, box ports west = 1, box ports east = 2, minimum width=4cm, minimum height=3cm] (A) at (0.5cm,4cm) {};
+%	\node[dot] (ae) at ([yshift=-0.25cm]A.east.1) {};
+	\node[dot] (ae2) at ([yshift=0.25cm]A.east.2) {};
+	\node[dot] (aw) at ([yshift=0cm]A.west.1) {};
+%	\node[dot] (aw2) at ([yshift=-0cm]A.west.1) {};
+	\node[dot] (X) at ([xshift=1cm]A.west.1) {};
+	\node[box,thick, box ports west=1, box ports east=1] (fff) at ([xshift=-2cm]A.east.1) { f };
+	\node[box,thick, box ports west=1, box ports east=1] (ggg) at ([xshift=-2cm]A.east.2) { g };
+	\node[box,thick, box ports west=2, box ports east=2, minimum height=2cm] (f) at ([xshift=3.25cm]A.west.1) {};
+%	\node[box,thick, box ports west=2, box ports east=2] (g) at ([xshift=-0.75cm]A.east.2) {};	
+	\wires[thick]{
+		fff = { west.1 = X.north,  east.1=f.west.1},
+		ggg = { west.1 = X.south }, %$ east.2=g.west.2},
+		X = { west = aw.east, north = fff.west.1, south = ggg.west.1 },
+		fff = { east.1 = f.west.1 },
+		ggg = { east.1 = f.west.2 },
+		f = { east.2 = ae2.west },
+%		g = { east.2 = ae2.west },		
+	}{};
+	\draw[thick] (f.west.2) -- (f.east.2); 
+	\draw[thick,-|] (f.west.1) -- ([xshift=0.4cm]f.west.1); 
+%	\draw[thick] (g.west.2) -- (g.east.2); 
+%	\draw[thick,-|] (g.west.1) -- ([xshift=0.4cm]g.west.1); 	
+	
+	\node[box,thick, box ports west=1, box ports east=1] (ff) at ([xshift=-1.5cm]ZZ.east.1) {g};
+	\node at (3.35cm,4cm) {\Large $=$};
+	\draw[thick] (ZZ.east.1) -- (ff.east);
+	\draw[thick] (ZZ.west.1) -- (ff.west.1);
+	\node[dot] at (ZZ.east.1) {};
+	\node[dot] at (ZZ.west.1) {};
+ \end{tikzpicture}}}}
+ \tr{\td{
+	 ##{\langle \pi_0 \circ h , \pi_1 \circ h \rangle = h}
+ }\td{
+ \tex{\usepackage{string-diagrams}}{
+ \begin{tikzpicture}
+	 \node[box, box ports west = 1, box ports east = 1, minimum width=3cm, minimum height=3cm] (ZZ) at (6cm,0) {};
+	 \node[box, box ports west = 1, box ports east = 2, minimum width=4cm, minimum height=3cm] (A) at (0.5cm,0) {};
+	 \node[dot] (ae) at ([yshift=0.2cm]A.east.1) {};
+	 \node[dot] (ae2) at ([yshift=-0.2cm]A.east.2) {};
+	 \node[dot] (aw) at ([yshift=0cm]A.west.1) {};
+	 \node[dot] (aw2) at ([yshift=-0cm]A.west.1) {};
+	 \node[dot] (X) at ([xshift=1cm]A.west.1) {};
+	 \node[box,thick, box ports west=1, box ports east=2] (fff) at ([xshift=-2cm]A.east.1) { h };
+	 \node[box,thick, box ports west=1, box ports east=2] (ggg) at ([xshift=-2cm]A.east.2) { h };
+	 \node[box,thick, box ports west=2, box ports east=2] (f) at ([xshift=-0.75cm]A.east.1) {};
+	 \node[box,thick, box ports west=2, box ports east=2] (g) at ([xshift=-0.75cm]A.east.2) {};	
+	 \wires[thick]{
+		 fff = { west.1 = X.north,  east.1=f.west.1},
+		 ggg = { west.1 = X.south, east.2=g.west.2},
+		 X = { west = aw.east, north = fff.west.1, south = ggg.west.1 },
+		 fff = { east.1 = f.west.1, east.2 = f.west.2 },
+		 ggg = { east.1 = g.west.1, east.2 = g.west.2 },
+		 f = { east.1 = ae.west },
+		 g = { east.2 = ae2.west },		
+	 }{};
+	 \draw[thick] (f.west.1) -- (f.east.1); 
+	 \draw[thick,-|] (f.west.2) -- ([xshift=0.4cm]f.west.2); 
+	 \draw[thick] (g.west.2) -- (g.east.2); 
+	 \draw[thick,-|] (g.west.1) -- ([xshift=0.4cm]g.west.1); 	
+	 
+	 \node[box,thick, box ports west=1, box ports east=2] (ff) at ([xshift=-1.5cm]ZZ.east.1) {h};
+	 \node at (3.35cm,0) {\Large $=$};
+	 \draw[thick] ([yshift=0.2cm]ZZ.east.1) -- (ff.east.1);
+	 \draw[thick] ([yshift=-0.2cm]ZZ.east.1) -- (ff.east.2);
+	 \draw[thick] (ZZ.west.1) -- (ff.west.1);
+	 \node[dot] at ([yshift=0.2cm]ZZ.east.1) {};
+	 \node[dot] at ([yshift=-0.2cm]ZZ.east.1) {};
+	 \node[dot] at (ZZ.west.1) {};
+	 \end{tikzpicture}
+ }}}
+}

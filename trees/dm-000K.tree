@@ -1,0 +1,6 @@
+\title{The [category](dm-000G) #{\mathbf{Cat}}}
+\author{liamoc}
+\taxon{Example}
+\p{
+	The [category](dm-000G) #{\mathbf{Cat}} is the [category](dm-000G) where the objects are themselves (small) [categories](dm-000G), the morphisms are structure-preserving maps between these categories, i.e., [functors](dm-000J).
+}

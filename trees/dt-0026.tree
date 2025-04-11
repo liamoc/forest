@@ -1,0 +1,53 @@
+\import{dt-macros}
+\import{table-macros}
+\taxon{Definition}
+\title{Product of functions}
+\author{liamoc}
+\p{Given #{f : A \rightarrow C} and #{g : B \rightarrow D}, we overload the #{\times} operator for [products](dm-0005) to denote the combined function #{f \times g : A \times B \rightarrow C \times D}, given below:}
+\table{\tr{\td{
+			 \tex{\usepackage{string-diagrams}}{
+			 \begin{tikzpicture}
+			\node[box, box ports west = 2, box ports east = 2, minimum width=3cm, minimum height=3cm] (ZZ) at (-9cm,0) {};
+			\node[box,thick, box ports west=1, box ports east=1] (ff) at ([xshift=-1.5cm]ZZ.east.1) {f};
+			\node[box,thick, box ports west=1, box ports east=1] (gg) at ([xshift=-1.5cm]ZZ.east.2) {g};	
+			
+			\draw[thick] (ZZ.east.1) -- (ff.east.1);
+			\draw[thick] (ZZ.east.2) -- (gg.east.1);
+			\draw[thick] (ZZ.west.1) -- (ff.west.1);
+			\draw[thick] (ZZ.west.2) -- (gg.west.1);
+			\node[dot] at (ZZ.east.1) {};
+			\node[dot] at (ZZ.east.2) {};
+			\node[dot] at (ZZ.west.1) {};
+			\node[dot] at (ZZ.west.2) {};
+			\node at (-6.3cm,0) {\Large $=$};
+		\end{tikzpicture} 
+	}}\td{
+\tex{\usepackage{string-diagrams}}{
+	\begin{tikzpicture}
+		\node[box, box ports west = 1, box ports east = 2, minimum width=4cm, minimum height=3cm] (A) at (0.5cm,0) {};
+		\node[dot] (ae) at ([yshift=-0.0cm]A.east.1) {};
+		\node[dot] (ae2) at ([yshift=0.0cm]A.east.2) {};
+		\node[dot] (aw) at ([yshift=0.15cm]A.west.1) {};
+			\node[dot] (aw2) at ([yshift=-0.15cm]A.west.1) {};
+		\node[dot] (X) at ([xshift=1cm,yshift=0.15cm]A.west.1) {};
+		\node[dot] (Y) at ([xshift=0.7cm,yshift=-0.15cm]A.west.1) {};
+		\node[box,thick, box ports west=2, box ports east=2] (f) at ([xshift=-2cm]A.east.1) {};
+		\node[box,thick, box ports west=2, box ports east=2] (g) at ([xshift=-2cm]A.east.2) {};
+		\node[box,thick, box ports west=2, box ports east=1] (fff) at ([xshift=-0.75cm]A.east.1) {f};
+		\node[box,thick, box ports west=2, box ports east=1] (ggg) at ([xshift=-0.75cm]A.east.2) {g};	
+		\wires[thick]{
+			f = { west.1 = X.north, west.2 = Y.north,  east.1=fff.west.1},
+			g = { west.1 = X.south, west.2 = Y.south, east.2=ggg.west.2},
+			X = { west = aw.east },
+			Y = { west = aw2.east },
+			fff = { east = A.east.1 },
+			ggg = { east = A.east.2 },		
+		}{};
+		\draw[thick] (f.west.1) -- (f.east.1); 
+		\draw[thick,-|] (f.west.2) -- ([xshift=0.4cm]f.west.2); 
+		\draw[thick] (g.west.2) -- (g.east.2); 
+		\draw[thick,-|] (g.west.1) -- ([xshift=0.4cm]g.west.1);
+		\end{tikzpicture}
+	}}\td{
+\p{##{\begin{array}{l} f \times g : A \times B \rightarrow C \times D \\ f \times g = \langle f \circ \pi_0 , g \circ \pi_1 \rangle \end{array}}}
+}}}
