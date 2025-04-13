@@ -1,0 +1,5 @@
+\taxon{Definition}
+\author{liamoc}
+\title{Commutative monoid}
+\p{A \em{commutative monoid}is a [monoid](dm-000O) #{(S, \iota, \bullet)} where the binary operator #{(\bullet) : S \times S \rightarrow S} additionally satisfie [commutativity](dm-000E).
+}

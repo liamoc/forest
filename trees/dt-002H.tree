@@ -1,0 +1,13 @@
+\import{dt-macros}
+\taxon{Theorem}
+\author{liamoc}
+\title{Commutative monoid structure for [cpos](dt-001D)}
+\p{[Cpos](dt-001D) form a [commutative monoid](dm-000P) "up to [isomorphism](dt-002E)" under #{\times} and #{\mathbf{1}} (the [cpo](dt-001D) consisting of only one element #{\bot}). That is, for all [cpos](dt-001D) #{A, B} and #{C}:
+\ol{
+\li{#{A \times \mathbf{1} \simeq A}}
+\li{#{A \times (B \times C) \simeq (A \times B) \times C}}
+\li{#{A \times B \simeq B \times A}}
+}
+\proofblock{
+\p{The [isomorphisms](dt-002E) required are the [projection](dt-0020) #{\pi_0}, the #{\mathit{juggle}} function from \ref{dt-002G}, and [the swap function](dt-0025).}
+}}

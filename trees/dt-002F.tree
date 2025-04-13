@@ -1,0 +1,8 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{The set of continuous functions}
+\p{
+Let #{A \contto B} denote just the [continuous functions](dt-001J) from [cpo](dt-001D) #{A} to [cpo](dt-001D) #{B}:
+##{A \contto B\; \triangleq\; \Set{ f : A \rightarrow B \mid f\ \text{is continuous} }}
+}

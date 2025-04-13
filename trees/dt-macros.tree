@@ -1,5 +1,18 @@
 \def\cal[body]{#{\mathcal{\body}}}
 \def\syn[body]{#{\mathsf{\body}}}
+\def\proofblock[body]{\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
+\subtree{\taxon{Proof}
+\body
+}}}
+\def\solnblock[body]{\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
+\put\transclude/expanded{false}
+\subtree{\taxon{Solution}
+\body
+}}}
 \def\pow[body]{#{\mathcal{P}(\body)}}
 \def\sems[body]{#{\llbracket \body \rrbracket}}
 \def\nat{#{\mathbb{N}}}
@@ -12,3 +25,4 @@
 \def\lsquare{\startverb[\stopverb}
 \def\rparen{\startverb)\stopverb}
 \def\op-cl-int[x][y]{\lsquare\x,\y\rparen}
+\def\contto{\twoheadrightarrow}

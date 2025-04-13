@@ -1,0 +1,8 @@
+\import{dt-macros}
+\taxon{Theorem}
+\author{liamoc}
+\p{There is an [isomorphism](dt-002E) between [pairs](dt-0021) of [continuous functions](dt-002F) and continuous functions that output pairs: ##{(A \contto B) \times (A \contto C)\; \simeq\; (A \contto (B \times C))}
+\proofblock{
+Proof follows from the [universal property](dt-0029) after setting up the [isomorphism](dt-002E) with functions #{f(g_0,g_1) = \langle g_0 , g_1 \rangle} and #{f^{-1}(h) = (\pi_0 \circ h, \pi_1 \circ h)}.}
+}
+%Because we have the \gls{functor} $\times$ on cpos that satisfies the properties of products described above, the \gls{category} \textbf{Cpo} therefore has binary products.

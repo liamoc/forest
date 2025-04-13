@@ -1,0 +1,10 @@
+\taxon{Definition}
+\author{liamoc}
+\title{Monoid}
+\p{A \em{monoid} #{(S, \iota, \bullet)} consists of a set #{S}, an \em{identity} element #{\iota \in S}, and a binary operator #{(\bullet) : S \times S \rightarrow S} which satisfies, for all #{x,y,z \in S}:
+\ul{
+\li{ [associativity](dm-000F): #{x \bullet (y \bullet z) = (x \bullet y) \bullet z} }
+\li{ left identity: #{\iota \bullet x = x}}
+\li{ right identity: #{x \bullet \iota = x}}
+}
+}

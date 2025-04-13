@@ -14,7 +14,7 @@
 			\node[dot] at (ZZ.west.1) {};
 			\node[dot] at (ZZ.west.2) {};
 			\node at (-6.3cm,0) {\Large $=$};
-		\end{tikzpicture} }
+		\end{tikzpicture} }}
 		\td{
 			\tex{\usepackage{string-diagrams}}{
 		\begin{tikzpicture}		
@@ -37,6 +37,6 @@
 		\draw[thick,-|] (f.west.1) -- ([xshift=0.4cm]f.west.1); 
 		\draw[thick] (g.west.1) -- (g.east.1); 
 		\draw[thick,-|] (g.west.2) -- ([xshift=0.4cm]g.west.2); 	
-		\end{tikzpicture}}}
+		\end{tikzpicture}}
 }\td{#{\begin{array}{l}\mathit{swap} : A \times B \rightarrow B \times A \\ \mathit{swap} = \langle \pi_1 , \pi_0 \rangle \end{array}}}
 }}

@@ -1,0 +1,15 @@
+\import{dt-macros}
+\taxon{Exercise}
+\author{liamoc}
+\p{Show using the [universal property](dt-0029) that #{\langle f, g \rangle \circ h = \langle f \circ h , g \circ h \rangle}}
+\solnblock{
+	Instantiating the [universal property](dt-0029) where #{h := \langle f, g \rangle \circ h}, #{f := f \circ h}, and #{g := g \circ h}:
+	##{\pi_0 \circ \langle f, g \rangle \circ h = f \circ h \land
+	\pi_1 \circ \langle f, g \rangle \circ h = g \circ h\ \text{iff}\ \langle f, g \rangle \circ h = \langle f \circ h , g \circ h \rangle}
+	Simplifying using the pictorial properties in \ref{dt-0027} (shown equivalent to the [universal property](dt-0029) in \ref{dt-0028}):
+	##{f \circ h = f \circ h \land
+	g \circ h = g \circ h\ \text{iff}\ \langle f, g \rangle \circ h = \langle f \circ h , g \circ h \rangle}
+	By logical simplifications, we arrive at
+	##{\langle f, g \rangle \circ h = \langle f \circ h , g \circ h \rangle}
+	as required.
+}

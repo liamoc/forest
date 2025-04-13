@@ -1,4 +1,5 @@
 \title{Derived properties of [cpo products](dt-0021)}
+\taxon{Corollary}
 \author{liamoc}
 \p{
  The [universal property](dt-0029) is called such because \em{all} the familiar properties of [products](dt-0021) follow from it – thinking in pictures helps to see how (Indeed, the  [universal property](dt-0029) \em{characterises} products up to isomorphism):}
@@ -11,5 +12,5 @@
 \li{ #{(f \circ g) \times (h \circ i) = (f \circ h) \times (g \circ i) \quad (**)}}
 }
 \p{
-These last two statements #{(*)} and #{(**)} show that #{\times} is a \em{bifunctor} on the [category #{\textbf{Cpo}}](dt-002B), i.e., a [functor](dm-000J) #{\textbf{Cpo} \times \textbf{Cpo} \rightarrow \textbf{Cpo}}.
+These last two statements #{(*)} and #{(**)} show that #{\times} is a [bifunctor](dm-000M) on the [category #{\textbf{Cpo}}](dt-002B), i.e., a [functor](dm-000J) #{\textbf{Cpo} \times \textbf{Cpo} \rightarrow \textbf{Cpo}}.
 }

@@ -1,0 +1,10 @@
+\title{Bifunctor}
+\author{liamoc}
+\taxon{Definition}
+\p{
+A binary [functor](dm-000J), or \em{bifunctor} from two [categories](dm-000G) #{\mathbf{A}} and #{\mathbf{B}} to a [category](dm-000G) #{\mathbf{C}} is a [functor](dm-000J) from the [product category](dm-000N) #{\mathbf{A} \times \mathbf{B}} to #{\mathbf{C}}. That is, a bifunctor #{F} consists of an \em{object mapping} #{F(a,b)} that maps an object #{a} of #{\mathbf{A}} and an object #{b} of #{\mathbf{B}}  to an object of #{\mathbf{C}}, and a \em{morphism mapping} #{F(f,g)} that maps a morphism #{X_\textbf{A} \xrightarrow{f} Y_\textbf{A}} and a morphism #{X_\textbf{B} \xrightarrow{g} Y_\textbf{B}} to a morphism #{F(X_\textbf{A},X_\textbf{B}) \xrightarrow{F(f,g)} F(Y_\textbf{A},Y_\textbf{B}) } in #{\textbf{C}}, such that:
+\ul{
+\li{ For each object #{X} in #{\mathbf{A}} and #{Y} in #{\mathbf{B}}, the equation #{F(\mathsf{id}_X, \mathsf{id}_Y) = \mathsf{id}_{F(X,Y)}} holds in #{\mathbf{C}}. }
+\li{ For a pair of morphisms #{X_\textbf{A} \xrightarrow{f_1} Y_\textbf{A} \xrightarrow{f_2} Z_\textbf{A}} in #{\mathbf{A}} and another pair #{X_\textbf{B} \xrightarrow{g_1} Y_\textbf{B} \xrightarrow{g_2} Z_\textbf{B}} in #{\mathbf{B}}, the equation #{F (f_2 \circ f_1, g_2 \circ g_1) = F(f_2,g_2) \circ F(f_1,g_1)} holds in #{\mathbf{C}}. }
+}
+}

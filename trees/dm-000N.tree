@@ -1,0 +1,6 @@
+\title{Product category}
+\author{liamoc}
+\taxon{Definition}
+\p{
+	For two [categories](dt-002A) #{\textbf{A}} and #{\textbf{B}}, the \em{product category} #{\textbf{A} \times \textbf{B}} is the category whose objects are pairs consisting of an object of #{\textbf{A}} and an object of #{\textbf{B}}, and whose morphisms are similarly pairs of morphisms from #{\textbf{A}} and #{\textbf{B}}. Composition of morphisms is defined componentwise on the pairs using the composition from #{\textbf{A}} and #{\textbf{B}}.
+}

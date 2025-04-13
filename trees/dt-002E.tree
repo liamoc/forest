@@ -1,0 +1,7 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{[Cpo](dt-001D) isomorphism}
+\p{An \em{isomorphism} between two [cpos](dt-001D) #{A} and #{B} is a [bijection](dm-000A) #{f} between #{A} and #{B} such that #{f} preserves the [cpo](dt-001D) structure, i.e., that #{f} and #{f^{-1}} are [continuous](dt-001J).
+}
+\p{We say two [cpos](dt-001D) #{A} and #{B} are \em{isomorphic}, written #{A \simeq B}, iff an \em{isomorphism} exists between them.}

@@ -4,10 +4,10 @@
 \p{Show that if a function #{f : A \rightarrow B} on [cpos](dt-001D) #{A} and #{B} is [monotonic](dt-000J) and #{A} is finite, then #{f} is [continuous](dt-001J). }
 \p{\em{Hint}: Finite [directed](dt-0010) sets contain their [lub](dt-0017)}
 \scope{
-  \put\transclude/toc{false}
-  \put\transclude/numbered{false}
-  \put\transclude/expanded{false}
-\subtree{\taxon{Solution}
+	\put\transclude/toc{false}
+	\put\transclude/numbered{false}
+	\put\transclude/expanded{false}
+	\subtree{\taxon{Solution}
 \p{Because of \ref{dt-001O}, it suffices to show the second condition of [continuity](dt-001J), as #{f} is [monotonic](dt-000J).   }
 \p{Because #{A} is finite, any directed subset #{X \subseteq A} is also finite, and therefore #{\bigsqcup X \in X}. Because #{f} is [monotone](dt-000J), #{f(x) \sqsubseteq f (\bigsqcup X)} for all #{x \in X}. }
 \p{The solution to \ref{dt-001N} shows that #{\Set{f(x) \mid x \in X}} is [directed](dt-0010) and therefore contains its upper bound #{c}. Because #{f} is monotone, #{f(\bigsqcup X)} must be #{c} (else it would contradict the above).}

@@ -1,3 +1,4 @@
 \taxon{Theorem}
 \author{liamoc}
+\title{Continuity of projection operations}
 \p{The [projection functions](dt-0020) #{\pi_0} and #{\pi_1} are [continuous](dt-001J).}

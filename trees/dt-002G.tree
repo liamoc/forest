@@ -1,0 +1,11 @@
+\taxon{Exercise}
+\author{liamoc}
+\p{Express the function #{\mathit{juggle} (a, (b,c)) = ((a,b),c)} using just our primitive combinators for [projection](dt-0020) and [split](dt-0023).}
+\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
+\put\transclude/expanded{false}
+\subtree{\taxon{Solution}
+\p{##{\mathit{juggle} \triangleq \langle \langle \pi_0 , \pi_0 \circ \pi_1 \rangle , \pi_1 \circ \pi_1 \rangle}}
+}
+}
