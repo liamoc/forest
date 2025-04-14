@@ -1,5 +1,6 @@
 \import{dt-macros}
 \title{Semantics of recursive functions}
+\taxon{Example}
 \author{liamoc}
 \p{Consider the function #{\Phi \in (\mathbb{N}_\bot \rightarrow \mathbb{N}_\bot) \rightarrow (\mathbb{N}_\bot \rightarrow \mathbb{N}_\bot)}, given by:
 ##{\Phi(f) = \lambda n.\ \text{if}\ n = 0\ \text{then}\ 1\ \text{else}\ n\cdot f(n-1)}

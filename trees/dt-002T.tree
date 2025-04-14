@@ -1,0 +1,15 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Definition}
+\title{Universal property for functions}
+\figure{
+\tex{\usepackage{tikz-cd}\usepackage{amssymb}}{
+\begin{tikzcd}[row sep=4em]
+A \times B \ar[d,dashed,labels=description,"\mathit{curry}(f)\times \mathsf{id}_B"] \ar[r,"f"] & C \\
+(B \contto C) \times B \ar[ur, labels=below right,"\mathit{apply}"]	
+\end{tikzcd}
+}
+}
+##{
+	\mathit{apply} \circ h = f\; \text{iff}\; h = \mathit{curry}(f)\times\mathsf{id}_B
+}

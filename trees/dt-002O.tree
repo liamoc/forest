@@ -1,0 +1,12 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{The #{\mathit{curry}} function}
+\p{The function #{\mathit{curry}} transforms a function that takes two arguments all at once (as a [product](dm-0005)) into a function that takes the arguments one at a time. That is, if #{f : A \times B \contto C} then:
+##{
+\begin{array}{l}
+\mathit{curry}(f) : A \contto (B \contto C)\\
+\mathit{curry}(f)(a)(b) = f(a, b)
+\end{array}
+}
+}

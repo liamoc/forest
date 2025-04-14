@@ -1,0 +1,9 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Theorem}
+\title{Continuity of #{\mathit{curry}}}
+\ol{
+\li{#{\mathit{curry}} is [continuous](dt-001J) on #{A \times B \contto C}.}
+\li{#{\mathit{curry}(f)}, given [continuous](dt-001J) #{f : A \times B \contto C}, is [continuous](dt-001J) on #{A}.}
+\li{#{\mathit{curry}(f)(a)}, given [continuous](dt-001J) #{f : A \times B \contto C} and #{a \in A}, is [continuous](dt-001J) on #{B}.}
+}

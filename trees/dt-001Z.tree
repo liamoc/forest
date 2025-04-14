@@ -5,9 +5,7 @@
 \author{liamoc}
 \p{This lecture is based on material from [[haskellhutt]], [[danascott]], [[jstoy]], [[cgunter]], and [[gwinskel]].}
 \transclude{dt-002K}
-\subtree{
-\title{Functions}
-}
+\transclude{dt-002Z}
 \subtree{
 \title{Sums}
 }

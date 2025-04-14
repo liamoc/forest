@@ -1,0 +1,12 @@
+\import{dt-macros}
+\title{Functions}
+\author{liamoc}
+\p{Previously, such as in \ref{dt-001U}, we already implicitly assumed that the set of [continuous functions](dt-002F) on [cpos](dt-001D) #{A \contto B} is itself a [cpo](dt-001D). In this section, we will formalise this construction.}
+\transclude{dt-002L}
+\transclude{dt-002M}
+\transclude{dt-002P}
+\transclude{dt-002T}
+\transclude{dt-002U}
+\transclude{dt-002V}
+\transclude{dm-000Q}
+\transclude{dt-002W}

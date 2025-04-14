@@ -1,0 +1,5 @@
+\import{dt-macros}
+\author{liamoc}
+\title{Dual category}
+\taxon{Definition}
+\p{The \em{dual} of a [category](dm-000G) #{\mathbf{C}}, written #{\mathbf{C}^\mathsf{op}}, is a [category](dm-000G) with the same objects as #{\mathbf{C}} but the arrows are reversed, that is, for each morphism #{A \xrightarrow{m} B} in #{\mathbf{C}}, there is a morphism #{B \xrightarrow{m} A} in #{\mathbf{C}^\mathsf{op}}.}

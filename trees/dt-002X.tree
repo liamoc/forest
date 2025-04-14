@@ -1,0 +1,14 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{Morphism mapping for #{\contto}}
+\p{
+Given #{f : B \contto A} and #{g : C \contto D}, we have:
+##{
+\begin{array}{l}
+f \contto g : (A \contto C) \contto (B \contto D)\\
+f \contto g = \mathit{curry}\ (g \circ \mathit{apply} \circ (\mathsf{id} \times f))\\[2em]
+\text{(or, operationally:)}\\
+(f \contto g)(h) = g \circ h \circ f\\
+\end{array}}
+}

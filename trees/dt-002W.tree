@@ -1,0 +1,14 @@
+\import{dt-macros}
+\title{The function arrow is a bifunctor}
+\author{liamoc}
+\p{The operator #{\contto} introduced in \ref{dt-002F} is is the object mapping for a [binary functor](dm-000M): ##{(\contto) : \mathbf{Cpo}^\mathsf{op} \times \mathbf{Cpo} \rightarrow \mathbf{Cpo}} The [category](dm-000G) #{\mathbf{Cpo}^\mathsf{op}} is the [dual category](dm-000Q) to #{\mathbf{Cpo}}.}
+\p{
+Thus, a morphism #{A \xrightarrow{m} B} in the [category](dm-000G)  #{\mathbf{Cpo}^\mathsf{op}} is a [continuous](dt-001J) function #{m : B \contto A}. Thus, the morphism mapping for our [functor](dm-000J) must take two functions #{f : B \contto A} (the morphism from #{\mathbf{Cpo}^\mathsf{op}}) and #{g : C \contto D} (the morphism from #{\mathbf{Cpo}}), and produce #{(A \contto C) \contto (B \contto D)}. As with [products](dt-0026), we will overload the #{\contto} notation for this mapping as well. }
+\transclude{dt-002X}
+\transclude{dt-002Y}
+\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
+\subtree{\taxon{Upshot}
+\p{Our [category #{\textbf{Cpo}}](dt-002B) has \em{exponentials}.}
+}}

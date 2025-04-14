@@ -1,0 +1,10 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Theorem}
+\p{
+The two [functor](dm-000J) laws follow as a consequence of the [universal property](dt-002T) for functions:
+\ol{
+\li{ #{\mathsf{id}_A \contto \mathsf{id}_B = \mathsf{id}_{A \contto B}}}
+\li{ #{(f \circ g) \contto (h \circ i) = (g \contto h) \circ (f \contto i)}}
+}
+}

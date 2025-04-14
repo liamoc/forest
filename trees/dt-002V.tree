@@ -1,0 +1,14 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Remark}
+\title{Why the function arrow is not a covariant [bifunctor](dm-000M)}
+\p{
+	For the #{\contto} operator on [cpos](dt-001D) (\ref{dt-002F}) to be the object mapping for a [bifunctor](dm-000M) #{\textbf{Cpo} \times \textbf{Cpo} \rightarrow \textbf{Cpo}} like #{\times} is (see \ref{dt-002C}), we would need to define a morphism mapping #{f \contto g} that, given two functions #{f : A \contto B} and #{g : C \contto D}, gives a function #{(A \contto C) \contto (B \contto D)}. But such a function is \em{not implementable}:
+	##{
+\begin{array}{l}
+	f \contto g : (A \contto C) \contto (B \contto D) \\
+	(f \contto g)(h)(b) =\ \textcolor{red}{???}\\
+	\end{array}
+	}
+	In the above hole #{\textcolor{red}{???}}, #{h : A \contto C} and #{b \in B}. Given the value #{b \in B}, none of our functions #{f, g} or #{h} take elements of #{B}, so there would be no way to produce the #{D} value required. This is because our function #{f : A \contto B} goes \em{the wrong way}. If #{f} were a function #{B \contto A}, things would be a lot easier.
+}

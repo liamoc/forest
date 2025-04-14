@@ -1,7 +1,7 @@
 \import{dt-macros}
 \taxon{Theorem}
 \author{liamoc}
-\title{Alternative definition of continuity}
+\title{Alternative characterisation of continuity}
 \p{A function #{f : A \rightarrow B} on [cpos](dt-001D) #{A} and #{B} is [continuous](dt-001J) iff:
 \ol{
 	\li{#{f} is [monotonic](dt-000J), and}

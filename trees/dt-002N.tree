@@ -1,0 +1,11 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{The #{\mathit{apply}} function}
+\p{The #{\mathit{apply}} function simply applies a given function to a given argument:
+##{
+\begin{array}{l}
+\mathit{apply} : ((A \contto B) \times A) \contto B\\
+\mathit{apply} (f, a) = f(a)
+\end{array}
+}}

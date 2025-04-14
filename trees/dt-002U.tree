@@ -1,0 +1,10 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Theorem}
+\title{The currying isomorphism}
+##{
+(A \times B)\contto C \;\;\simeq \;\; A\contto (B\contto C)
+}
+\proofblock{
+\p{Follows from the [universal property for functions](dt-002T) when set up with the [isomorphism](dt-002E) from [curry](dt-002O) and its inverse, the function in \ref{dt-002R}.}	
+}

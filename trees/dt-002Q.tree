@@ -1,0 +1,22 @@
+\import{dt-macros}
+\taxon{Exercise}
+\author{liamoc}
+\p{Show that #{\mathit{apply}} is [continuous](dt-001J).}
+\p{\em{Hint:} A function #{f : A \times B \rightarrow C} is [continuous](dt-001J) iff it is [continuous](dt-001J) in each argument separately, i.e., iff #{\forall a \in A.\ f(a,\cdot) : B \rightarrow C} is continuous, and  #{\forall b \in B.\ f(\cdot,b) : A \rightarrow C} is continuous.}
+\solnblock{
+\p{
+First showing #{\mathit{apply}(f,\cdot)} is continuous for some continuous #{f : A \contto B}, using the [alternative characterisation](dt-001O)
+\ol{
+\li{ \em{#{\mathit{apply}(f,\cdot)} is monotonic}: Given #{a, b \in A} where #{a \sqsubseteq b}, we can see that #{\mathit{apply}(f,a) = f(a) \sqsubseteq f(b) = \mathit{apply}(f,b)} by the [monotonicity](dt-000J) of #{f}.
+}
+\li{ \em{#{\mathit{apply}(f,\cdot)} preserves lubs}: Given a [directed](dt-0010) #{X \subseteq A}, we can see that #{\mathit{apply}(f,\bigsqcup X) = f(\bigsqcup X) = \bigsqcup \Set{f(x) \mid x \in X} = \bigsqcup \Set{\mathit{apply}(f,x) \mid x \in X}} follows from the continuity of #{f}.
+}
+}
+Next, showing #{\mathit{apply}(\cdot,a)} is continuous for some fixed #{a \in A}:
+\ol{
+\li{ \em{#{\mathit{apply}(\cdot,a)} is monotonic}: Given #{f, g \in A \contto B} where #{f \sqsubseteq g}, we can see that #{\mathit{apply}(f,a) = f(a) \sqsubseteq g(a) = \mathit{apply}(g,a)} by the [pointwise ordering of functions](dt-002L).
+}
+\li{ \em{#{\mathit{apply}(\cdot,a)} preserves lubs}: Given a [directed](dt-0010) #{X \subseteq A \contto B}, we can see that #{\mathit{apply}(\bigsqcup X, a) = \left(\bigsqcup X\right)(a) = \bigsqcup \Set{f(a) \mid f \in X} = \bigsqcup \Set{\mathit{apply}(f,a) \mid f \in X}} follows from the [lub definition for functions](dt-002L).
+}
+}
+}}

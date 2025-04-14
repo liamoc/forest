@@ -4,7 +4,7 @@
 \title{Continuity of split}
 \author{liamoc}
   \p{For [continuous functions](dt-001J) #{f} and #{g}, the [split function](dt-0023) #{\langle f, g \rangle} is [continuous](dt-001J).}
-  \proofblock{
+  \proofblock{\p{Using the [alternative characterisation of continuity](dt-001O):}
   \ul{
   \li{ \em{#{\langle f, g \rangle} is [monotonic](dt-000J)}. Let #{x \sqsubseteq y \in A}. Then: ##{\begin{array}{lclr}  
           \langle f , g \rangle\ x & = & (f(x), g(x)) & \text{(def)}\\

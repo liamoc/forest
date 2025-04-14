@@ -1,0 +1,143 @@
+\import{dt-macros}
+\taxon{Example}
+\title{The space #{\mathbb{B}_\bot \contto \mathbb{B}_\bot}}
+\author{liamoc}
+\p{
+\tex{\usepackage{tikz-cd}}{	
+	\begin{tikzcd}[column sep=1em]
+	{\begin{tikzpicture}
+			\draw[rounded corners, thick, fill=white] (-0.8,-0.7) rectangle (0.8,1.39);	
+			\node (tr) at (0.5,0.5) {$\bullet$};
+			\node (tl) at (-0.5,0.5) {$\bullet$};
+			\node (b) at (0,-0.5) {$\bullet$};
+			\draw[thick] (b) -- (tr) (b) -- (tl);
+			\draw[thick,draw=blue,->] (b) edge[bend right] (tl)
+								   (tl) edge[loop above] (tl)
+								   (tr) edge[bend right=1.3em] (tl);
+		 \end{tikzpicture}
+		}
+		&&
+		&&
+		&&
+		{\begin{tikzpicture}
+			\draw[rounded corners, thick, fill=white] (-0.8,-0.7) rectangle (0.8,1.39);	
+			\node (tr) at (0.5,0.5) {$\bullet$};
+			\node (tl) at (-0.5,0.5) {$\bullet$};
+			\node (b) at (0,-0.5) {$\bullet$};
+			\draw[thick] (b) -- (tr) (b) -- (tl);
+			\draw[thick,draw=blue,->] (b) edge[bend right] (tr)
+								   (tl) edge[bend left=1.3em] (tr)
+								   (tr) edge[loop above] (tr);
+		 \end{tikzpicture}
+		}
+	\\		
+	{\begin{tikzpicture}
+			\draw[rounded corners, thick, fill=white] (-0.8,-1.2) rectangle (0.8,0.9);	
+			\node (tr) at (0.5,0.5) {$\bullet$};
+			\node (tl) at (-0.5,0.5) {$\bullet$};
+			\node (b) at (0,-0.5) {$\bullet$};
+			\draw[thick] (b) -- (tr) (b) -- (tl);
+			\draw[thick,draw=blue,->] (b) edge[loop below] (b)
+								   (tl) edge[loop below] (tl)
+								   (tr) edge[bend right=1.3em] (tl);
+		 \end{tikzpicture}
+		}\ar[u,ultra thick,-]
+		&&
+		{\begin{tikzpicture}
+			\draw[rounded corners, thick, fill=white] (-0.8,-1.2) rectangle (0.8,0.9);
+			\node (tr) at (0.5,0.5) {$\bullet$};
+			\node (tl) at (-0.5,0.5) {$\bullet$};
+			\node (b) at (0,-0.5) {$\bullet$};
+			\draw[thick] (b) -- (tr) (b) -- (tl);
+			\draw[thick,draw=blue] (b) edge[loop below,->] (b)
+								   (tl) edge[loop below,->] (tl)
+								   (tr) edge[loop below] (tr);
+		 \end{tikzpicture}
+		}
+		&&
+		{\begin{tikzpicture}
+			\draw[rounded corners, thick, fill=white] (-0.8,-1.2) rectangle (0.8,0.9);
+			\node (tr) at (0.5,0.5) {$\bullet$};
+			\node (tl) at (-0.5,0.5) {$\bullet$};
+			\node (b) at (0,-0.5) {$\bullet$};
+			\draw[thick] (b) -- (tr) (b) -- (tl);
+			\draw[thick,draw=blue,->] (b) edge[loop below] (b)
+								   (tr) edge[bend left=1.3em] (tl)
+								   (tl) edge[bend left=1.3em] (tr);
+		 \end{tikzpicture}
+		}
+		&&
+		{\begin{tikzpicture}
+			\draw[rounded corners, thick, fill=white] (-0.8,-1.2) rectangle (0.8,0.9);
+			\node (tr) at (0.5,0.5) {$\bullet$};
+			\node (tl) at (-0.5,0.5) {$\bullet$};
+			\node (b) at (0,-0.5) {$\bullet$};
+			\draw[thick] (b) -- (tr) (b) -- (tl);
+			\draw[thick,draw=blue,->] (b) edge[loop below] (b)
+								   (tl) edge[bend left=1.3em] (tr)
+								   (tr) edge[loop below] (tr);
+		 \end{tikzpicture}
+		}\ar[u,ultra thick,-]
+	\\	
+	{\begin{tikzpicture}
+			\draw[rounded corners, thick, fill=white] (-0.8,-1.2) rectangle (0.8,0.9);	
+			\node (tr) at (0.5,0.5) {$\bullet$};
+			\node (tl) at (-0.5,0.5) {$\bullet$};
+			\node (b) at (0,-0.5) {$\bullet$};
+			\draw[thick] (b) -- (tr) (b) -- (tl);
+			\draw[thick,draw=blue,->] (b) edge[loop below] (b)
+								   (tl) edge[loop right] (tl)
+								   (tr) edge[bend left] (b);
+		 \end{tikzpicture}
+		}\ar[u,ultra thick,-]\ar[urr,ultra thick,-]
+		&&
+		{\begin{tikzpicture}
+			\draw[rounded corners, thick, fill=white] (-0.8,-1.2) rectangle (0.8,0.9);
+			\node (tr) at (0.5,0.5) {$\bullet$};
+			\node (tl) at (-0.5,0.5) {$\bullet$};
+			\node (b) at (0,-0.5) {$\bullet$};
+			\draw[thick] (b) -- (tr) (b) -- (tl);
+			\draw[thick,draw=blue,->] (b) edge[loop below] (b)
+								   (tl) edge[bend right] (b)
+								   (tr) edge[bend right=1.3em] (tl);
+		 \end{tikzpicture}
+		}\ar[ull,ultra thick,-]\ar[urr,ultra thick,-]
+		&&
+		{\begin{tikzpicture}
+			\draw[rounded corners, thick, fill=white] (-0.8,-1.2) rectangle (0.8,0.9);
+			\node (tr) at (0.5,0.5) {$\bullet$};
+			\node (tl) at (-0.5,0.5) {$\bullet$};
+			\node (b) at (0,-0.5) {$\bullet$};
+			\draw[thick] (b) -- (tr) (b) -- (tl);
+			\draw[thick,draw=blue,->] (b) edge[loop below] (b)
+								   (tr) edge[bend left] (b)
+								   (tl) edge[bend left=1.3em] (tr);
+		 \end{tikzpicture}
+		}\ar[u,ultra thick,-]\ar[urr,ultra thick,-]
+		&&
+		{\begin{tikzpicture}
+			\draw[rounded corners, thick, fill=white] (-0.8,-1.2) rectangle (0.8,0.9);
+			\node (tr) at (0.5,0.5) {$\bullet$};
+			\node (tl) at (-0.5,0.5) {$\bullet$};
+			\node (b) at (0,-0.5) {$\bullet$};
+			\draw[thick] (b) -- (tr) (b) -- (tl);
+			\draw[thick,draw=blue,->] (b) edge[loop below] (b)
+								   (tl) edge[bend right] (b)
+								   (tr) edge[loop left] (tr);
+		 \end{tikzpicture}
+		}\ar[u,ultra thick,-]\ar[ullll,ultra thick,-]
+	\\
+		&\qquad &&{\begin{tikzpicture}
+			\draw[rounded corners, thick, fill=white] (-0.8,-1.2) rectangle (0.8,0.9);
+			\node (tr) at (0.5,0.5) {$\bullet$};
+			\node (tl) at (-0.5,0.5) {$\bullet$};
+			\node (b) at (0,-0.5) {$\bullet$};
+			\draw[thick] (b) -- (tr) (b) -- (tl);
+			\draw[thick,draw=blue,->] (b) edge[loop below] (b)
+								   (tl) edge[bend right] (b)
+								   (tr) edge[bend left] (b);
+		 \end{tikzpicture}
+		}\ar[ul, ultra thick,-] \ar[ur, ultra thick,-] \ar[ulll, ultra thick,-] \ar[urrr, ultra thick,-] &&\qquad 
+	\end{tikzcd}
+}	
+At each step "upwards" on this [cpo](dt-001D), one arrow that ends in #{\bot} now points to a non-#{\bot} value (moving up the [cpo](dt-001D) #{\mathbb{B}_\bot}).}

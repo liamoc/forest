@@ -1,0 +1,7 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Exercise}
+\p{
+	What is the common (functional programming) name for #{\mathit{apply} \circ (f \times \mathsf{id})}?
+	\solnblock{\p{#{\mathit{uncurry}}}}
+}
