@@ -1,0 +1,25 @@
+\import{dt-macros}
+\taxon{Construction}
+\author{liamoc}
+\title{Sum of [cpos](dt-001D)}
+\p{
+The \em{sum} construct on [cpo](dt-001D) #{A + B} denotes a disjoint union of two [cpos](dt-001D) with a new, dedicated [#{\bot} value](dt-000A):
+##{
+A + B = \{ (0, a) \mid a \in A \} \cup \{ (1, b) \mid b \in B \} \cup \{ \bot_{A+B} \}
+}
+This construct is a [cpo](dt-001D) under the [ordering](dm-0000):
+##{
+x \sqsubseteq y\;\;\text{iff}\;\;\begin{cases} \text{true} & \text{if}\ x=\bot_{A+B}\\ a \sqsubseteq a' & \text{if}\ x = (0,a)\ \text{and}\ y = (0, a') \\ b \sqsubseteq b' & \text{if}\ x = (1,b)\ \text{and}\ y = (1, b') \\ 
+\text{false} & \text{otherwise} \end{cases}
+}
+Intuitively, this says that the [ordering](dm-0000) on #{A + B} is the same as #{A} and #{B} separately, except that #{\bot_{A+B}} is less than anything.}
+\p{ The only [directed sets](dt-0010) are those that do \em{not} contain a mixture of elements from both #{A} and from #{B}, so the [least upper bound](dt-0017) operator is essentially the same as the [least upper bounds](dt-0017) for #{A} and for #{B}. Formally:
+##{
+\bigsqcup X \;\; = \;\; \begin{cases}
+(0,\bigsqcup \Set{ a \mid (0,a) \in X }) & \text{if}\ \Set{ a \mid (0,a) \in X } \neq \emptyset \\
+(1,\bigsqcup \Set{ b \mid (1,b) \in X }) & \text{if}\ \Set{ b \mid (1,b) \in X } \neq \emptyset\\
+\bot_{A+B} & \text{otherwise}\\
+\end{cases}
+}
+
+}

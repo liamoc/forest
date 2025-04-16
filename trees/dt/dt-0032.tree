@@ -1,0 +1,13 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{Constructors for sums}
+\p{For \em{constructing} sums, we use two primitive constructor functions, #{\mathit{inl}} and #{\mathit{inr}}:
+##{
+\begin{array}{l}
+  \mathit{inl} : A \contto (A + B)\\
+  \mathit{inl}(x) = (0,x)\\[1em]
+  \mathit{inr} : B \contto (A + B)\\
+  \mathit{inr}(y) = (1,y)
+\end{array}
+}}

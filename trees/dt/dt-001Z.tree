@@ -6,9 +6,7 @@
 \p{This lecture is based on material from [[haskellhutt]], [[danascott]], [[jstoy]], [[cgunter]], and [[gwinskel]].}
 \transclude{dt-002K}
 \transclude{dt-002Z}
-\subtree{
-\title{Sums}
-}
+\transclude{dt-0030}
 \subtree{
 \title{Strict Constructions}
 }
