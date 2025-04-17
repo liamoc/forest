@@ -1,0 +1,6 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Construction}
+\title{Smash products of [cpos](dt-001D)}
+##{A \otimes B = \Set{ (a,b) \in A \times B \mid a \neq \bot \land b \neq \bot } \cup \Set{ \bot_{A\otimes B}}} 
+\p{The [ordering](dm-0000) and [lubs](dt-0017) are, \em{mutatis mutandis}, as with the non-strict \ref{dt-0021}. This operator is called a \em{smash product} because the two #{\bot} values from #{A} and #{B} are "smashed" into one #{\bot} value.}

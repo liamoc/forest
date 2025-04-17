@@ -35,3 +35,4 @@
 \def\scase[x][y]{\lsquare\x,\y\rsquare}
 \def\op-cl-int[x][y]{\lsquare\x,\y\rparen}
 \def\contto{\twoheadrightarrow}
+\def\strictto{\mathbin{\circ\startverb\hspace{-0.4em}\stopverb\twoheadrightarrow}}

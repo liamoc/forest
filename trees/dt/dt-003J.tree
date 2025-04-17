@@ -1,0 +1,12 @@
+\import{dt-macros}
+\taxon{Theorem}
+\title{Isomorphisms with strict constructions}
+\author{liamoc}
+\p{
+The [strict cpo constructions](dt-003E) satisfy \em{all} the usual [isomorphisms](dt-002E), including:
+\ul{
+\li{ #{(A \strictto B) \times (A \strictto C)\;\; \simeq\;\; A \strictto (B\otimes C)}}
+\li{ #{(A \otimes B \strictto C) \;\; \simeq\;\; A \strictto (B \strictto C)}}
+\li{ #{(A \strictto C) \times (B \strictto C)\;\; \simeq\;\; (A\oplus B) \strictto C}}
+}
+}

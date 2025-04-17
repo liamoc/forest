@@ -7,9 +7,7 @@
 \transclude{dt-002K}
 \transclude{dt-002Z}
 \transclude{dt-0030}
-\subtree{
-\title{Strict Constructions}
-}
+\transclude{dt-003E}
 \subtree{
 \title{PCF}
 }

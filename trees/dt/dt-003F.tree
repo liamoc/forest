@@ -1,0 +1,6 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Construction}
+\title{The [cpo](dt-001D) of [strict](dt-000K) [continuous](dt-001J) functions}
+##{A \strictto B = \Set{ f \in A \contto B \mid f(\bot) = \bot }} 
+\p{The [ordering](dm-0000) and [lubs](dt-0017) are, \em{mutatis mutandis}, as with the non-strict \ref{dt-002L}.}

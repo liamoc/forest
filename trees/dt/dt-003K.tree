@@ -1,0 +1,9 @@
+\import{dt-macros}
+\author{liamoc}
+\title{The lifting operator for [cpos](dt-001D)}
+\taxon{Definition}
+\p{
+	The \em{lifting operator} #{(\cdot)_\bot} adds a new #{\bot} value to a [cpo](dt-001D). That is, for a [cpo](dt-001D) #{X}:
+	##{ X_\bot = X \cup \Set{\bot} \quad \text{(where $\bot \notin X$)}}
+	For all #{x \in X} (including #{\bot_X}), our new bottom value #{\bot \sqsubseteq x}.
+}

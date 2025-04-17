@@ -1,0 +1,15 @@
+\import{dt-macros}
+\author{liamoc}
+\title{Strict Constructions}
+\p{When giving a semantics to a call-by-name (or "lazy") language, the constructions [#{\contto} for functions](dt-002F), [#{\times} for products](dt-0021) and [#{+} for sums](dt-0031) are exactly what we want. To properly capture call-by-value (or "strict") languages, however, we also need [strict](dt-000K) versions of these constructions.}
+\transclude{dt-003F}
+\transclude{dt-003G}
+\transclude{dt-003H}
+\transclude{dt-003J}
+\transclude{dt-003I}
+\upshotblock{
+	[[dt-003I]] has products, exponentials, \em{and sums} (as it doesn't suffer from the [problem](dt-0039) that #{\textbf{Cpo}} does).
+}
+\transclude{dt-003K}
+\transclude{dt-003L}
+

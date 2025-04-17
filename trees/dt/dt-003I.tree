@@ -1,0 +1,6 @@
+\title{The [category](dm-000G) #{\mathbf{Cpo_\bot}}}
+\author{liamoc}
+\taxon{Definition}
+\p{
+	The [category](dm-000G) #{\mathbf{Cpo_\bot}} is the [category](dm-000G) where the objects are [cpos](dt-001D), the morphisms are [\em{strict} continuous functions](dt-003F) between these [cpos](dt-001D), and composition and identity are [as in #{\mathbf{Cpo}}](dt-002B).
+}

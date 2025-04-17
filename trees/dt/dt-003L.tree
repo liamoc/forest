@@ -1,0 +1,11 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Theorem}
+\title{Isomorphisms with lifting}
+\p{With [the lifting operator](dt-003K), we can relate the lazy constructions like [product](dt-0021) and [sum](dt-0031) with [strict](dt-000K) constructions like [smash product](dt-003G) and [sum](dt-003H) via [isomorphism](dt-002E):
+\ul{
+\li{ #{A\contto B \simeq  A_\bot \strictto B}}
+\li{ #{A + B \;\; \simeq A_\bot \oplus B_\bot}}
+\li{ #{(A \times B)_\bot  \simeq A_\bot \otimes B_\bot } }
+}
+}

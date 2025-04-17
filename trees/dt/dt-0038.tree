@@ -1,8 +1,5 @@
 \import{dt-macros}
 \author{liamoc}
-\taxon{Exercise}
-\p{Prove that the #{+ : \mathbf{Cpo} \times \mathbf{Cpo} \rightarrow \mathbf{Cpo}} is a lawful [bifunctor](dm-000M), as a consequence of the [weak universal property](dt-003B).
-\solnblock{
-\p{TODO}
-}
+\taxon{Theorem}
+\p{#{+ : \mathbf{Cpo} \times \mathbf{Cpo} \rightarrow \mathbf{Cpo}} is a lawful [bifunctor](dm-000M).
 }
