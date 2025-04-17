@@ -1,0 +1,11 @@
+\import{dt-macros}
+\author{liamoc}
+\title{Failure of sum isomorphisms}
+\taxon{Warning}
+\p{
+The weakness of the [universal property for sums](dt-0038) means that many common [isomorphisms](dt-002E) for sums in other contexts do not hold:
+\ul{
+\li{ #{A + (B + C) \not\simeq (A + B) + C}}
+\li{ #{(A \contto C) \times (B \contto C) \not\simeq (A+B) \contto C}}
+}
+}

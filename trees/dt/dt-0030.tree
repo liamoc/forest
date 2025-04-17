@@ -2,8 +2,9 @@
 \title{Sums}
 \author{liamoc}
 \transclude{dt-0031}
-\subtree{
-\title{Primitive functions for sums}
-\author{liamoc}
-\transclude{dt-0032}
+\transclude{dt-003D}
+\transclude{dt-0039}
+\transclude{dt-0036}
+\upshotblock{
+	\p{Our [category #{\mathbf{Cpo}}](dt-002B) has only [local](dt-0039) sums.}
 }

@@ -1,0 +1,6 @@
+\import{dt-macros}
+\author{liamoc}
+\title{Sums form a bifunctor}
+\p{With these, we can define the morphism mapping for the [sum](dt-0031) [bifunctor](dm-000M) #{(+) : \textbf{Cpo} \times \textbf{Cpo} \rightarrow \textbf{Cpo}}. Just as with [products](dt-0026) and [functions](dt-002W), we will overload the #{+} notation for \em{morphisms} as well as objects in [the category #{\mathbf{Cpo}}](dt-002B).}
+\transclude{dt-0037}
+\transclude{dt-0038}

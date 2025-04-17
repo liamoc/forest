@@ -1,0 +1,16 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Example}
+\title{Weak universality of cpo sums}
+\p{
+Consider this scenario with the [cpos](dt-001D) #{\textbf{2} = \Set{ \top, \bot }} and #{\textbf{1} = \Set{\bot }}:
+\figure{
+\tex{\usepackage{tikz-cd}}{
+\begin{tikzcd}[row sep=large]
+	& \mathbf{2}  \arrow[dl, "\lambda x.\ \top",<-,labels=above left]\arrow[dr,<-,"\lambda x.\ \top"]\arrow[d,"{h}", <-, labels=description] & \\
+\mathbf{1} & \mathbf{1} + \mathbf{1} \ar[l, "{\mathit{inl}}",<-,labels=below] \ar[r, "{\mathit{inr}}",<-,labels=below]& \mathbf{1}
+\end{tikzcd}
+}
+}
+In this case, setting the function #{h = \lambda x.\ \top} makes the diagram commute, but #{(\lambda x.\ \top) \neq \scase{\lambda x.\ \top}{ \lambda x.\ \top}} due to the different handling of #{\bot_{\textbf{1}+\textbf{1}}}. 
+}

@@ -1,0 +1,31 @@
+\import{dt-macros}
+\taxon{Exercise}
+\author{liamoc}
+\p{
+	Prove that the [case function](dt-0034) #{\scase{f}{g}(x)} is, given [continuous](dt-001J) functions #{f : A \contto C} and #{g : B \contto C}, [continuous](dt-001J) on its argument #{x}.
+\solnblock{
+\p{
+	As mentioned in \ref{dt-0031}, the only [directed](dt-0010) subsets of #{A + B} are those that contain entirely values of the format #{(0,\_)} and optionally #{\bot_{A+B}}, \em{or} those that contain entirely values of the format #{(1,\_)} and optionally #{\bot_{A+B}}. Call this [directed](dt-0010) subset #{X}.
+}
+	\ul{
+		\li{\em{When  #{\bigsqcup X = \bot_{A+B}}}: This means that #{X = \Set{\bot_{A+B}}} as #{\bot} is always the least element. From \ref{dt-0034}, we have: ##{\begin{array}{lcl} \scase{f}{g}(\bigsqcup X) &=& \scase{f}{g}(\bot_{A+B}) \\ &=& \bot_C \\ &=& \bigsqcup \Set{\bot_C} \\ &=& \bigsqcup\Set{\scase{f}{g}(\bot_{A+B})} \\ &=& \bigsqcup \Set{\scase{f}{g}(x) \mid x \in X}\end{array} }  This discharges both requirements in \ref{dt-001J} for this case.}
+		\li{\em{When #{\bigsqcup X = (0,\_)}}: This means that #{X} consists of at least one #{(0,\_)} value plus possibly #{\bot_{A+B}}, that is #{X \setminus \Set{\bot_{A+B}} = \Set{ (0,a) \mid a \in Y} } for some nonempty #{Y \subseteq A}.  We have the following, using the [continuity](dt-001J) of #{f}: 
+		##{\begin{array}{lcl} 
+			\scase{f}{g}(\bigsqcup X) &=& \scase{f}{g}(\bigsqcup (X \setminus \Set{\bot_{A+B}})) \\
+			&=& \scase{f}{g}(\bigsqcup \Set{ (0,a) \mid a \in Y} )\\
+			&=& \scase{f}{g}(0,\bigsqcup Y) \\
+			&=& f(\bigsqcup Y) \\
+			&=& \bigsqcup \Set{ f(a) \mid a \in Y } \\
+			&=& \bigsqcup \Set{ \scase{f}{g}(0,a) \mid a \in Y} \\
+			&=& \bigsqcup \Set{ \scase{f}{g}(x) \mid x \in X \setminus \Set{\bot_{A+B}} } \\
+			&=& \bigsqcup (\Set{ \scase{f}{g}(x) \mid x \in X \setminus \Set{\bot_{A+B}} } \cup \Set{\bot_C}) \\
+			&=& \bigsqcup \Set{ \scase{f}{g}(x) \mid x \in X } \\
+		\end{array}}
+	}
+	\li{
+		\em{When #{\bigsqcup X = (1,\_)}}: Similar to the #{(0,\_)} case but using #{g} rather than #{f}.
+	}
+	
+}
+}
+}

@@ -1,0 +1,6 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Theorem}
+\title{Continuity of sum constructors}
+\p{The [constructor functions](dt-0032) #{\mathit{inl}} and #{\mathit{inr}} are [continuous](dt-001J).}
+

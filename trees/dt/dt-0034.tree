@@ -1,0 +1,13 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{The case function}
+\p{Elimination of [sums](dt-0031) is captured by the \em{case} function #{\scase{f}{g} : (A + B) \contto C}, made from functions #{f : A \contto C} and #{g : B \contto C}. This function is defined by:
+##{
+\begin{array}{l}
+ \scase{f}{g} : (A + B) \contto C\\
+ \scase{f}{g}(x) = \begin{cases} f(a) & \text{if}\ x = (0,a) \\
+								  g(b) & \text{if}\ x = (1,b) \\
+								  \bot_C & \text{if}\ x = \bot_{A+B}\end{cases}
+\end{array}
+}}

@@ -6,6 +6,12 @@
 \subtree{\taxon{Proof}
 \body
 }}}
+\def\upshotblock[body]{\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
+\subtree{\taxon{Upshot}
+\body
+}}}
 \def\solnblock[body]{\scope{
 \put\transclude/toc{false}
 \put\transclude/numbered{false}
@@ -23,6 +29,9 @@
 \def\fixop{#{\textbf{fix}}}
 \def\acr[distance]{\\[\distance]}
 \def\lsquare{\startverb[\stopverb}
+\def\rsquare{\startverb]\stopverb}
+\def\lparen{\startverb(\stopverb}
 \def\rparen{\startverb)\stopverb}
+\def\scase[x][y]{\lsquare\x,\y\rsquare}
 \def\op-cl-int[x][y]{\lsquare\x,\y\rparen}
 \def\contto{\twoheadrightarrow}

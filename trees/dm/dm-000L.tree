@@ -1,6 +1,6 @@
 \import{dt-macros}
 \author{liamoc}
-\title{Commutative Diagrams}
+\title{Commutative diagrams}
 \p{When working in a [category](dm-000G), we can state many theorems compactly using \em{commutative diagrams}, such as this diagram for products:
 \figure{
 \tex{\usepackage{tikz-cd}}{

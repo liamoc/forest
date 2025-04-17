@@ -1,0 +1,17 @@
+\import{dt-macros}
+\author{liamoc}
+\title{Locality of sums}
+\p{We can see by the definitions of [case](dt-0034) and our [constructors](dt-0032) that #{\scase{f}{g} \circ \mathit{inl} = f} and #{\scase{f}{g} \circ \mathit{inr} = g}, or, in a [commutative diagram](dm-000L):}
+\figure{
+\tex{\usepackage{tikz-cd}}{
+\begin{tikzcd}[row sep=large]
+	& C  \arrow[dl, "f",<-,labels=above left]\arrow[dr,<-,"g"]\arrow[d,"{[ f, g ]}", <-, labels=description] & \\
+A & A + B \ar[l, "{\mathit{inl}}",<-,labels=below] \ar[r, "{\mathit{inr}}",<-,labels=below]& B 	
+\end{tikzcd}
+}
+}
+\p{Note that this diagram is like the [dual](dm-000Q) of the diagram seen in the [universal property for products](dt-0029) — the arrows are reversed. That is because, generally speaking, sums are dual to products. However, because of our additional #{\bot} value, our [cpo sums](dt-0031) are only \em{weakly} universal — the #{h} arrow is \em{not} unique.
+}
+\transclude{dt-003A}
+\transclude{dt-003B}
+\transclude{dt-003C}

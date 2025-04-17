@@ -1,0 +1,8 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{Weak universal property for [cpo sums](dt-0031)}
+##{
+(h \circ \mathit{inl} = f \land h \circ \mathit{inr} = g)\;\; \text{iff}\;\; \scase{f}{g} \sqsubseteq h
+}
+\p{This property is called \em{weak} because it uses only the [information ordering](dt-000B) rather than equality on the right hand side.}

@@ -1,0 +1,5 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Definition}
+\title{Sum of functions}
+\p{ Given functions #{f : A \contto C} and #{g : B \contto D}, we have: ##{\begin{array}{l} f+g : (A + B)\contto (C + D) \\ f+g = [\mathit{inl} \circ f, \mathit{inr} \circ g] \end{array} }}
