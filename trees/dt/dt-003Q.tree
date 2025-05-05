@@ -1,0 +1,8 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Definition}
+\title{Notation for #{n}-tuples}
+\p{Given an #{n}-tuple, i.e. elements of the #{n}-ary [product](dm-0005) #{X_0 \times X_1 \times X_2 \times \dots \times X_n}, we typically denote the entire #{n}-tuple as in vector notation: ##{\vec{x} : X_0 \times X_1 \times X_2 \times \dots \times X_n}
+And individual elements of the tuple are accessed with numeric subscripts:
+##{x_0 : X_0 \quad x_2 : X_2 \quad \cdots}
+ }

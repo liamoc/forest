@@ -1,0 +1,21 @@
+\import{dt-macros}
+\author{liamoc}
+\title{Type-dependent denotations}
+\p{
+Because [PCF](dt-003M) is [typed](dt-003N), we shall assign denotations only to well-typed expressions. 
+The range of our [denotation function](dt-0001) for expressions is determined by the \em{type} of its input expression. That is, the denotation of a type #{\tau} \em{is} the [cpo](dt-001D) whose elements will be the denotations of expressions of type #{\tau}. 
+
+The denotation of the type #{\mathsf{nat}}, then, is merely the [flat domain](dt-0008) of the natural numbers #{\mathbb{N}_\bot}:
+##{
+\llbracket \mathsf{nat} \rrbracket = \mathbb{N}_\bot
+}
+And, the denotation of the function type is the domain of [continuous functions](dt-002F) on cpos:
+##{
+\llbracket \tau_1 \rightarrow \tau_2 \rrbracket = \llbracket \tau_1 \rrbracket \contto \llbracket \tau_2 \rrbracket
+}
+A \em{closed} term #{e : \tau} with no free variables denotes an element of #{\llbracket \tau \rrbracket}, so we might be tempted to define our denotation function for expressions #{e : \tau} like so: ##{\llbracket e \rrbracket : \llbracket \tau \rrbracket}
+However, if #{e : \tau} involves free variables from our context #{\Gamma}, the valuation of #{e} will depend on the values assigned to all the variables. Thus, the denotation of a typed expression #{\Gamma \vdash e : \tau} is defined instead as a [continuous](dt-001J) function:
+##{\llbracket e \rrbracket_\Gamma : \llbracket \Gamma \rrbracket \contto \llbracket \tau \rrbracket}
+where the meaning of a context #{\Gamma = (x_0 : \tau_0, x_1 : \tau_1,\dots, x_n : \tau_n)} will be a a big #{n}-tuple of the values assigned to each variable:
+##{\llbracket \Gamma \rrbracket = \llbracket \tau_0 \rrbracket \times \llbracket \tau_1 \rrbracket \times \cdots \times \llbracket \tau_n \rrbracket}
+}

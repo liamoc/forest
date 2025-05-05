@@ -1,0 +1,29 @@
+\import{dt-macros}
+\author{liamoc}
+\title{Extending [PCF](dt-003M) with sum types}
+\p{We shall extend [the syntax of PCF](dt-003M) with a new type former, #{\tau_1 + \tau_2} and three expression-level constructs for constructing and deconstructing sums:
+##{
+  \begin{array}{lcl}
+     e & \Coloneqq & \cdots \mid \mathsf{inl}\ e \mid \mathsf{inr}\ e \mid \mathsf{case}\ e_0\ \mathsf{of}\ \mathsf{inl}\ x \rightarrow e_1 ; \mathsf{inr}\ y \rightarrow e_2 \\
+    \tau & \Coloneqq & \cdots \mid \tau_1 + \tau_2
+   \end{array}
+}
+Adding to our [typing rules](dt-003N) similarly:
+##{
+  \inferrule{\Gamma \vdash e : \tau_1}{\Gamma \vdash \mathsf{inl}\ e : \tau_1 + \tau_2}\quad
+  \inferrule{\Gamma \vdash e : \tau_2}{\Gamma \vdash \mathsf{inr}\ e : \tau_1 + \tau_2}\\[2em]
+  \inferrule{\Gamma \vdash e_0 : \tau_1 + \tau_2 \quad \Gamma, x : \tau_1 \vdash e_1 : \tau \quad \Gamma, y : \tau_2 \vdash e_2 : \tau}{ \Gamma \vdash \mathsf{case}\ e_0\ \mathsf{of}\ \mathsf{inl}\ x \rightarrow e_1 ; \mathsf{inr}\ y \rightarrow e_2 : \tau}
+}
+To extend our [semantics](dt-003P), we make the sum type #{\tau_1 + \tau_2} denote the [sum cpo](dt-0031) #{\llbracket \tau_1 \rrbracket + \llbracket \tau_2 \rrbracket}, and our expression semantics are expressed using our [primitive functions for sums](dt-003D).
+##{
+  \begin{array}{lcl}
+  \llbracket \mathsf{inl}\ e \rrbracket_\Gamma & = & \mathit{inl} \circ \llbracket e \rrbracket_\Gamma \\
+  \llbracket \mathsf{inr}\ e \rrbracket_\Gamma & = & \mathit{inr} \circ \llbracket e \rrbracket_\Gamma
+  \end{array}
+}
+##{
+  \begin{array}{l}\llbracket \mathsf{case}\ e_0\ \mathsf{of}\ \mathsf{inl}\ x \rightarrow e_1 ; \mathsf{inr}\ y \rightarrow e_2  \rrbracket_\Gamma(\vec{z}) \\
+  \quad = 
+  [ \boldsymbol{\lambda}v. \llbracket e_1 \rrbracket_{\Gamma,x:\tau_1}(\vec{z},v), \boldsymbol{\lambda}v. \llbracket e_2 \rrbracket_{\Gamma,y:\tau_2}(\vec{z},v)] (\llbracket e_0 \rrbracket_\Gamma(\vec{z}))\end{array}
+}
+}

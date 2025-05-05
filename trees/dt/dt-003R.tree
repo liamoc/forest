@@ -1,0 +1,25 @@
+\import{dt-macros}
+\author{liamoc}
+\title{Extending [PCF](dt-003M) with product types}
+\p{We shall extend [the syntax of PCF](dt-003M) with a new type former, #{\tau_1 \times \tau_2} and three expression-level constructs for constructing and deconstructing pairs:
+##{
+  \begin{array}{lcl}
+     e & \Coloneqq & \cdots \mid (e_1,e_2) \mid \mathsf{fst}\ e \mid \mathsf{snd}\ e \\
+    \tau & \Coloneqq & \cdots \mid \tau_1 \times \tau_2
+   \end{array}
+}
+Adding to our [typing rules](dt-003N) similarly:
+##{
+  \inferrule{\Gamma \vdash e_1 : \tau_1 \quad e_2 : \tau_2}{(e_1,e_2) : \tau_1 \times \tau_2}\\[2em]
+  \inferrule{\Gamma \vdash e : \tau_1 \times \tau_2}{\Gamma \vdash \mathsf{fst}\ e : \tau_1}\quad
+  \inferrule{\Gamma \vdash e : \tau_1 \times \tau_2}{\Gamma \vdash \mathsf{snd}\ e : \tau_2}
+}
+To extend our [semantics](dt-003P), we make the product type #{\tau_1 \times \tau_2} denote the [product cpo](dt-0021) #{\llbracket \tau_1 \rrbracket \times \llbracket \tau_2 \rrbracket}, and our expression semantics are expressed straightforwardly using our [projection](dt-0020) and [split](dt-0023) operations for [products](dt-002K):
+##{
+  \begin{array}{lcl}
+  \llbracket (e_1, e_2) \rrbracket_\Gamma &=& \langle \llbracket e_1 \rrbracket_\Gamma, \llbracket e_2 \rrbracket_\Gamma \rangle \\
+  \llbracket \mathsf{fst}\ e \rrbracket_\Gamma & = & \pi_0 \circ \llbracket e \rrbracket_\Gamma \\
+  \llbracket \mathsf{snd}\ e \rrbracket_\Gamma & = & \pi_1 \circ \llbracket e \rrbracket_\Gamma \\
+  \end{array}
+}
+}

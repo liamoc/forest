@@ -1,0 +1,13 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{The language PCF}
+\p{
+  The language for \strong{P}rogramming \strong{C}omputable \strong{F}unctions (PCF) is a variant of typed #{\lambda}-calculus with minimal extensions to be Turing-complete.
+  ##{
+  \begin{array}{lcl}
+     e & \Coloneqq & n \mid x \mid \lambda x : \tau.\ e \mid e_1\ e_2\mid\mathsf{succ} \mid \mathsf{pred} \mid \mathsf{ifz}\ e_1\ \mathsf{then}\ e_2\ \mathsf{else}\ e_3 \mid \mathsf{fix}\ x : \tau.\ e \\
+    \tau & \Coloneqq & \mathsf{nat} \mid \tau_1 \rightarrow \tau_2	 	
+   \end{array}
+  }
+}

@@ -1,0 +1,16 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{Typing rules for [PCF](dt-003M)}
+\p{
+  ##{
+  \inferrule{n \in \mathbb{N}}{\Gamma \vdash n : \mathsf{nat}}\quad
+  \inferrule{x : \tau \in \Gamma}{\Gamma \vdash x : \tau}\quad
+  \inferrule{\Gamma, x : \tau_1 \vdash e : \tau_2  }{ \Gamma \vdash \lambda x : \tau_1.\ e : \tau_1 \rightarrow \tau_2}\quad 
+  \inferrule{\Gamma \vdash e_1 : \tau_1 \rightarrow \tau_2 \quad \Gamma \vdash e_2 : \tau_1}{\Gamma \vdash e_1\ e_2 : \tau_2}\\[2em]
+  \inferrule{ }{ \Gamma \vdash \mathsf{succ} : \mathsf{nat} \rightarrow \mathsf{nat}}\quad 
+  \inferrule{ }{ \Gamma \vdash \mathsf{pred} : \mathsf{nat} \rightarrow \mathsf{nat}}\quad
+  \inferrule{ \Gamma \vdash e_1 : \mathsf{nat} \quad \Gamma \vdash e_2 : \tau \quad \Gamma \vdash e_3 : \tau }{ \Gamma \vdash \mathsf{ifz}\ e_1\ \mathsf{then}\ e_2\ \mathsf{else}\ e_3 : \tau}\quad
+  \inferrule{ \Gamma, x : \tau \vdash e : \tau }{\Gamma \vdash \mathsf{fix}\ x : \tau.\ e : \tau}
+  }
+}

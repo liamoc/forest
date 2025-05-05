@@ -1,10 +1,18 @@
 \def\cal[body]{#{\mathcal{\body}}}
 \def\syn[body]{#{\mathsf{\body}}}
+\def\inferrule[top][bottom]{\dfrac{\top}{\bottom}}
 \def\proofblock[body]{\scope{
 \put\transclude/toc{false}
 \put\transclude/numbered{false}
 \subtree{\taxon{Proof}
 \body
+}}}
+\def\subblock[tile][body]{\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
+\subtree{
+  \title{\tile}
+  \body
 }}}
 \def\upshotblock[body]{\scope{
 \put\transclude/toc{false}

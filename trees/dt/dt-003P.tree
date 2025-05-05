@@ -1,0 +1,31 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Definition}
+\title{Semantics of [PCF](dt-003M)}
+\subblock{Types}{
+##{
+  \begin{array}{lcl}
+  \llbracket \mathsf{nat} \rrbracket &=& \mathbb{N}_\bot\\  
+  \llbracket \tau_1 \rightarrow \tau_2 \rrbracket &=& \llbracket \tau_1 \rrbracket \contto \llbracket \tau_2 \rrbracket 
+  \end{array}
+}}
+\subblock{Expressions}{
+  For #{\Gamma : e : \tau}, we have #{\llbracket e \rrbracket_\Gamma : \llbracket \tau \rrbracket } defined as follows:
+##{
+\begin{array}{lcl}
+  \llbracket n \rrbracket_\Gamma(\vec{z}) & =&  n\\
+  \llbracket x \rrbracket_\Gamma(\vec{z}) & = & z_j\ \text{where}\ j\ \text{is largest}\ j\ \text{s.t.}\ x = x_j \\
+\llbracket \lambda x : \tau_1.\ e \rrbracket_\Gamma(\vec{z}) & = & (\boldsymbol{\lambda} v \in \llbracket \tau_1 \rrbracket.\ \llbracket e\rrbracket_{\Gamma, x : \tau_1}(\vec{z}, v))\\
+\llbracket e_1\ e_2 \rrbracket_\Gamma(\vec{z}) & = & \llbracket e_1 \rrbracket_\Gamma(\vec{z})(\llbracket e_2 \rrbracket_\Gamma(\vec{z}))\\
+\llbracket \mathsf{succ} \rrbracket_\Gamma(\vec{z}) & = & (\boldsymbol{\lambda} v \in \mathbb{N}_\bot.\ v + 1)\\
+\llbracket \mathsf{pred} \rrbracket_\Gamma(\vec{z}) & = & (\boldsymbol{\lambda} v \in \mathbb{N}_\bot.\ v - 1)\\
+\llbracket \mathsf{ifz}\ e_1\ \mathsf{then}\ e_2\ \mathsf{else}\ e_3 \rrbracket_\Gamma(\vec{z}) & = &  \begin{cases}
+    \llbracket e_2 \rrbracket_\Gamma(\vec{z}) & \text{if}\ 		\llbracket e_1 \rrbracket_\Gamma(\vec{z}) > 0 \\
+    \llbracket e_3 \rrbracket_\Gamma(\vec{z}) & \text{if}\ 		\llbracket e_1 \rrbracket_\Gamma(\vec{z}) = 0 \\
+    \bot & \text{if}\ \llbracket e_1 \rrbracket_\Gamma(\vec{z}) = \bot
+  \end{cases}\\
+\llbracket \mathsf{fix}\ x : \tau.\ e \rrbracket_\Gamma(\vec{z}) &= & \mathbf{fix}(\boldsymbol{\lambda} v \in \llbracket \tau \rrbracket.\ \llbracket e\rrbracket_{\Gamma, x : \tau}(\vec{z}, v))
+\end{array}
+}
+In the above definitions a boldface lambda #{\boldsymbol{\lambda}} is used for an anonymous [continuous function](dt-001J) — boldface to distinguish it from the lambda in the [syntax of PCF](dt-003M). Verifying that these functions are indeed [continuous](dt-001J) is straightforward, but is necessary to justify the use of [the #{\mathbf{fix}} operator](dt-001Q). 
+}

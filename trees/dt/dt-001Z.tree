@@ -3,11 +3,9 @@
 \taxon{Lecture}
 \title{Constructions on [cpos](dt-001D) and PCF}
 \author{liamoc}
-\p{This lecture is based on material from [[haskellhutt]], [[danascott]], [[jstoy]], [[cgunter]], and [[gwinskel]].}
+\p{This lecture is based on material from [[haskellhutt]], [[jlongley]],[[danascott]], [[jstoy]], [[cgunter]], and [[gwinskel]].}
 \transclude{dt-002K}
 \transclude{dt-002Z}
 \transclude{dt-0030}
 \transclude{dt-003E}
-\subtree{
-\title{PCF}
-}
+\transclude{dt-003T}
