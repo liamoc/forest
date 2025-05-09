@@ -1,5 +1,9 @@
 \import{dt-macros}
 \author{liamoc}
 \taxon{Theorem}
-\p{#{+ : \mathbf{Cpo} \times \mathbf{Cpo} \rightarrow \mathbf{Cpo}} is a lawful [bifunctor](dm-000M).
+\p{#{+ : \mathbf{Cpo} \times \mathbf{Cpo} \rightarrow \mathbf{Cpo}} is a lawful [bifunctor](dm-000M), that is:
+\ol{
+\li{ #{ (\lambda a. a) \times (\lambda b. b) = (\lambda x.x)} }
+\li{ #{ (f_1 \circ g_1) \times (f_2 \circ g_2) = (f_1 \times f_2) \circ (g_1 \times g_2)} }
+}
 }
