@@ -1,0 +1,27 @@
+\author{liamoc}
+\import{dt-macros}
+\title{Finite Automata via Matrices}
+\date{2025-05-08T09:10:02Z}
+\p{This technique is almost certainly folklore, but I first saw it in [[dfirsov]] and [[tuustalu]]'s [paper](firsov-uustalu-2013), which uses it to formalise and prove correct a regex matcher in Agda.}
+\subtree{
+\taxon{Definition}
+\p{Define a finite state automaton over an alphabet #{\Sigma} as a tuple #{(N, \delta, I, F)} where: }
+\ul{
+		\li{#{N \in \mathbb{N}} is the number of states.}
+		\li{#{\delta : \Sigma \rightarrow N \times N} is the transition function. Here #{\delta(a)} gives a boolean matrix #{M} where #{M_{ij} = 1} iff state #{j} is a successor of state #{i} for the symbol #{a}. As #{\Sigma} is finite this could also be viewed as a three-dimensional tensor.}
+		\li{#{I : 1 \times N} is a row vector specifying the initial states, where element #{I_{1k}} is #{1} iff state #{k} is an initial state.}
+		\li{#{F : N \times 1} is a column vector specifying the final states, where element #{I_{k1}} is #{1} iff state #{k} is a final state.}
+	}
+}
+\p{
+	Running an NFA #{(N, \delta, I, F)} on a word #{x_0x_1x_2\dots
+	} from a starting set of states #{X} is the same as the product of #{X} (interpreted as a row vector) with each matrix for each symbol in the word:
+	##{ \begin{array}{lcl}
+	\delta^\ast(X, x_0x_1x_2\dots) & = & X \cdot \delta(x_0) \cdot \delta (x_1) \cdot \delta(x_2) \cdot \cdots \\
+	 \end{array}}
+	Start from #{I} and multiply #{F} at last and the result will be #{\lsquare\lsquare 1 \rsquare\rsquare} if the word is in the language and #{\lsquare\lsquare 0 \rsquare\rsquare} otherwise:
+	##{
+		w \in \mathcal{L} \;\;\Longleftrightarrow\;\; \delta^\ast(I,w) \cdot F = \lsquare\lsquare 1 \rsquare\rsquare
+	}
+	
+}

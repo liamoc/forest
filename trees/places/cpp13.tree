@@ -1,0 +1,8 @@
+\import{conf-name-macros}
+\taxon{Conference}
+\meta{doi}{10.1145/3176245}
+\title{\conf-name{CPP '13}{3rd ACM SIGPLAN International Conference on Certified Programs and Proofs}}
+\date{2013-12}
+\meta{venue}{Melbourne, Victoria, Australia}
+\meta{doi}{10.1007/978-3-319-03545-1}
+\p{Colocated with [[aplas13]].}

@@ -1,0 +1,10 @@
+\title{Certified Parsing of Regular Languages}
+\taxon{Reference}
+\meta{venue}{[[cpp13]]}
+\author{dfirsov}
+\author{tuustalu}
+\date{2013-12-11}
+\meta{doi}{10.1007/978-3-319-03545-1_7}
+\tag{refereed}
+
+\meta{source}{[Available from Denis' Website](https://firsov.ee/cert-reg/firsov-uustalu-cpp13.pdf)}
