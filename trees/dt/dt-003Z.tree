@@ -1,0 +1,11 @@
+\import{dt-macros}
+\author{liamoc}
+\title{Both infinite and compact}
+\taxon{Exercise}
+\p{Find a set in the [cpo of submonoids](dt-003Y) of #{(\mathbb{N},0,+)} that is \em{both} infinite and [compact](dt-003U)}
+
+\solnblock{
+\p{Take #{E \triangleq \Set{ n \in \mathbb{N} \mid n\ \text{is even}}}. Let #{Y \subseteq \pow{\mathbb{N}}} be directed and #{E \subseteq \bigcup Y}. Since #{2 \in E} there must exist #{y \in Y} such that #{2 \in Y}. Since #{(y,0,+)} is a [monoid](dm-000O), every positive multiple of #{2} is also in #{y}, thus #{E \subseteq y} and therefore #{E} is [compact](dt-003U).}
+\p{Seeing as [compact](dt-003U) elements are also sometimes called \em{finite}, this is surprising as #{E} is an infinite set. The reason it is nonetheless [compact](dt-003U) is that #{E} is \em{finitely generated} — it is the smallest [submonoid](dm-000R) of #{(\mathbb{N},0,+)} such that the \em{finite} set #{\Set{ 2 } \subseteq E}. In fact, the [compact](dt-003U) [submonoids](dm-000R) of #{(\mathbb{N},0,+)} are precisely the finitely generated ones.
+}
+}

@@ -6,12 +6,13 @@
 \transclude{dt-001Z}
 \subtree{
 \taxon{Lecture}
-\title{Scott Domains}
+\title{Recursively Defined Domains}
 \p{todo}
 }
 \subtree{
 \taxon{Lecture}
-\title{Recursively Defined Domains}
+\title{Scott Domains}
+\transclude{dt-0040}
 \p{todo}
 }
 \subtree{

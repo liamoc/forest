@@ -1,0 +1,4 @@
+\taxon{Theorem}
+\author{liamoc}
+\title{Submonoids as a cpo}
+\p{The [submonoids](dm-000R) of a [monoid](dm-000O) #{(X, \iota, \bullet)} form a [cpo](dt-001D) under #{\subseteq}, where union gives the [lub](dt-0017).}

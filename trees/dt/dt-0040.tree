@@ -1,0 +1,33 @@
+\title{Compactness and Finiteness}
+\author{liamoc}
+\p{We begin by formalising the notion of an element in a [cpo](dt-001D) representing a \em{finite} amount of information. }
+\transclude{dt-003W}
+\p{
+Following the above intuition, we might be tempted to say that the \em{"infinite"} elements of a [cpo](dt-001D) are those which are the [lub](dt-0017) of an [interesting](dt-003W) set, but this notion is too weak. Consider this [cpo](dt-001D) #{X}:
+\figure{
+\tex{\usepackage{tikz-cd,amsmath,amssymb}}{
+\begin{tikzcd}
+\infty\\
+2\ar[u,thick,-,dotted]\\
+1\ar[u,thick,-] & & x\ar[uull,thick,-]\\
+0\ar[u,thick,-] \\
+& \bot \ar[ul,thick,-]\ar[uur,thick,-]	
+\end{tikzcd}
+}}
+By the above definition, the only infinite element would be #{\infty}, but if we consider the following isomorphic [cpo](dt-001D), ordered by subset inclusion:
+\figure{
+\tex{\usepackage{tikz-cd,amsmath,amssymb}}{
+\begin{tikzcd}
+\mathbb{N}\\
+\{0,1,2\}\ar[u,thick,-,dotted]\\
+\{0,1\}\ar[u,thick,-] & & x\ar[uull,thick,-]\\
+\{0\}\ar[u,thick,-] \\
+& \emptyset \ar[ul,thick,-]\ar[uur,thick,-]	
+\end{tikzcd}
+}}
+Then the set #{x} cannot be a finite set, as any finite set would be a subset of one of the finite sets in the chain #{\emptyset \sqsubseteq \Set{ 0 } \sqsubseteq \Set{0,1} \sqsubseteq \cdots}. Thus, it makes more sense for us to call #{x} an \em{"infinite"} element as well.}
+\transclude{dt-003U}
+\p{In the example cpo #{X} above, all the elements except #{\infty} and #{x} would be [compact](dt-003U). Thus, compactness better captures our notion of an element representing a finite amount of information. This understanding of [compact](dt-003U) elements is a generalisation of the notion of a finite element from the theory of algebraic lattices.}
+\transclude{dt-003V}
+\transclude{dt-003X}
+\transclude{dt-003Z}

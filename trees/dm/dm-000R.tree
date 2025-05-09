@@ -1,0 +1,6 @@
+\taxon{Definition}
+\author{liamoc}
+\title{Submonoid}
+\p{
+A \em{submonoid} of a [monoid](dm-000O) #{(X, \iota, \bullet)} is a subset #{Y \subseteq X} such that #{Y} is closed under #{\bullet} and #{\iota \in Y}
+}

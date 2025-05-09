@@ -1,0 +1,17 @@
+\import{dt-macros}
+\import{table-macros}
+\title{Compact elements with infinitely many approximations }
+\taxon{Example}
+\author{liamoc}
+\<html:div>[class]{sidefigure}{
+\tex{\usepackage{tikz-cd}\usetikzlibrary{decorations.pathreplacing}\usepackage{amsmath}}{\begin{tikzcd}
+  \infty + 1& \ar[l,thick]\text{\scriptsize compact}\\
+  \infty\ar[u,-,thick] & \ar[l,thick]\text{\scriptsize non-compact}\\
+  2\ar[u,-,thick, dotted] & \quad\arrow[dd, start anchor=north, end anchor=south, no head, xshift=-1em, decorate, decoration={brace,amplitude=10pt,raise=-15pt}, thick,"\text{compact}" right=0pt]\\
+  1\ar[u,-,thick]\\
+  0\ar[u,-,thick] & \quad
+\end{tikzcd}}
+}
+\p{[Compact](dt-003U) elements may still have an infinite number of approximations. Consider the [cpo](dt-001D) #{\mathbb{N} \cup \Set{ \infty, \infty + 1 }}, where we have tacked on an additional top element  #{\infty + 1} to our normal [cpo](dt-001D) of natural numbers extended with infinity. Then, while #{\infty} is not [compact](dt-003U), #{\infty + 1} \em{is} [compact](dt-003U) — it is not the [lub](dt-0017) of an [interesting](dt-003W) [directed set](dt-0010). If #{\infty + 1} is the [lub](dt-0017) of a set #{X} then #{\infty + 1} must be in the set #{X}. Nonetheless, there are an infinite number  of \em{approximations} to #{\infty + 1}, i.e., elements #{x} such that #{x \sqsubseteq \infty + 1}.}
+\p{As an aside, requiring that our [compact](dt-003U) elements have a \em{truly} finite number of approximations is the basis for the theory of \em{Berry domains and stable functions}.}
+

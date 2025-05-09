@@ -1,0 +1,10 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Example}
+\title{Compact elements}
+\ul{
+\li{Every element in a finite [cpo](dt-001D) is [compact](dt-003U). More generally, every element of a [cpo](dt-001D) of finite \em{height} (e.g. #{\mathbb{Z}_\bot}) is [compact](dt-003U). This is because finite [directed sets](dt-0010) are always [boring](dt-003W).}
+\li{ Take the [cpo](dt-001D)  #{\mathcal{P}(X)} of subsets of #{X} ordered by inclusion #{\subseteq}, as seen in \ref{dt-001G}. The [compact](dt-003U) elements of #{\mathcal{P}(X)} are those of finite cardinality. }
+\li{ Take the [cpo](dt-001D) #{\mathbb{N} \nrightarrow \mathbb{N}} of partial functions on the natural numbers, ordered by inclusion of graphs. The [compact](dt-003U) elements of  #{\mathbb{N} \nrightarrow \mathbb{N}} are the functions which are defined only for finite domains. }
+}
+
