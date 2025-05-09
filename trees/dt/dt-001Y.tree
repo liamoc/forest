@@ -13,7 +13,12 @@
 \taxon{Lecture}
 \title{Scott Domains}
 \transclude{dt-0040}
-\p{todo}
+\subtree{
+\title{Algebraicity and Ideals}
+}
+\subtree{
+\title{Getting Closure}
+}
 }
 \subtree{
 \taxon{Lecture}
