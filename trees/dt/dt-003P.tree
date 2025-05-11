@@ -10,7 +10,7 @@
   \end{array}
 }}
 \subblock{Expressions}{
-  For #{\Gamma : e : \tau}, we have #{\llbracket e \rrbracket_\Gamma : \llbracket \tau \rrbracket } defined as follows:
+  For #{\Gamma \vdash e : \tau}, we have #{\llbracket e \rrbracket_\Gamma : \llbracket \tau \rrbracket } defined as follows:
 ##{
 \begin{array}{lcl}
   \llbracket n \rrbracket_\Gamma(\vec{z}) & =&  n\\
