@@ -1,0 +1,18 @@
+\import{dt-macros}
+\taxon{Aside}
+\author{liamoc}
+\title{Scott's original solution: using complete lattices}
+\p{The lack of closure of [algebraicity](dt-0041) under the ([continuous](dt-001J)) function arrow, [strict](dt-000K) or non-[strict](dt-000K), is not satisfying as it means that our semantic domains are not guaranteed to be [algebraic](dt-0041) even if they are composed from [algebraic](dt-0041) [cpos](dt-001D). Instead, we must replace [algebraic](dt-0041) [cpos](dt-001D) with something stronger still.}
+\p{Scott's original solution to this lack of closure was to use a \em{complete lattice} instead of [cpos](dt-001D), i.e. requiring [lubs](dt-0017) for all subsets, not just [directed](dt-0010) ones. This solves the problem with #{\contto} but introduces new problems:
+\ol{
+\li{ Complete lattices need a \em{top} element #{\top}, but adding a fictitious top (representing inconsistent information) to [cpos](dt-001D) like #{\mathbb{B}_\bot} is strange.}
+\li{ Extending the functions that capture our primitive semantic operationsto complete lattices can spoil nice algebraic properties. Consider these two possible implementations of #{\mathsf{ite}}, the function for the semantics of an #{\syn{if}} expression:
+##{
+\mathsf{ite}(\top,x,y) = x \sqcup y\quad\quad\quad \quad\quad \mathsf{ite}(\top,x,y) = \top
+}
+Either of these solutions results in the failure of useful and expected laws for #{\mathsf{if}} expressions. For example, the left definition above results in the failure of the common equation to eliminate unreachable cases: ##{\mathsf{ite}(b, \mathsf{ite}(b,x,y),z) = \mathsf{ite}(b,x,z) }
+And the second definition above results in the failure of this equation that removes redundant checks:
+##{\mathsf{ite}(b,x,x) = x}
+}
+\li{ The power domain construction (TODO) does not generalise to complete lattices, so semantics for non-deterministic programs are difficult in this setting. }
+}}

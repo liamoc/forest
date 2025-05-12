@@ -21,6 +21,12 @@
 \subtree{\taxon{Upshot}
 \body
 }}}
+\def\problemblock[body]{\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
+\subtree{\taxon{Problem}
+\body
+}}}
 \def\solnblock[body]{\scope{
 \put\transclude/toc{false}
 \put\transclude/numbered{false}
@@ -28,6 +34,8 @@
 \subtree{\taxon{Solution}
 \body
 }}}
+\def\downset[body]{#{\mathop{\downarrow}(\body)}}
+\def\downsetB[body]{#{\mathop{\downarrow}\left(\body\right)}}
 \def\pow[body]{#{\mathcal{P}(\body)}}
 \def\sems[body]{#{\llbracket \body \rrbracket}}
 \def\nat{#{\mathbb{N}}}

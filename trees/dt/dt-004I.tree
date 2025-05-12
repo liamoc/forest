@@ -1,0 +1,5 @@
+\import{dt-macros}
+\taxon{Theorem}
+\author{liamoc}
+\p{[Scott domains](dt-004G) are closed under all our [cpo](dt-001D) constructions, including [sums](dt-0031) #{+}, [products](dt-0021) #{\times}, [continuous functions](dt-002L) #{\contto}, [smash sums](dt-003H) #{\oplus}, [smash products](dt-003G) #{\otimes} and [strict functions](dt-003F) #{\strictto}.
+}

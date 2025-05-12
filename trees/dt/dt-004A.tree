@@ -1,0 +1,6 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{Basis}
+\p{A set of [compact](dt-003U) elements #{X \subseteq \compact{A}} is a \em{basis} for a [cpo](dt-001D) #{A} iff for all #{x\in A}, #{x= \bigsqcup\Set{a \in X \mid a \sqsubseteq x}}.
+}

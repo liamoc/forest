@@ -1,0 +1,3 @@
+\taxon{Remark}
+\author{liamoc}
+\p{The second requirement in \ref{dt-004G} can, in light of the first, be expressed equivalently as: #{x \sqcup y} exists for all [consistent](dt-0013) #{x,y \in D}. This is useful when needing to show that a given [cpo](dt-001D) is a [Scott domain](dt-004G).}

@@ -1,0 +1,7 @@
+\import{dt-macros}
+\taxon{Example}
+\title{#{\omega}-algebraic cpos}
+\author{liamoc}
+\p{
+Many standard examples of [cpos](dt-001D) are #{\omega}-[algebraic](dt-0041) [cpos](dt-001D): finite cpos, subsets #{\pow{X}} of a set #{X}, partial functions #{\mathbb{N} \nrightarrow \mathbb{N}} and [submonoids of a monoid](dt-003Y). In general, any [cpo](dt-001D) of subalgebras (e.g. subgroups of a group, subrings of a ring etc.) is #{\omega}-[algebraic](dt-0041). This is the origin of the terminology.
+}

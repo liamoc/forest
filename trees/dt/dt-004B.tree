@@ -1,0 +1,9 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Theorem}
+\title{Compact basis for algebraic cpos}
+\p{ If #{X} is a [basis](dt-004A) for #{A}, then #{A} is [algebraic](dt-0041) and #{\compact{A} = X}.
+}
+\proofblock{
+\p{If #{a \in \compact{A}}, then #{\bigsqcup M = a} where #{M = \Set{ x \in X \mid x \sqsubseteq a }}, as #{X} is a [basis](dt-004A). Since #{a} is [compact](dt-003U), #{a \sqsubseteq b}  for some #{b \in M}. But since #{a} is the [lub](dt-0017) of #{M}, #{b \sqsubseteq a} as well. By [antisymmetry](dm-0003) #{a = b}, hence #{a \in X}. Thus #{\compact{A} \subseteq X}, so #{\compact{A} = X} and #{A} is [algebraic](dt-0041).
+}}

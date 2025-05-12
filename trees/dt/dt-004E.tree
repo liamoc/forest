@@ -1,0 +1,5 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{Consistent completeness}
+\p{A [poset](dm-0004) #{A} is \em{consistent complete} (or \em{bounded complete}) iff #{\bigsqcup X} exists for all [consistent](dt-0013) #{X \subseteq A}. That is, any set with \em{an} [upper bound](dm-000C) (a [consistent](dt-0013) set) has a [\em{least} upper bound](dt-0017).} 	

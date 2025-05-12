@@ -30,4 +30,5 @@ Then the set #{x} cannot be a finite set, as any finite set would be a subset of
 \p{In the example cpo #{X} above, all the elements except #{\infty} and #{x} would be [compact](dt-003U). Thus, compactness better captures our notion of an element representing a finite amount of information. This understanding of [compact](dt-003U) elements is a generalisation of the notion of a finite element from the theory of algebraic lattices.}
 \transclude{dt-003V}
 \transclude{dt-003X}
+\transclude{dt-003Y}
 \transclude{dt-003Z}

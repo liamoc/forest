@@ -1,0 +1,7 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Theorem}
+\title{Representation theorem for [algebraic](dt-0041) [cpos](dt-001D)}
+\p{ Every [algebraic](dt-0041) [cpo](dt-001D) #{D} is [isomorphic](dt-002E) to the [ideal completion](dt-0046) of its [compact](dt-003U) elements, ordered by subset inclusion. That is, #{\mathsf{Id}(K(D))} is an [algebraic](dt-0041) [cpo](dt-001D) such that #{D \simeq \mathsf{Id}(K(D))
+}.
+}

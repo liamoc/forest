@@ -1,0 +1,32 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Theorem}
+\title{Nothing suddenly invented at infinity}
+\p{Let #{D} and #{E} be [algebraic](dt-0041) [cpos](dt-001D). Then a function #{f : D \rightarrow E} is [continuous](dt-001J) iff, for all #{x \in D}: ##{f(x) = \bigsqcup\ \Set{ f(a) \mid a \in \downset{x} }}
+In other words, in an [algebraic](dt-0041) [cpo](dt-001D), [continuous functions](dt-001J) are completely defined by their behaviour for [compact](dt-003U) arguments.}
+\p{This makes precise our earlier slogan in \ref{dt-001J}, that [continuous functions](dt-001J) don't suddenly behave differently for infinite (i.e. non-[compact](dt-003U)) elements.}
+\proofblock{
+First, assuming #{f} is [continuous](dt-001J), we show that #{f(x) = \bigsqcup\ \Set{ f(a) \mid a \in \downset{x} }}:
+##{
+\begin{array}{lclr}
+f(x) & = & f(\bigsqcup \downset{x}) & \text{($D$ is {algebraic})}\\
+&=&\bigsqcup\ \{ f(a) \mid a \in \downset{x} \} & \text{($f$ is continuous)}\\
+\end{array}
+}	
+It remains to show that if #{f(x) = \bigsqcup\ \Set{ f(a) \mid a \in \downset{x} }}, then #{f} is [continuous](dt-001J). Using the [alternative definition](dt-001O), we shall first show that #{f} is [monotone](dt-000J). Let #{a \sqsubseteq b} for #{a,b \in D}. Then #{\downset{a} \subseteq \downset{b}} and thus #{\Set{f(x) \mid x \in \downset{a}} \subseteq \Set{f(x) \mid x \in \downset{b}}}, therefore:
+##{
+\begin{array}{lclr}
+f(a) &=&\bigsqcup\ \Set{ f(x) \mid x \in \downset{a} } & \text{(assumption)}\\
+     & \sqsubseteq &\bigsqcup\ \Set{ f(x) \mid x \in \downset{b} } & \text{(from above)}\\
+	 & = & f(b) & \text{(assumption)}\\
+\end{array}
+}
+Next, let #{X \subseteq D} be [directed](dt-0010).
+##{\begin{array}{lclr}
+f(\bigsqcup X) &=&\bigsqcup\ \Set{ f(x) \mid x \in \downset{\bigsqcup X} } & \text{(assumption)}\\
+&=&\bigsqcup\ \Set{ f(x) \mid x \in \compact{X} \land x \sqsubseteq \bigsqcup X } & \text{(defn.~of $\downarrow$)}\\
+&=&\bigsqcup\ \Set{ f(x) \mid \exists y \in X.\  x \in \compact{X} \land x \sqsubseteq y } & \text{(compactness)}\\
+&=&\bigsqcup\ \Set{ f(x) \mid \exists y \in X.\  x \in \downset{y}} & \text{(defn.~of $\downarrow$)}\\
+&=&\bigsqcup\ \Set{ f(x) \mid x \in X} & \text{(algebraicity)}\\
+\end{array}}
+}

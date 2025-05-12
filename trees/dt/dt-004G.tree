@@ -1,0 +1,26 @@
+\import{dt-macros}
+\import{table-macros}
+\taxon{Definition}
+\title{Scott domain}
+\author{liamoc}
+
+\<html:img>[class]{sidefigure}[src]{\route-asset{assets/c3po.png}}
+
+\p{A [cpo](dt-001D) #{D} is a \em{Scott domain} iff:
+\ol{
+	\li{ #{D} is [#{\omega}-algebraic](dt-0041), }
+	\li{ #{D} is [consistent complete](dt-004E), }
+}
+	In other words, \em{Scott domains} can be summed up by the acronym:
+}
+\<html:div>[class]{constrainfigure}{
+\tex{\usepackage{tikz}\usepackage{amsmath}}{
+\begin{tikzpicture}
+\node (a) at (5,3) {\Large $\text{ac}^3\text{po}$};
+\node (b1) at (0,-1) {\Large $\omega$-\textbf{\textcolor{orange}{a}}lgebraic };
+\node (b2) at (4,-1) {\Large \textbf{\textcolor{orange}{c}}onsistent-\textbf{\textcolor{orange}{c}}omplete };
+\node (b3) at (9.2,-1) {\Large \textbf{\textcolor{orange}{c}}omplete \textbf{\textcolor{orange}{p}}artial \textbf{\textcolor{orange}{o}}rder };
+\draw[thick,-] (b1) -- (a) (b2) -- (a) (b3) -- (a);
+\end{tikzpicture}
+}
+}

@@ -1,0 +1,4 @@
+\taxon{Definition}
+\author{liamoc}
+\title{Down-closure}
+\p{ Given a [poset](dm-0004) #{Y}, a set #{X \subseteq Y} is \em{down-closed} iff, for all #{x \in X}, any #{y \sqsubseteq x} is in #{X}.}

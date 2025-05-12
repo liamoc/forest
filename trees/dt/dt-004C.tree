@@ -1,0 +1,37 @@
+\import{dt-macros}
+\import{table-macros}
+\author{liamoc}
+\taxon{Theorem}
+\title{Closure of algebraic cpos under product}
+\p{If #{D} and #{E} are [algebraic](dt-0041) [cpos](dt-001D), then so is their product construction #{D \times E}.}
+\proofblock{
+\p{In the following proof, we show that #{\compact{D} \times \compact{E}} is a [basis](dt-004A) for the [product](dt-0021) #{D \times E} and thereby show via \ref{dt-004B} that #{D \times E} is [algebraic](dt-0041) if #{D} and #{E} are.}
+\ol{
+\li{
+	#{\compact{D} \times \compact{E} \subseteq \compact{D \times E}}: Let #{(x,y) \in \compact{D} \times \compact{E}}. To show that #{(x,y)} is [compact](dt-003U), let us assume that #{(x,y) \in \bigsqcup X} where #{X \subseteq D \times E} is [directed](dt-0010). We must show that there exists some element #{e} of #{X} such that our #{(x,y) \sqsubseteq e}. As #{(x,y) \in \bigsqcup X}, by the definition of [lub](dt-0017) on [products](dt-0021) we can conclude that:	
+	##{\begin{array}{lcl}
+		x & \sqsubseteq & \bigsqcup \pi_0\lsquare X\rsquare \\
+		y & \sqsubseteq & \bigsqcup \pi_1[X]
+	\end{array}}
+	Here we use the notation #{f[X]} to indicate the image of a function on a set, i.e. #{\Set{ f(v) \mid v \in X }}.\br
+	
+	Since #{x} and #{y} are both [compact](dt-003U), there must exist #{x' \in \pi_0\lsquare X\rsquare} and #{y' \in \pi_1\lsquare X\rsquare} such that #{x \sqsubseteq x'} and #{y \sqsubseteq y'}. While it does not follow that #{(x', y') \in X}, we know that there must exist a pair #{(a,b) \in X} such that #{x' \sqsubseteq a} and #{y' \sqsubseteq b} as #{X} is [directed](dt-0010). Hence #{(a,b)} can be our element #{e \in X} that is approximated by #{(x,y)}, i.e. #{(x,y) \sqsubseteq (a,b)}.
+}
+\li{
+	#{\downset{x,y}} is directed for all #{(x,y) \in D \times E}:
+##{\begin{array}{lcl}
+		\downset{x,y} &= & \Set{ (a,b) \in \compact{D} \times \compact{E} \mid (a,b) \sqsubseteq (x,y) } \\
+		& = & \{ a \in \compact{D} \mid a \sqsubseteq x \} \times \Set{ b \in \compact{E} \mid b \sqsubseteq y }\\
+		& = & \downset{x} \times \downset{y}
+	\end{array}}
+	Because #{D} and #{E} are [algebraic](dt-0041), #{\downset{x}} and #{\downset{y}} are [directed](dt-0010). As directedness is closed under [product](dt-002K), #{\downset{x,y}} is [directed](dt-0010) too.
+}
+\li{#{(x,y) = \bigsqcup\downset{x,y}}
+Starting from the right hand side:
+##{\begin{array}{lclr}
+\bigsqcup \downset{x,y} & = & \bigsqcup(\downset{x} \times \downset{y}) & \text{(part 2)}\\
+   & = & (\bigsqcup(\downset{x}, \bigsqcup\downset{y})) & \text{(lub on products)}\\
+   & = & (x,y) & \text{($D$, $E$ are {algebraic})}
+\end{array}}}
+}
+}

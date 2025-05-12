@@ -1,0 +1,43 @@
+\import{dt-macros}
+\import{table-macros}
+\taxon{Example}
+\author{liamoc}
+\title{Consistent completeness vs directed completeness}
+\figure{
+\tableW{
+	\tr{
+		\td{
+			\tex{\usepackage{tikz-cd}}{\begin{tikzcd}[column sep=1em]
+			    \quad \\
+				2 \ar[u,-,thick,dotted] \\ 
+				1 \ar[u,-,thick] \\
+				0 \ar[u,-,thick] \\
+				\end{tikzcd}}
+		}
+		\td{
+			\tex{\usepackage{tikz-cd}}{\begin{tikzcd}[column sep=1em]
+			\quad\\
+			\bullet && \bullet \\
+			\bullet \ar[u,-,thick]\ar[urr,-,thick] && \bullet \ar[ull,-,thick]\ar[u,-,thick] \\
+			&\bullet  \ar[ul,-,thick]\ar[ur,-,thick] \\
+			\end{tikzcd}
+		}}
+	}
+	\tr{
+		\td{
+			[consistent complete](dt-004E)
+		}
+		\td{
+			not [consistent complete](dt-004E)
+		}
+	}
+	\tr{
+		\td{
+			not [directed complete](dt-001D)
+		}
+		\td{
+			[directed complete](dt-001D)
+		}
+	}
+}
+}

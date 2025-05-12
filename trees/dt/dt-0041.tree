@@ -1,0 +1,12 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Definition}
+\title{Algebraicity}
+\p{A [cpo](dt-001D) is \em{algebraic} iff every element is the [lub](dt-0017) of its [compact](dt-003U) approximations. That is, a [cpo](dt-001D) #{D} is \em{algebraic} iff for all #{x \in D},
+\ol{
+\li{#{\downset{x} = \Set{ y \in \compact{D} \mid y \sqsubseteq x }} is [directed](dt-0010);}
+\li{#{x = \bigsqcup\downset{x}}}
+}
+\strong{Note}: It's common in semantics to consider only algebraic [cpos](dt-001D) with a \em{countable} set of [compact](dt-003U) elements. Such [cpos](dt-001D) are called \em{#{\omega}-algebraic}.}
+
+\p{ \strong{Aside}: Plotkin provides an equivalent definition of #{\omega}-algebraic [cpos](dt-001D) in which [directed sets](dt-0010) are replaced with [#{\omega}-chains](dt-000W) throughout. [Hutton](haskellhutt) claims this is less appealing, as the definition speaks of \em{an} [#{\omega}-chain](dt-000W) of [compact](dt-003U) approximations, rather than \em{the} [directed set](dt-0010) of such.}

@@ -1,0 +1,9 @@
+\import{dt-macros}
+\taxon{Definition}
+\title{Ideal completion}
+\author{liamoc} 
+ \p{The \em{ideal completion} of a set #{A}, written sometimes as #{\mathsf{Id}(A)}, is the set of all [ideal](dt-0048) subsets of #{A}, i.e.:
+##{
+\mathsf{Id}(A) = \Set{ X \subseteq A \mid X\ \text{is ideal}}
+}
+}

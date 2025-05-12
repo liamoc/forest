@@ -1,0 +1,20 @@
+\import{dt-macros}
+\import{table-macros}
+\taxon{Counterexample}
+\author{liamoc}
+\title{Non-algebraic cpo}
+\<html:div>[class]{sidefigure}{
+\tex{\usepackage{tikz-cd}\usetikzlibrary{decorations.pathreplacing}\usepackage{amsmath}}{
+	\begin{tikzcd}
+	\infty\\
+	1\ar[u,thick,-,dotted] & & x\ar[ull,thick,-]\\
+	0\ar[u,thick,-] \\
+	& \bot \ar[ul,thick,-]\ar[uur,thick,-]	
+	\end{tikzcd}
+}
+}
+\p{In the [cpo](dt-001D) on the right (seen also in \ref{dt-0040}), the element #{x} is not the [lub](dt-0017) of its [compact](dt-003U) approximations. The only [compact](dt-003U) element that approximates #{x} is #{\bot}, and the [least upper bound](dt-0017) of the set #{\Set{\bot}} is just #{\bot}, not #{x}. That is:
+##{\downset{x} = \Set{\bot}}
+but:
+##{x \neq \bigsqcup\Set{\bot}}
+}

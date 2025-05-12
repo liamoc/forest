@@ -3,6 +3,10 @@
 \def\table[body]{
   \<html:table>{\body}
 }
+\def\tableW[body]{
+  \<html:table>[width]{100\startverb%
+    \stopverb}{\body}
+}
 \def\small[body]{
   \<html:small>{\body}
 }

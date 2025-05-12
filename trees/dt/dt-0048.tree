@@ -1,0 +1,4 @@
+\taxon{Definition}
+\author{liamoc}
+\title{Ideal}
+\p{ A set is \em{ideal} iff it is both [down-closed](dt-0047) and [directed](dt-0010).}

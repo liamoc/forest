@@ -1,0 +1,22 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Exercise}
+\p{Let #{f : D \contto E} be a [continuous](dt-001J) function between [algebraic](dt-0041) [cpos](dt-001D). Define:
+##{G_f = \Set{ (a,b) \in \compact{D} \times \compact{E} \mid b \sqsubseteq f(a) }}
+Then for all #{x \in D}, prove that:
+##{
+f(x) = \bigsqcup\ \Set{ b \mid (a,b) \in G_f  \land a \sqsubseteq x }
+}
+}
+\solnblock{
+##{
+\begin{array}{lclr}
+f(x) & = & f(\bigsqcup \downset{x}) & \text{($D$ is {algebraic})}\\
+&=&\bigsqcup\ \{ f(a) \mid a \in \downset{x} \} & \text{($f$ is continuous)}\\
+&=&\bigsqcup\ \left\{ \bigsqcup \downset{f(a)} \mid a \in \downset{x} \right\} & \text{($E$ is {algebraic})}\\
+&=&\bigsqcup\ \Set{ b \in \compact{E} \mid b \sqsubseteq f(a) \land a \in \downset{x}} & \text{(lubs and defn of $\downarrow$)}\\
+&=&\bigsqcup\ \Set{ b \mid (a,b) \in G_f \land a \sqsubseteq x }&\text{(defn of $G_f$)}
+\end{array}
+}	
+}
+\p{This is powerful. For example, the [continuous](dt-001J) function #{f : \pow{\mathbb{N}} \contto \pow{\mathbb{N}}} on an \em{uncountable} [cpo](dt-001D) #{\pow{\mathbb{N}}} is completely determined by the \em{countable} relation #{G_f}.}
