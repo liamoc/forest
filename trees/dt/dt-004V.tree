@@ -1,0 +1,22 @@
+\import{dt-macros}
+\title{Cocontinuous endofunctors}
+\taxon{Definition}
+\p{An [endofunctor](dt-004T) #{\mathcal{F}} is \em{cocontinuous} iff it preserves [colimits](dt-004S) of [#{\omega}-chains of cpos](dt-004Q). That is, given a [chain](dt-004Q) where #{A} is a [colimit](dt-004S):
+\figure{
+\tex{\usepackage{tikz-cd}}{
+\begin{tikzcd}
+& & & A & \\
+& & & & \cdots\\
+	A_0 \ar[r,thick,"f_0"'] \ar[uurrr,"g_0"near start] & A_1 \ar[r,thick,"f_1"']\ar[uurr,"g_1"near start] & A_2 \ar[r,thick,"f_2"'] \ar[uur,"g_2"near start]  & A_3 \ar[uu,"g_3"near start] \ar[r,thick,-,dotted] & \quad
+\end{tikzcd}
+}}
+Then #{\mathcal{F}(A)} is a [colimit](dt-004S) for the following [chain](dt-004Q):
+\figure{
+\tex{\usepackage{tikz-cd}}{
+\begin{tikzcd}[row sep=3.6em]
+& & & \mathcal{F}(A) & \\
+& & & & \cdots\\
+	\mathcal{F}(A_0) \ar[r,thick,"\mathcal{F}(f_0)"',->] \ar[uurrr,"\mathcal{F}(g_0)"near start] & \mathcal{F}(A_1) \ar[r,thick,"\mathcal{F}(f_1)"',->]\ar[uurr,"\mathcal{F}(g_1)"near start] & \mathcal{F}(A_2) \ar[r,thick,"\mathcal{F}(f_2)"',->] \ar[uur,"\mathcal{F}(g_2)"near start]  & \mathcal{F}(A_3) \ar[uu,"\mathcal{F}(g_3)"near start] \ar[r,thick,-,dotted] & \quad
+\end{tikzcd}
+}}
+}

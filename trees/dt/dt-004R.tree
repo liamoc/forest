@@ -1,0 +1,11 @@
+\import{dt-macros}
+\taxon{Definition}
+\title{Upper bounds in the category #{\mathbf{Cpo}}}
+\p{A [cpo](dt-001D) #{A} is an [upper bound](dm-000C) of an [#{\omega}-chain of cpos](dt-004Q)  in [the category #{\mathbf{Cpo}}](dt-002B) if there is a family of [continuous functions](dt-001J) #{\Set{g_i : A_i \contto A \mid i \in \mathbb{N}}} such that the following diagram commutes (i.e. #{g_i = g_{i+1} \circ f_i} for all #{i \in \mathbb{N}}):}
+\figure{\tex{\usepackage{tikz-cd}}{
+\begin{tikzcd}
+& & & A & \\
+& & & & \cdots\\
+	A_0 \ar[r,thick,"f_0"'] \ar[uurrr,"g_0"near start] & A_1 \ar[r,thick,"f_1"']\ar[uurr,"g_1"near start] & A_2 \ar[r,thick,"f_2"'] \ar[uur,"g_2"near start]  & A_3 \ar[uu,"g_3"near start] \ar[r,thick,-,dotted] & \quad
+\end{tikzcd}
+}}

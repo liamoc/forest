@@ -1,0 +1,11 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Definition}
+\title{Fixed points of [endofunctors on #{\mathbf{Cpo}}](dt-004T)}
+\p{A [fixed point](dt-000S) of an [endofunctor on cpos](dt-004T) #{\mathcal{F}} is a [cpo](dt-001D) #{\mathcal{F}} such that #{\mathcal{F}(A) \simeq A}. }
+\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
+\subtree{\taxon{Note}
+\p{In Scott's approach, which we follow here, our fixed points are up to [isomorphism](dt-002E) (suitable for languages with \em{isorecursive} types), but there are other approaches where they are equalities (suitable for languages with \em{equirecursive} types).
+}}}

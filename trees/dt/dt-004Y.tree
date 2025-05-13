@@ -1,0 +1,74 @@
+\taxon{Example}
+\import{dt-macros}
+\author{liamoc}
+\title{Binary Numbers}
+\p{
+Consider the Haskell-style data type:
+##{
+\textbf{data}\ \mathit{Bin} = \mathsf{Zero}\ \mathit{Bin} \mid \mathsf{Empty} \mid \mathsf{One}\ \mathit{Bin}
+}
+So, e.g. #{\mathsf{One}\ (\mathsf{Zero}\ (\mathsf{One}\ \mathsf{Empty})) : \mathit{Bin}}.}
+\p{ The recursive domain equation is, expressed as a fixed point:
+##{
+B \simeq \mathcal{F}(B)\quad\text{where}\ \mathcal{F}(X) = X + \mathbf{1} + X
+}
+We wish to show that #{\mathcal{F}} is a [cocontinuous endofunctor](dt-004V).}
+\p{We have a mapping #{\mathcal{F}} on [cpos](dt-001D) (objects of [the category #{\textbf{Cpo}}](dt-002B)), but for it to be a [functor](dm-000J) we additionally need a mapping #{\mathcal{F}} on [continuous functions](dt-001J) (morphisms of [the category #{\textbf{Cpo}}](dt-002B)). }
+
+\p{Recalling [our sum construction](dt-0031), we may remember that sums are already a [bifunctor](dm-000M) #{\textbf{Cpo} \times \textbf{Cpo} \rightarrow \textbf{Cpo}} (\ref{dt-0038}). Thus, our mapping on [continuous functions](dt-001J) #{\mathcal{F}} can be \em{derived} from our mapping on [cpos](dt-001D) #{\mathcal{F}} by using the morphism mapping from the sum construction (\ref{dt-0037}). Given a continuous function #{f : A \contto B}, our morphism mapping is:}
+##{
+\begin{array}{l}
+\mathcal{F}(f) : \mathcal{F}(A)\contto \mathcal{F}(B)\\	
+\mathcal{F}(f) \triangleq f + \mathsf{id}_\textbf{1} + f
+\end{array}
+}
+\p{Proof that this [endofunctor](dt-004T) is [cocontinuous](dt-004V) is left for the reader. Hence the semantics of the type #{\mathit{Bin}}, i.e. #{\llbracket \mathit{Bin} \rrbracket : \textbf{Cpo}} is the least fixed point of #{\mathcal{F}}, i.e. the [colimit](dt-004S) of the [#{\omega}-chain](dt-004Q):}
+\figure{
+\tex{\usepackage{tikz-cd}}{
+\begin{tikzcd}[column sep=5.2em]
+	\mathbf{1} \ar[r,"\lambda x.\bot"] & 
+	\mathcal{F}(\mathbf{1}) \ar[r,"\mathcal{F}(\lambda x.\bot)"] & 
+	\mathcal{F}(\mathcal{F}(\mathbf{1})) \ar[r,"\mathcal{F}(\mathcal{F}(\lambda x.\bot))"] & 
+		\mathcal{F}(\mathcal{F}(\mathcal{F}(\mathbf{1}))) \ar[r,thick,-,dotted] & \quad
+\end{tikzcd}	
+}}
+\p{Let us visualise this chain. Here the sum injections have been written as #{\textsf{Z, E, O}} rather than (combinations of) #{\textsf{inl}} and #{\textsf{inr}} to keep the connection with the Haskell data type clear. }
+\figure{
+\tex{\usepackage{tikz}}{
+\begin{tikzpicture}
+	\node[draw, fill=white, rounded corners] (b1) at (0,0) {$\bot$};
+	\draw[->,ultra thick,dotted] (6,1.5) -- (10.5,1.5);	
+	\draw[fill=white!95!black, rounded corners=2em] (6,-1) -- (10,3.5) -- (2,3.5) -- cycle;	
+	\draw[fill=white!97!black, rounded corners=2em,dashed] (6,-0.8) -- (8.1,1.5) -- (3.9,1.5) -- cycle;
+	\draw[->,ultra thick] (2,0.5) -- (4.8,0.5);
+	\draw[fill=white!97!black, rounded corners=2em] (2,-0.8) -- (3.8,1.5) -- (0.2,1.5) -- cycle;
+	\node[draw, fill=white, dashed, rounded corners] (b2) at (2,0) {$\bot$};	
+	\draw[->,ultra thick] (b1) -- (b2);
+	\node (a1) at (1.2,1) {$\mathsf{Z}(\bot)$};
+	\node (a2) at (2,1.04) {$\mathsf{E}$};	
+	\node (a3) at (2.8,1) {$\mathsf{O}(\bot)$};		
+	\draw[-] (b2) -- (a2);
+		\draw[-] (b2) -- (a3);
+		\draw[-] (b2) -- (a1);	
+	\node (b2) at (6,0) {$\bot$};
+	\node (a1) at (5,1) {$\mathsf{Z}(\bot)$};
+	\node (a2) at (6,1.04) {$\mathsf{E}$};	
+	\node (a3) at (7,1) {$\mathsf{O}(\bot)$};
+	\draw[-] (b2) -- (a2);
+		\draw[-] (b2) -- (a3);
+		\draw[-] (b2) -- (a1);
+	\node (c1) at (3.3,3) {\footnotesize $\mathsf{Z}(\mathsf{Z}(\bot))$};
+	\node (c2) at (4.3,3) {\footnotesize $\mathsf{Z}(\mathsf{E})$};	
+	\node (c3) at (5.3,3) {\footnotesize $\mathsf{Z}(\mathsf{O}(\bot))$};
+	\draw[-] (a1) -- (c2);
+		\draw[-] (a1) -- (c3);
+		\draw[-] (a1) -- (c1);
+	\node (c1) at (6.7,3) {\footnotesize $\mathsf{O}(\mathsf{Z}(\bot))$};
+	\node (c2) at (7.7,3) {\footnotesize $\mathsf{O}(\mathsf{E})$};	
+	\node (c3) at (8.7,3) {\footnotesize $\mathsf{O}(\mathsf{O}(\bot))$};		\draw[-] (a3) -- (c2);
+		\draw[-] (a3) -- (c3);
+		\draw[-] (a3) -- (c1);
+\end{tikzpicture}
+}}
+\p{Thus, the #{n}th cpo in the chain contains binary numbers with at most #{n} defined digits. The [colimit](dt-004S) of the chain contains all binary numbers (finite, partial, and infinite!).
+}

@@ -1,0 +1,10 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{Endofunctors on #{\textbf{Cpo}}}
+\p{An \em{endofunctor} on [the category #{\textbf{Cpo}}](dt-002B) is a [functor](dm-000J) #{\textbf{Cpo} \rightarrow \textbf{Cpo}}, i.e. a mapping #{\mathcal{F}} on [cpos](dt-001D) together with a mapping #{\mathcal{F}} on [continuous functions](dt-001J), such that:}
+\ol{
+\li{If #{f : A \contto B} then #{\mathcal{F}(f) : \mathcal{F}(A)\contto \mathcal{F}(B)} }
+\li{#{\mathcal{F}(\mathsf{id}_A : A\contto A) = \mathsf{id}_{\mathcal{F}(A)} : \mathcal{F}(A)\contto \mathcal{F}(A)}}
+\li{#{\mathcal{F}(f \circ g) = \mathcal{F}(f) \circ \mathcal{F}(g)}}
+}

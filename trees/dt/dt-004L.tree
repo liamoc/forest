@@ -1,0 +1,11 @@
+\import{dt-macros}
+\title{Recursive algebraic data types}
+\author{liamoc}
+\p{Suppose we have a language with recursive data types, such as this #{\mathit{List}} type in Haskell-style syntax:
+##{
+\textbf{data}\ \mathit{List} = \mathsf{Nil} \mid \mathsf{Cons}\ (\mathit{Int} \times \mathit{List}) }
+As in [PCF](dt-003T), the denotation of a type #{\tau} is the domain which contains all the denotations of all closed expressions of type #{\tau}. What, then, is the domain that corresponds to #{\mathit{List}\ a}? We need a [cpo](dt-001D) #{L} that satisfies the below equation (where #{\mathbf{1}} is the [cpo](dt-001D) containing just one element #{\bot}):
+##{
+L \simeq \mathbf{1} + (\mathbb{Z}_\bot \times L)
+}
+}

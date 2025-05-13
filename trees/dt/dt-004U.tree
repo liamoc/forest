@@ -1,0 +1,6 @@
+\import{dt-macros}
+\taxon{Remark}
+\author{liamoc}
+\p{
+Observe that, given the [information ordering for cpos](dt-004O) where #{A \sqsubseteq B} if there exists a continuous function #{A \contto B}, the [functor](dm-000J) laws necessarily imply [monotonicity](dt-000J) for all [endofunctors](dt-004T) #{\mathcal{F}}.
+}

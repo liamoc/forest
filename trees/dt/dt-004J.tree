@@ -1,0 +1,13 @@
+\import{dt-macros}
+\title{Why we need recursively defined domains}
+\author{liamoc}
+\p{ We saw recursive domain equations with higher-order procedures in \ref{dt-0007}, but there are numerous other examples where they come up. }
+\transclude{dt-004L}
+\transclude{dt-004M}
+\p{How can we find solutions to such recursive equations? How can we guarantee the existence of a (least) solution?
+}
+\p{We can start by generalising [the fixed point approach](dt-001I) we used for values (i.e. elements of [cpos](dt-001D)) to domains (i.e. [cpos](dt-001D) themselves).}
+\transclude{dt-004N}
+\p{
+To ensure that least fixed points exist, and to give us a means of finding them, we must now generalise all of the concepts we used  for least fixed points on values ([information ordering](dt-000B), [least upper bounds](dt-0017), [continuity](dt-001J) etc.) to domains themselves.
+}

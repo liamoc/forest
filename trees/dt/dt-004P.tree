@@ -1,0 +1,6 @@
+\import{dt-macros}
+\author{liamoc}
+\title{Colimits in the [category #{\mathbf{Cpo}}](dt-002B)}
+\transclude{dt-004Q}
+\transclude{dt-004R}
+\transclude{dt-004S}

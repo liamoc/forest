@@ -1,0 +1,17 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Definition}
+\title{Least upper bounds in the category #{\mathbf{Cpo}}}
+\p{A [cpo](dt-001D) #{A} is the [\em{least} upper bound](dt-0017) of an [#{\omega}-chain of cpos](dt-004Q) if is both an [upper bound](dt-004R) and if there exists a \em{unique} #{k} for any other [upper bound](dt-004R) #{B} such that the following diagram commutes (i.e. #{h_i = g_i \circ k} for all #{i \in \mathbb{N}}):}
+\figure{
+\tex{\usepackage{tikz-cd}}{
+\begin{tikzcd}
+& & & B & \\
+& & & & \cdots\\
+& & & A \ar[uu,thick,dashed,"k"] & \\
+& & & & \cdots\\
+	A_0 \ar[r,thick,"f_0"'] \ar[uuuurrr,"h_0", bend left] \ar[uurrr,"g_0"near start] & A_1 \ar[r,thick,"f_1"']\ar[uurr,"g_1"near start]\ar[uuuurr,"h_1", bend left] & A_2 \ar[r,thick,"f_2"'] \ar[uur,"g_2"near start] \ar[uuuur,"h_2", bend left]  & A_3 \ar[uu,"g_3"near start] \ar[r,thick,-,dotted] \ar[uuuu,"h_3", bend left=3.5em]  & \quad
+\end{tikzcd}
+}}
+\p{The least upper bound of such an #{\omega}-chain is also called its \em{colimit}.}
+\p{\strong{Note}: Uniqueness of lubs is up to isomorphism. That is, if #{A} and #{B} are both colimits of our #{\omega}-chain, then #{A \simeq B}.}

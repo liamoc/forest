@@ -1,0 +1,13 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Theorem}
+\title{Fixed point theorem for endofunctors on #{\mathbf{Cpo}}}
+\p{ Every [cocontinuous endofunctor](dt-004V) #{\mathcal{F}} on [cpos](dt-001D) has a [least fixed point](dt-004W), given by the [colimit](dt-004S) of the [#{\omega}-chain](dt-004Q):}
+\figure{
+\tex{\usepackage{tikz-cd}}{\begin{tikzcd}[column sep=5.2em]
+	\mathbf{1} \ar[r,"\lambda x.\bot"] & 
+	\mathcal{F}(\mathbf{1}) \ar[r,"\mathcal{F}(\lambda x.\bot)"] & 
+	\mathcal{F}(\mathcal{F}(\mathbf{1})) \ar[r,"\mathcal{F}(\mathcal{F}(\lambda x.\bot))"] & 
+		\mathcal{F}(\mathcal{F}(\mathcal{F}(\mathbf{1}))) \ar[r,thick,-,dotted] & \quad
+\end{tikzcd}	
+}}

@@ -1,0 +1,9 @@
+\taxon{Definition}
+\title{Untyped #{\lambda}-calculus}
+\author{liamoc}
+\p{
+	Untyped #{\lambda}-calculus consists only of untyped (higher-order) functions:
+	##{
+	e \; \Coloneqq \; x \mid \lambda x. e \mid e_1\ e_2
+}
+}

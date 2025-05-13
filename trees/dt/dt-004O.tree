@@ -1,0 +1,23 @@
+\import{dt-macros}
+\author{liamoc}
+\title{From a cpo to the [category #{\mathbf{Cpo}}](dt-002B)}
+\problemblock{
+	\p{The following definitions are \strong{insufficient} when using [function](dt-002L) constructions in our domain equations (#{\contto} and #{\strictto}), but it will suffice for our purposes for now.}
+}
+\p{Let us say (for now) that a [cpo](dt-001D) #{A} \em{approximates} a [cpo](dt-001D) #{B} (i.e. #{A \sqsubseteq B}) iff there is a [continuous function](dt-001J) #{f : A\contto B}. Then, there is a least element for this ordering: the one-element [cpo](dt-001D) #{\mathbf{1} = \Set{ \bot }}, as the [continuous function](dt-001J) #{(\lambda x. \bot) : \mathbf{1} \contto A} exists for any [cpo](dt-001D) #{A}.}
+\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
+\subtree{
+\title{Initiality}
+\taxon{Categorical Aside}
+\p{The [category #{\mathbf{Cpo}}](dt-002B) has no initial object. The [cpo](dt-001D) #{\mathbf{1}} is terminal; but also serves as a "pseudo" initial object due to the above.}
+}
+}
+\transclude{dt-004P}
+\transclude{dt-004T}
+\transclude{dt-004U}
+\transclude{dt-004V}
+\transclude{dt-004W}
+\transclude{dt-004X}
+\transclude{dt-004Y}

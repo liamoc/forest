@@ -5,11 +5,7 @@
 \p{These lecture notes are based on the material I used to teach the [[typesig-dt]] course at the [[uoe]] in 2024.}
 \transclude{dt-0005}
 \transclude{dt-001Z}
-\subtree{
-\taxon{Lecture}
-\title{Recursively Defined Domains}
-\p{todo}
-}
+\transclude{dt-004Z}
 \subtree{
 \taxon{Lecture}
 \title{Scott Domains}
@@ -41,6 +37,7 @@
 \transclude{dt-004G}
 \transclude{dt-004H}
 \transclude{dt-004I}
+\transclude{dt-004O}
 
 \scope{
 \put\transclude/toc{false}

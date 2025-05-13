@@ -1,0 +1,13 @@
+\import{dt-macros}
+\taxon{Example}
+\author{liamoc}
+\title{Recursive domain equations as endofunctors}
+\p{This recursive equation for lists:
+##{
+L \simeq \mathbf{1} + (\mathbb{Z}_\bot \times L)
+}
+Can be expressed as the least fixed point of this mapping (specifically an [endofunctor](dt-004T)) #{\mathcal{F}} on [cpos](dt-001D):
+##{
+\mathcal{F}(A) \triangleq \mathbf{1} + (\mathbb{Z}_\bot \times A)
+}
+}

@@ -1,0 +1,7 @@
+\taxon{Lecture}
+\author{liamoc}
+\title{Recursively Defined Domains}
+\p{This lecture is based on material from [[haskellhutt]], [[jlongley]],[[danascott]], [[jstoy]], [[cgunter]], and [[gwinskel]].}
+\transclude{dt-004J}
+\transclude{dt-004O}
+\p{\strong{TODO: Retraction pairs stuff}}

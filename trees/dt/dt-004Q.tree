@@ -1,0 +1,11 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Definition}
+\title{#{\omega}-chains of cpos in the category #{\mathbf{Cpo}}}
+\p{An [#{\omega}-chain](dt-000W) of [cpos](dt-001D) in the [category #{\mathbf{Cpo}}](dt-002B) consists of a family of [cpos](dt-001D) #{\Set{A_i \mid i \in \mathbb{N} }}, together with a family of [continuous functions](dt-001J) #{\Set{ f_i : A_i\contto A_{i+1} \mid i \in \mathbb{N}}}, shown below:}
+\figure{
+\tex{\usepackage{tikz-cd}}{
+\begin{tikzcd}
+	A_0 \ar[r,thick,"f_0"'] & A_1 \ar[r,thick,"f_1"'] & A_2 \ar[r,thick,"f_2"'] & A_3 \ar[r,thick,-,dotted] & \quad
+\end{tikzcd}	
+}}
