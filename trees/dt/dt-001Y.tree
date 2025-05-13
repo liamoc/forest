@@ -37,7 +37,6 @@
 \transclude{dt-004G}
 \transclude{dt-004H}
 \transclude{dt-004I}
-\transclude{dt-004O}
 
 \scope{
 \put\transclude/toc{false}
