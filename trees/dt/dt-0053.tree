@@ -1,0 +1,13 @@
+\import{dt-macros}
+\taxon{Problem}
+\author{liamoc}
+\title{Contravariance in the function arrow}
+\p{We cannot get morphism mappings in [the category #{\textbf{Cpo}}](dt-002B) as easily as \ref{dt-0050} when our object mapping makes use of the function operators #{\strictto} and #{\contto}, as they are [contravariant](dm-000S) in their first argument. This means the [functor](dm-000J) that they extend to is not #{\textbf{Cpo} \rightarrow \textbf{Cpo}} but #{\textbf{Cpo}^\textsf{op} \rightarrow \textbf{Cpo}}, where #{\textbf{Cpo}^\textsf{op} } is the [dual category](dm-000Q) of #{\textbf{Cpo}}. The morphisms end up the wrong way around. }
+
+\p{As an example, consider #{\mathcal{F}(X) = X\contto\mathbb{Z}_\bot}. Then, recalling [the morphism mapping of the #{\contto} functor](dt-002X):
+##{
+\inferrule{f : A \contto B \quad g : C\contto D}{f\contto g : (B\contto C)\contto (A\contto D)}
+}
+We can generate a morphism mapping for #{\mathcal{F}}: ##{\mathcal{F}(f)\; =\; f\contto\mathsf{id}_{\mathbb{Z}_\bot}\; =\; (\lambda h.\ \mathsf{id}_{\mathbb{Z}_\bot}\circ h \circ f)\; = \;(\lambda h.\ h \circ f)  }
+However, this mapping has the wrong type. For #{f : A\contto B}, then #{\mathcal{F}(f) : (B\contto \mathbb{Z}_\bot) \rightarrow (A\contto \mathbb{Z}_\bot)}, which is #{\mathcal{F}(B)\contto\mathcal{F}(A)}, not the required #{\mathcal{F}(A)\contto \mathcal{F}(B)}. This is because the generated functor is [contravariant](dm-000S), not [covariant](dm-000J).
+}

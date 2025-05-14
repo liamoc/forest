@@ -1,0 +1,10 @@
+\import{dt-macros}
+\taxon{Corollary}
+\title{Derived products of retraction pairs}
+\p{It follows from the definition of [retraction pairs](dt-0054) that, for a pair #{\rpair{f}{g}}:
+\ol{
+\li{ #{f} and #{g} are [strict](dt-000K), i.e. #{f(\bot) = \bot} and #{g(\bot) = \bot}.}
+\li{ #{g} is \em{uniquely determined} by #{f} and vice-versa, so if another [retraction pair](dt-0054) #{\rpair{f}{g'}} exists, then #{g = g'}. To see why, remember that #{f} and #{g} must be [continuous](dt-001J) and therefore [monotonic](dt-000J).}
+\li{ #{A} is [isomorphic](dt-002E) to the range of #{f}, i.e. #{A \simeq \Set{ f(x) \mid x \in A} \subseteq B}.} 
+}
+}

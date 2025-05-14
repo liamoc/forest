@@ -1,0 +1,5 @@
+\import{dt-macros}
+\taxon{Definition}
+\title{The category #{\textbf{Cpo}^\textbf{R}}}
+\author{liamoc}
+\p{The category #{\textbf{Cpo}^\textbf{R}} is the [category](dm-000G) where the objects are [cpos](dt-001D), the morphisms are [retraction pairs](dt-0054), composition is as in \ref{dt-0056} and identity is just the [retraction pair](dt-0054) #{A \rpair{\lambda x. x}{\lambda x. x} A}.  }

@@ -1,0 +1,13 @@
+\import{dt-macros}
+\title{Composition of retraction pairs}
+\taxon{Definition}
+\author{liamoc}
+\p{We can compose [retraction pairs](dt-0054) by composing their \em{embedding} and \em{projection}:}
+\figure{
+  \tex{\usepackage{tikz-cd}\usepackage{amsmath}\usepackage{amssymb}}{
+    \begin{tikzcd}
+      A \ar[r,"f",yshift=0.2em] & B \ar[l,"g", ,yshift=-0.2em] 
+        \ar[r,"h",yshift=0.2em] & C \ar[l,"i", ,yshift=-0.2em] &\leadsto & 
+      A \ar[r,"h \circ f",yshift=0.2em] & C \ar[l,"g \circ i",yshift=-0.2em] &\quad
+     \end{tikzcd}
+}}

@@ -1,0 +1,15 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Definition}
+\title{#{\omega}-chains of cpos in the category #{\mathbf{Cpo}^\textbf{R}}}
+\p{An [#{\omega}-chain](dt-000W) of [cpos](dt-001D) in the [category #{\mathbf{Cpo}^\textbf{R}}](dt-0058) consists of a family of [cpos](dt-001D) #{\Set{D_i \mid i \in \mathbb{N} }}, together with a family of [retraction pairs](dt-0054) #{ D_i \rpair{f_i}{g_i} D_{i+1}}, shown below:}
+\figure{
+\tex{\usepackage{tikz-cd}}{
+\begin{tikzcd}
+  D_0 \ar[r,"f_0",->,yshift=0.2em]\ar[r,"g_0"', <-,yshift=-0.2em]  &
+  D_1 \ar[r,"f_1",->,yshift=0.2em]\ar[r,"g_1"', <-,yshift=-0.2em]  &
+  D_2 \ar[r,"f_2",->,yshift=0.2em]\ar[r,"g_2"', <-,yshift=-0.2em]  &
+  D_3 \ar[r,-,dashed,yshift=0.2em]\ar[r,dashed,-,yshift=-0.2em]  &
+  \cdots
+\end{tikzcd}
+}}

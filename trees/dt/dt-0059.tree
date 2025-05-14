@@ -1,0 +1,8 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Definition}
+\title{Information ordering in #{\textbf{Cpo}^\textbf{R}}}
+\p{
+The third point in \ref{dt-0057} suggests a notion of approximation, or [information ordering](dt-000B), for [cpos](dt-001D). Rather than say, as we did in \ref{dt-004O}, that for [cpos](dt-001D) #{A} and #{B}, #{A \sqsubseteq B} iff there exists a [continuous function](dt-001J) #{A\contto B}, we now say:
+\figure{#{A \sqsubseteq B} iff there exists a [retraction pair](dt-0054) #{A \rpair{f}{g} B}}
+}

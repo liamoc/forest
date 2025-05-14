@@ -1,0 +1,11 @@
+\import{dt-macros}
+\title{Making endofunctors for algebraic data types}
+\taxon{Example}
+\author{liamoc}
+\p{ ##{
+  \begin{array}{llr}
+    \textsf{Object mapping} & \textsf{Morphism mapping}\\[0.2em]
+    \mathcal{F}(X) = X + \mathbf{1} &  \mathcal{F}(f) = f + \mathsf{id}_\mathbf{1} & \quad\quad\text{((co)-natural numbers)} \\
+    \mathcal{F}(X) = \mathbf{1} + (\mathbb{Z}_\bot \times X) & \mathcal{F}(f) = \mathsf{id}_\mathbf{1} + (\mathsf{id}_{\mathbb{Z}_\bot} \times f) & \text{((co)-lists of integers)}\\		
+  \end{array}
+}}

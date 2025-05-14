@@ -1,5 +1,6 @@
 \def\cal[body]{#{\mathcal{\body}}}
 \def\syn[body]{#{\mathsf{\body}}}
+\def\rpair[top][bottom]{#{\xtofrom[\bottom]{\top}}}
 \def\compact[body]{#{\mathsf{K}(\body)}}
 \def\inferrule[top][bottom]{\dfrac{\top}{\bottom}}
 \def\proofblock[body]{\scope{

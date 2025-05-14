@@ -2,7 +2,7 @@
 \author{liamoc}
 \title{Untyped higher-order languages}
 \p{
-	If we take [PCF](dt-003T), \em{discard} the type system, #{\syn{fix}}, natural number primitives and any other superfluous features, and just boil our language down to a minimal, Turing-complete subset, we end up with the [untyped #{\lambda}-calculus](dt-004K) — a language consisting only of untyped functions.}
+	If we take [PCF](dt-003T), \em{discard} the type system, [#{\textbf{fix}}](dt-001Q), natural number primitives and any other superfluous features, and just boil our language down to a minimal, Turing-complete subset, we end up with the [untyped #{\lambda}-calculus](dt-004K) — a language consisting only of untyped functions.}
 \transclude{dt-004K}
 \p{Trying to give a semantics to the [untyped #{\lambda} calculus](dt-004K) poses an issue: we can no longer rely on the type of an expression to select an appropriate semantic domain. Instead, we we must pick a \em{single} domain #{D} which, since functions can be applied to themselves, must apparently include the set of functions #{D \contto  D}:
 ##{

@@ -1,0 +1,4 @@
+\taxon{Definition}
+\author{liamoc}
+\title{Contravariant functor}
+\p{A \em{contravariant} [functor](dm-000J) #{\mathcal{F}} is a [functor](dm-000J) that, instead of associating a morphism #{X \xrightarrow{m} Y} with a morphism #{\mathcal{F}(X) \xrightarrow{\mathcal{F}(m)} \mathcal{F}(Y)}, it instead gives a morphism #{\mathcal{F}(Y) \xrightarrow{\mathcal{F}(m)} \mathcal{F}(X)$}. Alternatively, it can be viewed as a functor from the [dual category](dm-000Q).}

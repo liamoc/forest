@@ -1,0 +1,46 @@
+\import{dt-macros}
+\import{table-macros}
+\taxon{Example}
+\author{liamoc}
+\title{Examples and counterexamples of retraction pairs}
+\p{Here are two examples of [retraction pairs](dt-0054):
+\figure{
+\tex{\usepackage{tikz-cd}}{
+\begin{tikzcd}
+ & z \ar[dl, thick,->] \\
+ b \ar[r,thick,<->] & y \ar[u,-] \\
+ a\ar[u,-]\ar[r,thick,<->] & x \ar[u,-]	
+\end{tikzcd}
+$\quad\qquad\qquad$
+\begin{tikzcd}
+ & z \ar[dl, thick,<->] \\
+ b & y \ar[dl, thick,->] \ar[u,-] \\
+ a\ar[u,-]\ar[r,thick,<->] & x \ar[u,-]	
+\end{tikzcd}}}
+(this demonstrates that there can be \em{many} [retraction pairs](dt-0054) #{A \rpair{f}{g} B})}
+\p{The following, however, are \em{not} [retraction pairs](dt-0054) #{A \rpair{f}{g} B}:
+\figure{
+\tableW{\tr{\td{
+\tex{\usepackage{tikz-cd}}{
+\begin{tikzcd}
+ & z \ar[dl, thick,<->] \\
+ b \ar[r,thick,<-] & y \ar[u,-] \\
+ a\ar[u,-]\ar[r,thick,<->] & x \ar[u,-]	
+\end{tikzcd}
+}}\td{
+\tex{\usepackage{tikz-cd}}{
+\begin{tikzcd}
+ & z \ar[dl, thick,->] \\
+ b \ar[dr, thick,->] & y \ar[l, thick,->] \ar[u,-] \\
+ a\ar[u,-]\ar[r,thick,<->] & x \ar[u,-]	
+\end{tikzcd}
+}}}
+\tr{
+  \td{
+    (#{y \mapsto b \mapsto z} but #{z \not\sqsubseteq y})
+  }
+  \td{
+    (#{b \mapsto x \mapsto a} but #{a \neq b})
+  }
+}
+}}}

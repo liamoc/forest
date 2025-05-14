@@ -1,0 +1,18 @@
+\taxon{Theorem}
+\title{Fixed point theorem for endofunctors on #{\textbf{Cpo}^\textbf{R}}}
+\p{Every [cocontinuous endofunctor](TODO) #{\mathcal{F}} on #{\mathbf{Cpo}^\textbf{R}} has a least fixed point, given by the [colimit](TODO) of the ascending [#{\omega}-chain](dt-005C):
+\figure{
+\tex{\usepackage{tikz-cd}}{\begin{tikzcd}
+  \mathbf{1} \ar[r,"f_0",->,yshift=0.2em]\ar[r,"g_0"', <-,yshift=-0.2em]  &
+  \mathcal{F}(\mathbf{1}) \ar[r,"f_1",->,yshift=0.2em]\ar[r,"g_1"', <-,yshift=-0.2em]  &
+  \mathcal{F}(\mathcal{F}(\mathbf{1})) \ar[r,"f_2",->,yshift=0.2em]\ar[r,"g_2"', <-,yshift=-0.2em]  &
+  \mathcal{F}(\mathcal{F}(\mathcal{F}(\mathbf{1}))) \ar[r,-,dashed,yshift=0.2em]\ar[r,dashed,-,yshift=-0.2em]  &
+  \cdots
+\end{tikzcd}}}
+Where the [retraction pairs](dt-0054) #{(f_i, g_i)} are defined by:
+##{
+\begin{array}{lcl}
+(f_0,g_0) & \triangleq & (\lambda x. \bot, \lambda x. \bot)\\
+(f_{i+1},g_{i+1}) & \triangleq & \mathcal{F}(f_i,g_i) \\
+\end{array}
+}}

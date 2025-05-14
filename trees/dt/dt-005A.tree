@@ -1,0 +1,4 @@
+\title{Generalising to #{\textbf{Cpo}^\textbf{R}}}
+\author{liamoc}
+\p{All of our other notions for #{\textbf{Cpo}} naturally generalise to a setting with  [retraction pairs](dt-0054) #{\textbf{Cpo}^\textbf{R}}: least elements, [#{\omega}-chains](dt-004Q), [upper bounds](dt-004R), [colimits](dt-004S), [cocontinuous endofunctors](dt-004V) and so on.}
+\transclude{dt-005C}

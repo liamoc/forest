@@ -1,0 +1,5 @@
+\import{dt-macros}
+\title{Constructing endofunctors}
+\author{liamoc}
+\p{If we have a mapping on [cpos](dt-001D) #{\mathcal{F} : \textbf{Cpo} \rightarrow \textbf{Cpo}} that is made up of the primitives #{\times}, #{+}, #{\otimes}, #{\oplus}, #{\mathbf{1}} and #{(\cdot)_\bot}, we can generate a corresponding \em{morphism mapping} on continuous functions #{\mathcal{F} : (A\contto B) \rightarrow (\mathcal{F}(A)\contto \mathcal{F}(B))} by using the corresponding morphism mappings of each of these operators. Thus any such mapping can be turned into an [endofunctor](dt-004T).}
+\transclude{dt-0051}

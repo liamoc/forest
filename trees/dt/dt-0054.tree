@@ -1,0 +1,14 @@
+\import{dt-macros}
+\taxon{Definition}
+\title{Retraction pair}
+\author{liamoc}
+\p{A \em{retraction pair} #{(f,g)} on [cpos](dt-001D) #{A} to #{B} consists of two [continuous](dt-001J) functions #{A \rpair{f}{g} B} 
+ such that:
+\ol{
+\li{#{g \circ f = \mathsf{id}_A\quad}  (i.e. #{\forall x \in A.\ g(f(x)) = x })}
+\li{ #{f \circ g \sqsubseteq \mathsf{id}_B\quad}  (i.e. #{\forall y \in B.\ f(g(y)) \sqsubseteq y })}
+}
+In this retraction pair, #{f} is called a \em{embedding} and #{g} is called a \em{projection}.
+}
+\p{
+Retraction pairs are weakenings of [isomorphisms](dt-002E). Intuitively, going #{A \contto B\contto A}, all information is \em{preserved} due to requirement 1, but going #{B\contto A\contto B}, we \em{may lose} some information (hence the use of #{\sqsubseteq} in requirement 2). }
