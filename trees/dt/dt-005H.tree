@@ -1,0 +1,53 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Construction}
+\title{The colimit #{D^\infty}}
+\p{Given an [#{\omega}-chain](dt-005C):}
+\figure{
+\tex{\usepackage{tikz-cd}}{
+\begin{tikzcd}
+  D_0 \ar[r,"f_0",->,yshift=0.2em]\ar[r,"g_0"', <-,yshift=-0.2em]  &
+  D_1 \ar[r,"f_1",->,yshift=0.2em]\ar[r,"g_1"', <-,yshift=-0.2em]  &
+  D_2 \ar[r,"f_2",->,yshift=0.2em]\ar[r,"g_2"', <-,yshift=-0.2em]  &
+  D_3 \ar[r,-,dashed,yshift=0.2em]\ar[r,dashed,-,yshift=-0.2em]  &
+  \cdots
+\end{tikzcd}
+}}
+\p{The [colimit](dt-005F) (or inverse limit) is the [cpo](dt-001D) of #{\omega}-tuples:
+##{
+D_\infty\; \triangleq\; \left\Set{ (x_0, x_1, \dots ) \mid x_i \in D_i \land x_i = g_i(x_{i+1}) \right}
+}
+That is, it is countable sequence of elements, one for each domain #{D_i}, where each element is consistent with earlier elements.}
+\p{ \strong{Ordering:} The ordering is the pointwise ordering of products, naturally generalised to #{\omega}-tuples. Under this ordering, #{D_\infty} is a [cpo](dt-001D). In fact if each #{D_i} is a [Scott domain](dt-004G), so is #{D_\infty}.
+\proofblock{
+\p{We shall prove that #{D_\infty} is an [upper bound](dt-005G) of the [#{\omega}-chain](dt-005C). Proof that it is the [least upper bound](dt-005F) is straightforward but tedious, and is omitted.}
+\p{We must construct a family of [retraction pairs](dt-0054):
+##{\left\Set{ D_i \rpair{\theta_{i,\infty}}{\theta_{\infty,i}} D_\infty \middle|\;\; i \in \mathbb{N}\;\; \right}}
+ such that the following diagram commutes:
+\figure{
+\tex{\usepackage{tikz-cd}}{\begin{tikzcd}
+&&D_\infty\ar[ddll,<-,xshift=-0.8em]\ar[ddll,->,xshift=-0.2em] 
+\ar[ddl,<-,xshift=-0.35em]\ar[ddl,->,xshift=0.1em] 
+\ar[dd,<-,xshift=-0.1em]\ar[dd,->,xshift=0.3em]  \\
+&&&\cdots \\
+  D_0 \ar[r,"f_0",->,yshift=0.2em]\ar[r,"g_0"', <-,yshift=-0.2em]  &
+  D_1 \ar[r,"f_1",->,yshift=0.2em]\ar[r,"g_1"', <-,yshift=-0.2em]  &
+  D_2  \ar[r,-,dotted,yshift=0.2em]\ar[r,dotted,-,yshift=-0.2em]&
+  \cdots
+\end{tikzcd}
+}}
+Defining the projection of the [retraction pair](dt-0054) #{D_i \rpair{\theta_{i,\infty}}{\theta_{\infty,i}} D_\infty} is straightforward:
+##{
+\theta_{\infty,i}(x_0,x_1,\dots) \; \triangleq \; x_i
+}
+However, to define the \em{embedding} #{\theta_{i,\infty}} requires us to, for a given value #{x \in D_i}, produce an #{\omega}-tuple of values consistent with #{x} in every domain #{D_k}. We do this by defining #{\theta_{i,\infty}} in terms of helper functions #{\theta_{i,j}}:
+##{
+\theta_{i,\infty}(x) \; \triangleq \; (\theta_{i,0}(x),\theta_{i,1}(x),\theta_{i,2}(x),\dots)
+}
+The helper functions #{\theta_{i,j}} are defined by composing sequences of \em{embeddings} (#{f}s) or \em{projections} (#{g}s), depending on whether #{i < j} or #{j < i}. For example, when #{i = 2}:
+##{
+\begin{array}{lcl} \theta_{2,\infty}(x) &=&  (\theta_{i,0}(x),\theta_{i,1}(x),\theta_{i,2}(x),\theta_{i,3}(x),\theta_{i,4}(x),\dots) \\[1em]
+&=&	\lparen\underbrace{g_0(g_1(x))\rparen, g_1(x)}_{\text{\emph{approximations} to}\ x}, x, \underbrace{f_2(x), f_3(f_2(x)),\dots}_{\text{\emph{equivalent} to}\ x}\rparen
+\end{array}
+}
+}}}

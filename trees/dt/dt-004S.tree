@@ -2,7 +2,7 @@
 \author{liamoc}
 \taxon{Definition}
 \title{Least upper bounds in the category #{\mathbf{Cpo}}}
-\p{A [cpo](dt-001D) #{A} is the [\em{least} upper bound](dt-0017) of an [#{\omega}-chain of cpos](dt-004Q) if is both an [upper bound](dt-004R) and if there exists a \em{unique} #{k} for any other [upper bound](dt-004R) #{B} such that the following diagram commutes (i.e. #{h_i = g_i \circ k} for all #{i \in \mathbb{N}}):}
+\p{A [cpo](dt-001D) #{A} is the [\em{least} upper bound](dt-0017) of an [#{\omega}-chain of cpos](dt-004Q) if is both an [upper bound](dt-004R) and if there exists a \em{unique} #{k} for any other [upper bound](dt-004R) #{B} such that the following diagram commutes (i.e. #{h_i = k \circ g_i} for all #{i \in \mathbb{N}}):}
 \figure{
 \tex{\usepackage{tikz-cd}}{
 \begin{tikzcd}

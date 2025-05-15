@@ -1,0 +1,17 @@
+\import{dt-macros}
+\taxon{Definition}
+\title{Upper bounds in the category #{\mathbf{Cpo}^\mathbf{R}}}
+\p{A [cpo](dt-001D) #{A} is an [upper bound](dm-000C) of an [#{\omega}-chain of cpos](dt-005C) #{A_i} in [the category #{\mathbf{Cpo}^\textbf{R}}](dt-0058) if there is a family of [retraction pairs](dt-0054) #{A_i \rpair{f_i}{g_i} A} such that the following diagram commutes (i.e. for all #{i \in \mathbb{N}}, #{(f_i, g_i) = (f_{i+1},g_{i+1}) \circ (s_i,t_i)}, where #{\circ} is [composition of retraction pairs](dt-0056)):}
+\figure{
+\tex{\usepackage{tikz-cd}}{
+\begin{tikzcd}
+&&A\ar[ddll,<-,xshift=-0.8em,"f_0"']\ar[ddll,->,"g_0",xshift=-0.2em] 
+\ar[ddl,<-,"g_1",xshift=-0.35em]\ar[ddl,->,"f_1"',xshift=0.1em] 
+\ar[dd,<-,"f_2"',xshift=-0.1em]\ar[dd,->,"g_2",xshift=0.3em]  \\
+&&&\cdots \\
+  A_0 \ar[r,"s_0",->,yshift=0.2em]\ar[r,"t_0"', <-,yshift=-0.2em]  &
+  A_1 \ar[r,"s_1",->,yshift=0.2em]\ar[r,"t_1"', <-,yshift=-0.2em]  &
+  A_2  \ar[r,-,dotted,yshift=0.2em]\ar[r,dotted,-,yshift=-0.2em]&
+  \cdots
+\end{tikzcd}
+}}

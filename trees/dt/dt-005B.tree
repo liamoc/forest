@@ -1,6 +1,6 @@
 \taxon{Theorem}
 \title{Fixed point theorem for endofunctors on #{\textbf{Cpo}^\textbf{R}}}
-\p{Every [cocontinuous endofunctor](TODO) #{\mathcal{F}} on #{\mathbf{Cpo}^\textbf{R}} has a least fixed point, given by the [colimit](TODO) of the ascending [#{\omega}-chain](dt-005C):
+\p{Every [cocontinuous endofunctor](dt-005E) #{\mathcal{F}} on #{\mathbf{Cpo}^\textbf{R}} has a least fixed point, given by the [colimit](dt-005F) of the ascending [#{\omega}-chain](dt-005C):
 \figure{
 \tex{\usepackage{tikz-cd}}{\begin{tikzcd}
   \mathbf{1} \ar[r,"f_0",->,yshift=0.2em]\ar[r,"g_0"', <-,yshift=-0.2em]  &

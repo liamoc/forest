@@ -1,0 +1,10 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{Endofunctors on #{\textbf{Cpo}^\textbf{R}}}
+\p{An \em{endofunctor} on [the category #{\textbf{Cpo}^\textbf{R}}](dt-0058) is a [functor](dm-000J) #{\textbf{Cpo}^\textbf{R} \rightarrow \textbf{Cpo}^\textbf{R}}, i.e. a mapping #{\mathcal{F}} on [cpos](dt-001D) together with a mapping #{\mathcal{F}} on [retraction pairs](dt-0054), such that:}
+\ol{
+\li{If #{(f,g)} is a [retraction pair](dt-0054) #{A \rpair{f}{g} B} then #{\mathcal{F}(f,g)} is a [retraction pair](dt-0054) #{\mathcal{F}(A)\rpair{}{} \mathcal{F}(B)} }
+\li{#{\mathcal{F}(\mathsf{id}_A : A\rpair{}{} A) = \mathsf{id}_{\mathcal{F}(A)} : \mathcal{F}(A)\rpair{}{} \mathcal{F}(A)}}
+\li{#{\mathcal{F}(f \circ g) = \mathcal{F}(f) \circ \mathcal{F}(g)}} (where #{\circ} is [composition of retraction pairs](dt-0056))
+}

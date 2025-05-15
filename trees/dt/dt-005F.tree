@@ -1,0 +1,5 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Definition}
+\title{Colimits in the category #{\mathbf{Cpo}^\mathbf{R}}}
+\p{A [cpo](dt-001D) #{A} is the \em{colimit} of an [#{\omega}-chain of cpos](dt-005C) #{A_i} if is both an [upper bound](dt-005G), i.e. there exists [retraction pairs](dt-0054) #{(f_i,g_i) : A_i \rpair{}{} A}, and for any other [upper bound](dt-005G) #{B}, for which there will exist [retraction pairs](dt-0054) #{(m_i,n_i) : A_i \rpair{}{} B}, there exists a \em{unique} [retraction pair](dt-0054) #{A \rpair{k}{k'} B}  such that #{(m_i,n_i) = (k,k') \circ(f_i,g_i) } for all #{i \in \mathbb{N}}, where #{\circ} is [composition of retraction pairs](dt-0056). Viewed diagramatically, it is the same as \ref{dt-004S} where [continuous functions](dt-001J) are replaced by [retraction pairs](dt-0054).}

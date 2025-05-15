@@ -1,0 +1,31 @@
+\import{dt-macros}
+\title{Cocontinuous endofunctors on #{\textbf{Cpo}^\textbf{R}}}
+\taxon{Definition}
+\p{An [endofunctor](dt-005D) #{\mathcal{F}} is \em{cocontinuous} iff it preserves [colimits](dt-005F) of [#{\omega}-chains of cpos](dt-005C). That is, given a [chain](dt-005C) where #{A} is a [colimit](dt-005F):
+\figure{
+\tex{\usepackage{tikz-cd}}{
+\begin{tikzcd}
+&&A\ar[ddll,<-,xshift=-0.8em]\ar[ddll,->,xshift=-0.2em] 
+\ar[ddl,<-,xshift=-0.35em]\ar[ddl,->,xshift=0.1em] 
+\ar[dd,<-,xshift=-0.1em]\ar[dd,->,xshift=0.3em]  \\
+&&&\cdots \\
+  D_0 \ar[r,"f_0",->,yshift=0.2em]\ar[r,"g_0"', <-,yshift=-0.2em]  &
+  D_1 \ar[r,"f_1",->,yshift=0.2em]\ar[r,"g_1"', <-,yshift=-0.2em]  &
+  D_2  \ar[r,-,dotted,yshift=0.2em]\ar[r,dotted,-,yshift=-0.2em]&
+  \cdots
+\end{tikzcd}
+}}
+Then #{\mathcal{F}(A)} is a [colimit](dt-005F) for the following [chain](dt-005C):
+\figure{\tex{\usepackage{tikz-cd}}{
+\begin{tikzcd}
+&&\mathcal{F}(A)\ar[ddll,<-,xshift=-0.8em]\ar[ddll,->,xshift=-0.2em] 
+\ar[ddl,<-,xshift=-0.35em]\ar[ddl,->,xshift=0.1em] 
+\ar[dd,<-,xshift=-0.1em]\ar[dd,->,xshift=0.3em]  \\
+&&&\cdots \\
+  \mathcal{F}(D_0) \ar[r,"\mathcal{F}(f_0)",->,yshift=0.2em]\ar[r,"\mathcal{F}(g_0)"', <-,yshift=-0.2em]  &
+  \mathcal{F}(D_1) \ar[r,"\mathcal{F}(f_1)",->,yshift=0.2em]\ar[r,"\mathcal{F}(g_1)"', <-,yshift=-0.2em]  &
+  \mathcal{F}(D_2)  \ar[r,-,dotted,yshift=0.2em]\ar[r,dotted,-,yshift=-0.2em]&
+  \cdots
+\end{tikzcd}
+}}
+}
