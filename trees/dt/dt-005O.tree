@@ -1,0 +1,11 @@
+\import{dt-macros}
+\taxon{Exercise}
+\author{liamoc}
+\p{
+Show that, in contrast to #{\mathcal{F}(X) = X\contto \mathbb{Z}_\bot} from \ref{dt-0053}, the mapping #{\mathcal{G}(X) = \mathbb{Z}_\bot\contto X} \em{can} be extended to [continuous](dt-001J) functions giving a \em{covariant} [endofunctor](dt-004T) on #{\textbf{Cpo}}.
+\solnblock{
+\p{Given a continuous function #{f : A \contto B}, we must produce a continuous function #{\mathcal{F}(f) : (\mathbb{Z}_\bot \contto A) \contto (\mathbb{Z}_\bot \contto B)}, defined as follows:
+##{\mathcal{F}(f)(g)(x) = f \circ g(x)}
+Composition of continuous functions preserves continuity. The [functor laws](dt-004T) can be shown straightforwardly.
+}
+}}

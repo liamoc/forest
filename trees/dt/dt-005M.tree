@@ -1,0 +1,26 @@
+\import{dt-macros}
+\taxon{Exercise}
+\author{liamoc}
+\p{
+Show that #{\mathcal{F}(X) \triangleq \mathbf{1} + X} and #{\mathcal{F}(f) \triangleq \mathsf{id}_\mathbf{1} + f} (using our [#{+} operator for functions](dt-0037)) define an [endofunctor](dt-004T) #{\mathbf{Cpo} \rightarrow \mathbf{Cpo}}, i.e. that they satisfy the functor laws.}
+\solnblock{
+\ol{
+	\li{
+		We must show #{\mathcal{F}(\mathsf{id}_A : A \contto A) = \mathsf{id}_{\mathcal{F}(A)} : \mathcal{F}(A) \contto \mathcal{F}(A)}. 
+		##{\begin{array}{lcl}
+		\mathcal{F}(\mathsf{id}_A)& =& \mathsf{id}_\mathbf{1} + \mathsf{id}_A\\
+		                           &=& \mathsf{id}_{\mathbf{1} + A}\\
+								   &=& \mathsf{id}_{\mathcal{F}(A)}
+								  \end{array}}
+		
+	}
+	\li{
+		We must show #{\mathcal{F}(f \circ g) = \mathcal{F}(f) \circ \mathcal{F}(g)}.
+		##{\begin{array}{lcl}
+	\mathcal{F}(f \circ g) &=& \mathsf{id}_\mathbf{1} + (f \circ g) \\
+	                        &=& (\mathsf{id}_\mathbf{1} + f) \circ (\mathsf{id}_\mathbf{1} + g) \\
+							& = & \mathcal{F}(f) \circ \mathcal{F}(g)
+								  \end{array}}
+	}
+}
+}

@@ -1,0 +1,57 @@
+\import{dt-macros}
+\title{Semantics of untyped #{\lambda}-calculus}
+\author{liamoc}
+\p{
+Recall the untyped #{\lambda} calculus:
+\transclude{dt-004K}
+We mentioned before that the semantic domain of this language must be a cpo #{D} such that ##{D \simeq D\contto D} In other words, solutions  to this equation are fixed points of #{\mathcal{F}(X) = X\contto X}. The least such fixed point can expressed, by \ref{dt-005B}, as the [colimit](dt-005H) of the [#{\omega}-chain](dt-005C):
+\figure{
+\tex{\usepackage{tikz-cd}}{
+\begin{tikzcd}
+	\mathbf{1} \ar[r,"f_0",->,yshift=0.2em]\ar[r,"g_0"', <-,yshift=-0.2em]  &
+	\mathcal{F}(\mathbf{1}) \ar[r,"f_1",->,yshift=0.2em]\ar[r,"g_1"', <-,yshift=-0.2em]  &
+	\mathcal{F}(\mathcal{F}(\mathbf{1})) \ar[r,"f_2",->,yshift=0.2em]\ar[r,"g_2"', <-,yshift=-0.2em]  &
+	\mathcal{F}(\mathcal{F}(\mathcal{F}(\mathbf{1}))) \ar[r,-,dashed,yshift=0.2em]\ar[r,dashed,-,yshift=-0.2em]  &
+	\cdots
+\end{tikzcd}
+}}
+But, the least solution to this equation is \em{trivial}: #{D_\infty \simeq \mathbf{1}}, because #{\mathbf{1} \simeq \mathbf{1}\contto \mathbf{1}}. A non-trivial solution is obtained by starting the chain at #{\mathbf{2}}, the [cpo](dt-001D) containing just #{\Set{\top,\bot}}, rather than #{\mathbf{1}}.
+\figure{\tex{\usepackage{tikz-cd}}{
+\begin{tikzcd}
+	\mathbf{2} \ar[r,"f_0",->,yshift=0.2em]\ar[r,"g_0"', <-,yshift=-0.2em]  &
+	\mathcal{F}(\mathbf{2}) \ar[r,"f_1",->,yshift=0.2em]\ar[r,"g_1"', <-,yshift=-0.2em]  &
+	\mathcal{F}(\mathcal{F}(\mathbf{2})) \ar[r,"f_2",->,yshift=0.2em]\ar[r,"g_2"', <-,yshift=-0.2em]  &
+	\mathcal{F}(\mathcal{F}(\mathcal{F}(\mathbf{2}))) \ar[r,-,dashed,yshift=0.2em]\ar[r,dashed,-,yshift=-0.2em]  &
+	\cdots
+\end{tikzcd}
+}}}
+\p{
+We will now sketch a proof of the [retraction pair](dt-0054) between #{D_\infty} and #{D_\infty \contto D_\infty}, by providing two functions, #{\textbf{\textsf{up}} : D_\infty \rightarrow (D_\infty\contto D_\infty)} and its inverse #{\textbf{\textsf{down}} : (D_\infty\contto D_\infty) \rightarrow D_\infty}. }
+\p{
+Observe that each element of #{D_i} (for #{i > 0}) is a \em{function} #{D_{i-1} \contto D_{i-1}}. Therefore, an element of [the colimit #{D_\infty}](dt-005H) is an #{\omega}-tuple of such functions. To define #{\textbf{\textsf{up}}(d)(x)}, we must essentially "apply" each function in the element #{d \in D_\infty} (viewed as an #{\omega}-tuple of functions) to the element #{x \in D_\infty} (viewed as an #{\omega}-tuple of values). More specifically, we say that #{\textbf{\textsf{up}}(d)(x)} is an #{\omega}-tuple #{(y_m \mid y \in \mathbb{N})}, as follows:
+##{
+y_m = \bigsqcup_{k \in \mathbb{N}} \theta_{m+k,m}(d_{m+k+1}(x_{m+k}))
+}
+To define #{\textbf{\textsf{down}}(f)}, we are given a ([continuous](dt-001J)) function #{f : D_\infty\contto D_\infty} and must construct the #{\omega}-tuple of approximations at every #{D_n}. We do this by projecting the action of #{f} down to #{D_n}. We say that #{\textbf{\textsf{down}}(f)} is an #{\omega}-tuple #{(v_n \mid n \in \mathbb{N})} where:
+##{
+\begin{array}{lcl}
+	v_0 & \triangleq & \theta_{\infty,0}(f(\theta_{0,\infty}(\bot_{D_0})))\\
+	v_{n+1} & \triangleq & \theta_{\infty,n} \circ f \circ \theta_{n,\infty}
+\end{array}
+}}
+\subtree{
+\taxon{Definition}
+\title{Denotations for untyped #{\lambda}-calculus}
+\p{
+Using the new functions #{\textbf{\textsf{up}}} and #{\textbf{\textsf{down}}}, it is now straightforward to define a semantics for untyped #{\lambda}-calculus, where #{\sigma} is an environment #{\mathsf{Var} \rightarrow D_\infty}:
+##{\llbracket \cdot \rrbracket : (\mathsf{Var} \rightarrow D_\infty)\contto D_\infty}
+##{
+\begin{array}{lcl}
+\llbracket x \rrbracket \sigma 	& = & \sigma (x) \\
+\llbracket e_0\ e_1 \rrbracket \sigma & = & \textbf{\textsf{up}}(\llbracket e_0 \rrbracket \sigma) (\llbracket e_1 \rrbracket \sigma)\\
+\llbracket \lambda x.\ e \rrbracket \sigma & = & \textbf{\textsf{down}}(\boldsymbol{\lambda} v \in D_{\infty}.\ \llbracket e \rrbracket\ \sigma(x \mapsto v) )
+\end{array}
+}
+This semantics does not distinguish non-terminating computations from terminating ones. To model call-by-value more faithfully, we could use the equation #{D \simeq D\contto D_\bot} instead, and for call-by-name we could use #{D \simeq D_\bot\contto D_\bot}. The constructions are very similar.
+}
+}

@@ -1,0 +1,46 @@
+\import{dt-macros}
+\taxon{Exercise}
+\author{liamoc}
+\p{
+The lazy natural numbers, also called conats, are defined as the least solution to the equation #{X \simeq \mathbf{1} + X}. 
+\ol{
+\li{Sketch the first four approximations to the least fixed point. Call the two sum injections #{\mathsf{zero}} and #{\mathsf{succ}}.
+\solnblock{
+##{
+\begin{array}{lcl}
+A_0 & = & \Set{\bot} \\
+A_1 & = & \Set{\mathsf{zero}\ \bot, \mathsf{succ}\ \bot, \bot} \\
+A_2 & = & \Set{\mathsf{zero}\ \bot, \mathsf{succ}\ \bot, \mathsf{succ}\ (\mathsf{zero}\ \bot), \mathsf{succ}\ (\mathsf{succ}\ \bot), \bot} \\
+A_3 & = & \Set{\mathsf{zero}\ \bot, \mathsf{succ}\ \bot, \mathsf{succ}\ (\mathsf{zero}\ \bot), \mathsf{succ}\ (\mathsf{succ}\ \bot), \mathsf{succ}\ (\mathsf{succ}\ (\mathsf{zero}\ \bot)), \mathsf{succ}\ (\mathsf{succ}\ (\mathsf{succ}\ \bot)), \bot} \\
+\end{array}
+}
+}}
+\li{Repeat this exercise assuming:
+\ol{
+	\li{ #{\mathsf{zero}} is strict (i.e. #{\mathsf{zero}\ \bot = \bot})
+\solnblock{
+	##{
+	\begin{array}{lcl}
+	A_0 & = & \Set{\bot} \\
+	A_1 & = & \Set{\mathsf{succ}\ \bot, \bot} \\
+	A_2 & = & \Set{\mathsf{succ}\ \bot, \mathsf{succ}\ (\mathsf{succ}\ \bot), \bot} \\
+	A_3 & = & \Set{\mathsf{succ}\ \bot, \mathsf{succ}\ (\mathsf{succ}\ \bot), \mathsf{succ}\ (\mathsf{succ}\ (\mathsf{succ}\ \bot)), \bot} \\
+	\end{array}
+	}
+	}
+}
+	\li{ #{\mathsf{succ}} is strict (i.e. #{\mathsf{succ}\ \bot = \bot})
+\solnblock{
+	##{
+	\begin{array}{lcl}
+	A_0 & = & \Set{\bot} \\
+	A_1 & = & \Set{\mathsf{zero}\ \bot, \bot} \\
+	A_2 & = & \Set{\mathsf{zero}\ \bot, \mathsf{succ}\ (\mathsf{zero}\ \bot), \bot} \\
+	A_3 & = & \Set{\mathsf{zero}\ \bot, \mathsf{succ}\ (\mathsf{zero}\ \bot),  \mathsf{succ}\ (\mathsf{succ}\ (\mathsf{zero}\ \bot)), \bot} \\
+	\end{array}
+	}
+	}
+}
+}
+}
+}}

@@ -1,0 +1,10 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{#{\times} operation for retraction pairs}
+\p{
+Given two [retraction pairs](dt-0054) #{(f,g)} and #{(h,i)}, our [retraction pair](dt-0054) for their [product](dt-0021) is just the product of their \em{embedding} and \em{projection}, i.e. #{(f \times h, g \times i)}, using our [product operation on continuous functions](dt-0026):
+##{
+\inferrule{A \rpair{f}{g} B\quad C \rpair{h}{i} D}{A\times C \rpair{f \times h}{g \times i} B \times D}
+}
+}

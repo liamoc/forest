@@ -1,0 +1,7 @@
+\import{dt-macros}
+\title{Extending cpo Mappings to endofunctors on #{\textbf{Cpo}^\mathbf{R}}}
+\author{liamoc}
+\p{If #{\mathcal{F}} is a mapping on [cpos](dt-001D) built up from basic cpos using the constructions #{\times}, #{\otimes}, #{+}, #{\oplus}, #{(\cdot)_\bot}, \em{as well as} #{\contto} and #{\strictto}, then #{\mathcal{F}} extends to a (\em{covariant}!) [cocontinuous functor](dt-005E) on #{\textbf{Cpo}^\mathbf{R}}. 
+We shall detail the construction for products and functions here, but the other constructions are all similar.}
+\transclude{dt-005J}
+\transclude{dt-005K}

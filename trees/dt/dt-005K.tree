@@ -1,0 +1,13 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{#{\contto} operation for retraction pairs}
+\p{
+We are given two [retraction pairs](dt-0054) #{A \rpair{f}{g} B} and
+ #{C \rpair{h}{i} D}. To define a suitable \em{covariant} [functor](dt-005E), we define our morphism mapping in terms of our #{\contto} [operation on continuous functions](dt-002X): ##{ (f,g) \contto (h,i) \; \triangleq \; (g\contto h, f \contto i)}
+Note that the positions of #{f} and #{g} are swapped in the above definition.
+##{
+\inferrule{A \rpair{f}{g} B \quad C \rpair{h}{i} D}{A \contto C \rpair{g \contto h}{f \contto i} B \contto D}
+}
+Unlike [with the category #{\textbf{Cpo}}](dt-0053), this functor is not [contravariant](dm-000S) but \em{covariant}: Note the positions of #{A} and #{B} are not swapped!
+}

@@ -5,6 +5,4 @@
 \transclude{dt-004J}
 \transclude{dt-004O}
 \transclude{dt-0052}
-\strong{TODO: Colimit construction}
-\strong{TODO: Producing Endofunctors}
-\strong{TODO: Untyped Lambda Calculus}
+\transclude{dt-005L}
