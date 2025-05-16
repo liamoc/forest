@@ -1,5 +1,6 @@
 \import{dt-macros}
 \taxon{Lecture}
+\parent{dt-001Y}
 \author{liamoc}
 \title{Monadic semantics, Scott domains and nondeterminism}
 \p{This lecture is based on material from [[cgunter]], [[gwinskel]], [[haskellhutt]], [[kaie]], [[dexterkozen]], [[andrewmyers]], [[jlongley]], [[danascott]], and [[jstoy]].}
