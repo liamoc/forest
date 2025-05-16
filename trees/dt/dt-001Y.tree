@@ -3,53 +3,10 @@
 \title{Domain theory}
 \author{liamoc}
 \p{These lecture notes are based on the material I used to teach the [[typesig-dt]] course at the [[uoe]] in 2024.}
+\scope{
+\put\transclude/expanded{false}
 \transclude{dt-0005}
 \transclude{dt-001Z}
 \transclude{dt-004Z}
-\subtree{
-\taxon{Lecture}
-\title{Scott Domains}
-\transclude{dt-0040}
-\subtree{
-\title{Algebraicity and ideals}
-\transclude{dt-0041}
-\transclude{dt-0042}
-\transclude{dt-0043}
-\transclude{dt-0045}
-\transclude{dt-0044}
-\transclude{dt-0047}
-\transclude{dt-0048}
-\transclude{dt-0046}
-\transclude{dt-0049}
-}
-\subtree{
-\title{Getting closure}
-\transclude{dt-004A}
-\transclude{dt-004B}
-\transclude{dt-004C}
-\problemblock{
-#{\omega}-[algebraic](dt-0041) [cpos](dt-001D) are closed under all of our constructions ([products](dt-0021) and [sums](dt-0031), including [strict versions of these](dt-003E)) \strong{except} functions #{\contto} and strict functions #{\strictto}!
-}
-
-\transclude{dt-004D}
-\transclude{dt-004E}
-\transclude{dt-004F}
-\transclude{dt-004G}
-\transclude{dt-004H}
-\transclude{dt-004I}
-
-\scope{
-\put\transclude/toc{false}
-\put\transclude/numbered{false}
-\subtree{\taxon{Thesis}
-\p{Our semantic domains are [Scott domains](dt-004G).}
-}}
-
-
-}
-}
-\subtree{
-\taxon{Lecture}
-\title{Non-determinism}
-\p{todo}
+\transclude{dt-005V}
 }

@@ -1,0 +1,13 @@
+\import{dt-macros}
+\taxon{Remark}
+\author{liamoc}
+\title{Angelic nondeterminism}
+\p{
+Consider the following three programs:
+\ol{
+\li{#{ x := 1}}
+\li{ #{\textsf{while}\ \textsf{true}\ \textsf{do}\ \textsf{skip}}}
+\li{#{ \textsf{while}\ \textsf{true}\ \textsf{do}\ \textsf{skip}\ \textsf{od} + x := 1 }}
+}
+Given a state #{\sigma}, let #{\sigma' = \sigma(x \mapsto 1)}. Then, the possible results of these programs are #{\Set{ \sigma' }}, #{\Set{ \bot }}, and #{\Set{\sigma', \bot }} respectively. Because the [Hoare construction](dt-0061) identifies #{\approx_H}-equivalent sets, the Hoare powerdomain semantics will consider programs 1 and 3 to be the same. That is, the non-determinism is \em{angelic}. The bad outcome (#{\bot}) is only said to happen if it is \em{inevitable}. 
+}

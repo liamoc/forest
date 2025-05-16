@@ -1,0 +1,13 @@
+\import{dt-macros}
+\title{Generalising our semantics}
+\author{liamoc}
+\p{We return to [the #{\mathcal{C}} language](dt-005R) we saw [previously](dt-0000):}
+\transclude{dt-005R}
+\p{If we wish to add other kinds of effects (beyond mutation of state) to our language, this will necessarily affect the semantic domain. Rather than rewrite the entire semantics for each possible setting, we will generalise the semantics to work over any instance of an algebraic structure, called a [monad](dm-000U).}
+\transclude{dm-000U}
+\transclude{dt-005P}
+\p{Sometimes it is more convenient to work with the [Kleisli composition](dm-000T) operator, rather than the operations #{\mu} and #{\eta} directly.}
+\transclude{dm-000T}
+\transclude{dt-005Q}
+\transclude{dt-005S}
+\transclude{dt-005T}

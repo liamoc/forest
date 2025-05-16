@@ -1,0 +1,15 @@
+\import{dt-macros}
+\taxon{Lecture}
+\author{liamoc}
+\title{Monadic semantics, Scott domains and nondeterminism}
+\p{This lecture is based on material from [[cgunter]], [[gwinskel]], [[haskellhutt]], [[kaie]], [[dexterkozen]], [[andrewmyers]], [[jlongley]], [[danascott]], and [[jstoy]].}
+\transclude{dt-005Z}
+\subtree{
+\title{Nondeterminism}
+\transclude{dt-005U}
+\transclude{dt-0060}
+}
+\transclude{dt-005W}
+\transclude{dt-0061}
+\transclude{dt-0064}
+\transclude{dt-0067}

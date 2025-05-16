@@ -1,0 +1,25 @@
+\import{dt-macros}
+\taxon{Definition}
+\author{liamoc}
+\title{Monadic semantics for #{\mathcal{C}}}
+\p{We define our semantics generically in terms of a [monad](dm-000U) #{(\mathcal{M},\mu,\eta)}, using the [Kleisli composition operator](dm-000T) for #{\mathcal{M}}: 
+##{
+\begin{array}{l}
+\mathsf{ite} : (\Sigma \rightarrow \mathbb{B}) \times (\Sigma \rightarrow \mathcal{M}(\Sigma)) \times (\Sigma \rightarrow \mathcal{M}(\Sigma)) \rightarrow (\Sigma \rightarrow \mathcal{M}(\Sigma))\\
+\mathsf{ite}(b,t,e)(\sigma) =  \begin{cases}t(\sigma) & \text{if}\ b(\sigma) = T \\ 
+			  e(\sigma) & \text{otherwise}
+ \end{cases}
+\end{array}
+}
+
+##{
+\begin{array}{lcl}
+\llbracket\cdot\rrbracket_\mathcal{C} : \mathcal{C} \rightarrow \Sigma \rightarrow \mathcal{M}(\Sigma)\\[0.4em]
+	\llbracket \mathsf{skip} \rrbracket_\mathcal{C} & = & \eta_\Sigma \\ 
+	\llbracket x := e \rrbracket_\mathcal{C} & = & \boldsymbol{\lambda} \sigma.\ \eta_\Sigma (\sigma\left(x \mapsto \llbracket e \rrbracket_\mathcal{E}\right)) \\
+	\llbracket c_1 ; c_2 \rrbracket_\mathcal{C} & = & \llbracket c_2 \rrbracket_\mathcal{C} \circ_K \llbracket c_1 \rrbracket_\mathcal{C} \\[0.3em]
+	\llbracket \textsf{if}\ b\ \textsf{then}\ c_1\ \textsf{else}\ c_2 \rrbracket_\mathcal{C} & = & \mathsf{ite}(\llbracket b \rrbracket_\mathcal{B},\llbracket c_1 \rrbracket_\mathcal{C},\llbracket c_2 \rrbracket_\mathcal{C})\\
+	\llbracket \textsf{while}\ b\ \textsf{do}\ c\ \textsf{od} \rrbracket_\mathcal{C} & = & \mathbf{\mathbf{fix}}(\boldsymbol{\lambda} f.\ \mathsf{ite}(\llbracket b \rrbracket_\mathcal{B}, f \circ_K \llbracket c \rrbracket_\mathcal{C}, \eta_\Sigma) )
+\end{array}
+}
+}

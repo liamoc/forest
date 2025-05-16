@@ -1,0 +1,13 @@
+\import{dt-macros}
+\title{Introduction to nondeterminism}
+\author{liamoc}
+\p{When modelling programming languages we sometimes require a way to be imprecise about some aspects of a program — usually, this takes the form of non-determinism. Non-determinism can be hard for beginners to grasp, but it typically has to be employed when modelling real programs. For example, suppose we had a greeting program that differed depending on the physical location of the computer:
+##{
+ \begin{array}{l} \textsf{\textbf{if}}\ \mathit{currentLocation}() = \text{Korea}\ \textsf{\textbf{then}} \\ \quad \textsf{\textbf{say}}\ \text{``안녕하세요''} \\ \textsf{\textbf{else}} \\ \quad \textsf{\textbf{say}}\ \text{``Hello!''}\\ \textsf{\textbf{fi}}  \end{array}}
+If we wanted to mathematically model the behaviour of this program, it would be frightfully inconvenient to include the geography of Earth and the computer's physical location in our model. That's where non-determinism comes in. If we abstract away from the geographical details, and instead regard the program as choosing between the two options based on some unspecified criteria, then we can get away with modelling less, at the cost of some detail:
+##{
+ \begin{array}{l} \textsf{\textbf{if}}\ \mathit{???}\ \textsf{\textbf{then}} \\ \quad \textsf{\textbf{say}}\ \text{``안녕하세요''} \\ \textsf{\textbf{else}} \\ \quad \textsf{\textbf{say}}\ \text{``Hello!''}\\ \textsf{\textbf{fi}}  \end{array} }
+Such underspecified conditionals are usually called \em{non-deterministic choice}, where our conditional #{\textsf{\textbf{if}}\ \mathit{???}\ \textsf{\textbf{then}}\ P\ \textsf{\textbf{else}}\ Q\ \textsf{\textbf{fi}}} is written simply as #{P + Q}.}
+
+\p{While we tend to view our physical machines as deterministic automata, the state upon which each decision is deterministically made includes a number of external things which are tedious to model mathematically. We can also use non-determinism to ignore details that we don't care about for our particular domain — a common example is memory allocation, where it is very convenient (for some programs) to think of memory as infinite, and allocation as an operation that can potentially fail, without specifying exactly when and how this failure can occur. This is normally modelled as a choice between successful allocation and a failure state.
+}

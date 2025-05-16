@@ -1,0 +1,9 @@
+\title{Preorder}
+\p{A binary relation #{(\preceq) \subseteq X \times X} is a \em{preorder} if it is, for all #{x, y, z \in X}:
+\ul{
+\li{ [reflexive](dm-0001): #{x \preceq x}, }
+\li{ [transitive](dm-0002): #{x \preceq y} and #{y \preceq z} implies #{x \preceq z},}
+}
+A preorder that is also [antisymmetric](dm-0003) is a [partial order](dm-0000).
+}
+

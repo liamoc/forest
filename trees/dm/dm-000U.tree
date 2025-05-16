@@ -1,0 +1,33 @@
+\import{table-macros}
+\author{liamoc}
+\title{Monad}
+\taxon{Definition}
+\p{
+A \em{monad} on the [category](dm-000G) #{\textbf{C}} consists of an [endofunctor](dm-000J) #{\mathcal{M} : \textbf{C} \rightarrow \textbf{C}} and two operations (\em{natural transformations}) for all #{\mathbf{C}}-objects #{X}: #{\mu_X : \mathcal{M}(\mathcal{M}(X)) \rightarrow \mathcal{M}(X)} and #{\eta_X : X \rightarrow \mathcal{M}(X)}, such that the following [diagrams](dm-000L) commute:
+\figure{
+	\table{\tr{
+	\td{
+	\tex{\usepackage{tikz-cd}}{
+	\begin{tikzcd}
+	\mathcal{M}(\mathcal{M}(\mathcal{M}(X))) \ar[r,"\mathcal{M}(\mu_X)"]
+	 \ar[d,"\mu_{\mathcal{M}(X)}"'] & \mathcal{M}(\mathcal{M}(X)) \ar[d,"\mu_X"] \\
+	\mathcal{M}(\mathcal{M}(X)) \ar[r,"\mu_X"]& \mathcal{M}(X)
+	\end{tikzcd}	
+	}	
+	}
+	\td{
+		\tex{\usepackage{tikz-cd}}{\begin{tikzcd}
+		\mathcal{M}(X) \ar[r,"\eta_{\mathcal{M}(X)}"]
+			 \ar[d,"\mathcal{M}(\eta_X)"']\ar[dr,equal] & \mathcal{M}(\mathcal{M}(X)) \ar[d,"\mu_X"] \\
+			\mathcal{M}(\mathcal{M}(X)) \ar[r,"\mu_X"]& \mathcal{M}(X)
+			\end{tikzcd}}
+	}	
+	}}
+}
+In equational form, these laws are 
+\ol{
+\li{ #{\mu_X \circ \mathcal{M}(\mu_X) = \mu_X \circ \mu_{\mathcal{M}(X)}} }
+\li{ #{\mu_X \circ \mathcal{M}(\eta_X) =  \mu_X \circ \eta_{\mathcal{M}(X)} = \mathsf{id}_{\mathcal{M}(X)}} }
+}
+ In computer science, #{\eta_X} is sometimes called \em{unit, pure,} or \em{return}, and #{\mu_X} is usually called \em{join}. 
+ }

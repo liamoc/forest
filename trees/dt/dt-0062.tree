@@ -1,0 +1,7 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Example}
+\title{Hoare powerdomain of #{\mathbb{N}_\bot}}
+\p{
+	Let us find the [Hoare powerdomain](dt-0061) of #{\mathbb{N}_\bot}. Note that #{\mathbb{N}_\bot} is a [flat domain](dt-0008) so all elements are [compact](dt-003U), i.e. #{\compact{\mathbb{N}_\bot} = \mathbb{N}_\bot}. Let us find examine the #{\preceq_H}-ideal subsets of #{\mathcal{P}_f^\ast(\mathbb{N}_\bot)}. If #{v} and #{u} both contain #{\bot}, then #{v \preceq_H u} iff #{v \subseteq u}. As [ideal](dt-0048) subsets are [downwards closed](dt-0047), we can identify an [ideal](dt-0048) #{I \in \mathsf{Id}({\mathcal{P}_f^\ast(\mathbb{N}_\bot)})} with its union #{\bigcup I}. The [ideals](dt-0048) of #{\mathcal{P}^\ast_f(\mathbb{N}_\bot)} are then [isomorphic](dt-002E) to domain #{\mathcal{P}(\mathbb{N})} of all subsets of #{\mathbb{N}} under subset inclusion.
+}

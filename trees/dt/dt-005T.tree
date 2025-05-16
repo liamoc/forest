@@ -1,0 +1,17 @@
+\import{dt-macros}
+\taxon{Example}
+\author{liamoc}
+\title{Instantiating #{\mathcal{C}} with exceptions}
+\p{
+	Let us instantiate our [monadic semantics](dt-005Q) with the [monad](dm-000U) #{\mathcal{M}(X) = X_\bot \oplus \mathbf{1}}, where the added value (from #{\mathbf{1}}) is called #{\mathsf{fail}}. The operation #{\mu_X : (X_\bot \oplus \mathbf{1})_\bot \oplus \mathbf{1} \rightarrow X_\bot \oplus \mathbf{1}} collapses the two possible #{\bot} values to #{\bot} and the two possible #{\mathsf{fail}} values to #{\mathsf{fail}}, and the operation #{\eta_X : X \rightarrow X_\bot \oplus \mathbf{1}} is the straightforward injection.}
+\p{Then we may extend our [language](dt-005R) with lightweight exception constructs:
+	##{\mathcal{C} ::= \dots \mid \syn{throw} \mid \syn{try}\ \mathcal{C}_1\ \syn{catch}\ \mathcal{C}_2}
+and define their semantics, leaving our [existing semantics](dt-005Q) unchanged:	
+	##{
+\begin{array}{lcl}
+\llbracket \syn{throw} \rrbracket\ \sigma &=& \mathsf{fail} \\
+\llbracket \syn{try}\ c_1\ \syn{catch}\ c_2 \rrbracket\ \sigma &=& \begin{cases} \llbracket c_2 \rrbracket\ \sigma  & \text{if}\ \llbracket c_1 \rrbracket\ \sigma = \mathsf{fail} \\
+               \llbracket c_1 \rrbracket\ \sigma & \text{otherwise}\end{cases}
+\end{array}
+	}
+}

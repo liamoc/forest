@@ -1,0 +1,4 @@
+\taxon{Definition}
+\title{Equivalence class}
+\author{liamoc}
+\p{Given an [equivalence relation](dm-000W) #{\approx} on a set #{S}, the set #{S} can be completely partitioned into subsets (\em{equivalence classes}) such that two elements #{x} and #{y} belong to the same \em{equivalence class} if and only if #{x \approx y}.}

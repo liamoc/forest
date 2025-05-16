@@ -1,0 +1,14 @@
+\import{dt-macros}
+\author{liamoc}
+\title{The Smyth powerdomain}
+\p{As before, let #{X, Y \in \mathcal{P}_f^\ast(\compact{A})} be finite, non-empty sets of [compact](dt-003U) elements of a [Scott domain](dt-004G) #{A}. The \em{Smyth powerdomain} construction is based on the following [preorder](dm-000V):
+##{
+X \preceq_S Y\quad \text{iff}\quad (\forall y \in Y.\ \exists x \in X.\ x \sqsubseteq_A y)
+}
+The intuition here is "Everything #{Y} can do, #{X} can do worse". It satisfies the equation #{X \cup Y \preceq_S X}, which intuitively means that a non-deterministic choice is considered to have \em{less} information than any of its components. When applied to a [flat domain](dt-0008), it simplifies to:
+##{
+X \preceq_S Y\quad\text{iff}\quad \bot \in X \lor Y \subseteq X
+}
+As with the [Hoare powerdomain](dt-0061), this fails to be a [partial order](dm-0000), but we can use the same [ideal completion](dt-0046) trick to induce an [algebraic](dt-0041) domain where [compact elements](dt-003U) correspond to [equivalence classes](dm-000X) of elements under #{\approx_S} (where #{X \approx_S Y} is, as with #{\approx_H}, just defined as #{X \preceq_S Y \land Y \preceq_S X}). }
+\transclude{dt-0065}
+\transclude{dt-0066}

@@ -1,0 +1,7 @@
+\import{dt-macros}
+\taxon{Example}
+\title{Instantiating #{\mathcal{C}} with the lifting monad}
+\author{liamoc}
+\p{
+Instantiating our [monadic semantics](dt-005Q) where the [monad](dm-000U) #{\mathcal{M}} is [flat domain lifting](dt-005P), we recover our [original semantics](dt-0004) of #{\mathcal{C}}.
+}

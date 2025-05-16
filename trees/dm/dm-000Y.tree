@@ -1,0 +1,4 @@
+\title{Symmetry}
+\author{liamoc}
+\taxon{Definition}
+\p{ A binary relation #{\mathcal{R}} is \em{symmetric} iff, for all #{x} and #{y}, #{x\ \mathcal{R}\ y} implies #{y\ \mathcal{R}\ x}.}

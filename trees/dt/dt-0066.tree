@@ -1,0 +1,6 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Remark}
+\title{Demonic nondeterminism}
+\p{Note that all sets that contain #{\bot} are considered equivalent by the [Smyth](dt-0064) construction #{\approx_S}. Thus, this models \em{demonic} non-determinism: Of the three programs in \ref{dt-0063}, the [Smyth](dt-0064) semantics considers 2 and 3 to be the same. Thus, the \em{possibility} of divergence #{\bot} is no different from \em{inevitable} divergence.
+}

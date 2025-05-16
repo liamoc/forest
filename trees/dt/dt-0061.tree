@@ -1,0 +1,18 @@
+\import{dt-macros}
+\author{liamoc}
+\title{The Hoare powerdomain}
+\p{We write #{\mathcal{P}_f^\ast(S)} to denote finite non-empty subsets of #{S}. Let #{X, Y \in \mathcal{P}_f^\ast(\compact{A})} be finite, non-empty sets of compact elements of a Scott domain #{A}. The \em{Hoare powerdomain} construction is based on the following ordering:
+##{
+X \preceq_H Y\quad \text{iff}\quad (\forall x \in X.\ \exists y \in Y.\ x \sqsubseteq_A y)
+}
+The intuition behind this is that "Anything #{X} can do, #{Y} can do better". This ordering has some desirable properties: The least element is #{\Set{\bot }}, as we might expect. It also satisfies the equation #{X \preceq_H X \cup Y}, which intuitively means that a non-deterministic choice is considered to have \em{more} information than any of its components. When specialised to the case where #{A} is a [flat domain](dt-0008) like #{\Sigma_\bot}, it simplifies to:
+##{
+X \preceq_H Y\quad \text{iff}\quad X \setminus \Set{\bot } \subseteq Y
+}
+This is, however, not a proper order, but a [preorder](dm-000V), as it fails [antisymmetry](dm-0003). Even in the [flat domain](dt-0008) case, #{\Set{ x, \bot } \preceq_H \Set{x }} and #{\Set{ x } \preceq_H \Set{x, \bot }} but they are not equal. However, any [preorder](dm-000V) \em{does} induce an [equivalence relation](dm-000W), where #{X \approx_H Y} iff #{X \preceq_H Y} and #{Y \preceq_H X}. Furthermore, if we take the [ideal completion](dt-0046) of #{\mathcal{P}_f^\ast(K(A))} with respect to the [preorder](dm-000V) #{\preceq_H} (i.e., the set of all #{\preceq_H}-[downwards-closed](dt-0047) [directed](dt-0010) subsets of #{\mathcal{P}_f^\ast(\compact{A})}), we can order them by inclusion to obtain an [algebraic](dt-0041) domain with [compact](dt-003U) elements which correspond to [equivalence classes](dm-000X) of elements under #{\approx_H}. We have a [lub](dt-0017) operation for these [ideals](dt-0048):
+##{
+A \sqcup_H B = \Set{ X \cup Y \mid X \in A \land Y \in B }
+}
+}
+\transclude{dt-0062}
+\transclude{dt-0063}

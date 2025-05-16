@@ -1,0 +1,22 @@
+\import{dt-macros}
+\author{liamoc}
+\title{Instantiating our semantics for nondeterminism}
+\p{
+Our [initial semantics](dt-0004) for #{\mathcal{C}} (without loops) was functions on states #{\Sigma \rightarrow \Sigma}. When adding loops, we used a [cpo](dt-001D) #{\Sigma \contto \Sigma_\bot} for our semantic domain. Since \em{non-deterministic} programs can have more than one outcome, a natural choice of semantic domain would be #{\Sigma \contto \mathcal{P}(\Sigma_\bot) \setminus \emptyset}, i.e., functions from an initial state to a non-empty set of possible outcomes. }
+
+\p{We can provide #{\eta} and #{\mu} operations for our proposed [monad](dm-000U) for non-determinism #{\mathcal{M}(X) = \mathcal{P}(X_\bot) \setminus \emptyset}:
+##{
+\begin{array}{l}
+\eta : X \rightarrow \mathcal{P}(X_\bot) \setminus \emptyset\\
+\eta(x) = \{ x \}\\
+\mu : \mathcal{P}{((\mathcal{P}(X_\bot) \setminus \emptyset)_\bot)}\rightarrow \mathcal{P}(X_\bot) \setminus \emptyset\\
+\mu(S) = (\bigcup_{X \neq \bot \in S} X) \cup (S \cap \{ \bot \})
+\end{array}
+}
+And, with this semantics, we can easily add a denotation for a non-deterministic choice operator, in terms of union:
+##{
+\llbracket c_1 + c_2 \rrbracket_\mathcal{C} = \lambda \sigma. \llbracket c_1 \rrbracket_\mathcal{C} \sigma \cup  \llbracket c_2 \rrbracket_\mathcal{C} \sigma 
+}
+Unfortunately this is only the beginning of our troubles. While we have given a valuation function above, its definition uses #{\textbf{fix}}, and therefore our domain #{\Sigma \rightarrow \mathcal{M}(\Sigma)} must be a [cpo](dt-001D), and all our operations [continuous](dt-001J). It is not clear how to order elements of #{\mathcal{P}(X_\bot) \setminus \emptyset}. A natural choice of ordering would be subset inclusion #{\subseteq}. However, as we lack #{\emptyset}, there is no least element for this ordering. Furthermore, simply using #{\subseteq} as our ordering would mean that the deterministic, terminating program that always returns a single state #{\Set{ \sigma }} would be considered \em{less} informative than the program that may diverge #{\Set{ \bot, \sigma }}. This would make most of our operations non-[continuous](dt-001J).}
+\p{
+Instead, we shall examine three separate orderings on this set, each of which carries a different view of non-determinism. More generally, we wish to come up with a construction analogous to the powerset operator #{\mathcal{P}}, but for our semantic domains — a \em{powerdomain}. However, for these orderings to produce valid [partial orders](dm-0000), we require a certain  [theorem](dt-0049) that only applies to a certain class of [cpos](dt-001D), called "[algebraic](dt-0041)" cpos. Thus, we will first introduce a richer class of cpos, called \em{Scott domains}, and then return to the problem of non-determinism.}

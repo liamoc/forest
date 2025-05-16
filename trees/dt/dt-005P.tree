@@ -1,0 +1,5 @@
+\import{dt-macros}
+\author{liamoc}
+\taxon{Example}
+\title{Flat domains as monads}
+\p{The [flat domain](dt-0008) [lifting operation](dt-003K) #{(\cdot)_\bot} forms a [monad](dm-000U), where the endofunctor #{\mathcal{M}(X) = X_\bot}, the operation #{\mu_X : (X_\bot)_\bot \rightarrow X_\bot} collapses the two #{\bot} values, and #{\eta_X : X \rightarrow X_\bot} is simply #{\eta_X(x) = x}.}

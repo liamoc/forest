@@ -1,0 +1,9 @@
+\author{liamoc}
+\title{Equivalence relation}
+\p{A binary relation #{(\approx) \subseteq X \times X} is an \em{equivalence relation} if it is, for all #{x, y, z \in X}:
+\ul{
+\li{ [reflexive](dm-0001): #{x \approx x}, }
+\li{ [transitive](dm-0002): #{x \approx y} and #{y \approx z} implies #{x \approx z},}
+\li{ [symmetric](dm-000Y): #{x \approx y} implies #{y \approx x}}
+}
+}

@@ -1,0 +1,23 @@
+\import{dt-macros}
+\author{liamoc}
+\title{Getting closure}
+\transclude{dt-004A}
+\transclude{dt-004B}
+\transclude{dt-004C}
+\problemblock{
+#{\omega}-[algebraic](dt-0041) [cpos](dt-001D) are closed under all of our constructions ([products](dt-0021) and [sums](dt-0031), including [strict versions of these](dt-003E)) \strong{except} functions #{\contto} and strict functions #{\strictto}!
+}
+
+\transclude{dt-004D}
+\transclude{dt-004E}
+\transclude{dt-004F}
+\transclude{dt-004G}
+\transclude{dt-004H}
+\transclude{dt-004I}
+
+\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
+\subtree{\taxon{Thesis}
+\p{Our semantic domains are [Scott domains](dt-004G).}
+}}
