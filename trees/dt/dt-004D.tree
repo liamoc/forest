@@ -14,5 +14,5 @@ Either of these solutions results in the failure of useful and expected laws for
 And the second definition above results in the failure of this equation that removes redundant checks:
 ##{\mathsf{ite}(b,x,x) = x}
 }
-\li{ The power domain construction (TODO) does not generalise to complete lattices, so semantics for non-deterministic programs are difficult in this setting. }
+\li{ The [powerdomain construction](dt-0061) does not generalise to complete lattices, so semantics for [non-deterministic](dt-005U) programs are difficult in this setting. }
 }}
