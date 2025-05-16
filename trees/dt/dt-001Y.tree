@@ -4,7 +4,7 @@
 \author{liamoc}
 \p{These lecture notes are based on the material I used to teach the [[typesig-dt]] course at the [[uoe]] in 2024.}
 \scope{
-\put\transclude/expanded{false}
+%\put\transclude/expanded{false}
 \transclude{dt-0005}
 \transclude{dt-001Z}
 \transclude{dt-004Z}

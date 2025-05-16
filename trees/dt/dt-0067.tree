@@ -7,10 +7,13 @@ X \preceq_P Y\quad \text{iff}\quad X \preceq_H Y \land X \preceq_S Y
 }
 This ordering is also called the \em{Egli-Milner} ordering.  On a [flat domain](dt-0008), it simplifies to:
 #{A\sqsubseteq B\quad\text{iff}\quad A = B \lor (\bot \in A \land (A \setminus \{\bot\})\subseteq B)}
-Note that this \em{is} antisymmetric in the case of a [flat domain](dt-0008), and the [lub](dt-0017) of a [chain](dt-000V) of sets can be found by taking the union of all elements of the chain if all elements contain $\bot$. If not, then the element without $\bot$ will be the [least upper bound](dt-0017).}
+Note that this \em{is} antisymmetric in the case of a [flat domain](dt-0008), and the [lub](dt-0017) of a [chain](dt-000V) of sets can be found by taking the union of all elements of the chain if all elements contain #{\bot} If not, then the element without #{\bot} will be the [least upper bound](dt-0017).}
 \p{
 The failures of [antisymmetry](dm-0003) can only be observed in domains of height higher than one. Consider a set #{\Set{x,y}} containing two elements. According to the induced equivalence from this [preorder](dm-000V) #{\approx_P}, this set would be considered equal to the set that contains those two elements \em{plus} any elements that lie between them on the [information ordering](dt-000B): ##{\Set{x,y} \approx_P \Set{ z \mid x \sqsubseteq z \sqsubseteq y }}
 The \em{Plotkin powerdomain} is sometimes called the \em{convex powerdomain}, due to the similarity of this to the geometric definition of convexity.  Thus, we use the [ideal completion](dt-0046) trick (as with the [Hoare](dt-0061) and [Smyth](dt-0064) constructions) here to arrive at a definition of powerdomain that distinguishes between all three programs outlined in \ref{dt-0063}.} 
+\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
 \subtree{
 \taxon{Aside}
 \p{
@@ -18,5 +21,6 @@ There is a beautiful algebraic characterisation of Plotkin powerdomains in [[mhe
 % Full Abstraction for a Simple Parallel Programming Language}. In
 %Mathematical Foundations of Computer Science 1979, Proceedings, Olomouc, Czechoslovakia, September 3-7,
 %1979 (LNCS, Vol. 74), Springer, 108–120		
+}
 }
 }
