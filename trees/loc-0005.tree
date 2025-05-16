@@ -1,6 +1,6 @@
 \import{table-macros}
 \title{Education}
-\author{liamoc}
+\parent{loc-0004}
 
 \scope{
 \put\transclude/toc{false}

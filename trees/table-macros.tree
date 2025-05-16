@@ -3,6 +3,11 @@
 \def\table[body]{
   \<html:table>{\body}
 }
+\def\quote[body]{
+  \<html:blockquote>{\body}
+}
+\def\poem[x]{\<html:table>[style]{text-align: left}{\x}}
+\def\line[x]{\<html:tr>{\<html:td>{\x}}}
 \def\tableW[body]{
   \<html:table>[width]{100\startverb%
     \stopverb}{\body}

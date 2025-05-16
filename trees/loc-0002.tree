@@ -1,17 +1,18 @@
 \title{Students}
-\author{liamoc}
+\parent{index}
 \subtree{
  \title{Doctoral students}
  \ul{
- \li{ [[rayhana]]: 2023–present. Linear Temporal Logic with finite observations. Jointly supervised with [[rvg]] at the [[uoe]]. }
+ \li{ [[rayhana]]: 2023–present. Linear infinite time within finite observations. Jointly supervised with [[rvg]] at the [[uoe]]. }
  }
  \scope{
 \put\transclude/toc{false}
  \subtree{
  \title{Secondary supervisions}
  \ul{
- \li{ [[tudor]]: 2021–present, primary supervisor is [[wadler]] at the [[uoe]]. }
- \li{ [[mathieu]]: 2022–present, primary supervisor is [[tgrosser]] at the [[cam]]. }
+ \li{ [[yiyao]]: 2025-present. Computer science applications of group theory and Cayley graphs. Primary supervisor is [[hoefner]] at the [[anu]]. }
+ \li{ [[tudor]]: 2021–present. Formal verification of smart contracts. Primary supervisor is [[wadler]] at the [[uoe]]. }
+ \li{ [[mathieu]]: 2022–present. DSLs for compiler passes. Primary supervisor is [[tgrosser]] at the [[cam]]. }
  }
  }}
 }

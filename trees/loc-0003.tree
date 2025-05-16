@@ -1,5 +1,5 @@
 \title{Academic community roles}
-\author{liamoc}
+\parent{loc-0004}
 
 \ul{
 \li{ Observer, [[wg21]], 2024–present.}
@@ -31,10 +31,11 @@
 \subtree{
   \title{Other reviewing}
   \ul{
+  \li{Journal Review, [[jfp]], 2025}
   \li{External Review, [[tase23]]}
   \li{External Review, [[esop22]]}
   \li{External Review, [[fossacs21]]}
-  \li{External Review, [[jfp]], 2020}
+  \li{Journal Review, [[jfp]], 2020}
   \li{External Review, [[cpp18]]}
   \li{External Review, [[popl16]]}
   \li{Artifact Evaluation, [[icfp18]]}
