@@ -1,7 +1,7 @@
 \import{dt-macros}
 \author{liamoc}
 \title{The Plotkin powerdomain}
-\p{As before, let #{X, Y \in \mathcal{P}_f^\ast(\compact{A})} be finite, non-empty sets of [compact elements](dt-003U) of a [Scott domain](dt-004G) #{A}. The \em{Plotkin powerdomain} construction is based on the following \em{preorder}, simply combining the orderings from the [Hoare](dt-0061) and [Smyth](dt-0064) constructions:
+\p{As before, let #{X, Y \in \mathcal{P}_f^\ast(\compact{A})} be finite, non-empty sets of [compact elements](dt-003U) of a [Scott domain](dt-004G) #{A}. The \em{Plotkin powerdomain} construction is based on the following [preorder](dm-000V), simply combining the orderings from the [Hoare](dt-0061) and [Smyth](dt-0064) constructions:
 ##{
 X \preceq_P Y\quad \text{iff}\quad X \preceq_H Y \land X \preceq_S Y
 }
