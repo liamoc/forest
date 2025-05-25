@@ -1,0 +1,6 @@
+\import{conf-name-macros}
+\taxon{Conference}
+\title{\conf-name{FPCA '89}{4th International Conference on Functional Programming Languages and Computer Architecture}}
+\date{1989-09}
+\meta{venue}{London, United Kingdom}
+\meta{doi}{10.1145/99370}

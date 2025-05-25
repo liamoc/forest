@@ -16,6 +16,12 @@
   \title{\tile}
   \body
 }}}
+\def\thesisblock[body]{\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
+\subtree{\taxon{Thesis}
+\body
+}}}
 \def\upshotblock[body]{\scope{
 \put\transclude/toc{false}
 \put\transclude/numbered{false}
