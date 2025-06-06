@@ -1,0 +1,7 @@
+\title{Rethinking Holbert}
+\date{2025-06-05}
+\author{liamoc}
+\p{As is clear to anyone who has been following development, progress on my in-browser proof assistant [Holbert](https://liamoc.net/holbert) first slowed to a trickle, and has now completely stopped. Unlike some other projects of mine that have dried up, this is not due to any loss of interest in the project on my part, but rather deep-seated technical and design issues that have prompted a rethinking of the project.}
+\p{Starting soon this year, I intend to begin a rewrite of the Holbert project, although with a different focus and with a vastly different implementation strategy. This note serves as both a retrospective on the current Holbert implementation and a vision for the next iteration of the Holbert idea.}
+\transclude{loc-000W}
+\transclude{loc-000X}
