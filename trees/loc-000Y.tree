@@ -1,0 +1,36 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{Pentecost 2025}
+\tag{cmc}
+\date{2025-06-08}
+\author{liamoc}
+\quote{
+  SPIRITUS Dómini replévit orbem terrárum, allelúia: et hoc quod cóntinet ómnia, sciéntiam habet vocis, allelúia, allelúia, allelúia.
+}
+\p{Our choir at [All Saints Ainslie](https://allsaintsainslie.org.au) was without a director again, and we were down to a skeleton crew: excluding myself, we had only one singer per part. Fortunately they were all strong singers and we sounded wonderful as I conducted one of my favourite motets, Byrd's [Ave Verum Corpus](https://www.youtube.com/watch?v=R3vuU7XAaUM).}
+\quote{
+  \table{
+    \tr{
+    \td{Ave verum corpus natum de María Vírgine,}
+    \td{Hail, true body, born of the Virgin Mary,}
+    }\tr{
+    \td{Vere passum immolátum in cruce pro hómine,}
+    \td{True suffering, sacrificed on the cross for Man,}
+    }\tr{
+    \td{Cuius latus perforátum unda fluxit sánguine,}
+    \td{From whose pierced side flowed waves of blood,}
+  }\tr{
+    \td{Esto nobis prægustátum in mortis exámine.}
+    \td{Be for us a foretaste in death's trial.}
+  }\tr{
+    \td{O dulcis, O pie, O Iesu fílii Maríæ,}
+    \td{O sweet! O blessed! O Jesus, son of Mary, }
+  }\tr{
+    \td{Miserére mei, miserére mei, miserére mei.}
+    \td{Have mercy on me, have mercy on me, have mercy on me. }
+  }
+  }
+}
+\p{Atrocious weather meant that I didn't make my way to St. John's or St. Paul's for Evensong today.}
