@@ -1,0 +1,19 @@
+\title{Reproaches Verses}
+\taxon{Chant}
+\author{liamoc}
+\import{gabc-macros}
+\scope{
+  \put\gabc/use-drop-cap{false}
+  \put\gabc/annotation{}
+  \gabc{
+ () O my people.. (::Z)
+   V/.() I(deDC) led(c) you(e!fwg) out(ggf) of(e) E(ef)gypt(de..) (,) from(ce) sla(ixgv.hihghg)ve(fe)ry(f') to(e) free(fg)dom:(e) (;) But(ce) you(ixgv./hih/ghg) led(e) your(fg) sa(ef!gvF)viour(E.) (,) to(fe) the(fgf) cross.(e'!fg.) (::) () Hagios o Theos...(Z)
+   
+  V/. For(deDC) for(c)ty(e!fwg) years(ggf) I(e) led(ef) you,(de..) (,) safe(c)ly(e) through(ixgv./hih/ghg) the(fe) de(fg)sert,(e.) (;) I(f) fed(de) you(d) with(d) man(dc)na(d) from(f) hea(de)ven,(ffe.) (;) and(e) brought(gh) you(hg) to(e) a(fe) land(dc) of(df) plen(de)ty:(ffe.) (;) But(ce) you(ixgv./hih/ghg) lead(e) your(fg) sav(ef!gvF)iour(E.) (,) to(fe) the(fgf) cross.(e'!fg.) (::)  () Hagios o Theos ...(Z)
+  
+   V/.() What(c) more(de) could(d) I(e!fwg) have(fe) done(de) for(dc) you?(ccd.) (:) I(deDC) plan(c)ted(e!fwg) you(g_f) as(gh) my(hg) fair(fe)est(de) vine:(ddc.) (;) but(cd) you(fg) yiel(gf)ded(gh) on(h)ly(g) bit(f_e)ter(de)ness:(ddc.) (:) when(d) I(c) was(df) thir(f_vE)sty(D.0) (,) you(e) gave(f) me(d) vin(e)e(f)gar(e) to(de) drink,(dc..) (;) and(cd) you(fg) pierced(f) your(gh) Sav(h_vGFE)iour(df..) (,) with(fe) a(fgf) lance.(e'!fg.) (::)  () Hagios o Theos...(Z)
+   
+   V/.() I(c) gave(de) you (e) a(f) ro(g)yal(f) scep(evDC!)tre,(c.,) but(c) you(d_e) gave(ed) me(f) a(e) crown(d) of(ef) thorns.(edeDC.) (::)  () O my people...(Z)
+  
+  }
+}

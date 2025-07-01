@@ -1,0 +1,17 @@
+\xmlns:html{http://www.w3.org/1999/xhtml}
+
+\def\gabc[body]{
+  \<html:grego-chant>{\body}
+}
+\alloc\gabc/use-drop-cap
+\alloc\gabc/annotation
+
+\def\gabc[body]{
+  \scope{
+  \put?\gabc/use-drop-cap{true}
+  \put?\gabc/annotation{}
+  \<html:grego-chant>[annotation]{\get\gabc/annotation}[use-drop-cap]{\get\gabc/use-drop-cap}{\body}}
+}
+\def\gabcinline[body]{
+  \<html:grego-chant>[inline]{}[use-drop-cap]{false}{\body}
+}
