@@ -1,0 +1,9 @@
+\date{2025-07-03}
+\title{The AusPL Zulip}
+\author{liamoc}
+\p{
+  Following the near-death of Aussie PL last decade I think we’ve gotten in the habit of thinking that Aussie PL is this tiny embattled community with only essential activities, but thinking about the environment in Scotland and comparing it, I don’t think there is actually much truth to that. Scotland has events like [SPLV](http://spli.scot/splv/); we have (e.g.) the [logic summer school](https://comp.anu.edu.au/lss/). Scotland has the [SPL seminar](http://spli.scot/spls/); We have [SAPLING](https://comp.anu.edu.au/sapling/index.html). SPLI applies for large CDT grants, we apply for large CoE grants (and both get rejected :). What’s missing is the network of folks in various places, who can advertise seminars when people are visiting, who can arrange visits and cross-institutional collaboration etc.
+}
+\p{This network started in Scotland with the [SPLS Zulip](https://spls.zulipchat.com), which eventually evolved into the more formal organisation, the [Scottish Programming Languages Institute](https://spli.scot). I think it would be nice to foster that kind of active cross-institutional community that has worked well in Scotland, and Zulip is a huge part of why the SPLI exists now.}
+\p{To this end, I have started the [AusPL Zulip](https://auspl.zulipchat.com), specifically targeting researchers and students in programming languages, formal methods, software engineering, and related areas in Australian institutions (and surrounding countries). Please consider signing up!}
+\p{\strong{[Join Here!](https://auspl.zulipchat.com/join/3ger2ugmoikiyzoaomenfwjc/)}}

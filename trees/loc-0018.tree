@@ -47,7 +47,7 @@ These definitions are sufficient to show that #{(S, \cup ,\cdot, \emptyset, \mat
   ##{
     S^\omega \triangleq \Set{ (w, s_1, s_2) \mid \exists \text{an infinite run for}\ w\ \text{in}\ S\ \text{starting with stack}\ s_1}
   }
-  The above definition feels informal, so we will define momentarily a judgment or predicate #{S \vdash (w,s_1)\ \textbf{infinite} }, which means the same thing:}
+  The guard in the above set comprehension feels informal, so we will define momentarily a judgment or predicate #{S \vdash (w,s_1)\ \textbf{infinite} }, which means the same thing:}
   ##{
     S^\omega \triangleq \Set{ (w, s_1, s_2) \mid S \vdash (w,s_1)\ \textbf{infinite}}
   }
