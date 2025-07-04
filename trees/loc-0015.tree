@@ -1,0 +1,10 @@
+\import{gabc-macros}
+\title{Gregorian Chants in Forester}
+\date{2025-07-03}
+\author{liamoc}
+\p{By writing a small JS module that uses [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) and the [exsurge](http://frmatthew.github.io/exsurge/chant.html) library, I have developed a small patch that can be dropped into Forester themes to enable rendering of Gregorian chants.}
+\put\gabc/annotation{Intr. (2)}
+\gabc{(f3) CI(c)BÁ(efe)VIT(f) e(fhf)os(efe) *(,) ex(f) á(h)di(hhh)pe(f) fru(e)mén(egf/ge)ti,(c) (,) al(eh~)le(hghf)lú(fgf)ia:(f) (:) et(e) de(f) pe(hh)tra,(hi~) mel(ih~)le(hihh/fgf) (,) sa(f)tu(fi)rá(ih)vit(h!ij) e(ih)os,(h) (;) al(hi~)le(i)lú(ihi)ia,(f) (,) al(g!hwi)le(ih)lú(hf/gvFE)ia,(fe) (,) al(f!gwh)le(hvGF/gwh/ig/hg)lú(fg!hvGFg)ia.(gf) (::)  }
+\p{
+It also supports \gabcinline{In(g)line(he)  score(ffedc~)  (::)} rendering (although I don't know how useful that is), and will reflow scores as the width of the window changes.}
+\p{This is already used to keep my arrangements of the [reproaches verses](loc-0013) and the [Easter Proclamation](loc-0012) which I performed during the [Paschal Triduum of 2025](loc-000O).}

@@ -1,0 +1,62 @@
+\import{dt-macros}
+\date{2025-07-03}
+\author{liamoc}
+\title{#{\omega}-Algebra for pushdown actions?}
+\p{
+  In our weekly meeting, [[yiyao]], [[hoefner]] and I were examining a [paper](mathieu-desharnais-2005) by Vincent Mathieu and [[jdesharnais]] about verification of pushdown systems using #{\omega}-algebras with domain. One thing that we got hung up on was that the underlying algebra seems to insist that the underlying set be of mixed type, where control actions (i.e. the labels on transitions, or expected inputs to the automaton) are interleaved with stack actions (either pushing or popping symbols from the stack). The result is that a bunch of axioms must be added to deal with cancelling pushes and pops, and reordering actions to enable such cancellations. 
+}
+\p{Following a proposal from [[hoefner]], I formalised the following alternative algebra, which should work just as well as the algebra in the paper but avoids this extra complexity. Instead of having strings of mixed types of actions, we instead have our algebra consist of sets of \em{triples}, which includes a  (possibly infinite) string of control actions, a (possibly infinite) \em{initial stack}, and a (possibly infinite) \em{final stack}. ##{S \triangleq \mathcal{P}(A^\infty \times \Sigma^\infty \times \Sigma^\infty) }
+In our notation, #{A} is the set of control actions, #{\Sigma} is the set of stack symbols, and the #{{}^\infty} superscript denotes both finite and infinite strings of elements, i.e. #{X^\infty = X^\ast \cup X^\omega}. }
+\subtree{
+\taxon{Definition}
+\title{Multiplication}
+\p{
+  We define a sequential composition operator for triples as follows: ##{ (w_1,s_1,s'_1)\ \mathit{seq}\ (w_2,s_2,s'_2) = \begin{cases} (w_1w_2, s_1, s'_2) & \text{if}\ s'_1 = s_2 \\ \text{undefined} & \text{otherwise} \end{cases} }
+Note that for sequential composition to make sense, the initial stack of the second triple must match the final stack of the first triple. As the words #{w_1} and #{w_2} may be infinite, we define concatenation in the usual way, where #{w_1w_2 = w_1} when #{w_1} is infinite. 
+}
+\p{Then, the definition of multiplication in our algebra is the straightforward lifting to sets:}
+##{
+  S_1 \cdot S_2 = \Set{ x\ \mathit{seq}\ y \mid x \in S_1, y \in S_2, x\ \mathit{seq}\ y\ \text{defined}}
+}
+
+}
+\subtree{
+\taxon{Definition}
+\title{The Unit Element}
+\p{The 1 element for multiplication here just consists of all triples with an empty word that leave the stack unchanged:}
+##{
+\mathbf{1} = \Set{ (\varepsilon, s, s) \mid s \in \Sigma^\infty }  
+}
+
+}
+\subtree{
+\taxon{Definition}
+\title{The Kleene Star}
+\p{Let #{S^n} denote the #{n}-times self-multiplication of #{S}, where #{S^0 = \mathbf{1}}. Then, the Kleene star for our algebra is:}
+##{S^\ast \triangleq \bigcup_{n \in \mathbb{N}}\ S^n}
+
+}
+\p{
+These definitions are sufficient to show that #{(S, \cup ,\cdot, \emptyset, \mathbf{1}, {}^\ast)} is a Kleene algebra. Then, to extend this to an #{\omega}-algebra, one needs only the #{ {}^\omega} operator.
+
+\subtree{
+\taxon{Definition}
+\title{The Omega Operator}
+\p{
+  We define the #{{}^\omega} operator as follows:
+  ##{
+    S^\omega \triangleq \Set{ (w, s_1, s_2) \mid \exists \text{an infinite run for}\ w\ \text{in}\ S\ \text{starting with stack}\ s_1}
+  }
+  The above definition feels informal, so we will define momentarily a judgment or predicate #{S \vdash (w,s_1)\ \textbf{infinite} }, which means the same thing:}
+  ##{
+    S^\omega \triangleq \Set{ (w, s_1, s_2) \mid S \vdash (w,s_1)\ \textbf{infinite}}
+  }
+  \p{Note that this definition places no constraint on #{s_2}, so any non-empty set #{S^\omega} will include all possible final stacks.}
+  \p{It remains to formalise our predicate. Formally, it is the largest (i.e. coinductive) predicate satisfying the following rule:  }
+  ##{\dfrac{w = xw' \quad (x,s_1,s_2) \in S \quad S \vdash (w',s_2)\ \textbf{infinite}}{S \vdash (w,s_1)\ \textbf{infinite}}}
+  \p{This means we can prove #{S \vdash (w,s_1)\ \textbf{infinite}} if we can find an infinite chain of moves in #{S} starting with stack #{s_1} that, when all combined, results in the word #{w}.}
+  \p{Note that while the run is infinitely long, the word #{w} need not be, due to the presence of #{\varepsilon}-moves. }
+}
+
+
+}

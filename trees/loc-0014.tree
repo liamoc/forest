@@ -1,0 +1,20 @@
+\title{Progress in Holbert: ReScript}
+\date{2025-07-03}
+\author{liamoc}
+\p{I have begun the [redevelopment of Holbert](loc-000V) I envisioned earlier, dubbed Holbert NG. The initial results are [already on GitHub](https://github.com/liamoc/holbert-ng), implemented in a combination of [ReScript](https://rescript-lang.org) and TypeScript — mostly ReScript. ReScript is essentially a dialect of OCaml designed to target JavaScript with fairly complete React bindings. The design is already significantly more flexible than the original Haskell design of Holbert, largely due to ReScript's full implementation of OCaml's module system. I've currently implemented a basic first order proof checker with textual formats, and a components library in TypeScript enabling multi-page documents and sychronisation to local storage.}
+\p{What I haven't really started work on is the UI part. I'm letting this percolate for a while before I start tackling it. I was never happy with the rule editing UI in classic Holbert — it was always too clunky, and more cumbersome than just editing a text-based format. This is in stark contrast to the editor for proofs, which offered some advantages over text. As Holbert NG has text formats for everything, I currently haven't developed GUI editors, but this will eventually change. }
+\p{Mostly this implementation effort has been a way for me to trial ReScript and its associated React ecosystem. My initial thoughts, as I posted on Mastodon, were:}
+\ol{
+  \li{
+   Love ML modules despite their clunkiness. Quite handy for the Holbert-NG design where proof methods can be written as seperate plugins and integrated. Even the term language is swappable. 
+  }
+  \li{
+  Dislike the tendency of the community (and the gearing of the language syntax) towards depending on type inference. Return types in particular usually omitted. In this respect I prefer Haskell syntax.  
+  }
+  \li{
+    Related to 2, it really needs some kind of "dot" syntax. If I have an \code{x : Foo.t} and I go \code{x->blah(..)->baz(..)} it should try to desugar to \code{x->Foo.blah(..)->Foo.baz(..)}. This is not feasible because the type of \code{x} would become too ambiguous because of 2. So \code{Module.}I \code{Module.}end \code{Module.}up \code{Module.}qualifying \code{Module.}everything...
+  }
+  \li{
+    ReScript in particular has a more "C" style syntax and gets rid of some of the traditional FP stuff from OCaml. I haven't found myself missing it hugely, but occasionally the JS API's available are annoyingly mutation-heavy. This is understandable for ReScript's aims (to generate readable JS) but it can be a pain to work around.
+  }
+}

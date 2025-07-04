@@ -1,0 +1,10 @@
+\title{Uniqueness is Separation}
+\taxon{Reference}
+\meta{venue}{[[vimpl23]]}
+\author{liamoc}
+\author{selene}
+\author{crizkallah}
+\meta{external}{https://people.eng.unimelb.edu.au/rizkallahc/publications/vimpl-uniqueness-separation.pdf}
+\p{Value independence is enormously beneficial for reasoning about software systems at scale. These benefits carry over into the world of formal verification. Reasoning about programs algebraically is a simple affair in a proof assistant, whereas programs with unconstrained mutation necessitate much more complex techniques, such as Separation Logic, where invariants about memory safety, aliasing, and state changes must be established by manual proof.}
+
+\p{Uniqueness type systems allow programs to be compiled to code that uses mutation for efficiency, while retaining a semantics that enjoys value independence for reasoning. The restrictions of these type systems, however, are often too onerous for realistic software. Thus, most uniqueness type systems include some “escape hatch” where the benefits of value independence for reasoning are lost, but the restrictions of uniqueness types are lifted. To formally verify a system with such mixed guarantees, the value independence guarantees from uniqueness types must be expressed in terms of imperative, mutable semantics. In other words, we ought to express value independence as an assertion in Separation Logic.}

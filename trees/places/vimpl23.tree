@@ -1,0 +1,7 @@
+\import{conf-name-macros}
+\taxon{Conference}
+\title{\conf-name{VIMPL '23}{Value Independence in Modern Programming Languages}}
+\date{2023-03}
+\meta{venue}{Tokyo, Japan}
+\meta{external}{https://2023.programming-conference.org/home/vimpl-2023}
+\p{Colocated with the conference associated with [[programming-journal]] journal.}
