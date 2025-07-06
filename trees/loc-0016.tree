@@ -1,5 +1,5 @@
 \import{gabc-macros}
-\title{Reviewing and Program Committees}
+\title{APLAS preliminaries}
 \date{2025-07-03}
 \author{liamoc}
 \p{I wrote all my reviews for [APLAS 2025](aplas25) this week. APLAS was the first conference I ever attended, and I remain quite fond of the Asia-Pacific PL community. All of the papers I reviewed were interesting. I am also hopeful about our own submission: [Selene](selene), a PhD student of [Christine Rizkallah](crizkallah), has been pursuing a research agenda with several collaborators relating the uniqueness types of, say, [Cogent](cogent) with the program-logic driven approaches of, say, Separation Logic, based on a [short abstract](oconnor-linares-rizkallah-2023) I wrote and submitted with her to [VIMPL 2023](vimpl23). This work has culminated in our APLAS submission. }

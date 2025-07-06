@@ -38,12 +38,12 @@ Note that for sequential composition to make sense, the initial stack of the sec
 }
 \p{
 These definitions are sufficient to show that #{(S, \cup ,\cdot, \emptyset, \mathbf{1}, {}^\ast)} is a Kleene algebra. Then, to extend this to an #{\omega}-algebra, one needs only the #{ {}^\omega} operator.
-
+}
 \subtree{
 \taxon{Definition}
 \title{The Omega Operator}
 \p{
-  We define the #{{}^\omega} operator as follows:
+  We define the #{{ }^\omega } operator as follows:
   ##{
     S^\omega \triangleq \Set{ (w, s_1, s_2) \mid \exists \text{an infinite run for}\ w\ \text{in}\ S\ \text{starting with stack}\ s_1}
   }
@@ -57,6 +57,6 @@ These definitions are sufficient to show that #{(S, \cup ,\cdot, \emptyset, \mat
   \p{This means we can prove #{S \vdash (w,s_1)\ \textbf{infinite}} if we can find an infinite chain of moves in #{S} starting with stack #{s_1} that, when all combined, results in the word #{w}.}
   \p{Note that while the run is infinitely long, the word #{w} need not be, due to the presence of #{\varepsilon}-moves. }
 }
+\p{One thing we noticed here is that it doesn't matter to the operators what the type of the stack is. Indeed, replace stacks with tapes and you'd get something describing actions on a turing machine. This gives us compelling directions to take this!}
 
 
-}
