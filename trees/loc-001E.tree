@@ -1,0 +1,10 @@
+\date{2025-07-13T03:31:36Z}
+\author{liamoc}
+\title{Should the ICFP contest continue?}
+\p{I'm the organiser for the [ICFP Programming Contest](icfpc25) this year. After some time working on it, I'm starting to think that ICFP might want to consider either letting this contest be discontinued, or letting it be run by the participants, separately from ICFP proper. }
+\ol{
+  \li{\strong{It's a lot of work.} I was warned that it was a lot of work when I agreed to do it, and I was still unprepared for the amount of work required. I don't think asking a full-time research and teaching academic to make this kind of time investment for no compensation is reasonable, and I would not have agreed had I known it would be this onerous. This is all to the benefit not of the research community, but of hobbyist competitive programmers.}
+  \li{\strong{It isn't achieving anything for the FP community.} In the past, it may have had the benefit of providing a host of nontrivial problems to which functional programming could be applied, but the reality is that most languages have incorporated functional features now, and functional programming is no longer in a tiny niche that must endeavour to prove itself.}
+  \li{\strong{The overlap in the intended audiences is not large.} ICFPC is mostly comprised of competitive programmers, not functional programming students or researchers. The top placed entries in this contest rarely use FP languages, and some are not even exposed to FP ideas. I've heard that prior iterations which incorporated FP directly into the fabric of the problem received complaints.  }
+}
+\p{I fully acknowledge that a significant group of competitive programmers look forward to the ICFPC, and that the ICFPC occupies a unique space in that scene, where micro-optimising standard algorithms is standard practice and days-long problem solving is not common. But asking ICFP and ICFP-affiliated academics to provide this contest as a service to these hobbyists with dubious benefit to the research community seems pointless to me. Those who participate in the contest should organise it, and it should probably be split off from ICFP itself.}

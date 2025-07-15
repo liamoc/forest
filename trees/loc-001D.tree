@@ -1,0 +1,23 @@
+\date{2025-07-13T01:51:42Z}
+\author{liamoc}
+\title{Thoughts on teaching first year}
+\p{
+  I will be teaching COMP1100, the first year introductory programming course at the [[anu]]. This is the off-session so the enrolments are \em{only} about 100 students.
+  This is my first time convening the very first course of a computing degree. For many students, this may be the first time they take any university course.
+}
+\p{
+  I am thinking about the kinds of messages I want to impart in the very first lecture. Looking over last year's slides, I think there's a number of good messages there, but it's not particularly punchy and probably didn't sink in to students. There's talk about how to study programming, how to maintain mental and physical health at university, the university policy on genAI and academic misconduct, where to find resources etc. but there's no unifying theme to it all.
+}
+\p{ I think the main thing is to encourage them to \em{cultivate in themselves} the kind of natural curiosity that motivates self-study. Ideally, the students should view my lectures, notes, and other output as \em{resources} for them to use to learn programming. Not merely as requirements placed on them to pass the course and thereby get a degree.
+}
+\p{
+  I think I will emphasise the \em{science} part of Computer Science and encourage students to \strong{think like a scientist}:
+  \ul{
+    \li{\strong{Answer curiosity with experimentation}: A common theme in my interactions with first year students is that they will often ask me questions to which they could easily find out the answer by trying it for themselves. The refrain should be \strong{try it and see!} }
+    \li{\strong{Reason with mathematical principles}: We are programming in Haskell, and I hope to communicate the mathematical connection, sneaking some semantics in by the wayside.}
+    \li{\strong{Practice good lab safety:} Looking after posture, eye health, taking breaks, drinking water, and supporting each other.}
+    \li{\strong{Maintain scientific integrity}: Only taking credit for work done, and properly attributing work taken from elsewhere (including from generative AI bots).}
+    \li{\strong{Practise skills}: I'm a firm believer in the notion that skills such as programming are learned by doing: the more practice they get, the more proficient they will be.}
+  }
+}
+\p{Then, to cover the \em{computer} part of Computer Science, I will tell the story of human computers such as Dorothy Vaughan (whose biography has clearly been taken down recently from NASA's website, presumably as a result of the current administration), through to the female programmers of ENIAC, then mentioning the first programmer, Ada Lovelace. Based on her quote on "the science of operations" and Dijkstra's famous quote about telescopes, I plan to shift the focus from \em{computers} to \em{computing} more generally. Then I will give a survey of various subfields of computer science to give them an idea of the big picture of our field.}
