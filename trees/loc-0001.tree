@@ -8,12 +8,3 @@
 \transclude{loc-000H}
 \transclude{loc-000I}
 \transclude{loc-000J}
-
-
-
-\subtree{
- \title{Theses and dissertations}
- \query\datalog{
-  ?X -: {\rel/my-references ?X} {\rel/has-tag ?X '{thesis}}
- }
-}
