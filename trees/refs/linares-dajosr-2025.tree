@@ -1,0 +1,17 @@
+\title{Memory Safety: Uniqueness as Separation}
+\taxon{Reference}
+\meta{venue}{[[aplas25]]}
+\author{selene}
+\author{vjackson}
+\author{adeamorim}
+\author{liamoc}
+\author{pschachte}
+\author{crizkallah}
+\date{2025-10-27}
+%\meta{doi}{}
+\tag{cogent}
+\tag{refereed}
+\p{This paper is the fulfillment of the research I envisioned in [my paper at VIMPL of a similar name](oconnor-linares-rizkallah-2023).}
+\p{Programming languages with uniqueness type systems prevent pointer aliasing, simplifying memory safety reasoning. However, code implemented in these languages often interoperates through foreign function interfaces with external components implemented in languages lacking the same level of static safety guarantees. To verify safe updates in a combined system, one must manually verify that the external components preserve the safety invariants of the uniqueness type system. In particular, recent work showed that one can manually discharge such obligations on C components from a cross-language Cogent-C system by directly reasoning about the C code in higher-order logic. However, even for simple examples, discharging the uniqueness safety obligations, known as frame conditions, within a logic not specifically designed for direct reasoning in terms of heaps and pointers was not ideal. Separation logic is an established logic that facilitates reasoning about imperative programs by localising reasoning to the parts of the heap that the program mutates. This raises a vital question. Can we use separation logic to discharge the safety obligations imposed by uniqueness types? The answer is yes. This paper demonstrates that the frame conditions can be inferred from particular separation logic triples and, hence, discharged by reasoning using separation logic. We identify and verify the soundness of specific separation logic triples that imply the frame conditions imposed by a uniqueness type system.}
+
+\p{To appear.}
