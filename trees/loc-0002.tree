@@ -28,6 +28,8 @@
 \subtree{
  \title{Bachelors students}
  \ul{
+ \li{[[miowu]]: 2025-2026, [[anu]]. \em{Pattern Unification in the Next Generation of the Holbert Proof Assistant}}
+ \li{[[joshbrown]]: 2025-2026, [[anu]]. \em{The Next Generation of the Holbert Proof Assistant}}
  \li{[[jackb]]: 2025, [[anu]] Semester Project. \em{A File Format for Holbert Proofs.}}
  \li{[[sandwichman]]: 2023-2024, [[uoe]]. \em{Concurrent Games in Agda.}}
  \li{[[sandwichman]]: 2023, [[uoe]] LFCS Internship Project. \em{Branching Bisimulation Games in Agda.}}
