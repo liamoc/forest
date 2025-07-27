@@ -30,4 +30,8 @@
   }
   }
 }
+\figure{
+  \<html:img>[width]{300px}[src]{\route-asset{assets/stjohns.jpeg}}{}
+  \figcaption{St. John the Baptist's, Reid.}
+}
 \p{I went to Evensong at [St. John the Baptist's](https://www.stjohnscanberra.org) in Reid again today. This time they had a very skilled flautist playing along with the organ for the prelude and the postlude, which was lovely. The choir was pretty ordinary as usual, but it is still a restorative service because of the beautiful church and the lovely language of the 1662 BCP.}
