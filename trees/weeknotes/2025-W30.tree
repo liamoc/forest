@@ -1,0 +1,16 @@
+\title{Weeknotes 2025-W30}
+\author{liamoc}
+\date{2025-07-27}
+\p{I started teaching the course [[COMP1100]] this week. I also got some good news: [[selene]] and several other authors (including me) recently got news that our paper was accepted to [APLAS '25](aplas25).  }
+\transclude{loc-001I}
+\subtree{
+\author{liamoc}
+\title{Paper publication success at APLAS}
+\p{This paper is the fulfillment of the research I envisioned in [my paper at VIMPL of a similar name](oconnor-linares-rizkallah-2023).}
+\p{Since then, [Selene](selene) has worked to actually formalise and figure out what are, in my paper, just the vaguest of intuitions. It's nice to see this come together!}
+\scope{
+\put\transclude/metadata{true}
+\transclude{linares-dajosr-2025}
+}
+}
+\transclude{loc-001J}
