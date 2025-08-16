@@ -1,0 +1,33 @@
+\import{table-macros}
+\date{2025-08-10T05:06:32Z}
+\author{liamoc}
+\title{Old Man Yells at Cloud}
+\p{
+  This post could be considered a sequel to [my previous post](loc-001H) regarding the use of LLMs in education, to which I recently added [Ed Zitron's excellent article](https://www.wheresyoured.at/the-haters-gui/), but here I describe  more generally the attitude I observe among students recently.
+}
+\figure{
+  \<html:img>[src]{\route-asset{assets/ftgraph.jpeg}}{}
+}
+\p{I am avoiding mention of specific incidents to preserve anonymity, so I will by necessity speak in generalities, but of course there are still engaged, conscientious and diligent students, and not all hope is lost. \strong{If you are a student of mine reading this, I most probably consider you part of this hopeful set.}}
+\p{
+  Introductory programming of the kind we teach in [[COMP1100]] can only be learned by diligent practice. And yet, we find that many students are resistant towards applying effort to gain a skill. They don't want to practise anything, and they even resent us for not allowing them to cheat with AI. They want to achieve their desired outcomes with as little effort as possible. My friend [Oskar](owickstrom) phrased it as "a get rich quick scheme for life''. Seeing as the vast, vast majority of my own personal fulfilment comes from mastering things that I previously couldn't do, I really don't understand how these demotivated students find fulfilment or joy in any part of their lives, and it concerns me not just for their education but for their development as human beings.}
+  
+\p{This indifference towards gaining mastery of skills also seems to generalise to their human connections. When I wrote about the [[loc-001I]], I was still reeling from the lack of attendance of students in the very first lecture of my first year computing course. Now we're sitting at 13 out of 130 students attending. I've never had attendance so dire – and most students enjoy my lectures! Many friendships I treasured during my own university days were made in those first few lectures, sitting next to an unfamiliar classmate in the lecture theatre. Attending classes in person wasn't ever the most popular option for some students, but when I was a student it was normal to attend the university campus every day at least. I too would often skip lectures and spend time socialising or having fun, but at least I forged friendships, relationships, and made some human connections. I had some life experiences that stay with me as valued memories.  I'm concerned that these students who aren't attending lectures aren't just skipping lectures to go to parties with their friends – they're skipping lectures to stay at home vegetating on the internet. I worry that these young people haven't become socialised to other human beings properly.}
+\p{
+  I think COVID certainly didn't help, but a lot of this is because of [the rise of whatever](https://eev.ee/blog/2025/07/03/the-rise-of-whatever/). People no longer view the world as a place where people can conscientiously work to develop themselves and to develop projects, which they can use both for self-fulfilment and also possibly for a career. Instead, it is a sickening zero-sum race of finding the bigger fool. Very little is genuine, almost everything is grifting. LLMs of course play a big role in this, with many of these grifters promising that you don't have to learn programming, logic, thinking, writing, anything – LLMs will do all the work for you. I think this culture is seeping down into young people and causing this staggering decline in conscientiousness.
+}
+\p{I don't know how to conclude this. All that I can hope is that young people resist the pressures of the age and forge themselves into well-rounded, authentic human beings. Here are some ideas on how to do this:}
+\ol{
+  \li{
+    \strong{Learn a skill.} Learn to speak another language, learn to program computers, make art, write poetry, do mathematical problems, build furniture, make films, learn a musical instrument, sing a song. Whatever you enjoy doing, just incrementally develop your skills. It's fine if you're bad at it – everyone is at first.
+  }
+  \li{
+    \strong{Go outside.} Connect with people who you can see in person on a regular basis. Join a local group with shared interests. Go to class! Or at least go to the bar on campus during class time.
+  }
+  \li{
+    \strong{Forge human connections in person.} Talk to people, even people with whom you disagree or those who are in a different place in life than you are. I have met many such people from church, but people are everywhere. Social media is not a substitute for this.
+  }
+  \li{
+    \strong{Get a hobby.} Don't do it just to share it with other people. Do it for yourself. Give yourself a source of fulfilment that doesn't come from outside.
+  }
+}

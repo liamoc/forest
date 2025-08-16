@@ -1,0 +1,12 @@
+\import{table-macros}
+\title{Weeknotes 2025-W31}
+\author{liamoc}
+\date{2025-08-03}
+\p{I don't have much to include this week because of my [[COMP1100]] management taking up most of my time. I had planned to write something about the entitlement of students (in a true "get off my lawn" style) but it will have to wait for another week. }
+\figure{
+  \<html:img>[width]{220px}[src]{\route-asset{assets/parrot0.jpeg}}{}
+  \<html:img>[width]{220px}[src]{\route-asset{assets/parrot1.jpeg}}{}
+  \<html:img>[width]{220px}[src]{\route-asset{assets/parrot2.jpeg}}{}
+  \figcaption{Some parrots spotted on the ANU campus.}
+}
+\transclude{loc-001K}

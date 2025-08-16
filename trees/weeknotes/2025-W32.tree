@@ -1,0 +1,12 @@
+\import{table-macros}
+\title{Weeknotes 2025-W32}
+\author{liamoc}
+\date{2025-08-10}
+\p{I've been overwhelmed with work lately. But my travel to Portugal for the WG2.1 meeting has now been fully organised. }
+\figure{
+  \<html:img>[width]{220px}[src]{\route-asset{assets/haigpark.jpeg}}{}
+  \<html:img>[width]{220px}[src]{\route-asset{assets/kambri.jpeg}}{}
+  \figcaption{Some shots around campus and Canberra.}
+}
+\transclude{loc-001M}
+\transclude{loc-001L}
