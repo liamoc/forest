@@ -1,0 +1,27 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{10th Sunday After Pentecost 2025}
+\tag{cmc}
+\date{2025-08-17}
+\author{liamoc}
+\quote{
+  SIGNUM magnum appáruit in cælo: múlier amícta sole, et luna sub pédibus eius et in cápite eius coróna stellárum duódecim.
+  \br
+  Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre Maríæ Vírginnis: de cuius assumptióne gaudent Angeli, et colláudant Fílium Dei.
+  \br
+  Protéctor noster áspice, Deus, et réspice in fáciem Christi tui: quia mélior est dies una in átriis tuis super míllia.
+}
+\p{Today our choir at [All Saints Ainslie](https://allsaintsainslie.org.au) was without a conductor, so I directed us as we performed Tallis' lovely motet, \em{A New Commandment}. Using multi-track recording, here's a rendition of me singing every part of it simultaneously (Closer to Tallis' original pitch than how we performed it):}
+\<html:iframe>[style]{aspect-ratio: 16 / 9;}[width]{100\percent}[src]{https://www.youtube.com/embed/0ErxCxXee08}[title]{A New Commandment}[frameborder]{0}[allow]{accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share}[referrerpolicy]{strict-origin-when-cross-origin}{}
+\quote{
+\poem{
+  \line{A new commandment give I unto you, saith the Lord.}
+  \line{That ye love together, as I have loved you.}
+  \line{That e'enso ye love one another, }
+  \line{By this shall everyone know that ye are my disciples,}
+  \line{If ye have love, one to another.}
+}}
+\p{It was also the first Sunday after the feast of the Assumption of the Blessed Virgin Mary. I know it's not universally celebrated in Anglicanism, but CCSL had at least a feast of "Mary the Mother" and my old parish in Edinburgh had a full celebration of the Assumption. But there was nothing to note the assumption (nor the dormition) at the Anglican parishes of Canberra. Very disappointing.}
+\p{I didn't go to Evensong today, because I'm so busy setting up the ICFP programming contest.}
