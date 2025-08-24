@@ -1,0 +1,5 @@
+\title{Holbert status report}
+\date{2025-08-24}
+\author{liamoc}
+\p{My honours students have been hard at work on the [next generation of Holbert](loc-000V) lately. [[miowu]] has finished implementing an engine (including pattern unification) for higher order terms, and is now investigating [[libal-miller-2021]] for implementation in Holbert-ng. Also [[joshbrown]] has been looking into E-unification modulo associativity, so that we can represent syntax and parsing rules in Holbert. Both have made excellent progress, with basic versions of their respective unification algorithms already in place and working.}
+\p{I'm hoping that I will have time to work on the UI side of things again sometime in September, but we shall see!}

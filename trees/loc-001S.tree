@@ -1,0 +1,13 @@
+\import{table-macros}
+\date{2025-08-24}
+\title{COMP1100 lectures done}
+\author{liamoc}
+\figure{
+  \<html:img>[width]{220px}[src]{\route-asset{assets/cockies1.jpeg}}{}
+  \<html:img>[width]{220px}[src]{\route-asset{assets/cockies2.jpeg}}{}
+  \figcaption{The squawking cockatoos on the walk from my lecture theatre.}
+}
+
+\p{I finished the first 5 weeks of teaching for [[COMP1100]] this week, which marks the point in the course where I hand over lecturing duties to [[ranaldclouston]]. Tomorrow I will be up early to invigilate the mid-term exam, which I spent the last week setting up. I think it will be sufficiently brutal to give a shock to those students [who have not sufficiently engaged](loc-001I), while still being fair and achievable for that handful of students who are attending classes and strongly engaging with the course.}
+\p{I was absolutely mortified in the first lecture of my final week when only two students (out of almost 120) showed up. I later found out that my handful of regular attendees had a maths exam the same time, which lessened the impact somewhat.}
+\p{I have no doubt that most of those who actually attend my lectures will do well. They are very on the ball, and they seem to enjoy my lectures. One asked what other subjects I teach, and another gave me a delicious carrot cake after my final lecture, which was a very touching gesture!}

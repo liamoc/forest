@@ -1,0 +1,35 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{Feast of St. Bartholomew 2025}
+\tag{cmc}
+\date{2025-08-24}
+\author{liamoc}
+\quote{
+  MIHI autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.
+  \br
+  EGO autem sicut olíva fructificávi in domo Dómini, sperávi in misericórdia Dei mei: et exspectábo nomen tuum, quóniam bonum est ante conspéctum sanctórum tuórum.
+  \br
+  Inclína Dómine, aurem tuam ad me, et exáudi me: salvum fac servum tuum, Deus meus, sperántem in te: miserére mihi, Domine, quóniam ad te clamávi tota die.
+}
+\p{Today our choir at [All Saints Ainslie](https://allsaintsainslie.org.au) sang Anton Brucker's classic [Locus Iste](https://www.youtube.com/watch?v=udZCjXbwkzk):}
+\quote{
+  \table{
+    \tr{
+    \td{Locus iste a Deo factus est.}
+    \td{This place is made by God,}
+    }\tr{
+    \td{Inaestimábile sacraméntum,}
+    \td{A priceless sacrament,}
+    }\tr{
+    \td{Irreprehensíbilis est.}
+    \td{Beyond reproach.}
+  }\tr{
+    \td{Locus iste a Deo factus est.}
+    \td{This place is made by God.}
+  }
+  }
+}
+\p{Strangely, it seems that Roman Catholics ignored the feast today, just celebrating the 21st Sunday in Ordinary Time instead. Not sure why that was happening.}
+\p{I didn't go to Evensong today, because I'm so busy setting up the ICFP programming contest and arranging [my move to Dickson](loc-001O).}

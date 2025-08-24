@@ -1,0 +1,8 @@
+\date{2025-08-24}
+\title{The ICFP contest is nearly upon us}
+\author{liamoc}
+\p{I've been putting the finishing touches on the server for the [[icfpc25]], which I am organising. With [[jackstodart]] and [[alexblack]] we will put it through a test run this week, if I can find the time.}
+\p{I wrote the server in Kotlin and used AWS Lambda, AWS DynamoDB and other Amazon Web Services. The point of this approach was so that I wouldn't have to worry about scalability, but I am slightly nervous that the costs will be much higher than I expected. I guess I'll cross that bridge when I come to it.}
+\p{I must say that the state of documentation for AWS is \strong{simply atrocious}. On one occasion, in desperation to find some answers to what I thought were simple queries, I turned to the dreaded bots for help. They gave me incorrect answers, of course, but I was at least able to [Kagi search](https://kagi.com/) my way to success based on their answer. Still, I feel like I need to go to confession and receive absolution for interacting at all with those infernal machines.}
+\p{Another concern is that I am flying from Sydney to Portugal while the contest will be going on. I'm hoping Jack will be able to monitor things without me, but mostly I'm going on faith that nothing will explode.}
+\p{I'm theming this year's contest around one of my all-time favourite novels, [[eco]]'s \em{The Name of the Rose}. Some of the folks on our Discord channel have been enjoying that.}
