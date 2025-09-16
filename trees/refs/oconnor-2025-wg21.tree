@@ -1,0 +1,9 @@
+\title{Runtime monitoring via topology}
+\taxon{Reference}
+\meta{venue}{[[wg21]] Meeting, Viana do Castelo, Portugal}
+\author{liamoc}
+\date{2025-09-10}
+\tag{talk}
+\tag{temporal-logic}
+\tag{semantics}
+\p{The literature on runtime “verification” (the activity of monitoring a running process to ensure compliance with a given specification) offers many different definitions of “monitorability” for properties. In a linear-time temporal setting, properties take the form of sets of behaviours (infinite sequences of states). In this talk, I will arrange the various monitorability classes found in the literature into a hierarchy along with well-known classes of properties such as safety and guarantee properties. I then give each of these monitorability classes neat topological characterisations within the topology induced by the "guarantee kernel" interior operator. Lastly, I show that the metric space used by [Alpern and Schneider](alpern-schneider-1985) coincides with our topology.}

@@ -1,0 +1,23 @@
+\date{2025-08-31}
+\author{liamoc}
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{12th Sunday after Pentecost 2025}
+\tag{cmc}
+\quote{
+  Miserére mihi Dómine, quóniam ad te clamávi tota die: quia tu Dómine suávis ac mitis es, et copiósus in misericórdia ómnibus invocántibus te.
+}
+\p{Today our choir at [All Saints Ainslie](https://allsaintsainslie.org.au) were about two to a part for Palestrina's well-known [Sicut Cervus](https://www.youtube.com/watch?v=dU7k-hiiVjw):}
+\quote{
+  \table{
+    \tr{
+    \td{Sicut cervus desíderat ad fontes aquárum:}
+    \td{Like as the hart desireth the waterbrooks:}
+    }\tr{
+    \td{ita desíderat ánima mea ad te, Deus.}
+    \td{So longeth my soul after thee, O God.}
+    }
+  }
+}

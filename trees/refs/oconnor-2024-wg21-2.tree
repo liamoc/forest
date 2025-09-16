@@ -1,0 +1,9 @@
+\title{I don't have all day: Examining linear-time temporal {Properties, Logic} within finite time}
+\taxon{Reference}
+\meta{venue}{[[wg21]] Meeting, Canberra, Australia}
+\author{liamoc}
+\date{2024-11-29}
+\tag{talk}
+\tag{temporal-logic}
+\tag{semantics}
+\p{We define a proper inductive semantics for LTL which includes those finite partial traces for which a definitive answer can be given: the “definitive prefixes” of the property. Sets of definitive prefixes are called definitive sets. Defining a semantics for LTL in terms of definitive sets gives us something equivalent to LTL3, a formulation popular in runtime verification. Our theory of definitive sets is sufficient to give a neat characterisation of (co-)safety and (co-)liveness properties, allowing us to straightforwardly prove Alpern and Schneider’s result that every property is the intersection of a safety and liveness property by simpler means.}
