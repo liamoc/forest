@@ -3,9 +3,9 @@
 \author{liamoc}
 \title{IFIP WG2.1 Meeting \startverb #\stopverb83}
 \figure{
-  \<html:img>[width]{200px}[src]{\route-asset{assets/vdc01.jpeg}}{}
-  \<html:img>[width]{200px}[src]{\route-asset{assets/vdc02.jpeg}}{}
-  \<html:img>[width]{200px}[src]{\route-asset{assets/vdc03.jpeg}}{}
+  \<html:img>[width]{193px}[src]{\route-asset{assets/vdc01.jpeg}}{}
+  \<html:img>[width]{193px}[src]{\route-asset{assets/vdc02.jpeg}}{}
+  \<html:img>[width]{193px}[src]{\route-asset{assets/vdc03.jpeg}}{}
 %  \figcaption{The squawking cockatoos on the walk from my lecture theatre.}
 }
 \p{Last week I attended the meeting of [[wg21]] in Viana do Castelo, Portugal. I think all members and observers agreed that it was a good meeting, with (perhaps overly) abundant food and good company. Thanks in particular to [[jno]] for organising the meeting and to [[hoefner]] for  serving as chair of [WG2.1](wg21) for the last six years.
@@ -21,13 +21,13 @@
 }
 \p{The excursion of the meeting included several stops, including two interesting Viana museums, an archaelogical site on the nearby mountaintop, and a memorable trip to Camarido Beach, at the northernmost tip of Portugal, with Spanish Galicia just to the north along the road from Portugal to Santiago de Compostela.}
 \figure{
-  \<html:img>[width]{202px}[src]{\route-asset{assets/vdc07.jpeg}}{}
-  \<html:img>[width]{202px}[src]{\route-asset{assets/vdc06.jpeg}}{}
-  \<html:img>[width]{202px}[src]{\route-asset{assets/vdc08.jpeg}}{}
+  \<html:img>[width]{193px}[src]{\route-asset{assets/vdc07.jpeg}}{}
+  \<html:img>[width]{193px}[src]{\route-asset{assets/vdc06.jpeg}}{}
+  \<html:img>[width]{193px}[src]{\route-asset{assets/vdc08.jpeg}}{}
   \figcaption{The climb and the Santuario church.}
 }
 \p{After the meeting had formally concluded, [[okmij]], [[henglein]], [[matija]], [[tsewell]], [[xnning]] and I climbed to Santuario de Santa Luzia. We took the arduous stairs rather than the funicular, as Matija's wife had forbidden him from Portuguese funiculars after the recent [Ascensor da Glória derailment](https://en.wikipedia.org/wiki/Ascensor_da_Glória_derailment), which led to me overdoing it and nearly fainting, but in recompense Matija bought me a beer at the top of the mountain which made it (mostly) worth it! }
 \p{Hopefully I can make it to the next meeting in Estonia next year!}
 \figure{
-  \<html:img>[width]{240px}[src]{\route-asset{assets/vdc09.jpeg}}{}
+  \<html:img>[width]{320px}[src]{\route-asset{assets/vdc09.jpeg}}{}
 }
