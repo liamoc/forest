@@ -1,0 +1,16 @@
+\date{2025-09-19}
+\author{liamoc}
+\title{ANU Logic Summer School 2025}
+\meta{external}{https://comp.anu.edu.au/lss/}
+\meta{venue}{[[anu]]}
+\p{
+  The [ANU](anu) Logic Summer School is back again this year, and this time I feature on [the program](https://comp.anu.edu.au/lss/lectures/2025/). I will be teaching an Introduction to Interactive Theorem Proving using [Isabelle/HOL](https://isabelle.in.tum.de). The timetable is tentative but it looks like I will be teaching it over the final two days of the first week, with one two-hour and one one-hour lecture per day. This means it will be quite a packed programme, but I will do my best.
+}
+\p{It's my hope that I can figure out a nice way to include Isabelle code in Forester trees, so that I can make my lecture notes with Forester. But this may be difficult for a variety of technical reasons, so in the worst case it will be a bunch of Isabelle theory files with comments. }
+\p{
+  My introduction will hopefully tie in to [[cledmonds]]' teaching Hoare logic and rely/guarantee reasoning in Isabelle over the second week. 
+}
+\p{ 
+  If you or your students have an interest in logic or verification, please consider sending your students! We also have some limited scholarships available.
+}
+

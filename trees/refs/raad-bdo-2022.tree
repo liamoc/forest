@@ -1,0 +1,9 @@
+\title{Concurrent Incorrectness Separation Logic}
+\taxon{Reference}
+\meta{venue}{[[popl22]]}
+\author{azalea}
+\author{joshberdine}
+\author{dreyer}
+\author{ohearn}
+\date{2022-01-12}
+\meta{doi}{10.1145/3498695}

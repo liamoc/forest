@@ -3,7 +3,8 @@
 \parent{loc-0004}
 \p{The following teaching engagements were/are all at the [[anu]]:}
 \table{
-\tr{\td{2025}\td{ [[COMP1100]]. Lecturer.}}
+\tr{\td{2026}\td{ [[COMP1110]]. Lecturer Convenor.}}
+\tr{\td{2025}\td{ [[COMP1100]]. Lecturer Convenor.}}
 }
 \p{The following teaching engagements were all at the [[uoe]]:}
 \table{
@@ -25,9 +26,10 @@
 \tr{\td{}\td{ [[COMP3141]] (308 students). Lecturer Convenor. }}
 \tr{\td{}\td{ [[COMP3153]] (18 students). Lecturer Convenor. }}
 \tr{\td{}\td{ [[COMP2111]]. Course Administrator.}}
-\tr{\td{2019}\td{ [[COMP3161]] (111 students). \br \small{#{100\%} teacher satisfaction. #{95.1\%} course satisfaction.} }}
-\tr{\td{}\td{ [[COMP3141]] (196 students). Lecturer Convenor. \br \small{  #{97.3\%} teacher satisfaction. #{93.9\%} course satisfaction.}}}
-\tr{\td{2018}\td{ [[COMP3161]] (96 students). Lecturer Convenor, Tutor. \br \small{#{98.1\%} teacher satisfaction.  #{100\%} course satisfaction.}}}
+\tr{\td{2019}\td{ [[COMP3161]] (111 students).}}\tr{\td{}\td{  \small{#{100\%} teacher satisfaction. #{95.1\%} course satisfaction.} }}
+\tr{\td{}\td{ [[COMP3141]] (196 students). Lecturer Convenor.}}\tr{\td{}\td{  \small{  #{97.3\%} teacher satisfaction. #{93.9\%} course satisfaction.}}}
+\tr{\td{2018}\td{ [[COMP3161]] (96 students). Lecturer Convenor, Tutor.}}
+\tr{\td{}\td{ \small{#{98.1\%} teacher satisfaction.  #{100\%} course satisfaction.}}}
 \tr{\td{}\td{ [[COMP2111]]. Tutor (6 tutorials), Relief Lecturer.}}
 \tr{\td{}\td{ \small{#{94.1\%} teacher satisfaction.}}}
 \tr{\td{}\td{ [[COMP3141]]. Course Designer and Administrator.}}
