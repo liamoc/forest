@@ -1,0 +1,24 @@
+\import{table-macros}
+\date{2025-09-28}
+\author{liamoc}
+\title{The benefits of avoiding cars}
+\p{When I lived in Edinburgh my "commute" consisted of a 10 minute walk through the lovely Meadows parkland to get from my apartment to the Informatics Forum. Sometimes I'd have to cross the dreaded North Bridge or the crowded Nicolson street, and I would always find myself feeling overwhelmed and stressed. But, the walk through the Meadows was always healing — or, failing that, it never added to my stress.}
+\p{When I moved to Canbera, I first lived in Braddon. Like at Edinburgh, or indeed my time at [[unsw]], my commute was just a 10–15 minute walk. Yet, unlike at Edinburgh, I would often find the walk stress-inducing.}
+\figure{
+  \<html:img>[width]{220px}[src]{\route-asset{assets/walk1.jpeg}}{}
+  \<html:img>[width]{220px}[src]{\route-asset{assets/walk2.jpeg}}{}
+  \figcaption{Some shots from my new commute.}
+}
+\p{Since I've moved to Dickson, my commutes have gotten much longer — a 40–45 minute walk from my home along a bike path through the Lyneham wetlands and other beautiful natural parkland. Similarly, the walk from my home to my church is slightly longer, but significantly quieter, following bike paths and sleepy suburban streets. This walk is \em{significantly} more mentally healing to me than the shorter commute I had before, and helps me to relieve stress rather than accumulate it. }
+\figure{
+  \<html:img>[width]{220px}[src]{\route-asset{assets/walk3.jpeg}}{}
+  \<html:img>[width]{220px}[src]{\route-asset{assets/walk4.jpeg}}{}
+  \figcaption{Some parrots I met along the way.}
+}
+\p{The main difference is simple: The walk this time passes through mostly parkland, and, for the most part, is not along a road. The noisy cars and, annoyingly common in Canberra, roaring motorbikes of the city traffic are distant, usually inaudible, and in their place I have some stunning natural landscapes and many colourful parrots to greet on my walk to work. }
+\figure{
+  \<html:img>[width]{220px}[src]{\route-asset{assets/sunset2.jpeg}}{}
+  \<html:img>[width]{220px}[src]{\route-asset{assets/sunset3.jpeg}}{}
+  \figcaption{Sunset over the Lyneham Wetlands.}
+}
+\p{I think car-centric cities are one of the worst mistakes humanity has made in terms of societal engineering. I hate cars. Please get rid of all the cars.}
