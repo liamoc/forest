@@ -9,7 +9,7 @@
   \<html:img>[width]{220px}[src]{\route-asset{assets/walk2.jpeg}}{}
   \figcaption{Some shots from my new commute.}
 }
-\p{Since I've moved to Dickson, my commutes have gotten much longer — a 40–45 minute walk from my home along a bike path through the Lyneham wetlands and other beautiful natural parkland. Similarly, the walk from my home to my church is slightly longer, but significantly quieter, following bike paths and sleepy suburban streets. This walk is \em{significantly} more mentally healing to me than the shorter commute I had before, and helps me to relieve stress rather than accumulate it. }
+\p{Since I've [moved to Dickson](loc-001O), my commutes have gotten much longer — a 40–45 minute walk from my home along a bike path through the Lyneham wetlands and other beautiful natural parkland. Similarly, the walk from my home to my church is slightly longer, but significantly quieter, following bike paths and sleepy suburban streets. This walk is \em{significantly} more mentally healing to me than the shorter commute I had before, and helps me to relieve stress rather than accumulate it. }
 \figure{
   \<html:img>[width]{220px}[src]{\route-asset{assets/walk3.jpeg}}{}
   \<html:img>[width]{220px}[src]{\route-asset{assets/walk4.jpeg}}{}
