@@ -1,0 +1,31 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{Feast of All Saints 2025}
+\tag{cmc}
+\date{2025-11-02}
+\author{liamoc}
+\quote{
+  Gaudeamus omnes in Dómino, diem festum celebrántes sub honóre Sanctórum ómnium: de quorum solemnitáte gaudent Angeli, et colláudant Fílium Dei.
+}
+\p{Because this was the dedication feast for [All Saints Ainslie](https://allsaintsainslie.org.au), we sang Darke's [Communion Service in F Major](https://www.youtube.com/watch?v=9_YotRZXipY&list=OLAK5uy_m_gU2ydx02FIjTPG8WO8odyEqYLZY9jHc) as well as [I Sat Down](https://www.youtube.com/watch?v=1Pc41lxwd7k) by John Bairstow, with text taken from the Song of Solomon:}
+\quote{
+  \poem{
+    \line{I sat down under his shadow with great delight,}
+    \line{and his fruit was sweet to my taste.}
+    \line{He brought me to the banqueting house, and his banner over me was Love.}
+    \line{I sat down under his shadow.}
+  }
+}
+\p{We also had a small celebration of our choir and sanctuary party at Corroboree park in Ainslie.}
+\figure{
+  \<html:img>[width]{220px}[src]{\route-asset{assets/alipate.jpeg}}{}
+  \figcaption{Fr. Alipate works for over an hour at the barbeque.}
+}
+\p{We were blessed with a gorgeous sunset to conclude the evening.}
+\figure{
+  \<html:img>[width]{240px}[src]{\route-asset{assets/choirsunset1.jpeg}}{}
+  \<html:img>[width]{240px}[src]{\route-asset{assets/choirsunset2.jpeg}}{}
+  \<html:img>[width]{240px}[src]{\route-asset{assets/choirsunset3.jpeg}}{}
+}

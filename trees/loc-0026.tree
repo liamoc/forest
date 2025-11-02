@@ -1,0 +1,23 @@
+\import{table-macros}
+\date{2025-11-02}
+\author{liamoc}
+\title{ICFP/SPLASH 2025 is over}
+\figure{  
+  \<html:img>[width]{450px}[src]{\route-asset{assets/monk2.jpeg}}{}
+  \<html:img>[width]{250px}[src]{\route-asset{assets/monk1.jpeg}}{}
+  \figcaption{I was in character as Br. Alonzo of Curry for the ICFP Contest Report.}
+}
+\p{From the 10th to the 19th of October I was travelling, specifically to Singapore to present the results of the [[icfpc25]].
+ As seems to almost always happen, the Japanese team Unagi (and another Japanese team, MOYOU) won the contest, using their preferred programming language Rust. Also as in most years, most solutions used SAT encodings, simulated annealing, or other such methods. Some teams did use automata learning (as our reference solution did), but this was uncommon. The [writeups page](https://icfpcontest2025.github.io/writeups.html) has many more details, including an in-character personal reflection by Adso.
+}
+  \p{ The conference was indeed massive, and it was good to catch up with many folks that I know (such as [[gckeller]], [[crizkallah]], [[zilinc]] and [[msteuwer]]), but I must say that I found few talks or papers that I actually found noteworthy or compelling. Perhaps the most interesting was the few papers and presentations I saw given by [[antonlorenzen]]. I'm sure this is more a problem with me than with the authors, all of which I'm sure have produced very good work, except of course for the [LMPL Workshop](https://conf.researchr.org/home/icfp-splash-2025/lmpl-2025) which promotes use of [the dreaded LLMs](loc-001H) in PL research. I studiously avoided attending that, and was pleased to find some likeminded colleagues.  }
+\figure{
+  \<html:img>[width]{220px}[src]{\route-asset{assets/singapore3.jpeg}}{}
+  \<html:img>[width]{220px}[src]{\route-asset{assets/singapore4.jpeg}}{}
+  \figcaption{Some night time wanderings of Singapore.}
+}
+\p{While I love to eat the food in Singapore, I always find the weather almost unbearable. I try to do what locals do, and transit via underground and indoor connections between buildings, but I inevitably end up having to walk for 10–20 minutes outside and end up feeling horribly \em{wet} from a mixture of humidity and sweat. Nonetheless, I thank very much [[ilyasergey]] and the others who organised the event, and arranged for me to travel there and present.}
+\figure{
+  \<html:img>[width]{220px}[src]{\route-asset{assets/singapore1.jpeg}}{}
+  \<html:img>[width]{220px}[src]{\route-asset{assets/singapore2.jpeg}}{}
+}

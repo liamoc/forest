@@ -1,0 +1,14 @@
+\import{table-macros}
+\title{Weeknotes 2025-W44}
+\author{liamoc}
+\date{2025-11-02}
+\p{This is my first week back to weeknoting in about a month, seeing as I was first travelling to Singapore for [ICFP](icfp25) and then subsequently took two weeks off to spend some time with my partner, who was visiting from Korea.}
+\figure{
+  \<html:img>[width]{240px}[src]{\route-asset{assets/waterdragon.jpeg}}{}
+  \<html:img>[width]{240px}[src]{\route-asset{assets/kangaroo.jpeg}}{}
+ \figcaption{One of many Water Dragons seen at Manly, and one of many Kangaroos seen at Tidbinbilla.}
+}
+\transclude{loc-0026}
+\transclude{loc-0024}
+\transclude{loc-0025}
+\transclude{loc-0023}
