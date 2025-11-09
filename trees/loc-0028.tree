@@ -1,0 +1,41 @@
+\date{2025-11-09}
+\title{ITP course at the ANU Logic Summer School}
+\author{liamoc}
+\p{As [I previously mentioned](loc-001W), I am teaching at the ANU Logic Summer School this year, on an introduction to interactive theorem proving using the proof assistant [Isabelle](https://isabelle.in.tum.de). Here's the course blurb as found on [the website](https://comp.anu.edu.au/lss/lectures/2025/):}
+\subtree{
+  \title{Abstract}
+  \p{This course will introduce the use of interactive proof assistants both for mathematics and for work in software verification. We will introduce the basics of interactive theorem proving using the proof assistant Isabelle/HOL. Starting from elementary logical formulae, we will prove many theorems “live” in lectures, and apply what we have learned to proof exercises and challenges. Proof assistants can be both very fun and very addictive in equal measure. It is my hope to share that fun with you.}
+}
+\subtree{
+  \title{Topic list (tentative)}
+  \ol{
+    \li{Propositional and first-order logic, natural deduction proofs. Types, definitions, unfolding.}
+    \li{Simplifier, rewriting, function definitions, other definitions.}
+    \li{Structural induction, inductive definitions, induction tactics.}
+    \li{Structured proofs in Isar, calculational proofs.}
+    \li{More automatic methods, sledgehammer.}
+  }
+  \p{Remaining topics to be covered if there is time:}
+  \ul{
+    \li{General recursion and termination measures}
+    \li{Type classes and locales}
+    \li{Program verification with SIMPL or AutoCorres}
+    \li{Designing tactics with Eisbach}
+  }    
+}
+\subtree{
+  \title{Prerequisites}
+  \p{Some familiarity with simple first order and propositional logic is assumed. Some functional programming experience (in particular, some familiarity with lambda calculus or a language like Haskell) is also recommended.}
+} 
+
+\subtree{
+  \title{Recommended Further Reading}
+  \p{[Concrete Semantics](http://concrete-semantics.org/), [[nipkow]] and [[gklein]]}
+}  
+\subtree{
+  \title{Lecturer}
+  \p{[[liamoc]] is a Senior Lecturer at the [[anu]] and an Honorary Fellow at the [[uoe]], where he worked until 2024. He obtained his PhD from UNSW in 2019, the [dissertation](oconnor-thesis-2019) for which received the John Makepeace Bennett award. He has broad interests in theoretical computer science, especially in semantics, models and specifications, as well as in the application of these theoretical techniques to practical problems in programming languages, systems and software engineering.}
+}
+\p{I will also make the [course notes](isa-0001) available on this forest, as they are completed.}
+  
+  

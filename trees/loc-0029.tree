@@ -1,0 +1,26 @@
+\import{shiki-macros}
+\date{2025-11-09}
+\title{Syntax Highlighting in Forester for Isabelle (and More)}
+\author{liamoc}
+\p{Similar to my [theme plugin for Gregorian Chants](loc-0015), I've implemented a simple plugin for syntax highlighted blocks using the [Shiki](https://shiki.style) library. Unlike the chant plugin, it doesn't self-host all the required JS but instead loads from a CDN. If this becomes problematic later I will investigate self-hosting it, but it seems that self-hosting Shiki is somewhat complicated. }
+\p{I didn't use any other syntax-highlighting gizmos for Forester because I plan to write [lecture notes](isa-0001) for my upcoming [course at the LSS](loc-0028) and this would require me to support Isabelle code. The advantage of Shiki is that it supports textMate grammars, and [[gklein]] made [one for Isabelle](https://github.com/lsf37/Isabelle.tmbundle).}
+\p{Like the chant plugin, it consists of a single drop-in module of JavaScript, some changes to the stylesheet and a macro definition tree. As can be seen below, the results are quite nice:}
+\put\shiki/language{Isabelle Theory}
+\shiki{theory Main imports Pure 
+begin
+typedecl bool
+judgment Trueprop :: ‹bool ⇒ prop› ("(_)" 5)
+
+axiomatization
+  False :: ‹bool› and True :: ‹bool› and
+  conj :: ‹bool ⇒ bool ⇒ bool› (infixr "∧" 35) and
+  disj :: ‹bool ⇒ bool ⇒ bool› (infixr "∨" 30) and
+  implies :: ‹bool ⇒ bool ⇒ bool› (infixr "⟶" 25) and
+  not :: ‹bool ⇒ bool› ("¬ _" [40] 40)
+where
+  (* Conjunction *)
+  conjI  : "⟦ A ; B ⟧ ⟹ (A ∧ B)" and
+  conjunct1 : "A ∧ B ⟹ A" and
+  conjunct2 : "A ∧ B ⟹ B"
+end}
+\p{(If it doesn't display correctly, you may need to clear your browser cache.)}

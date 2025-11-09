@@ -1,0 +1,11 @@
+\xmlns:html{http://www.w3.org/1999/xhtml}
+
+\def\shiki/loadLanguages{c,javascript}
+\def\shiki/rootPath{/forest}
+
+\alloc\shiki/language
+\def\shiki[body]{
+\scope{
+\<html:shiki-block>[language]{\get\shiki/language}[load-languages]{\shiki/loadLanguages}[root-path]{\shiki/rootPath}{\body}
+}
+}

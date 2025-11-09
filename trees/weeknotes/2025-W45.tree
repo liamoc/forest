@@ -1,0 +1,13 @@
+\import{table-macros}
+\title{Weeknotes 2025-W45}
+\author{liamoc}
+\date{2025-11-09}
+\p{This week was mostly occupied with various administrative catchups after my two weeks of leave.  }
+\figure{
+  \<html:img>[width]{240px}[src]{\route-asset{assets/wetlands1.jpeg}}{}
+  \<html:img>[width]{240px}[src]{\route-asset{assets/wetlands2.jpeg}}{}
+ \figcaption{Some nice sunsets near the Lyneham wetlands.}
+}
+\transclude{loc-0028}
+\transclude{loc-0029}
+\transclude{loc-0027}
