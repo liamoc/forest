@@ -1,0 +1,8 @@
+\import{table-macros}
+\date{2025-11-16}
+\title{New furniture for retro computing lab}
+\p{My collection of vintage computers are now safely situated in my [new home in Dickson](loc-001O). This week I purchased some new furniture to house some of my most prized machines. At some point I will make a database of everything I've got here in my forest, but here's a photo of some of my lab in the mean time:}
+\figure{
+  \<html:img>[width]{450px}[src]{\route-asset{assets/lab.jpeg}}{}
+}
+

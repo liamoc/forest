@@ -1,0 +1,13 @@
+\import{table-macros}
+\date{2025-11-10}
+\title{Gang-gang cockatoos sighted at last}
+\p{I've lived in Canberra for over a year, and yet I never saw the Gang-gang Cockatoo, the ACT's faunal emblem since 1997, despite seeing parrots of all sorts on my walks around the city's various natural areas. }
+\figure{  
+  \<html:img>[width]{250px}[src]{\route-asset{assets/actparks.png}}
+  \figcaption{The Gang-gang Cockatoo has long been associated with Canberra.}
+}
+\p{Fortunately, when I was walking on the [Dickson bike path](loc-0020) today, I saw a couple on a nearby gum-tree, behaving completely oblivious to the city bustle around them. }
+\figure{  
+  \<html:img>[width]{250px}[src]{\route-asset{assets/ganggang1.jpeg}}{}
+  \<html:img>[width]{250px}[src]{\route-asset{assets/ganggang2.jpeg}}{}
+}

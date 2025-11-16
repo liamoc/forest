@@ -11,6 +11,7 @@
 \put\transclude/expanded{false}
 
 \p{This page has an [atom feed](/forest/loc-001B/atom.xml).}
+\transclude{2025-W46}
 \transclude{2025-W45}
 \transclude{2025-W44}
 \transclude{2025-W40}
