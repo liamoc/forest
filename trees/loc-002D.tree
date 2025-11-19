@@ -1,0 +1,25 @@
+\date{2025-11-18}
+\import{tsvtable-macros}
+\author{liamoc}
+\title{Music Index}
+\p{This note is just to keep track of my extensive music library – which pieces I have and where.
+}
+\subtree{
+\title{Legend}
+\ul{
+  \li{AfC#{n} - Anthems for Choirs, volume #{n}, Oxford.}
+  \li{OEAB - Oxford Easy Anthem Book.}
+  \li{NOEAB - New Oxford Easy Anthem Book.}
+  \li{NCAB - New Church Anthem Book, Oxford.}
+  \li{OBTA - Oxford Book of Tudor Anthems.}
+  \li{XVIAB - A 16th-Century Anthem Book, Oxford.}
+  \li{CfC#{n} - Carols for Choirs, volume #{n}, Oxford.}
+  \li{Ash - Ash Wednesday to Easter for Choirs, Oxford.}
+  \li{Adv - Advent for Choirs, Oxford.}
+  \li{#{n}thCh - #{n}th Chester Book of Motets.}
+  \li{Loose - not in a volume but a separate copy.}
+}
+}
+
+
+\tsvtable{\route-asset{assets/music.tsv}}
