@@ -1,0 +1,14 @@
+\import{table-macros}
+\title{Weeknotes 2025-W47}
+\author{liamoc}
+\date{2025-11-23}
+\p{I'm making these weeknotes in a rush, because I'm going to SAPLING tomorrow and I have to get up super early to get to Sydney on time.}
+\figure{
+  \<html:img>[width]{250px}[src]{\route-asset{assets/coloursunset1.jpeg}}{}
+  \<html:img>[width]{250px}[src]{\route-asset{assets/coloursunset2.jpeg}}{}
+  \figcaption{The wonderfully frequent technicolour sunsets in Canberra.}
+}
+\transclude{loc-002G}
+\transclude{loc-002F}
+\transclude{loc-002H}
+\transclude{loc-002E}

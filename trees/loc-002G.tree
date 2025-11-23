@@ -1,0 +1,9 @@
+\date{2025-11-22}
+\author{liamoc}
+\title{I'm making a new programming language}
+\p{I've sketched out a design and begun implementation of a programming language, called Hito. Partly, this is just a programming exercise for me, but I also think the language might fill a niche that is currently unfilled.}
+\figure{
+  \<html:img>[width]{250px}[src]{\route-asset{assets/hito.png}}{}
+}
+\p{Hito (from the Japanese pronunciation of the vaguely lambda-esque character 人, which also means "person"), is designed as a \em{embeddable}, \em{lightweight} scripting language that is \em{purely functional}. In particular, it's designed as an embeddable scripting language for situations where something like [Lua](https://www.lua.org) even would be overkill. Often, full imperative procedures feel to me too heavy, but a language for quick specification of some calculations, formulas, pipelines or filters would be ideal. An example would be mark calculation formulae for a course gradebook. That said, the language is fairly extensible, so it could in theory be used for much more complicated applications. }
+\p{I've nearly finished the first prototype implementation, which is written entirely in fairly clean, modern C. Primitive operations are pluggable, just as function pointers supplied to the runtime. It uses a simple mark-and-sweep precise garbage collector and a three-stack abstract machine design for executing the code. It will be dynamically typed, with support for pattern matching and a lightweight kind of algebraic data types, and higher-order functions and closures. The syntax is fairly clean, I think, and designed to be approachable to non-FP people. I have yet to make a proper website, but there is a [code repository](https://github.com/liamoc/hito) if you want to poke around.}

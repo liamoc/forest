@@ -1,0 +1,5 @@
+\date{2025-11-23T12:57:48Z}
+\title{Getting away from GitHub}
+\author{liamoc}
+\p{I'm increasingly uncomfortable keeping my code, this forest, and many of my papers on GitHub, seeing as they feed data to the dreaded bots, they are owned by Microsoft (who feed data and money to the dreaded bots), and it no longer is as intuitive or useful as it used to be.}
+\p{So, I'm interested in figuring out an alternative to host all my git repositories. [Forester](https://www.forester-notes.org/) uses [sourcehut](https://sourcehut.org), which is nice because it's so lightweight and free of the dreaded bots, but I find the interface for it very confusing. Perhaps I just need to get used to it. Does anyone have any other suggestions?}

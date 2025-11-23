@@ -1,0 +1,5 @@
+\date{2025-11-20}
+\title{A Forester plugin for TSV tables}
+\p{
+  I have a fairly large collection of anthem books and musical scores for sacred music (see my [[loc-000P]]), to the point where it has become difficult to actually remember what scores I have and where they might be found. So, I made a small plug-in for forester to make sortable, searchable tables for TSV files, and made a small database of all my anthem books. You can have a look at it [here](loc-002D).
+}
