@@ -1,0 +1,21 @@
+\date{2025-11-25T20:14:40Z}
+\author{liamoc}
+\title{False and True}
+\taxon{Definition}
+\parent{isa-0002}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+
+##{
+  \dfrac{\quad}{\textsf{True}}\text{\small TrueI} \quad
+  \dfrac{\textsf{False}}{P}\text{\small FalseE}
+}
+
+
+\shiki{axiomatization
+  False :: "bool" and
+  True :: "bool"
+where
+  FalseE : "False ⟹ C" and
+  TrueI  : "True"
+}

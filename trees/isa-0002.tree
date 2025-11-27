@@ -1,6 +1,6 @@
 \date{2025-11-25}
 \author{liamoc}
-\title{Natural Deduction}
+\title{Building up HOL}
 \taxon{Lecture}
 \import{shiki-macros}
 \put\shiki/language{Isabelle Theory}
@@ -15,39 +15,14 @@ typedecl bool
 judgment Trueprop :: "bool ⇒ prop"  (‹(_)› 5)
 }
 
+\transclude{isa-0005}
+\transclude{isa-0004}
+\transclude{isa-0006}
+\transclude{isa-0007}
+\transclude{isa-0008}
 
-
-\shiki{axiomatization
-  conj :: "bool ⇒ bool ⇒ bool" (infixr "∧" 35) and
-where
-  (* Conjunction *)
-  conjI  : "⟦ A ; B ⟧ ⟹ (A ∧ B)" and
-  conjunct1 : "A ∧ B ⟹ A" and
-  conjunct2 : "A ∧ B ⟹ B"  
-}
 
 \shiki{
-  disj :: "bool ⇒ bool ⇒ bool" (infixr "∨" 30) and
-  implies :: "bool ⇒ bool ⇒ bool" (infixr "⟶" 25) and
-  not :: "bool ⇒ bool" ("¬ _" [40] 40)
-
-  (* Disjunction *)
-  disjI1 : "A ⟹ (A ∨ B)" and
-  disjI2 : "B ⟹ (A ∨ B)" and
-  disjE  : "⟦ A ∨ B ; A ⟹ C ; B ⟹ C ⟧ ⟹ C" and
-
-  (* Implication *)
-  impI : "(A ⟹ B) ⟹ (A ⟶ B)" and
-  mp : "⟦ A ⟶ B ; A ⟧ ⟹ B" and
-
-  (* Negation *)
-  notI : "(A ⟹ False) ⟹ ¬ A" and
-  notE : "⟦ ¬ A ; A ⟧ ⟹ R" and
-
-  (* False and True *)
-  FalseE : "False ⟹ C" and
-  TrueI  : "True"
-
 lemma conjE : ‹⟦ A ∧ B ; ⟦ A ; B ⟧ ⟹ C ⟧ ⟹ C›
   apply (frule conjunct1)
   apply (drule conjunct2)
@@ -58,35 +33,12 @@ lemma impE: ‹⟦ P ⟶ Q; P ; Q ⟹ R ⟧ ⟹ R›
   apply (drule mp)
    apply assumption
    apply assumption
-  done
+  done}
 
-lemma ‹A ∧ B ⟶ B ∧ A›
-  apply (rule impI)
-  apply (erule conjE)
-  apply (rule conjI)
-   apply assumption
-  apply assumption
-  done
-
-lemma ‹X ⟶ ¬ ¬ X›
-  apply (rule impI)
-  apply (rule notI)
-  apply (erule notE)
-  apply assumption
-  done
-
-lemma ‹(X ⟶ Y ⟶ ¬ X) ⟶ X ⟶ ¬ Y›
-  apply (rule impI)
-  apply (rule impI)
-  apply (erule impE)
-  apply assumption
-   apply (rule notI)
-   apply (erule impE)
-   apply assumption
-  apply (erule notE)
-  apply assumption
-  done
-
+\transclude{isa-0009}
+\transclude{isa-000A}
+\transclude{isa-000B}
+\shiki{
 axiomatization where
   classical: ‹⟦ ¬ P ⟹ P ⟧ ⟹ P›
 

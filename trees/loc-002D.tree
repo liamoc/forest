@@ -18,9 +18,35 @@
   \li{Adv - Advent for Choirs, Oxford.}
   \li{#{n}thCh - #{n}th Chester Book of Motets.}
   \li{FaberTal - Faber Choral Programme Series, Thomas Tallis volume.}
+  \li{ECM#{n} - English Church Music, Volume #{n}, Oxford Choral Classics.}
   \li{Loose - not in a volume but a separate copy.}
 }
 }
-
-
 \tsvtable{\route-asset{assets/music.tsv}}
+\subtree{
+\title{Chant Books}
+\ul{
+  \li{\strong{Office}
+  \ul{
+    \li{\em{Anglican}: A Manual of Plainsong, RSCM Chant Book, The Cathedral Psalter, The Parish Psalter with Chants, The Australian Psalter, Sarum Compline (BCP English)}
+    \li{\em{Latin}: Sarum Matins (IA-IIIC, Latin), Sarum Diurnal (I-III, Latin), Sarum Vespers (I-III, Latin), Sarum Compline (Latin), Les Heures Gregoriennes (I-III), Psalterium Romanum, Antiphonale Ambrosianum (I-IV), Roman Compline, Antiphonale Romanum (I-II, Solesmes), Antiphonale Monasticum (I-III, Solesmes), Liber Hymnarius (Solesmes), Monastic Diurnal.}
+  }}
+  \li{\strong{Mass}
+  \ul{
+    \li{\em{Anglican}: Common Praier Noted (Marbeck, 1550), Plainchant Gradual (I-IV), The American Gradual 2020, The Anglican Use Gradual (2nd Edition). }
+    \li{\em{Latin}: Graduale Triplex (Solesmes), Gregorian Missal (Solesmes), Offertoriale Triplex (Solesmes), Liber Cantualis (Solesmes), Liber Usualis (Solesmes, 1952), Graduale Simplex (Solesmes), Graduale Romanum Organ Accompaniments (I-IV, Solesmes), Graduale Novum (I-II)}
+  }}
+}
+}
+\subtree{
+  \title{Hymnals}
+\ul{\li{The Book of Common Praise with Australian Supplement (Full Music Edition).}
+\li{The St. Gregory Hymnal and Catholic Choir Book.}
+\li{The New English Hymnal (Full Music Edition)}
+\li{New English Praise (Full Music Edition)}
+\li{Ancient and Modern (Full Music Edition)}
+\li{The Australian Hymn Book}
+\li{Together in Song (Harmony Edition)}
+\li{가톨릭 성가}
+\li{The Oxford Book of Carols}}
+}

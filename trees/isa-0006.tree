@@ -1,0 +1,20 @@
+\date{2025-11-25T20:14:40Z}
+\author{liamoc}
+\title{Implication}
+\taxon{Definition}
+\parent{isa-0002}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+
+##{
+  \dfrac{\begin{array}{c}A\\ \vdots \\ B \end{array}}{A \rightarrow B}\text{\small impI} \quad
+  \dfrac{A \rightarrow B \quad A}{B}\text{\small mp}
+}
+
+
+\shiki{axiomatization
+  implies :: "bool ⇒ bool ⇒ bool" (infixr "⟶" 25)
+where
+  impI : "(A ⟹ B) ⟹ (A ⟶ B)" and
+  mp : "⟦ A ⟶ B ; A ⟧ ⟹ B" 
+}

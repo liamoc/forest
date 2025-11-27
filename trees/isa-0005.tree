@@ -1,0 +1,19 @@
+\date{2025-11-25T20:14:40Z}
+\author{liamoc}
+\title{Conjunction}
+\taxon{Definition}
+\parent{isa-0002}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+
+##{\dfrac{A\quad B}{A \land B}\text{\small conjI}\quad
+\dfrac{A\land B}{A}\text{\small conjunct1}\quad
+\dfrac{A\land B}{B}\text{\small conjunct2} }
+
+\shiki{axiomatization
+  conj :: "bool ⇒ bool ⇒ bool" (infixr "∧" 35)
+where
+  conjI  : "⟦ A ; B ⟧ ⟹ (A ∧ B)" and
+  conjunct1 : "A ∧ B ⟹ A" and
+  conjunct2 : "A ∧ B ⟹ B"  
+}

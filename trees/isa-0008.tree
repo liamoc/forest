@@ -1,0 +1,20 @@
+\date{2025-11-25T20:14:40Z}
+\author{liamoc}
+\title{Negation}
+\taxon{Definition}
+\parent{isa-0002}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+
+##{
+  \dfrac{\begin{array}{c} A \\ \vdots \\ \textsf{False}\end{array}}{\neg A}\text{\small notI} \quad
+  \dfrac{\neg A\quad A}{R}\text{\small notE}
+}
+
+
+\shiki{axiomatization
+  not :: "bool ⇒ bool" ("¬ _" [40] 40)
+where
+  notI : "(A ⟹ False) ⟹ ¬ A" and
+  notE : "⟦ ¬ A ; A ⟧ ⟹ R"
+}
