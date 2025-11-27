@@ -1,0 +1,15 @@
+\date{2025-11-27T05:02:46Z}
+\taxon{Theorem}
+\title{Universal Quantifier Elimination}
+\author{liamoc}
+\import{shiki-macros}
+\parent{isa-0002}
+\import{dt-macros}
+\put\shiki/language{Isabelle Theory}
+
+\shiki{lemma allE : ‹⟦ ∀a. P a; P x ⟹ R ⟧ ⟹ R›}
+
+\solnblock{\shiki{apply (drule_tac x = x in spec)
+  apply assumption
+  done}}
+

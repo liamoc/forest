@@ -1,0 +1,16 @@
+\date{2025-11-27T04:46:18Z}
+\taxon{Example}
+\author{liamoc}
+\import{shiki-macros}
+\parent{isa-0002}
+\import{dt-macros}
+\put\shiki/language{Isabelle Theory}
+
+\shiki{lemma ‹∀x. ¬ P x ⟹ ¬ (∃x. P x)›}
+
+\solnblock{\shiki{apply (rule notI)
+apply (erule exE)
+apply (erule_tac x = a in allE)
+apply (erule notE)
+apply assumption
+done}}

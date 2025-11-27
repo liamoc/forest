@@ -1,0 +1,28 @@
+\date{2025-11-27T04:46:18Z}
+\taxon{Exercise}
+\author{liamoc}
+\import{shiki-macros}
+\parent{isa-0002}
+\import{dt-macros}
+\put\shiki/language{Isabelle Theory}
+
+\shiki{lemma ‹⟦∀ x. ¬ R x ⟶ R (M x); ∃ x. R x ⟧ ⟹ ∃ x. R x ∧ R (M (M x))›}
+
+\solnblock{\shiki{apply (erule exE)
+apply (frule_tac x = a in allE, assumption)
+apply (drule_tac x = a in spec)
+apply (frule_tac x = "M a" in spec)
+apply (drule_tac x = "M (M a)" in spec)
+apply (drule imp_as_disj)+
+apply (elim disjE) 
+       apply (rule_tac x = a in exI; intro conjI; assumption)
+      apply (rule_tac x = "M a" in exI; intro conjI; assumption)
+     apply (rule_tac x = a in exI; intro conjI; assumption)
+    apply (rule_tac x = a in exI; intro conjI; assumption)
+   apply (rule_tac x = a in exI; intro conjI; assumption)
+  apply (rule_tac x = "M a" in exI; intro conjI; assumption)
+ apply (rule_tac x = a in exI; intro conjI; assumption)
+apply (rule_tac x = a in exI; intro conjI; assumption)
+done}}
+
+

@@ -1,0 +1,15 @@
+\date{2025-11-27T04:03:58Z}
+\taxon{Example}
+\author{liamoc}
+\import{shiki-macros}
+\parent{isa-0002}
+\import{dt-macros}
+\put\shiki/language{Isabelle Theory}
+
+\shiki{lemma ‹¬ ¬ X ⟶ X›}
+
+\solnblock{\shiki{apply (rule impI)
+apply (rule ccontr)
+apply (erule notE)
+apply assumption
+done}}

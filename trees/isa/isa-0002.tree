@@ -1,0 +1,49 @@
+\date{2025-11-25}
+\author{liamoc}
+\title{Building up HOL}
+\taxon{Lecture}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+
+\transclude{isa-0003}
+
+\shiki{theory ND
+  imports Pure
+begin
+
+typedecl bool
+judgment Trueprop :: "bool ⇒ prop"  (‹(_)› 5)
+}
+
+\transclude{isa-0005}
+\transclude{isa-000C}
+\transclude{isa-0004}
+\transclude{isa-0006}
+\transclude{isa-000D}
+\transclude{isa-0007}
+\transclude{isa-0008}
+\transclude{isa-0009}
+\transclude{isa-000A}
+\transclude{isa-000M}
+\transclude{isa-000B}
+
+\transclude{isa-000E}
+\transclude{isa-000F}
+\transclude{isa-000G}
+\transclude{isa-000H}
+\transclude{isa-000I}
+\transclude{isa-000J}
+\transclude{isa-000K}
+\transclude{isa-000L}
+\transclude{isa-000N}
+\transclude{isa-000P}
+\transclude{isa-000O}
+\transclude{isa-000Q}
+\transclude{isa-000R}
+\transclude{isa-000S}
+\transclude{isa-000T}
+\transclude{isa-000U}
+\transclude{isa-000V}
+\transclude{isa-000W}
+\transclude{isa-000X}
+\transclude{isa-000Y}

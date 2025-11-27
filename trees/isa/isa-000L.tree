@@ -1,0 +1,21 @@
+\date{2025-11-27T04:03:58Z}
+\taxon{Exercise}
+\author{liamoc}
+\import{shiki-macros}
+\parent{isa-0002}
+\import{dt-macros}
+\put\shiki/language{Isabelle Theory}
+
+\shiki{lemma ‹(A ⟶ B) ⟶ ((B ⟶ C) ⟶ A) ⟶ B›}
+
+\solnblock{\shiki{apply (intro impI)
+apply (rule ccontr)
+apply (erule impE)
+apply (drule mp)
+ apply (rule impI)
+ apply (erule notE)
+apply assumption
+ apply assumption
+apply (erule notE)
+apply assumption
+done}}

@@ -1,0 +1,19 @@
+\date{2025-11-27T04:46:18Z}
+\taxon{Exercise}
+\author{liamoc}
+\import{shiki-macros}
+\parent{isa-0002}
+\import{dt-macros}
+\put\shiki/language{Isabelle Theory}
+
+\shiki{lemma ‹ ∃ x. P x ⟶ Q x ⟹ (∀ x. P x) ⟶ (∃ x. Q x)›}
+
+\solnblock{\shiki{apply (rule impI)
+apply (elim exE)
+apply (drule_tac x = a in spec)
+apply (drule mp, assumption)
+apply (rule exI)
+apply assumption
+done}}
+
+

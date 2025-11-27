@@ -1,0 +1,12 @@
+\date{2025-11-27T03:45:51Z}
+\taxon{Definition}
+\author{liamoc}
+\import{shiki-macros}
+\parent{isa-0002}
+\import{dt-macros}
+\title{Classical Axiom}
+\put\shiki/language{Isabelle Theory}
+
+##{\dfrac{\begin{array}{c}\neg P \\ \vdots \\ P \end{array}}{P}}
+\shiki{axiomatization where
+  classical: ‹⟦ ¬ P ⟹ P ⟧ ⟹ P›}

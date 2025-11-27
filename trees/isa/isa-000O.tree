@@ -1,0 +1,14 @@
+\date{2025-11-25T20:14:40Z}
+\author{liamoc}
+\title{Existential Quantifiers}
+\taxon{Definition}
+\parent{isa-0002}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+
+\shiki{axiomatization
+  Ex :: ‹('a ⇒ bool) ⇒ bool›  (binder "∃" 10)
+where
+  exI : ‹⟦ P x ⟧ ⟹ ∃a. P a› and 
+  exE : ‹⟦ ∃ x. P x ; ⋀a. P a ⟹ R ⟧ ⟹ R›
+}

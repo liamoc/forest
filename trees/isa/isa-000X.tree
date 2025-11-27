@@ -1,0 +1,24 @@
+\date{2025-11-27T04:46:18Z}
+\taxon{Exercise}
+\author{liamoc}
+\import{shiki-macros}
+\parent{isa-0002}
+\import{dt-macros}
+\put\shiki/language{Isabelle Theory}
+
+\shiki{lemma ‹∀ x. ¬ R x ⟶ R (M x) ⟹ ∀ x. R x ∨ R (M x)›}
+
+\solnblock{\shiki{apply (intro allI)
+apply (erule_tac x = x in allE)
+apply (rule ccontr)
+apply (erule impE)
+ apply (rule notI)
+ apply (erule notE)
+ apply (rule disjI1)
+ apply assumption
+apply (erule notE)
+apply (rule disjI2)
+apply assumption
+done}}
+
+

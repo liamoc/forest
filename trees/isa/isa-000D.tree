@@ -1,0 +1,15 @@
+\date{2025-11-25T20:51:35Z}
+\taxon{Theorem}
+\author{liamoc}
+\import{shiki-macros}
+\parent{isa-0002}
+\import{dt-macros}
+\title{Implication Elimination}
+\put\shiki/language{Isabelle Theory}
+
+\shiki{lemma impE: ‹⟦ P ⟶ Q; P ; Q ⟹ R ⟧ ⟹ R›}
+
+\solnblock{\shiki{apply (drule mp)
+apply assumption
+apply assumption
+done}}

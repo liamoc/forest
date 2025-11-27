@@ -1,0 +1,16 @@
+\date{2025-11-25T20:51:35Z}
+\taxon{Theorem}
+\title{Conjunction Elimination}
+\author{liamoc}
+\import{shiki-macros}
+\parent{isa-0002}
+\import{dt-macros}
+\put\shiki/language{Isabelle Theory}
+
+\shiki{lemma conjE : ‹⟦ A ∧ B ; ⟦ A ; B ⟧ ⟹ C ⟧ ⟹ C›}
+
+\solnblock{\shiki{apply (rule impI)
+apply (frule conjunct1)
+apply (drule conjunct2)
+apply (assumption)
+done}}

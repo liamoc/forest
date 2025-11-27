@@ -1,0 +1,16 @@
+\date{2025-11-27T04:46:18Z}
+\taxon{Example}
+\author{liamoc}
+\import{shiki-macros}
+\parent{isa-0002}
+\import{dt-macros}
+\put\shiki/language{Isabelle Theory}
+
+\shiki{lemma ‹∃ x y. P x y ⟹ ∃ y x. P x y›}
+
+\solnblock{\shiki{apply (elim exE)
+apply (intro exI)
+apply assumption
+done}}
+
+

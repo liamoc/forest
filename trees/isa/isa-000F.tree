@@ -1,0 +1,13 @@
+\date{2025-11-27T03:45:51Z}
+\taxon{Theorem}
+\author{liamoc}
+\import{shiki-macros}
+\parent{isa-0002}
+\import{dt-macros}
+\title{Proof by Contradiction}
+\put\shiki/language{Isabelle Theory}
+
+\shiki{lemma ccontr: "⟦ ¬ P ⟹ False ⟧ ⟹ P"}
+\solnblock{\shiki{apply (rule classical)
+apply (rule FalseE)
+by (assumption)}}

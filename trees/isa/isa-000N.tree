@@ -1,0 +1,14 @@
+\date{2025-11-25T20:14:40Z}
+\author{liamoc}
+\title{Universal Quantifiers}
+\taxon{Definition}
+\parent{isa-0002}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+
+\shiki{axiomatization
+    All :: ‹('a ⇒ bool) ⇒ bool›  (binder "∀" 10)
+  where
+    allI : ‹⟦ ⋀x. P x ⟧ ⟹ ∀ x. P x› and
+    spec : ‹∀ a. P a ⟹ P x›
+}
