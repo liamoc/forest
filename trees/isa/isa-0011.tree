@@ -1,0 +1,8 @@
+\date{2025-11-28T05:41:54Z}
+\taxon{Proof Method}
+\title{\code{erule}}
+\author{liamoc}
+\p{Given a goal #{\llbracket X; A_1 \dots A_n \rrbracket \implies G} and a theorem \code{r}#{: \llbracket X; P_1 \dots P_n \rrbracket \implies G} (typically an elimination rule where the conclusion is just a variable, easily unified with #{G}),
+\code{apply (erule r)} replaces the goal with subgoals:
+\ul{\li{#{\llbracket A_1 \dots A_n \rrbracket \implies P_1 }}\li{ #{\dots}}\li{ #{\llbracket  A_1 \dots A_n \rrbracket \implies P_n }}}
+}

@@ -16,14 +16,17 @@ judgment Trueprop :: "bool ⇒ prop"  (‹(_)› 5)
 }
 
 \transclude{isa-0005}
+\transclude{isa-000Z}
+\transclude{isa-0010}
 \transclude{isa-000C}
-\transclude{isa-0004}
 \transclude{isa-0006}
 \transclude{isa-000D}
+\transclude{isa-0011}
+\transclude{isa-0009}
 \transclude{isa-0007}
 \transclude{isa-0008}
-\transclude{isa-0009}
 \transclude{isa-000A}
+\transclude{isa-0004}
 \transclude{isa-000M}
 \transclude{isa-000B}
 

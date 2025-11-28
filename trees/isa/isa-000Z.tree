@@ -1,0 +1,14 @@
+\date{2025-11-28T05:41:54Z}
+\taxon{Proof Method}
+\title{\code{rule}}
+\author{liamoc}
+\p{Given a goal #{\llbracket A_1 \dots A_n \rrbracket \implies G} and a theorem \code{r}#{: \llbracket P_1 \dots P_n \rrbracket \implies G} (commonly an introduction rule),
+\code{apply (rule r)} replaces the goal with subgoals:
+\ul{\li{#{\llbracket A_1 \dots A_n \rrbracket \implies P_1 }}\li{ #{\dots}}\li{ #{\llbracket A_1 \dots A_n \rrbracket \implies P_n }}}
+}
+\scope{
+\put\transclude/toc{false}
+\subtree{
+  \taxon{Aside}
+  \p{Technically, the conclusion of the rule and the goal do not have to be exactly equal, but they must be \em{unifiable} – that is, there must be some substitution to schematic variables that makes the conclusion of the rule and the goal equal.}
+}}
