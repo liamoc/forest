@@ -1,0 +1,12 @@
+\date{2025-11-30T11:47:22Z}
+\author{liamoc}
+\title{Installing Isabelle/HOL on Windows}
+\ol{
+\li{Go to the [official Isabelle downloads page](https://isabelle.in.tum.de/download.html)}
+\li{Download the Windows installer (a \code{.exe} file).}
+\li{Run the downloaded file.}
+\li{Choose where you want Isabelle to be installed (the default is fine).}
+\li{After installation, open the folder where Isabelle was placed (e.g. \code{C:/Isabelle2024}).}
+\li{Inside the bin subfolder, double-click
+\code{isabelle_jedit.exe}. This launches the Isabelle/jEdit IDE.}
+}

@@ -1,0 +1,26 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{1st Sunday of Advent 2025}
+\tag{cmc}
+\date{2025-11-30}
+\author{liamoc}
+\quote{
+  Ad te levávi ánimam méam: Déus méus in te oncido, non erubéscam: neque irrídeant me inimíci mei: étenim univérsi qui te expéctant, non confundéntur.}
+\p{This Sunday at [All Saints Ainslie](https://allsaintsainslie.org.au) we were almost pre-warmed up from our rehearsal yesterday (for next week's Carol service). We sang Waters' lovely short anthem [I sing of a maiden that is mateless](https://www.youtube.com/watch?v=s6uU6lk4kd4):}
+\quote{
+    \poem{
+      \line{I syng of a mayden þat is makeles,}
+      \line{kyng of alle kynges to here sone che ches.}
+      \line{He came also stylle þer his moder was}
+      \line{as dew in aprylle, þat fallyt on þe gras.}
+      \line{\br}
+      \line{Moder & mayden, was neuer non but che –}
+      \line{wel may swych a lady, Godes moder be.}
+    }
+}
+\p{I am starting to organise a group of monthy Evensong singers for next year. If you want to contriubte your voice, please get in touch with me!
+}
+\p{Also, as I recently got a collection of Tallis anthems to add to my [score collection](loc-002D), I sang through a verse of \em{Why fum'th in sight}, the anthem that would, long after its writing, be rediscovered by Ralph Vaughan Williams and inspire his beautiful Fantasia for string orchestra.}
+\<html:iframe>[style]{aspect-ratio: 16 / 9;}[width]{100\percent}[src]{https://www.youtube.com/embed/F4LHpA5PWKg}[title]{Why Fum'th in Sight}[frameborder]{0}[allow]{accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share}[referrerpolicy]{strict-origin-when-cross-origin}{}

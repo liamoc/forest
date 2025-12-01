@@ -1,4 +1,5 @@
-\title{Introduction to Interactive Theorem Proving}
+\title{Introduction to Interactive Theorem Proving (Draft)}
 \author{liamoc}
 \taxon{Lecture Notes}
-\p{These notes are the basis of my short course at the [ANU Logic Summer School]() 2025.}
+\p{These notes are the basis of my short course at the [ANU Logic Summer School]() 2025. \strong{THEY ARE NOT YET COMPLETE.}}
+\transclude{isa-0002}

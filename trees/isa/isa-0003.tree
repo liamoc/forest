@@ -4,3 +4,4 @@
 \<html:img>[width]{250px}[class]{portrait}[style]{border:0px}[src]{\route-asset{assets/isabelle_hol.svg}}{}
 \p{These lectures introduce theorem proving using the proof assistant [Isabelle](https://isabelle.in.tum.de/). Isabelle supports many logics, but by far the most popular is \strong{H}igher \strong{O}rder \strong{L}ogic, the focus of these notes. Isabelle comes pre-packaged with its HOL libraries, as well as a proof editor (based on jEdit) and various other tools. }
 \p{The proof developments shown in these notes are all developed with Isabelle 2024, but Isabelle 2025 (the latest version at time of writing) is largely backwards compatible with it. I have not upgraded due to some proof automation regressions in Isabelle 2025 that do not affect the content of these notes.}
+\transclude{isa-0013}

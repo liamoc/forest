@@ -1,0 +1,10 @@
+\date{2025-11-30T11:47:25Z}
+\author{liamoc}
+\title{Installing Isabelle/HOL on Linux}
+\ul{
+  \li{Go to [the Isabelle download page](https://isabelle.in.tum.de/download.html).}
+  \li{
+    Download the Linux tar.gz bundle.}
+  \li{Extract it with: \code{tar -xzf Isabelle2024_linux.tar.gz}}
+    \li{Open the extracted folder.}
+    \li{Start the Isabelle/jEdit IDE with: \code{./bin/isabelle jedit}}}

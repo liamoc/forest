@@ -1,0 +1,11 @@
+\date{2025-11-30T11:47:25Z}
+\author{liamoc}
+\title{Installing Isabelle/HOL on macOS}
+\ul{
+  \li{Go to [the Isabelle download page](https://isabelle.in.tum.de/download.html).}
+  \li{
+    Download the macOS DMG file.}
+  \li{Open the DMG.}
+    \li{Drag the Isabelle application into your Applications folder.}
+    \li{Open Applications → Isabelle to start the Isabelle/jEdit IDE.}}
+\em{(If macOS warns that the app is from an unidentified developer, go to System Settings → Privacy & Security and approve it.)}
