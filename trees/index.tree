@@ -8,7 +8,7 @@
 \put\transclude/heading{true}
 \transclude{loc-000E}
 \subtree{\title{Lecture notes}
-\p{[[dt-001Y]]}
+\ul{\li{[[dt-001Y]]} \li{[[isa-0001]]}}
 }
 \transclude{news}
 }

@@ -32,3 +32,40 @@ thm ssubst}
 \transclude{isa-001J}
 \transclude{isa-001L}
 \transclude{isa-001M}
+\ul{
+  \li{natural numbers}
+  \li{Fun command}
+  \li{rpt}
+  \li{induct method (structural)}
+  \li{rpt twice theorem}
+  \li{twos type}  
+  \li{prepend}
+  \li{prepend prepend theorem}
+  \li{semicolon operator}
+  \li{append}  
+  \li{append prepend theorem}
+  \li{append assoc}
+  \li{lists (replicate function)}
+  \li{decompress}
+  \li{compress}
+  \li{decompress compress thm}
+  \li{compress app}
+  \li{compress replicate}
+  \li{inductive predicates}
+  \li{rule induction}
+  \li{wellformedness}
+  \li{compress decompress thm}
+  \li{arbitrary}
+  \li{chaining}
+  \li{repeating}
+  \li{subsequence example}
+  \li{subsequence theorems}
+  \li{safe vs unsafe rules}
+  \li{intro, elim, clarify, blast, (fast,slow,best)}}
+  \li{automation: clarsimp, auto, fastforce (slowsimp, bestsimp), force}
+  \li{sledgehammer, try, find_theorems}
+  \li{clarify, clarsimp}
+  \li{structured proofs}
+  \li{calculational proofs}
+  \li{examples examples examples}
+}
