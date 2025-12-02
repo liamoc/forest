@@ -6,16 +6,12 @@
 \put\shiki/language{Isabelle Theory}
 
 \transclude{isa-0003}
-
-\shiki{theory ND
-  imports Pure
-begin
-
-typedecl bool
-judgment Trueprop :: "bool ⇒ prop"  (‹(_)› 5)
-}
-
+\transclude{isa-0016}
+\transclude{isa-0017}
+\transclude{isa-0018}
 \transclude{isa-0005}
+\transclude{isa-0019}
+\transclude{isa-001C}
 \transclude{isa-000Z}
 \transclude{isa-0010}
 \transclude{isa-000C}
@@ -38,7 +34,9 @@ judgment Trueprop :: "bool ⇒ prop"  (‹(_)› 5)
 \transclude{isa-000J}
 \transclude{isa-000K}
 \transclude{isa-000L}
+
 \transclude{isa-000N}
+\transclude{isa-001A}
 \transclude{isa-000P}
 \transclude{isa-000O}
 \transclude{isa-000Q}

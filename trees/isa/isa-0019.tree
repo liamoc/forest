@@ -1,0 +1,17 @@
+\date{2025-12-02T05:15:07Z}
+\author{liamoc}
+\import{dt-macros}
+\title{Isabelle \code{axiomatization}s}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\p{Isabelle's basic mechanism to define new things is the \code{axiomatization} command.}
+\shiki{axiomatization 
+  (* constants *) 
+where 
+  (* axioms *)}
+\p{This defines the constants (with their types) in the \code{constants} section, and assumes the formulae stated in the \code{axioms} section. }
+\problemblock{
+  \p{
+  Isabelle does nothing to stop you from assuming false theorems as axioms in \code{axiomatization} commands, which can easily render the logic unsound. We shall later see safer ways to define new constants, which should be preferred over \code{axiomatization} in most cases.
+}
+}

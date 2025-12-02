@@ -1,0 +1,27 @@
+\date{2025-12-02T13:27:09Z}
+\author{liamoc}
+\import{shiki-macros}
+\import{dt-macros}
+\parent{isa-001B}
+\taxon{Example}
+\put\shiki/language{Isabelle Theory}
+\shiki{lemma ‹f (f (f (b::two))) = f b›}
+\solnblock{
+\shiki{apply (case_tac b)
+ apply simp
+ apply (case_tac "(f ONE)")
+  apply simp
+ apply simp
+ apply (case_tac "(f TWO)")
+  apply simp
+ apply simp
+apply (case_tac "(f ONE)")
+ apply simp
+ apply (case_tac "(f TWO)")
+  apply simp
+ apply simp
+apply simp
+apply (case_tac "(f TWO)")
+ apply simp
+apply simp
+done}}

@@ -1,0 +1,28 @@
+\date{2025-12-02T12:02:58Z}
+\author{liamoc}
+\taxon{Proof Method}
+\import{dt-macros}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\title{\code{simp}}
+\p{The Isabelle simplifier, or \code{simp}, is one of the most powerful proof automation features in Isabelle, but it is a very simple idea. Given a set of equations, \code{apply (simp)} will (almost) blindly rewrite the goal by all of those equations (as well as any equations that are local assumptions in the goal) left-to-right. Given a sufficiently expressive set of equations, this allows the simplifier to solve many goals (including all of the theorems in \ref{isa-001E}) on its own.}
+\p{The default set of equations that \code{simp} uses is called the \em{simpset}. We can add theorems to the \em{simpset} by attaching the \code{[simp]} attribute to them.   }
+\transclude{isa-001I}
+\p{We can also adjust the simpset locally when we invoke the \code{simp} method:}
+
+\shiki{lemma nand_xt[simp]: ‹nand A True = (¬ A)›
+by (simp add: nand_def)}
+
+\problemblock{
+  \p{
+  Isabelle does nothing to guarantee that \code{simp} will terminate, nor that it will be \em{confluent} (i.e. the results can depend on the order in which rewrites are applied). In particular, problems with non-termination can arise if there is a cycle in the equations used for rewriting. In such cases, it can be useful to remove certain lemmas from the simpset locally:}
+  \shiki{apply (simp del: nand_t)}
+  \p{Or explicitly list all the theorems to use:}
+  \shiki{apply (simp only: nant_t nand_f)}
+  \p{Or disable the simplification and use of local assumptions:}
+  \shiki{apply (simp (no_asm))}
+  \p{Or disable the simplification of (but still use) local assumptions:}
+  \shiki{apply (simp (no_asm_simp))}
+  \p{Or disable the use of (but still simplify) local assumptions:}
+  \shiki{apply (simp (no_asm_use))}
+}

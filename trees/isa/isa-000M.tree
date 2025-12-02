@@ -6,7 +6,7 @@
 \import{dt-macros}
 \put\shiki/language{Isabelle Theory}
 
-\shiki{lemma imp_as_disj: "¬ A ⟶ B ⟹ A ∨ B" }
+\shiki{lemma disjCI: "¬ A ⟶ B ⟹ A ∨ B" }
 
 \solnblock{\shiki{apply (rule ccontr)
 apply (erule impE)

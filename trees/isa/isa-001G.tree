@@ -1,0 +1,14 @@
+\date{2025-12-02T10:30:45Z}
+\author{liamoc}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\title{Isabelle \code{definition}s}
+\p{The Isabelle \code{definition} command is a safer way to define constants than [the \code{axiomatization}](isa-0019) command. The syntax is similiar:  }
+\shiki{definition 
+  my_const :: "type"
+where 
+  (* equation *)}
+\p{However, there are several differences:}
+\ul{\li{Only one constant (\code{my_const} above) can be defined.}
+\li{Only one axiom can be defined, and it must be an equation of the format \code{my_const ... = ...}, describing the meaning of \code{my_const} in terms of other, already-defined constants.}}
+\p{If no name is given to the defining equation, the default name produced by appending \code{_def} to the name of the constant is used (e.g. \code{my_const_def})}

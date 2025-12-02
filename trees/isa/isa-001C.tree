@@ -1,0 +1,14 @@
+\date{2025-12-02T08:59:51Z}
+\title{Isabelle Terms}
+\author{liamoc}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\p{Terms in Isabelle are essentially terms of the (polymorphic) \em{typed lambda calculus}. When we declare a constant like: }
+\shiki{conj :: "bool ⇒ bool ⇒ bool" (infixr "∧" 35)}
+\p{We are introducing a new constant called \code{conj} that has type \code{bool ⇒ bool ⇒ bool} — that is, a function that takes two values of type \code{bool} and produces another \code{bool}. The \code{infixr} annotation on the right hand side lets us use familiar notation \code{A ∧ B} instead of writing \code{conj A B}, but the meaning of \code{A ∧ B} is identical to \code{conj A B}.}
+\subtree{
+  \taxon{Aside}
+  \title{Currying}
+  \p{Functions of multiple parameters in Isabelle are typically \em{curried}, meaning that a function of type \code{bool ⇒ bool ⇒ bool} is actually a function of type \code{bool ⇒ (bool ⇒ bool)} — a function that, given a \code{bool} value, produces a \em{function} of type \code{bool ⇒ bool}. }
+}
+

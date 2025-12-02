@@ -1,0 +1,10 @@
+\date{2025-12-02T12:59:55Z}
+\title{The \code{datatype} command}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\p{The \code{datatype} defines a new type (like \code{typedecl}) but also defines some special constants, called \em{constructors}, which make values of that type. Constructors may optionally take arguments, and these data types may be recursive. }
+\shiki{datatype type_name = Constructor1 "arg_type1" "arg_type2" (* ... *)
+                   | Constructor2 (* ... *)
+                   (* ... *)
+}
+\p{These datatypes are analogous to the algebraic data types found in many functional programming languages.}

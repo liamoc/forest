@@ -1,0 +1,18 @@
+\date{2025-12-02T05:07:23Z}
+\author{liamoc}
+\parent{isa-0002}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\title{HHFs and Isabelle/Pure}
+\p{Isabelle's logical framework consists of \em{terms} (#{t}), \em{types} (#{\tau}) and \em{formulae} (#{\varphi}). Each term #{t} must have a type #{\tau}, written #{t :: \tau}.  }
+\p{In the below code, we define a new type called \code{bool}, and we declare that terms of type \code{bool} can be used as judgments in our formulae. The details of the \code{judgment} command are not important for now.}
+\shiki{typedecl bool
+judgment Trueprop :: "bool ⇒ prop"  (‹(_)› 5)
+}
+\p{Formulae in Isabelle are \em{hereditary Harrop formulae}, defined as:}
+##{\begin{array}{lclll}
+\varphi & ::=  & \bigwedge x.\ \varphi  & & \textit{(meta-forall)} \\
+        & \mid & \varphi \implies \varphi & & \textit{(meta-implication)}\\
+        & \mid & t & \text{where}\ t\ \text{:: \texttt{bool}} & \textit{(judgments)}
+\end{array}}
+\p{In Isabelle's syntax, formulae, terms, and types are typically surrounded by quote marks \code{""} or cartouches \code{‹›} — the two are equivalent.}

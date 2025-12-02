@@ -1,0 +1,34 @@
+\date{2025-12-02T05:59:44Z}
+\author{liamoc}
+\taxon{Lecture}
+\title{Definitions, Datatypes, Induction, Functions}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+
+\shiki{theory Definitions
+  imports Main
+begin
+}
+\p{Unlike in \ref{isa-0002}, we import \code{Main} here rather than \code{Pure}. Almost all theories developed in Isabelle/HOL import \code{Main}, which contains all of the axioms and connectives introduced in \ref{isa-0002}, as well as a host of other theories, including:}
+\ul{
+  \li{Axioms for defining \em{equality}. Try the following: \shiki{thm refl
+thm sym
+thm trans
+thm iffI
+thm ssubst}
+}
+\li{A theory of [sets](https://isabelle.in.tum.de/library/HOL/HOL/Set.html).}
+\li{A theory of [natural numbers](https://isabelle.in.tum.de/library/HOL/HOL/Nat.html)}
+\li{A theory of [lists](https://isabelle.in.tum.de/library/HOL/HOL/List.html)}
+\li{And much more!}
+}
+
+\transclude{isa-001G}
+\transclude{isa-001D}
+\transclude{isa-001F}
+\transclude{isa-001E}
+\transclude{isa-001H}
+\transclude{isa-001K}
+\transclude{isa-001J}
+\transclude{isa-001L}
+\transclude{isa-001M}

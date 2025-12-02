@@ -1,0 +1,12 @@
+\date{2025-12-02T05:04:28Z}
+\author{liamoc}
+\parent{isa-0002}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\title{Definining Theories}
+\p{An Isabelle file is called a \em{theory}, and they consist of mathematical definitions (of types and terms), lemmas and proofs. Isabelle theories start with a theory name and a declaration of all the theories on which it depends. The theory name must match the file name, so the code from this lecture should be saved into a file called \code{HOLFromScratch.thy}. }
+\shiki{theory HOLFromScratch
+  imports Pure
+begin
+}
+\p{We imported the theory \code{Pure}, which contains only the very basic built-in structures that define Isabelle's logic.  }

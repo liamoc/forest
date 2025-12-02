@@ -1,0 +1,8 @@
+\date{2025-12-02T13:17:21Z}
+\taxon{Proof Method}
+\title{\code{case_tac}}
+\author{liamoc}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\p{The \code{case_tac} method splits the current goal into multiple cases. Given a term \code{t} of type #{\tau}, \code{apply (case_tac t)} will produce a new goal for each possible case of \code{t} according to the \code{.cases} theorem for the type #{\tau}.}
+\p{This works for all types defined with \code{datatype}, as well as for natural numbers (type \code{nat}) and \code{bool}s — often an easier way to do classical reasoning than using \code{rule ccontr}. }

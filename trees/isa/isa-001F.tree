@@ -1,0 +1,6 @@
+\author{liamoc}
+\taxon{Proof Method}
+\title{\code{unfold}}
+\date{2025-12-02}
+\p{Given a theorem \code{r}#{: A = B} (typically a defining equation given by  [the \code{definition} command](isa-001G)), \code{apply (unfold r)} replaces every occurrence of #{A} in the current goal with #{B}.}
+\p{If the theorem \code{r} has premises, then all of those premises must be directly satisfied by assumptions in the current goal for \code{unfold} to succeed.}

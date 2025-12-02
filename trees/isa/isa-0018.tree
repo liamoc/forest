@@ -1,0 +1,16 @@
+\date{2025-12-02T05:08:28Z}
+\taxon{Example}
+\author{liamoc}
+\title{Isabelle's Syntax for HHFs}
+\p{Consider the following rule: ##{\dfrac{A \quad B}{A \land B}{\text{\small conjI}}}
+This is encoded as an Isabelle formula as follows:
+##{\bigwedge A. \left(\bigwedge B. (A \implies (B \implies (A \land B)))\right) }
+}
+\p{Because #{\implies} is right-associative, we can remove some parentheses:}
+##{\bigwedge A. \left(\bigwedge B. (A \implies B \implies A \land B)\right) }
+\p{We can also combine the meta-quantifiers:}
+##{\bigwedge A\ B.\;\; A \implies B \implies A \land B }
+\p{Isabelle includes special syntax #{\llbracket A_0; A_1, \dots, A_n \rrbracket \implies C} which is equivalent to #{A_0 \implies A_1 \implies \dots \implies A_n \implies C}.}
+##{\bigwedge A\ B.\;\; \llbracket A; B\rrbracket \implies A \land B }
+\p{Isabelle will also automatically add quantifiers to unknown variables, so we can drop the meta-quantifiers from the outermost part of the formula:}
+##{\llbracket A; B\rrbracket \implies A \land B }

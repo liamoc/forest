@@ -7,8 +7,8 @@
 \put\shiki/language{Isabelle Theory}
 
 \shiki{axiomatization
-    All :: ‹('a ⇒ bool) ⇒ bool›  (binder "∀" 10)
-  where
-    allI : ‹⟦ ⋀x. P x ⟧ ⟹ ∀ x. P x› and
-    spec : ‹∀ a. P a ⟹ P x›
+  All :: ‹('a ⇒ bool) ⇒ bool›  (binder "∀" 10)
+where
+  allI : ‹⟦ ⋀x. P x ⟧ ⟹ ∀ x. P x› and
+  spec : ‹∀ a. P a ⟹ P x›
 }

@@ -1,0 +1,9 @@
+\date{2025-11-28T05:41:54Z}
+\taxon{Proof Method}
+\title{\code{rule_tac}, \code{erule_tac}, \code{drule_tac}, \code{frule_tac}}
+\author{liamoc}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\p{The typical \code{rule}, \code{erule}, \code{drule}, \code{frule} methods rely entirely on unification to determine how to instantiate the variables in the provided rule. Sometimes, it is useful to state explicitly how to instantiate some variables in the rule, particularly when dealing with quantifiers, or when there are multiple possible candidates.}
+\shiki{apply (rule_tac x = "term" in exI)}
+
