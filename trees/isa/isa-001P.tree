@@ -1,0 +1,8 @@
+\date{2025-12-03T03:46:57Z}
+\author{liamoc}
+\taxon{Proof Method}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\title{\code{induct} (for structural induction)}
+\p{While it is possible to use \code{rule} or \code{erule} with the generated \code{.induct} theorem from a [\code{datatype}](isa-001K), it is usually much simpler and more convenient to use the \code{induct} proof method. Similar to the [[isa-001L]] method, \code{apply (induct t)} splits the goal into various cases, one for each constructor of the type of \code{t}. The difference is that for recursive cases of the datatype, we also get an \em{inductive hypothesis} added to our assumptions.}
+\transclude{isa-001Q}

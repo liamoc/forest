@@ -1,0 +1,11 @@
+\date{2025-12-03T05:09:52Z}
+\author{liamoc}
+\taxon{Theorem}
+\import{shiki-macros}
+\import{dt-macros}
+\put\shiki/language{Isabelle Theory}
+\parent{isa-001B}
+\title{\code{cat_assoc}}
+\shiki{lemma cat_assoc: ‹cat x (cat y z) = cat (cat x y) z›}
+\solnblock{\shiki{by (induct x;simp add: cat_prepend)}}
+

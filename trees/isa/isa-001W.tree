@@ -1,0 +1,21 @@
+\date{2025-12-03T04:45:13Z}
+\taxon{Theorem}
+\import{dt-macros}
+\import{shiki-macros}
+\author{liamoc}
+\title{\code{prepend_prepend}}
+\parent{isa-001B}
+\put\shiki/language{Isabelle Theory}
+\shiki{lemma prepend_prepend: ‹prepend s n (prepend s m r) = prepend s (n + m) r›}
+\solnblock{
+\shiki{apply (case_tac s)
+ apply simp
+ apply (case_tac r)
+   apply simp
+  apply simp
+ apply simp
+ apply (case_tac r)
+  apply simp
+ apply simp
+apply simp
+done}}

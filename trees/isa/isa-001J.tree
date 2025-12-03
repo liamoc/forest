@@ -3,8 +3,8 @@
 \parent{isa-001B}
 \import{shiki-macros}
 \put\shiki/language{Isabelle Theory}
-\title{The \code{two} type}
-\shiki{datatype two = ONE | TWO
+\title{The \code{oot} type}
+\shiki{datatype oot = ONE | TWO
 print_theorems
 }
-\p{This defines a type called \code{two} with two values, \code{ONE : two} and \code{TWO : two}. The \code{print_theorems} command here allows us to see all of the theorems automatically created by the \code{datatype} command, chiefly that the constants \code{ONE} and \code{TWO} are \em{disjoint} (i.e. \code{ONE ≠ TWO}) and \em{exhaustive} (i.e. that there are no other values of type \code{two} apart from \code{ONE} and \code{TWO}) }
+\p{This defines a type called \code{oot} with two values, \code{ONE : oot} and \code{TWO : oot}. The \code{print_theorems} command here allows us to see all of the theorems automatically created by the \code{datatype} command, chiefly that the constants \code{ONE} and \code{TWO} are \em{disjoint} (i.e. \code{ONE ≠ TWO}) and \em{exhaustive} (i.e. that there are no other values of type \code{oot} apart from \code{ONE} and \code{TWO}) }

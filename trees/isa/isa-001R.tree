@@ -1,0 +1,10 @@
+\date{2025-12-03T03:55:43Z}
+\taxon{Example}
+\title{Factorial as a \code{primrec}}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\author{liamoc}
+\shiki{primrec factorial :: "nat ⇒ nat" where
+  "factorial 0 = Suc 0"
+| "factorial (Suc n) = Suc n * factorial n"
+print_theorems}

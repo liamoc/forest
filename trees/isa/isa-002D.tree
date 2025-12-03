@@ -1,0 +1,14 @@
+\date{2025-12-03T06:34:53Z}
+\taxon{Theorem}
+\import{shiki-macros}
+\import{dt-macros}
+\put\shiki/language{Isabelle Theory}
+\author{liamoc}
+\parent{isa-001B}
+\title{Reflexivity of \code{subsequence}}
+\shiki{lemma ss_refl: ‹subsequence ls ls›}
+\solnblock{\shiki{apply (induct ls)
+ apply (rule ss_empty)
+apply (rule ss_keep)
+apply assumption
+done}}

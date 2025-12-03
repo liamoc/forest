@@ -1,0 +1,15 @@
+\date{2025-12-03T05:16:30Z}
+\author{liamoc}
+\title{Lists in Isabelle}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\p{The Isabelle/HOL [theory of Lists](https://isabelle.in.tum.de/library/HOL/HOL/List.html) defines lists as follows:}
+\shiki{datatype 'a list = Nil | Cons "'a" "'a list" }
+\p{This is an example of a \em{polymorphic} data type, where the type variable \code{'a} stands for a type. For example, the type \code{nat list} is the type of lists of \code{nat}, and \code{oot list} is the type of a list of [\code{oot}s](isa-001J). }
+\p{The notation \code{x#xs} is syntax sugar for \code{Cons x xs} and \code{[]} is syntax sugar for \code{Nil}. Lists can also be written in square brackets, so:}
+\shiki{[1,2,3]}
+\p{is equivalent to:}
+\shiki{1 # 2 # 3 # []}
+\p{which is equivalent to:}
+\shiki{Cons 1 (Cons 2 (Cons 3 Nil))}
+\p{Some provided functions are useful, including \code{replicate :: nat ⇒ 'a ⇒ 'a list}, which produces a list of #{n} copies of the given value, and \code{append :: 'a list ⇒ 'a list ⇒ 'a list} which joins two lists together into one. The \code{append} function also has special notation, so \code{a @ b} is equivalent to \code{append a b}}

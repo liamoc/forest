@@ -1,0 +1,42 @@
+\date{2025-12-03T06:48:59Z}
+\taxon{Theorem}
+\import{shiki-macros}
+\import{dt-macros}
+\put\shiki/language{Isabelle Theory}
+\author{liamoc}
+\parent{isa-001B}
+\title{Transitivity of \code{subsequence}}
+\shiki{lemma ss_trans: ‹subsequence ys zs ⟹ subsequence xs ys ⟹ subsequence xs zs›}
+\solnblock{\shiki{apply (induct ys zs arbitrary: xs rule: subsequence.induct)
+  apply simp
+ apply (erule subsequence.cases)
+   apply simp
+  apply clarsimp
+
+  apply (erule subsequence.cases)
+    apply simp
+   apply clarsimp
+   apply (rule ss_keep)
+   apply simp
+  apply simp
+  apply clarsimp
+  apply (rule ss_drop)
+  apply simp
+ apply simp
+ apply clarsimp
+
+ apply (erule subsequence.cases)
+   apply clarsimp
+  apply clarsimp
+  apply (rule ss_keep)
+  apply clarsimp
+ apply clarsimp
+ apply (rule ss_drop)
+ apply clarsimp
+apply (rule ss_drop)
+apply simp
+done}}
+
+
+
+

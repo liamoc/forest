@@ -1,0 +1,14 @@
+\date{2025-12-03T04:41:52Z}
+\author{liamoc}
+\taxon{Definition}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\parent{isa-001B}
+\title{The \code{prepend} function}
+\shiki{fun prepend :: ‹oot ⇒ nat ⇒ oots ⇒ oots› where
+  ‹prepend ONE n Empty = ONEs n Empty›
+| ‹prepend TWO n Empty = TWOs n Empty›
+| ‹prepend ONE n (TWOs m r) = ONEs n (TWOs m r)›
+| ‹prepend TWO n (ONEs m r) = TWOs n (ONEs m r)›
+| ‹prepend ONE n (ONEs m r) = ONEs (n+m) r›
+| ‹prepend TWO n (TWOs m r) = TWOs (n+m) r›}

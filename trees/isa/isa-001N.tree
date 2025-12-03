@@ -1,0 +1,7 @@
+\date{2025-12-03T02:35:03Z}
+\title{Natural numbers in Isabelle}
+\author{liamoc}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\p{Isabelle/HOL's [theory of natural numbers](https://isabelle.in.tum.de/library/HOL/HOL/Nat.html) defines natural numbers in a different way, but they behave much as if they were defined with [the \code{datatype} command](isa-001K). }
+\shiki{datatype nat = 0 | Suc "nat"}

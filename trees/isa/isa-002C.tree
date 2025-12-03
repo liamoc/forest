@@ -1,0 +1,11 @@
+\date{2025-12-03T06:30:43Z}
+\author{liamoc}
+\taxon{Definition}
+\parent{isa-001B}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\title{List subsequence relation}
+\shiki{inductive subsequence :: ‹'a list ⇒ 'a list ⇒ bool› where
+  ss_empty: ‹subsequence [] []› 
+| ss_keep: ‹subsequence xs ys ⟹ subsequence (x#xs) (x#ys)›
+| ss_drop: ‹subsequence xs ys ⟹ subsequence xs (y#ys)›}

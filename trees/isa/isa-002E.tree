@@ -1,0 +1,14 @@
+\date{2025-12-03T06:40:22Z}
+\taxon{Theorem}
+\import{shiki-macros}
+\import{dt-macros}
+\put\shiki/language{Isabelle Theory}
+\author{liamoc}
+\parent{isa-001B}
+\title{Length of \code{subsequence}}
+\shiki{lemma ss_length : ‹subsequence xs ys ⟹ length xs ≤ length ys›}
+\solnblock{\shiki{apply (induct rule: subsequence.induct)
+  apply simp
+ apply simp
+apply simp
+done}}

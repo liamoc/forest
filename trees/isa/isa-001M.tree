@@ -5,7 +5,7 @@
 \parent{isa-001B}
 \taxon{Example}
 \put\shiki/language{Isabelle Theory}
-\shiki{lemma ‹f (f (f (b::two))) = f b›}
+\shiki{lemma lm001M: ‹f (f (f (b::two))) = f b›}
 \solnblock{
 \shiki{apply (case_tac b)
  apply simp

@@ -1,0 +1,19 @@
+\date{2025-12-03T04:10:30Z}
+\author{liamoc}
+\taxon{Exercise}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\import{dt-macros}
+\parent{isa-001B}
+\shiki{definition twice :: ‹('a ⇒ 'a) ⇒ 'a ⇒ 'a› where
+‹twice f x  = f (f x)›}
+\shiki{lemma ‹rpt (twice f) n (f (x::two)) = f x›}
+\solnblock{
+\shiki{apply (unfold twice_def)
+apply (induct n)
+ apply simp
+apply simp
+apply (rule lm001M)
+done}
+\p{Using the lemma from \ref{isa-001M}.}
+}

@@ -1,0 +1,16 @@
+\date{2025-12-03T05:29:25Z}
+\taxon{Theorem}
+\import{shiki-macros}
+\import{dt-macros}
+\put\shiki/language{Isabelle Theory}
+\author{liamoc}
+\parent{isa-001B}
+\title{\code{compress_replicate} lemmas}
+\shiki{lemma compress_replicate_ONE: ‹n > 0 ⟹ compress (replicate n ONE) = ONEs n Empty›}
+\solnblock{\shiki{apply (induct n; simp)
+apply (case_tac "n > 0"; simp)
+done}}\p{}
+\shiki{lemma compress_replicate_TWO: ‹n > 0 ⟹ compress (replicate n TWO) = TWOs n Empty›}
+\solnblock{\shiki{apply (induct n; simp)
+apply (case_tac "n > 0"; simp)
+done}}

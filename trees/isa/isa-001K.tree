@@ -1,5 +1,6 @@
 \date{2025-12-02T12:59:55Z}
 \title{The \code{datatype} command}
+\author{liamoc}
 \import{shiki-macros}
 \put\shiki/language{Isabelle Theory}
 \p{The \code{datatype} defines a new type (like \code{typedecl}) but also defines some special constants, called \em{constructors}, which make values of that type. Constructors may optionally take arguments, and these data types may be recursive. }
@@ -8,3 +9,9 @@
                    (* ... *)
 }
 \p{These datatypes are analogous to the algebraic data types found in many functional programming languages.}
+\p{The \code{datatype} command automatically proves many lemmas about these types for you, chiefly:}
+\ul{
+\li{Disjointness: Values made with one constructor are not equal to values made with another constructor.}
+\li{Exhaustivity: The only values of this type are those made by the listed constructors.}
+\li{Injectivity: Two values of the same constructor are equal iff their arguments are equal.}
+}

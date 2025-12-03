@@ -1,0 +1,10 @@
+\date{2025-12-03T04:05:58Z}
+\taxon{Example}
+\author{liamoc}
+\title{Higher-order functions}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\shiki{primrec rpt :: ‹('a ⇒ 'a) ⇒ nat ⇒ 'a ⇒ 'a› where
+  ‹rpt f 0 x = x ›
+| ‹rpt f (Suc n) x = f (rpt f n x)›}
+\p{The above function is given \em{another function} as an input.}

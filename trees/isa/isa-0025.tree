@@ -1,0 +1,10 @@
+\date{2025-12-03T05:29:25Z}
+\taxon{Theorem}
+\import{shiki-macros}
+\import{dt-macros}
+\put\shiki/language{Isabelle Theory}
+\author{liamoc}
+\parent{isa-001B}
+\title{\code{expand_compress}}
+\shiki{lemma expand_compress: ‹expand (compress xs) = xs›}
+\solnblock{\shiki{by (induct xs;simp add: expand_prepend)}}

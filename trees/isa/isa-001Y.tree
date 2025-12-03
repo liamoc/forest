@@ -1,0 +1,13 @@
+\date{2025-12-03T04:58:18Z}
+\author{liamoc}
+\taxon{Definition}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\parent{isa-001B}
+\title{The \code{cat} function}
+\shiki{fun cat :: ‹oots ⇒ oots ⇒ oots› where
+  ‹cat (ONEs n xs) ys = prepend ONE n (cat xs ys)›
+| ‹cat (TWOs n xs) ys = prepend TWO n (cat xs ys)›
+| ‹cat Empty ys = ys›
+}
+\p{This function uses [the \code{prepend} function](isa-001V) to concatenate two \code{oots} sequences together.}

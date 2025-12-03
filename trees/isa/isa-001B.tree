@@ -32,36 +32,39 @@ thm ssubst}
 \transclude{isa-001J}
 \transclude{isa-001L}
 \transclude{isa-001M}
+\transclude{isa-001N}
+\transclude{isa-001O}
+\transclude{isa-001P}
+\transclude{isa-001S}
+\transclude{isa-001T}
+\transclude{isa-001U}
+\transclude{isa-001V}
+\transclude{isa-001W}
+\transclude{isa-001X}
+\transclude{isa-001Y}
+\transclude{isa-001Z}
+\transclude{isa-0021}
+\transclude{isa-0022}
+\transclude{isa-0024}
+\transclude{isa-0023}
+\transclude{isa-0025}
+\transclude{isa-0026}
+\transclude{isa-0027}
+\transclude{isa-0028}
+\transclude{isa-002A}
+\transclude{isa-0029}
+\transclude{isa-002B}
+\transclude{isa-002C}
+\transclude{isa-002D}
+\transclude{isa-002E}
+\transclude{isa-002F}
+\transclude{isa-002G}
+\transclude{isa-002H}
+\transclude{isa-002I}
+\transclude{isa-002J}
 \ul{
-  \li{natural numbers}
-  \li{Fun command}
-  \li{rpt}
-  \li{induct method (structural)}
-  \li{rpt twice theorem}
-  \li{twos type}  
-  \li{prepend}
-  \li{prepend prepend theorem}
-  \li{semicolon operator}
-  \li{append}  
-  \li{append prepend theorem}
-  \li{append assoc}
-  \li{lists (replicate function)}
-  \li{decompress}
-  \li{compress}
-  \li{decompress compress thm}
-  \li{compress app}
-  \li{compress replicate}
-  \li{inductive predicates}
-  \li{rule induction}
-  \li{wellformedness}
-  \li{compress decompress thm}
-  \li{arbitrary}
-  \li{chaining}
-  \li{repeating}
-  \li{subsequence example}
-  \li{subsequence theorems}
   \li{safe vs unsafe rules}
-  \li{intro, elim, clarify, blast, (fast,slow,best)}}
+  \li{intro, elim, clarify, blast, (fast,slow,best)}
   \li{automation: clarsimp, auto, fastforce (slowsimp, bestsimp), force}
   \li{sledgehammer, try, find_theorems}
   \li{clarify, clarsimp}

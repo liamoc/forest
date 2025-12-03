@@ -1,0 +1,10 @@
+\date{2025-12-03T05:29:25Z}
+\taxon{Definition}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\author{liamoc}
+\parent{isa-001B}
+\title{The \code{compress} function}
+\shiki{primrec compress :: ‹oot list ⇒ oots› where
+  ‹compress [] = Empty›
+| ‹compress (x#xs) = prepend x 1 (compress xs)›}

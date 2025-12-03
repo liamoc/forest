@@ -1,0 +1,9 @@
+\date{2025-12-03T04:52:32Z}
+\author{liamoc}
+\title{Combining methods with semicolons}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\p{Methods can be combined using the \code{;} operator:}
+\shiki{apply (m1; m2)}
+\p{This applies \code{m2} to \em{every subgoal} that results from applying \code{m1} to the current goal. It can be chained together multiple times. For example, the entire proof of \ref{isa-001W} can be much more succinctly expressed as one line:}
+\shiki{by (case_tac s; case_tac r; simp)}

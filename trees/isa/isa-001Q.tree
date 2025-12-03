@@ -1,0 +1,17 @@
+\date{2025-12-03T03:55:36Z}
+\author{liamoc}
+\taxon{Example}
+\import{shiki-macros}
+\import{dt-macros}
+\put\shiki/language{Isabelle Theory}
+\p{We can prove a theorem about our [factorial definition](isa-001R):}
+\shiki{theorem factorial_mult: "factorial n * factorial m ≤ factorial (n + m)"}
+\solnblock{
+\shiki{apply (induct n)
+ apply simp
+apply (simp only: factorial.simps add_Suc mult.assoc)
+apply (rule mult_le_mono)
+ apply simp
+apply simp
+done}
+}

@@ -1,0 +1,11 @@
+\date{2025-12-03T05:07:08Z}
+\author{liamoc}
+\taxon{Theorem}
+\import{shiki-macros}
+\import{dt-macros}
+\put\shiki/language{Isabelle Theory}
+\parent{isa-001B}
+\title{\code{cat_prepend}}
+\shiki{lemma cat_prepend: ‹cat (prepend s n x) y = prepend s n (cat x y)›}
+\solnblock{
+  \shiki{by (case_tac s; case_tac x; simp add: prepend_prepend)}}

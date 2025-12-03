@@ -1,0 +1,13 @@
+\date{2025-12-03T06:15:34Z}
+\author{liamoc}
+\taxon{Example}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\title{Wellformedness for \code{oots}}
+\p{We define \code{well}, an inductive wellformedness predicate for \code{oots} sequences, that state there are no segments of zero length, and that no two adjacent segments have the same \code{oot} value.}
+\shiki{inductive well :: ‹oots ⇒ bool› where
+  ‹well Empty›
+| ‹n > 0 ⟹ well (ONEs n Empty)›
+| ‹n > 0 ⟹ well (TWOs n Empty)›
+| ‹n > 0 ⟹ well (ONEs m r) ⟹ well (TWOs n (ONEs m r))›
+| ‹n > 0 ⟹ well (TWOs m r) ⟹ well (ONEs n (TWOs m r))›}
