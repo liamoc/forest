@@ -1,0 +1,31 @@
+\date{2025-12-03T12:50:18Z}
+\author{liamoc}
+\taxon{Lecture}
+\title{Rule Induction, Automation, Structured Proofs}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\p{This lecture continues the theory file begun in \ref{isa-001B}.}
+\transclude{isa-0028}
+\transclude{isa-002K}
+\transclude{isa-0029}
+\transclude{isa-002L}
+\transclude{isa-002A}
+\transclude{isa-002B}
+\transclude{isa-002C}
+\transclude{isa-002D}
+\transclude{isa-002E}
+\transclude{isa-002F}
+\transclude{isa-002G}
+\transclude{isa-002H}
+\transclude{isa-002I}
+\transclude{isa-002J}
+\ul{
+  \li{safe vs unsafe rules}
+  \li{intro, elim, clarify, blast, (fast,slow,best)}
+  \li{automation: clarsimp, auto, fastforce (slowsimp, bestsimp), force}
+  \li{sledgehammer, try, find_theorems}
+  \li{clarify, clarsimp}
+  \li{structured proofs}
+  \li{calculational proofs}
+  \li{examples examples examples}
+}

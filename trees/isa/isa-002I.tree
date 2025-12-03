@@ -1,4 +1,9 @@
 \date{2025-12-03T06:48:06Z}
 \author{liamoc}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
 \title{Generalising the induction hypothesis with \code{arbitrary}}
-\p{TODO}
+\p{By default, [structural induction](isa-001P) \code{induct t} produces an induction hypothesis for the variables directly mentioned in \code{t}, and [rule induction](isa-0029) \code{induct rule: p.induct} produces a hypothesis for the variables directly mentioned by the eliminated \code{p} assumption.}
+\p{Sometimes you need a stronger hypothesis that generalises across additional variables in the goal. The \code{arbitrary} option tells the \code{induct} method to generalise certain variables, so the induction hypothesis assumes the property holds for all values of those variables.}
+
+\transclude{isa-002M}

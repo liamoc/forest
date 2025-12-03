@@ -4,7 +4,7 @@
 \import{dt-macros}
 \put\shiki/language{Isabelle Theory}
 \author{liamoc}
-\parent{isa-001B}
+\parent{isa-002N}
 \title{Reflexivity of \code{subsequence}}
 \shiki{lemma ss_refl: ‹subsequence ls ls›}
 \solnblock{\shiki{apply (induct ls)

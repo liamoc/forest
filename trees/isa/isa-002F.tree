@@ -1,4 +1,17 @@
 \date{2025-12-03T06:41:41Z}
 \title{Controlling backtracking, chaining methods with comma}
 \author{liamoc}
-\p{TODO}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\p{Some methods (like [\code{erule}](isa-0011) when there are multiple matching assumptions) are \em{nondeterministic}, producing multiple alternative proof states.}
+\p{The \code{back} command interactively explores a different alternative branch produced by the previous step.}
+\shiki{lemma "C ∧ D ⟹ A ∧ B ⟹ A"
+apply (erule conjE) (* could apply to either assumption *)
+back
+apply assumption
+done}
+\p{This is useful for interactive exploration, but is \em{very brittle} and considered poor style.}
+\p{Instead, we can combine methods with the \em{comma} operator \code{,}: The command \code{apply (m1, m2)} first runs \code{m1}, and then runs \code{m2}, accepting only the nondeterministic branches where the second method \code{m2} succeeds. This avoids the need for back:}
+\shiki{lemma "C ∧ D ⟹ A ∧ B ⟹ A"
+apply (erule conjE, assumption)
+done}

@@ -4,7 +4,7 @@
 \import{dt-macros}
 \put\shiki/language{Isabelle Theory}
 \author{liamoc}
-\parent{isa-001B}
+\parent{isa-002N}
 \title{Length of \code{subsequence}}
 \shiki{lemma ss_length : ‹subsequence xs ys ⟹ length xs ≤ length ys›}
 \solnblock{\shiki{apply (induct rule: subsequence.induct)

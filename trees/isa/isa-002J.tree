@@ -4,7 +4,7 @@
 \import{dt-macros}
 \put\shiki/language{Isabelle Theory}
 \author{liamoc}
-\parent{isa-001B}
+\parent{isa-002N}
 \title{Transitivity of \code{subsequence}}
 \shiki{lemma ss_trans: ‹subsequence ys zs ⟹ subsequence xs ys ⟹ subsequence xs zs›}
 \solnblock{\shiki{apply (induct ys zs arbitrary: xs rule: subsequence.induct)

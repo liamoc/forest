@@ -1,5 +1,12 @@
 \date{2025-12-03T06:14:12Z}
 \author{liamoc}
 \taxon{Proof Method}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
 \title{\code{induct} (for rule induction)}
-\p{TODO}
+\p{You’ve already seen [how to use \code{induct}](isa-001P) for structural induction. Exactly the same \code{induct} method can also be used for rule induction, when your induction is over an \code{inductive}ly defined predicate, not over the structure of some \code{datatype}.}
+\p{When you define a predicate \code{p} with the [\code{inductive} command](isa-0028), Isabelle automatically produces an induction rule named \code{p.induct}. This rule expresses how to perform induction over derivations of \code{p x}, one case for each introduction rule of the predicate.}
+\p{Although you could apply the raw rule with \code{rule} or \code{erule}, it is almost always easier to use:}
+\shiki{apply (induct rule: p.induct)}
+\p{This behaves just like structural induction:
+The goal is split into one subgoal per introduction rule of the predicate, and recursive premises of the rules give rise to induction hypotheses, added to your assumptions.}

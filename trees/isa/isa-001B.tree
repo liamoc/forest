@@ -50,25 +50,3 @@ thm ssubst}
 \transclude{isa-0025}
 \transclude{isa-0026}
 \transclude{isa-0027}
-\transclude{isa-0028}
-\transclude{isa-002A}
-\transclude{isa-0029}
-\transclude{isa-002B}
-\transclude{isa-002C}
-\transclude{isa-002D}
-\transclude{isa-002E}
-\transclude{isa-002F}
-\transclude{isa-002G}
-\transclude{isa-002H}
-\transclude{isa-002I}
-\transclude{isa-002J}
-\ul{
-  \li{safe vs unsafe rules}
-  \li{intro, elim, clarify, blast, (fast,slow,best)}
-  \li{automation: clarsimp, auto, fastforce (slowsimp, bestsimp), force}
-  \li{sledgehammer, try, find_theorems}
-  \li{clarify, clarsimp}
-  \li{structured proofs}
-  \li{calculational proofs}
-  \li{examples examples examples}
-}

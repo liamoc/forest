@@ -1,0 +1,17 @@
+\date{2025-12-03T11:17:28Z}
+\author{liamoc}
+\taxon{Exercise}
+\import{shiki-macros}
+\import{dt-macros}
+\parent{isa-002N}
+\title{Even numbers are multiples of two}
+\put\shiki/language{Isabelle Theory}
+\shiki{lemma "even n ⟹ ∃m. (m * 2 = n)"}
+\solnblock{
+  \shiki{apply (induct rule: even.induct)
+ apply simp
+apply (erule exE)
+apply (rule_tac x = ‹Suc m› in exI)
+apply simp
+done}}
+

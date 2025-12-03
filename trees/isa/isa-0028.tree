@@ -1,4 +1,6 @@
 \date{2025-12-03T06:13:19Z}
 \author{liamoc}
 \title{\code{inductive} predicates}
-\p{TODO}
+\p{With the \code{inductive} command, we define a predicate by specifying a collection of inference rules, and the inductive predicate is the smallest predicate closed under those rules.}
+\p{In other words: An element satisfies the predicate exactly if it can be derived using the given rules.}
+\p{From the given rules, Isabelle automatically generates an induction principle (\code{.induct}) which can be used with the \code{induct} method (see \ref{isa-0029}) and a cases theorem (\code{.cases}) for use with the [[isa-001L]] method. }

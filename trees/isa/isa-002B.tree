@@ -4,7 +4,7 @@
 \import{dt-macros}
 \put\shiki/language{Isabelle Theory}
 \author{liamoc}
-\parent{isa-001B}
+\parent{isa-002N}
 \title{\code{compress_expand}}
 \shiki{lemma compress_expand:‹well s ⟹ compress (expand s) = s›}
 \solnblock{\shiki{apply (induct rule: well.induct)

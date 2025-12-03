@@ -1,0 +1,15 @@
+\date{2025-12-03T12:43:00Z}
+\author{liamoc}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\taxon{Example}
+\title{Inequality as an \code{inductive}}
+\shiki{inductive myLE :: "nat ⇒ nat ⇒ bool" where
+  base: "myLE 0 n"
+| step: "myLE m n ⟹ myLE (Suc m) (n+1)"}
+\p{Proving that this implies the normal inequality relation requires the use of [variable generalising](isa-002I):}
+\shiki{lemma "myLE m n ⟹ m ≤ n"
+apply (induct m arbitrary: n)
+ apply simp
+apply (erule myLE.cases; simp)
+done}

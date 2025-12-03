@@ -1,4 +1,8 @@
 \date{2025-12-03T06:42:16Z}
 \title{Repeating methods with \code{+}}
 \author{liamoc}
-\p{TODO}
+\import{shiki-macros}
+\put\shiki/language{Isabelle Theory}
+\p{For a method \code{m}:}
+\shiki{apply (m)+}
+\p{Repeatedly applies the \code{m} as many times as possible until it fails. It stops automatically when \code{m} can no longer make progress; and does not backtrack.}
