@@ -9,20 +9,14 @@
 \shiki{lemma ‹⟦∀ x. ¬ R x ⟶ R (M x); ∃ x. R x ⟧ ⟹ ∃ x. R x ∧ R (M (M x))›}
 
 \solnblock{\shiki{apply (erule exE)
-apply (frule_tac x = a in allE, assumption)
-apply (drule_tac x = a in spec)
+apply (rename_tac a)
+apply (frule_tac x = a in spec)
 apply (frule_tac x = "M a" in spec)
 apply (drule_tac x = "M (M a)" in spec)
-apply (drule disjCI)+
-apply (elim disjE) 
-       apply (rule_tac x = a in exI; intro conjI; assumption)
-      apply (rule_tac x = "M a" in exI; intro conjI; assumption)
-     apply (rule_tac x = a in exI; intro conjI; assumption)
-    apply (rule_tac x = a in exI; intro conjI; assumption)
-   apply (rule_tac x = a in exI; intro conjI; assumption)
-  apply (rule_tac x = "M a" in exI; intro conjI; assumption)
- apply (rule_tac x = a in exI; intro conjI; assumption)
-apply (rule_tac x = a in exI; intro conjI; assumption)
+apply (drule disjCI)
+apply (drule disjCI)
+apply (drule disjCI)
+apply (elim disjE;rule exI; rule conjI; assumption)
 done}}
 
 
