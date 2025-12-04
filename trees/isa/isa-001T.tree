@@ -7,7 +7,7 @@
 \parent{isa-001B}
 \shiki{definition twice :: ‹('a ⇒ 'a) ⇒ 'a ⇒ 'a› where
 ‹twice f x  = f (f x)›}
-\shiki{lemma ‹rpt (twice f) n (f (x::two)) = f x›}
+\shiki{lemma ‹rpt (twice f) n (f (x::oot)) = f x›}
 \solnblock{
 \shiki{apply (unfold twice_def)
 apply (induct n)
