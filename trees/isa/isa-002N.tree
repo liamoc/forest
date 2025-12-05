@@ -19,13 +19,9 @@
 \transclude{isa-002H}
 \transclude{isa-002I}
 \transclude{isa-002J}
-\ul{
-  \li{safe vs unsafe rules}
-  \li{intro, elim, clarify, blast, (fast,slow,best)}
-  \li{automation: clarsimp, auto, fastforce (slowsimp, bestsimp), force}
-  \li{sledgehammer, try, find_theorems}
-  \li{clarify, clarsimp}
-  \li{structured proofs}
-  \li{calculational proofs}
-  \li{examples examples examples}
-}
+\transclude{isa-002P}
+\transclude{isa-002O}
+\transclude{isa-002Q}
+\transclude{isa-002R}
+\transclude{isa-002S}
+\transclude{isa-002T}

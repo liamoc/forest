@@ -1,0 +1,7 @@
+\date{2025-12-05T01:02:28Z}
+\author{liamoc}
+\taxon{Proof Method}
+\title{\code{blast}, \code{fast}, \code{slow}, and \code{best}}
+\p{\code{blast} is a method for \em{automatic} classical first-order reasoning, based on a tableaux prover. \code{apply blast} attempts a thorough search using sets of \code{intro} and \code{elim} rules. Like [[isa-001H]], rules can be annotated with   \code{ [intro] } and \code{[elim]} annotations, or they can be passed locally to \code{blast} (i.e. \code{apply (blast intro: nandI1 nandI2 elim: nandE)})
+ }
+\p{ The methods \code{fast}, \code{slow}, and \code{best} use a different classical proof search engine than \code{blast}, each with a different proof search strategy. \code{fast} performs a quick, depth-bounded search, and is generally faster. \code{slow} is a more exhaustive search and more backtracking, and \code{best} performs a best-first search strategy using a heuristic based on the size of the goal. In general, if \code{fast} or \code{blast} can solve your goal, it will be the most efficient at solving it, whereas \code{slow} and \code{best} are only used if no other automated technique works.}

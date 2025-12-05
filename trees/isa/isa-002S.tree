@@ -1,0 +1,6 @@
+\date{2025-12-05T03:15:07Z}
+\author{liamoc}
+\taxon{Proof Method}
+\title{\code{force} and \code{auto}}
+\p{\code{force} is a very thorough proof search that can often solve goals other methods can't. It can be thought of as a very thorough version of [\code{blast}](isa-002P) combined with [\code{simp}](isa-001H). The method \code{auto}, by contrast, is a more lightweight search that attempts to simulateneously solve \em{all} goals, rather than just the first one. Unlike the other automated methods, \code{auto} will leave behind goals that it is unable to prove.}
+\p{Because the behaviour of \code{auto} differs greatly between Isabelle versions and is very sensitive to what theories are loaded, it's considered bad style to use \code{auto} as anything but the \em{final} step in a proof, but it can nonetheless be useful to see what goals \code{auto} outputs to see where it's getting stuck.}

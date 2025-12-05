@@ -1,0 +1,5 @@
+\date{2025-12-05T03:27:40Z}
+\author{liamoc}
+\title{\code{try} and the famous Isabelle sledgehammer.}
+\p{Isabelle includes a feature called the \em{sledgehammer} that invokes external proof search procedures (such as SMT solvers) and provides them with lemmas that appear to be relevant. If the tools find a proof, it can often replay them in Isabelle's proof kernel, giving an Isabelle proof that matches what the external proof tool found. }
+\p{To invoke this procedure on a goal, searching automatically for related lemmas, type the word \code{try} in an open subgoal.}

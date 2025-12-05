@@ -1,0 +1,5 @@
+\date{2025-12-05T03:15:07Z}
+\author{liamoc}
+\taxon{Proof Method}
+\title{\code{safe} and \code{clarify}}
+\p{The method \code{safe} applies only [\em{safe}](isa-002O) rules to the current goal. The method \code{clarify} is similar, but it only applies [\em{safe}](isa-002O) rules that \em{do not split the goal into multiple subgoals}. Like [\code{blast} etc.](isa-002P), rules can be added to these methods with \code{intro!:} etc.}

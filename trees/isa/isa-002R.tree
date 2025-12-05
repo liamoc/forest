@@ -1,0 +1,5 @@
+\date{2025-12-05T03:15:07Z}
+\author{liamoc}
+\taxon{Proof Method}
+\title{\code{clarsimp}, \code{slowsimp}, \code{bestsimp} and \code{fastforce}}
+\p{\code{clarsimp} the combination of [clarify](isa-002Q) and [simp](isa-001H), and is very useful when doing exploratory proving. \code{slowsimp} is the combination of [slow](isa-002P) and [simp](isa-001H). \code{bestsimp} is the combination of [best](isa-002P) and [simp](isa-001H). The combination of  [fast](isa-002P) and [simp](isa-001H) is, for inexplicable reasons, called \code{fastforce}.}
