@@ -1,0 +1,15 @@
+\date{2025-12-06T06:45:05Z}
+\author{liamoc}
+\title{The first week of LSS is over}
+\figure{
+  \<html:img>[width]{250px}[src]{\route-asset{assets/lss5.jpeg}}{}
+}
+\p{The first week of the [ANU](anu) Logic Summer School has concluded, including my introductory course on [[isa-0001]]. I think the course went well and students learnt a little of what makes theorem proving fun. Chelsea Edmonds will follow on from my course in week 2 with her own course on software verification. I hope I prepared the students well. We went on an excursion to the Tidbinbilla nature reserve (photos of which I have also previously shared on [[2025-W27]] and [[2025-W44]]).}
+\figure{
+  \<html:img>[width]{250px}[src]{\route-asset{assets/lss4.jpeg}}{}
+  \<html:img>[width]{250px}[src]{\route-asset{assets/lss3.jpeg}}{}
+  \<html:img>[width]{250px}[src]{\route-asset{assets/lss2.jpeg}}{}
+  \<html:img>[width]{250px}[src]{\route-asset{assets/lss1.jpeg}}{}
+  \figcaption{Various Australian fauna seen at Tidbinbilla}
+}
+\p{It was a lot of fun to show some of our visiting students some of the natural landscapes so easily accessible from Canberra. I think we all had a really good day, even though it was sweltering hot. }

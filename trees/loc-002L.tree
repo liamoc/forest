@@ -1,0 +1,256 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{2nd Sunday of Advent 2025}
+\tag{cmc}
+\date{2025-12-07}
+\author{liamoc}
+\quote{
+  Populus Sion, ecce Dóminus véniet ad salvándas gentes: et audítam fáciet Dóminus glóriam vocis suæ, in lætítia cordis vestri.}
+\p{This was a big Sunday at [All Saints Ainslie](https://allsaintsainslie.org.au). In the morning a small group of us sang Bach's [Jesu, Joy of Man's Desiring](https://www.youtube.com/watch?v=T5Df7f_BLU8):}
+\quote{
+    \poem{
+      \line{Jesu, joy of man's desiring,}
+      \line{Holy wisdom, love most bright;}
+      \line{Drawn by Thee, our souls aspiring}
+      \line{Soar to uncreated light.\br}
+        
+      \line{Word of God, our flesh that fashioned,}
+      \line{With the fire of life impassioned,}
+      \line{Striving still to truth unknown,}
+      \line{Soaring, dying round Thy throne.\br}
+        
+      \line{Through the way where hope is guiding,}
+      \line{Hark, what peaceful music rings;}
+      \line{Where the flock, in Thee confiding,}
+      \line{Drink of joy from deathless springs.\br}
+        
+      \line{Theirs is beauty's fairest pleasure;}
+      \line{Theirs is wisdom's holiest treasure.}
+      \line{Thou dost ever lead Thine own}
+      \line{In the love of joys unknown.}
+    }
+}
+\p{But, more significantly, we had our annual Lessons and Carols service. I cantored for the initial [Matin Responsory](https://www.youtube.com/watch?v=9uJdSvo1e2U) based on a Nunc Dimittis by Palestrina (despite the fact the Carols for Choirs edition says it's based on a Magnificat):} 
+\quote{\poem{\line{\strong{I look from afar,}}
+\line{And lo, I see the power of God coming, and a cloud covering the whole Earth.}
+\line{\strong{Go ye out to meet him and say:}}
+\line{Tell us, art thou he that should come to reign over thy people Israel?}
+\line{High and low, rich and poor, one with another,}
+\line{Go ye out to meet him and say:}
+\line{Hear, O thou Shepherd of Israel, thou that leadest Joseph like a sheep,}
+\line{Tell us, art thou he that should come?}
+\line{Stir up thy strength, O Lord, and come}
+\line{To reign over thy people, Israel.}
+\line{\strong{Glory be to the Father and to the Son, and to the Holy Ghost.}}
+\line{I look from afar,}
+\line{And lo, I see the power of God coming, and a cloud covering the whole Earth.}
+\line{Go ye out to meet him and say:}
+\line{Tell us, art thou he that should come to reign over thy people Israel?}}}
+
+\p{ We had several guest singers join us including Rachel Mink and Dan Walker from Luminescence. Rachel sang the initial verse of [Once In Royal David's City](https://www.youtube.com/watch?v=rA4Ng96nb3Y), after which we processed to the remaining verses. After the first lesson from yours truly, we performed Ord's [Adam Lay Ybounden](https://www.youtube.com/watch?v=oykLGvCfGCI): }
+\quote{\poem{\line{Adam lay ybounden, bounden in a bond.}
+\line{Four thousand winter thought he not too long.}
+\line{And all was for an apple, an apple that he took,}
+\line{As clerkes finden written in their book.}
+\line{Ne had the apple taken been, the apple taken been,}
+\line{Ne had never our ladye a been heavené queen.}
+\line{Blessed be the time that apple taken was,}
+\line{Therefore we moun singen \em{Deo Gracias}.}}}
+\p{Following another reading, we had one of my favourite Christmas classics, Prätorius' [Es ist ein Ros' entsprungen](https://www.youtube.com/watch?v=7RjAXOcTebI). }
+\quote{
+    \table{
+      \tr{
+      \td{Es ist ein Ros entsprungen,}
+      \td{There is a rose up-springing,}
+      }\tr{
+      \td{aus einer Wurzel zart,}
+      \td{from a tender root,}
+      }\tr{
+      \td{wie uns die Alten sungen,}
+      \td{as the ancients have sung,}
+    }\tr{
+      \td{von Jesse kam die Art}
+      \td{it comes from Jesse's branch.}
+    }\tr{
+      \td{und hat ein Blümlein bracht}
+      \td{Its blossom flowering bright,}
+    }\tr{
+      \td{mitten im kalten Winter,}
+      \td{amidst the cold winter,}
+    }\tr{
+      \td{wohl zu der halben Nacht.}
+      \td{when half the night remains.}
+    }\tr{
+      \td{\br}
+      \td{}
+    }\tr{
+      \td{Das Röslein, das ich meine,}
+      \td{This little rose of which I sing,}
+    }\tr{
+      \td{davon Jesaja sagt,}
+      \td{of which Isaiah spoke, }
+    }\tr{
+      \td{hat uns gebracht alleine}
+      \td{was brought to us solely by}
+    }\tr{
+      \td{Marie, die reine Magd.}
+      \td{Mary, the pure maiden.}
+    }\tr{
+      \td{Aus Gottes ew'gem Rat}
+      \td{By God's eternal plan,}
+    }\tr{
+      \td{hat sie ein Kind geboren}
+      \td{a child was born to her}
+    }\tr{
+      \td{und blieb doch reine Magd.}
+      \td{but she remained a pure Maiden.}
+    }\tr{
+      \td{\br}
+      \td{}
+    }\tr{
+      \td{Das Blümelein so kleine,}
+      \td{That little blossom, so tiny,}
+    }\tr{
+      \td{das duftet uns so süß,}
+      \td{that to us smells so sweet,}
+    }\tr{
+      \td{mit seinem hellen Scheine}
+      \td{with its bright shining}
+    }\tr{
+      \td{Vertreibt's die Finsternis.}
+      \td{drives away the darkness.}
+    }\tr{
+      \td{Wahr' Mensch und wahrer Gott,}
+      \td{True man and truer God,}
+    }\tr{
+      \td{hilft uns aus allem Leide,}
+      \td{He aids us from all suffering,}
+    }\tr{
+      \td{rettet von Sünd und Tod.}
+      \td{and saves us from sin and death.}
+    }
+  }
+}
+\p{After the next reading was the original traditonal arrangement of the [Coventry Carol](https://www.youtube.com/watch?v=WII-nEAykqY) with the crunchy false relation in the cadence.}
+\quote{
+  \poem{
+    \line{Lully, lullay, þow littell tyne childe,}
+    \line{by, by, lully, lullay.}
+    \line{þow littell tyne childe:}
+    \line{by, by, lully, lullay.}
+    \line{\br}
+    \line{O! Sisters too, how may we do}
+    \line{for to preserve this day}
+    \line{this pore yongling for whom we do singe:}
+    \line{by, by, lully, lullay?}
+    \line{\br}
+    \line{Herod, the king, in his raging,}
+    \line{chargid he hath this day,}
+    \line{his men of might in his owne sight,}
+    \line{all yonge children to slay.}
+    \line{\br}
+    \line{That wo is me, pore childe, for Thee}
+    \line{and ever morne and day}
+    \line{for thi parting nether say nor singe:}
+    \line{by, by, lully, lullay.}
+  }
+}
+\p{The next reading was followed by [O little town of Bethlehem](https://www.youtube.com/watch?v=LRuXdOb6TrA) with the Willcocks descant. Then, after the next reading we sang the \em{significantly} less common arrangement of the Basque carol \em{Gabriel's Message}, also known as \em{the Angel Gabriel} or the [Most Highly Flavoured Gravy](https://www.youtube.com/watch?v=RJnJ6Ko_kyw).}
+\quote{
+  \poem{
+    \line{The Angel Gabriel from heaven came,}
+    \line{his wings as drifted snow, his eyes as flame;}
+    \line{'All hail', said he, 'thou lowly maiden Mary}
+    \line{Most highly favoured lady, \em{Gloria}.'}
+    \line{\br}
+    \line{'For known a blesséd Mother thou shalt be,}
+    \line{all generations laud and honour thee,}
+    \line{thy Son shall be Immanuel by seers foretold;}
+    \line{Most highly favoured lady, \em{Gloria}.'}
+    \line{\br}
+    \line{Then gentle Mary meekly bowed her head,}
+    \line{'To me be as it pleaseth God', she said,}
+    \line{'My soul shall laud and magnify his holy name':}
+    \line{most highly favoured lady, \em{Gloria}.}
+    \line{\br}
+    \line{Of her, Immanuel, the Christ was born}
+    \line{in Bethlehem all on a Christmas morn,}
+    \line{and Christian folk throughout the world will ever say:}
+    \line{'most highly favoured lady, \em{Gloria}.'}
+  }
+}
+\p{After one more reading, we performed what I think was a highlight of the whole service, and one of our best performances, Lauridsen's [O Magnum Mysterium](https://www.youtube.com/watch?v=tZ-nuU-hda8):}
+\quote{
+    \table{
+      \tr{
+      \td{O mágnum mystérium}
+      \td{O great mystery,}
+      }\tr{
+      \td{et admirábile sacraméntum,}
+      \td{and wondrous sacrament,}
+      }\tr{
+      \td{ut animália vidérent Dóminum nátum,}
+      \td{that animals should see the newborn Lord,}
+    }\tr{
+      \td{jacéntem in præsépio.}
+      \td{lying in a manger.}
+    }\tr{
+      \td{Beáta virgo, cújus víscera meruérunt}
+      \td{Blessed virgin, whose womb was worthy}
+    }\tr{
+      \td{portáre Dóminum Chrístum. Alleluia}
+      \td{to bear the Lord Christ. Alleluia}
+    }
+  }
+}
+\p{Then we processed out [while shepherds washed their socks](https://www.youtube.com/watch?v=ZOA2Y9Ms34s) and ascended to the organ loft for the remainder of the service, where we performed Warlock's [Bethlehem Down](https://www.youtube.com/watch?v=gQnuxaqbYx8). I heard that anthem was written on a napkin by an alcoholic and antitheist Peter Warlock in exchange for beer money, and that he died a few years after writing it. But the anthem itself is quite special.}
+\quote{\poem{\line{When He is King we will give him the King's gifts,}
+  \line{Myrrh for its sweetness, and gold for a crown,}
+  \line{"Beautiful robes", said the young girl to Joseph}
+  \line{Fair with her first-born on Bethlehem Down.}
+  \line{\br}
+  \line{Bethlehem Down is full of the starlight}
+  \line{Winds for the spices, and stars for the gold,}
+  \line{Mary for sleep, and for lullaby music}
+  \line{Songs of a shepherd by Bethlehem fold.}
+  \line{\br}
+  \line{When He is King they will clothe Him in grave-sheets,}
+  \line{Myrrh for embalming, and wood for a crown,}
+  \line{He that lies now in the white arms of Mary}
+  \line{Sleeping so lightly on Bethlehem Down.}
+  \line{\br}
+  \line{Here He has peace and a short while for dreaming,}
+  \line{Close-huddled oxen to keep Him from cold,}
+  \line{Mary for love, and for lullaby music}
+  \line{Songs of a shepherd by Bethlehem fold.}}}
+\p{This was followed by another congregational carol with Willcocks descant, [Hark the Herald Angels Sing](https://www.youtube.com/watch?v=9Bwn0k0k8xI) and our last anthem of the evening, Wood's [Hey you! The Middle Ball](https://www.youtube.com/watch?v=Qf202pdjMZk). }
+\quote{
+  \poem{
+    \line{O thou the central orb of righteous love,}
+    \line{Pure beam of the Most High,}
+    \line{Eternal Light of this our wintry world,}
+    \line{Thy radiance bright awakes new joy in faith,}
+    \line{Hope soars above.}
+    \line{\br}
+    \line{Come, quickly come and let thy glory shine,}
+    \line{Gilding our darksome heav'n with rays divine.}
+    \line{Thy saints with holy lustre round thee move,}
+    \line{As stars about thy throne, set in the height}
+    \line{Of God's ordaining counsel, }
+    \line{As thy sight gives measured grace to each.}
+    \line{Thy power to prove.}
+    \line{\br}
+    \line{Let thy bright beams disperse the gloom of sin,}
+    \line{Our nature all shall feel eternal day,}
+    \line{In fellowship with thee,}
+    \line{Transforming day to souls erewhile unclean,}
+    \line{now pure within.}
+    \line{\br}
+    \line{Amen.}
+  }
+}
+\p{Of course, it wouldn't be a Christmas Carols service without the "Word of the Father" chord, so we finished up with Willcocks' arrangement of [O Come, All Ye Faithful](https://www.youtube.com/watch?v=RkS57yCIk7E).
+}
+
