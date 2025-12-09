@@ -1,0 +1,4 @@
+\date{2025-12-09T15:43:26Z}
+\author{liamoc}
+\title{Web Components are confusing; bugs fixed.}
+\p{I use [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) to make widgets that I can easily emit from Forester documents, such as my [[loc-0015]] and [Syntax Highlighting](loc-0029) plugins. I noticed that on large pages (such as my [weeknotes page](loc-001B)) these plugins would sometimes mysteriously fail to load. I later realised that this is because the \code{innerText}, \code{innerHTML} and \code{textContent} properties may not be initialised when the web component is attached to the DOM, if the page is still loading. The solution requires attaching mutation listeners and waiting for the text to be added later. This seems unnecessarily complicated, but anyway, the plugins have been fixed now. }
