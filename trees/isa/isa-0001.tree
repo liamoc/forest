@@ -1,7 +1,7 @@
 \title{Interactive theorem proving}
 \author{liamoc}
 \taxon{Lecture Notes}
-\p{These notes are the basis of my short course at the [ANU](anu) Logic Summer School 2025.}
+\p{These notes are the basis of my short course at the [ANU](anu) [Logic Summer School 2025](loc-001W).}
 \transclude{isa-0002}
 \transclude{isa-001B}
 \transclude{isa-002N}
