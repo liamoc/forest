@@ -1,0 +1,53 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{3rd Sunday of Advent 2025}
+\tag{cmc}
+\date{2025-12-14}
+\author{liamoc}
+\quote{ Gaudéte in Dómino semper: íterum dico, gaudéte: modéstia vestra nota sit ómnibus homínibus: Dóminus prope est. Nihil sollíciti sitis: sed omni orátione petitiónes vestræ innotéscant apud Deum.
+ }
+\p{This "Gaudete" Sunday at [All Saints Ainslie](https://allsaintsainslie.org.au) we had fun singing [this medieval carol](https://www.youtube.com/watch?v=l1NgHonWNE0):}
+\quote{
+  \table{
+    \tr{
+    \td{Gaudéte, gaudéte Christus est natus}
+    \td{Rejoice! Rejoice, Christ is born}
+    }\tr{
+    \td{ex María vírgine, Gaudéte!}
+    \td{of the Virgin Mary, Rejoice!}
+    }\tr{
+    \td{Tempus adest grátiæ, hoc quod optabámus,}
+    \td{The time of grace has come, of which we wished,}
+  }\tr{
+    \td{Carmina lætítiæ devóte reddámus!}
+    \td{Let us faithfully render songs of joy!}
+  }\tr{
+    \td{Deus homo factus est, nátura mirante}
+    \td{God has become Man, nature marvels.}
+  }\tr{
+    \td{Mundus renovátus est, a Christo regnánte}
+    \td{The world is renewed by the reigning Christ.}
+  }\tr{
+    \td{Ezechiélis porta clausa per tránsítur}
+    \td{The closed gate of Ezekiel is passed,}
+  }\tr{
+    \td{Unde lux est orta salus invenítur.}
+    \td{Whence light has risen, salvation is found.}
+  } \tr{
+    \td{Ergo nostra cóntio psallat iam in lústro,}
+    \td{Now let our assembly sing psalms to him in gladness,}
+  } \tr{
+    \td{Benedícat Dómino, salus regi nostro.}
+    \td{Let us bless the Lord, greetings to our King.}
+  }
+  \tr{
+  \td{Gaudéte, gaudéte Christus est natus}
+  \td{Rejoice! Rejoice, Christ is born}
+  }\tr{
+  \td{ex María vírgine, Gaudéte!}
+  \td{of the Virgin Mary, Rejoice!}
+  }
+}
+}
