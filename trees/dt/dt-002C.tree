@@ -9,7 +9,7 @@
 \li{ #{(f \times g) \circ \langle h , i \rangle = \langle f \circ h, g \circ i \rangle}}
 \li{ #{\langle f , g \rangle \circ h = \langle f \circ h, g \circ h \rangle}}
 \li{ #{\mathsf{id}_A \times \mathsf{id}_B = \mathsf{id}_{A \times B} \quad (*)}}
-\li{ #{(f \circ g) \times (h \circ i) = (f \circ h) \times (g \circ i) \quad (**)}}
+\li{ #{(f \circ g) \times (h \circ i) = (f \times h) \circ (g \times i) \quad (**)}}
 }
 \p{
 These last two statements #{(*)} and #{(**)} show that #{\times} is a [bifunctor](dm-000M) on the [category #{\textbf{Cpo}}](dt-002B), i.e., a [functor](dm-000J) #{\textbf{Cpo} \times \textbf{Cpo} \rightarrow \textbf{Cpo}}.
