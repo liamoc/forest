@@ -1,0 +1,89 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{4rd Sunday of Advent 2025}
+\tag{cmc}
+\date{2025-12-21}
+\author{liamoc}
+\quote{ Roráte cæli désuper, et nubes pluant iustum: aperiátur terra, et gérminet Salvatórem.
+ }
+ \figure{
+   \<html:img>[width]{350px}[src]{\route-asset{assets/allsaints.jpeg}}{}
+   \figcaption{Rehearsing in a hot and humid, but charming church.}
+ }
+\p{This muggy Sunday at [All Saints Ainslie](https://allsaintsainslie.org.au) we sang Prätorius' [Es ist ein Ros' entsprungen](https://www.youtube.com/watch?v=7RjAXOcTebI) under my direction. There was also a memorial minute of silence for the victims of the horrific Bondi shooting in Sydney last Sunday. }
+\quote{
+      \table{
+        \tr{
+        \td{Es ist ein Ros entsprungen,}
+        \td{There is a rose up-springing,}
+        }\tr{
+        \td{aus einer Wurzel zart,}
+        \td{from a tender root,}
+        }\tr{
+        \td{wie uns die Alten sungen,}
+        \td{as the ancients have sung,}
+      }\tr{
+        \td{von Jesse kam die Art}
+        \td{it comes from Jesse's branch.}
+      }\tr{
+        \td{und hat ein Blümlein bracht}
+        \td{Its blossom flowering bright,}
+      }\tr{
+        \td{mitten im kalten Winter,}
+        \td{amidst the cold winter,}
+      }\tr{
+        \td{wohl zu der halben Nacht.}
+        \td{when half the night remains.}
+      }\tr{
+        \td{\br}
+        \td{}
+      }\tr{
+        \td{Das Röslein, das ich meine,}
+        \td{This little rose of which I sing,}
+      }\tr{
+        \td{davon Jesaja sagt,}
+        \td{of which Isaiah spoke, }
+      }\tr{
+        \td{hat uns gebracht alleine}
+        \td{was brought to us solely by}
+      }\tr{
+        \td{Marie, die reine Magd.}
+        \td{Mary, the pure maiden.}
+      }\tr{
+        \td{Aus Gottes ew'gem Rat}
+        \td{By God's eternal plan,}
+      }\tr{
+        \td{hat sie ein Kind geboren}
+        \td{a child was born to her}
+      }\tr{
+        \td{und blieb doch reine Magd.}
+        \td{but she remained a pure Maiden.}
+      }\tr{
+        \td{\br}
+        \td{}
+      }\tr{
+        \td{Das Blümelein so kleine,}
+        \td{That little blossom, so tiny,}
+      }\tr{
+        \td{das duftet uns so süß,}
+        \td{that to us smells so sweet,}
+      }\tr{
+        \td{mit seinem hellen Scheine}
+        \td{with its bright shining}
+      }\tr{
+        \td{Vertreibt's die Finsternis.}
+        \td{drives away the darkness.}
+      }\tr{
+        \td{Wahr' Mensch und wahrer Gott,}
+        \td{True man and truer God,}
+      }\tr{
+        \td{hilft uns aus allem Leide,}
+        \td{He aids us from all suffering,}
+      }\tr{
+        \td{rettet von Sünd und Tod.}
+        \td{and saves us from sin and death.}
+      }
+    }
+  }
