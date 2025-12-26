@@ -2,7 +2,7 @@
 \def\percent{\startverb%\stopverb
    }
 \parent{loc-000P}
-\title{4rd Sunday of Advent 2025}
+\title{4th Sunday of Advent 2025}
 \tag{cmc}
 \date{2025-12-21}
 \author{liamoc}
@@ -85,5 +85,31 @@
         \td{rettet von Sünd und Tod.}
         \td{and saves us from sin and death.}
       }
+    }
+  }
+  \p{\em{Edit:} I tuned in to the mass at my old haunt [St. Michael and All Saints](https://smas.church/) and discovered that they sang the same anthem (but in English). Nice bit of synchronicity.}
+  
+  \p{\em{Edit 2:} I also forgot to mention that last Wednesday, three of us also went to the [Goodwin Retirement Village](https://goodwin.org.au/retirement-living/) in Ainslie to sing for the Christmas service they held in their chapel, where we sang the [Coventry Carol](https://www.youtube.com/watch?v=WII-nEAykqY):}
+  \quote{
+    \poem{
+      \line{Lully, lullay, þow littell tyne childe,}
+      \line{by, by, lully, lullay.}
+      \line{þow littell tyne childe:}
+      \line{by, by, lully, lullay.}
+      \line{\br}
+      \line{O! Sisters too, how may we do}
+      \line{for to preserve this day}
+      \line{this pore yongling for whom we do singe:}
+      \line{by, by, lully, lullay?}
+      \line{\br}
+      \line{Herod, the king, in his raging,}
+      \line{chargid he hath this day,}
+      \line{his men of might in his owne sight,}
+      \line{all yonge children to slay.}
+      \line{\br}
+      \line{That wo is me, pore childe, for Thee}
+      \line{and ever morne and day}
+      \line{for thi parting nether say nor singe:}
+      \line{by, by, lully, lullay.}
     }
   }
