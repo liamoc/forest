@@ -1,0 +1,36 @@
+\date{2026-01-04}
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{Epiphany of the Lord 2026}
+\tag{cmc}
+\author{liamoc}
+\quote{Ecce advénit dominátor Dóminus: et regnum in manu eius, et potéstas, et impérium. 
+ }
+\p{I was a one-man choir for the mass at [All Saints Ainslie](https://allsaintsainslie.org.au) today. I sang a Christmas Gloria in place of the usual one from the Dudman mass setting, and for an anthem I sang Cornelius' [The Three Kings](https://www.youtube.com/watch?v=a2dNKv48WJQ), where the choir was replaced with a lovely piano accompaniment:}
+\quote{
+      \poem{
+        \line{Three kings from Persian lands afar}
+        \line{To Jordan follow the pointing star.}
+        \line{And this the quest of the travellers three,}
+        \line{Where the newborn King of the Jews may be.}
+        \line{Full royal gifts they bear for the king;}
+        \line{Gold, incense, myrrh are their offering.\br}
+        \line{The star shines out with a steadfast ray,}
+        \line{The kings to Bethlehem make their way,}
+        \line{And there in worship they bend the knee,}
+        \line{As Mary's child in her lap they see.}
+        \line{Full royal gifts they show to the king;}
+        \line{Gold, incense, myrrh are their offering.\br}
+        \line{Thou child of Man, lo, to Bethlehem}
+        \line{The kings are travelling; travel with them!}
+        \line{The star of Mercy, the star of Grace,}
+        \line{Shall lead thy heart to its resting place.}
+        \line{Gold, incense, myrrh, thou canst not bring;}
+        \line{Offer thy heart to the infant King.}
+        \line{Offer thy heart.}
+      }
+  }
+  \p{I think it went rather well! I got many compliments during and after the service.}
+  \p{I've also finally added all my Chester-published polyphonic works and the English Church Music books to my [[loc-002D]], so the index should be more or less complete for now.}

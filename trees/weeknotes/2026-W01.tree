@@ -1,0 +1,10 @@
+\import{table-macros}
+\title{Weeknotes 2026-W01}
+\author{liamoc}
+\date{2025-12-28}
+\p{This new-years week was predominantly spent resting and preparing for my travel to Melbourne to avoid the dreaded Summernats festival, so I have little to report, save my church singing for the week.}
+\figure{
+  \<html:img>[width]{350px}[src]{\route-asset{assets/moonrise.jpeg}}%{}
+ \figcaption{A Canberra moonrise from my apartment balcony.}
+}
+\transclude{loc-002T}
