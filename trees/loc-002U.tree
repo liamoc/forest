@@ -1,0 +1,40 @@
+\date{2026-01-11}
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{Baptism of the Lord 2026}
+\tag{cmc}
+\author{liamoc}
+\quote{Dilexísti iustítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus. Óleo lætítiæ præ consórtibus tuis.\br
+  Benedíctus qui venit in nómine Dómini: benedíximus vobis de domo Dómini: Deus Dóminus, et illúxit nobis, allelúia, allelúia.
+ }
+ \figure{
+   \<html:img>[width]{250px}[src]{\route-asset{assets/stpeters4.jpeg}}{}
+   \<html:img>[width]{250px}[src]{\route-asset{assets/stpeters3.jpeg}}{}
+   \<html:img>[width]{250px}[src]{\route-asset{assets/stpeters2.jpeg}}{}
+   \<html:img>[width]{250px}[src]{\route-asset{assets/stpeters.jpeg}}{}
+   \figcaption{St Peter's Eastern Hill, Melbourne.}
+ }
+\p{This Sunday I sang with the choir of [St. Peter's Eastern Hill](https://www.stpeters.org.au) in Melbourne. We sang the Simple Communion Service in F Major by William Harris, for which I can't find a recording online (although the [livestream link for St. Peter's](https://www.youtube.com/watch?v=LsT4HF1ND7E) isn't bad, and we sang it well). For a motet we sang Marenzio's [Tribus miraculis](https://www.youtube.com/watch?v=5DW4n-Wgcs8): }
+\quote{
+  \table{
+    \tr{
+    \td{Tribus miráculis ornátum, diem sanctum cólimus:}
+    \td{Distinguished by three miracles, this holy day is celebrated:}
+    }\tr{
+    \td{Hódie stella Magos duxit ad præsépium:}
+    \td{Today the star led the Magi to the manger;}
+    }\tr{
+    \td{Hódie vinum ex aqua factum est ad núptias:}
+    \td{Today wine was made from water at the wedding;}
+  }\tr{
+    \td{Hódie in Jordáne a Joánne Christus baptizári vóluit,}
+    \td{Today in the Jordan by John, Christ chose to be baptized}
+  }\tr{
+    \td{ut salváret nos, Allelúia.}
+    \td{in order to save us, Alleluia.}
+  }
+}
+}
+\p{It was really nice to sing with a choir that was a little more well-resourced, meet some lovely new people, and learn some music that was new to me. I'll be sure to join this choir again whenever I'm in Melbourne!}
