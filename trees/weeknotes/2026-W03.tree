@@ -1,0 +1,13 @@
+\import{table-macros}
+\title{Weeknotes 2026-W03}
+\author{liamoc}
+\date{2026-01-18}
+\p{This week has mostly been spent catching up with work and preparing for my Edinburgh trip.}
+\figure{
+  \<html:img>[width]{260px}[src]{\route-asset{assets/kooka2.jpeg}}%{}
+  \<html:img>[width]{260px}[src]{\route-asset{assets/lake.jpeg}}%{}
+ \figcaption{A Kookaburra sighted on my way to work.}
+}
+\transclude{loc-002W}
+\transclude{loc-002X}
+\transclude{loc-002Y}

@@ -1,0 +1,29 @@
+\date{2026-01-18}
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{Second Sunday after Epiphany 2026}
+\tag{cmc}
+\author{liamoc}
+\quote{Omnis terra adóret te, Deus, et psallat tibi: psalmum dicat nómini tuo, Altíssime.}
+ 
+\p{This Sunday I sang at my usual [All Saints Ainslie](https://allsaintsainslie.org.au), although the choir is still on break. Instead, our soprano Cindy Chen (who played the organ for the hymns) joined me for singing Prätorius' uncommon piece [Christe der du bist Tag und Licht](https://www.youtube.com/watch?v=otx6qo7QcI0) (translation is mine): }
+\quote{
+  \table{
+    \tr{
+    \td{Christe der du bist tag und licht,}
+    \td{O Christ, thou art both day and light,}
+    }\tr{
+    \td{Vor dir ist, Herr, verborgen nicht;}
+    \td{For there is, Lord, naught hid from thee;}
+    }\tr{
+    \td{Du väterliches Lichtes glanz,}
+    \td{Thy fatherly light upon us shine,}
+  }\tr{
+    \td{Lehr' uns den Weg der Wahrheit ganz.}
+    \td{Teach us thy way of perfect truth.}
+  }
+}
+}
+\p{Cindy and I sang it well, despite many tricky bits!}
