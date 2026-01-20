@@ -1,0 +1,22 @@
+\title{Sarum Vespers}
+\taxon{Ordo}
+\put\transclude/heading{false}
+\put\transclude/numbered{false}
+\transclude{sarum-v-intro}
+\transclude{sarum-v-psalmody-feria-v}
+\scope{
+  \put\transclude/heading{true}
+\transclude{sarum-cap-ii-thessa-iii-5}
+\transclude{sarum-hymn-magne-deus-1}
+}
+\transclude{sarum-v-dirigatur}
+
+\transclude{sarum-v-antiph-feria-v}
+\transclude{sarum-v-magnificat-i-i}
+\transclude{sarum-v-antiph-feria-v}
+\scope{
+\put\transclude/heading{true}
+\transclude{sarum-v-preces}
+\transclude{sarum-v-oratio-vota-quesumus}
+}
+\transclude{sarum-v-benedicamus}

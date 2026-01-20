@@ -5,7 +5,7 @@
 }
 \alloc\gabc/use-drop-cap
 \alloc\gabc/annotation
-
+\def\gabcspace{GABCSPACE}
 \def\gabc[body]{
   \scope{
   \put?\gabc/use-drop-cap{true}

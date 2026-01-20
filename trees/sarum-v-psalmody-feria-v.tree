@@ -1,0 +1,139 @@
+\import{gabc-macros}
+\import{table-macros}
+\import{sarum-tones}
+\subtree{
+  \taxon{Psalmus}
+  \title{CXXXI}
+  \tone-iv-vii{Et(hv) om(hvhv)nis.(g) (::)}{Me}{mé}{{n}to Dó}{_{mi}}{ne}{ *Da}{vid}{{et} omnis mansuetúdinis}{ _e}{jus.}
+\ol{
+    \li{Meménto Dó\em{mi}ne \strong{Da}vid : et omnis mansuetúdinis \em{e}jus.}
+    \li{Sicut ju\em{rá}vit \strong{Dó}mino : votum vovit Deo \em{Ja}cob.}
+    \li{Si introíero in tabernáculum \em{do}mus \strong{me}e : si ascéndero in lectum strati \em{me}i.}
+    \li{Si dédero somnum óc\em{u}lis \strong{me}is : et pálpebris meis dormitati\em{ó}nem.}
+    \li{Et réquiem tempóribus meis donec invéniam \em{ló}cum \strong{Dó}mino : tabernáculum Deo \em{Ja}cob.}
+    \li{Ecce audívimus e\em{am} in \strong{Ef}frata : invénimus eam in campis \em{sil}ve.}
+    \li{Introíbimus in taberná\em{cu}lum \strong{e}jus : adorábimus in loco ubi stetérunt pedes \em{e}jus.}
+    \li{Surge Dómine in ré\em{qui}em \strong{tu}am : tu et arca sanctificatiónis \em{tu}e. }
+    \li{Sacerdótes tui induán\em{tur} jus\strong{tí}ciam : et sancti tui ex\em{úl}tent.}
+    \li{Propter David \em{ser}vum \strong{tu}um : non avértas fáciem Christi \em{tu}i.}
+    \li{Jurávit Dóminus David veritátem et non frustrá\em{bi}tur \strong{e}am : de fructu ventris tui, ponam super sedem \em{tu}am.}
+    \li{Si custodíerint fílii tui testa\em{mén}tum \strong{me}um : et testimónia mea hec que docébo \em{e}os.}
+    \li{Et fili\em{i} e\strong{ó}rum : usque in séculum sedébunt super sedem tuam.}
+    \li{Quóniam elégit Dó\em{mi}nus \strong{Sy}on : elégit eam in habitatiónem \em{si}bi. }
+    \li{Hec réquies mea in sé\em{cu}lum \strong{sé}culi : hic habitábo quóniam elégi \em{e}am. }
+    \li{Víduam ejus benedícens \em{be}ne\strong{dí}cam : páuperes ejus saturábo \em{pá}nibus.}
+    \li{Sacerdótes ejus índuam \em{sa}lu\strong{tá}ri : et sancti ejus exultatióne exul\em{tá}bunt.}
+    \li{Illuc prodúcam \em{cor}nu \strong{Da}vid : parávi lucérnam Christo \em{me}o.}
+    \li{Inimícos ejus índuam con\em{fu}si\strong{ó}ne : super ipsum autem efflorébit sanctificátio \em{me}a.}
+    \li{Glória Patr\em{i} et \strong{Fi}lio : et Spirítui \em{San}cto.}
+    \li{Sicut erat in princípio et \em{nunc} et \strong{sem}per : et in sécula seculórum, \em{A}men.}
+  }
+  \gabc{(c4) Et(hv) om(hvhv)nis(g) *(,) man(g)su(f)e(gv)tú(ixiv)di(iv)nis(g) e(ixiv)jus.(h) (::)}
+}
+\subtree{
+\taxon{Psalmus}
+\title{CXXXII}
+  \tone-i-iv{Ec(hv)ce(hv) quam(g) bo(gf)num(e) (::)}{et }{ quam }{ jo}{_cún}{dum}{{ha}bitáre frat}{_res}{ in}{ u}{num.}
+  \ol{
+    \li{Ecce quam bonum † et quam jo\em{cún}dum : habitáre frat\em{res} in unum.}
+    \li{Sicut unguéntum in cá\em{pi}te : quod descéndit in barbam \em{bar}bam Aaron.}
+    \li{Quod descéndit in oram vestiménti \em{e}jus : sicut ros Hermon qui descéndit in \em{mon}tem Syon.}
+    \li{Quóniam illic mandávit Dóminus benedicti\em{ó}nem : et vitam us\em{que} in séculum.}
+    \li{Glória Patri et \em{Fí}lio : et Spirí\em{tu}i Sancto.}
+    \li{Sicut erat in princípio et nunc et \em{sem}per : et in sécula secul\em{ó}rum, Amen.}
+  }
+  \gabc{(c4) Ec(hv)ce(hv) quam(g) bo(gf)num(e) *(,) et(fv) quam(gv) jo(fe)cún(d)dum.(d) (::)}
+}
+\subtree{
+  \taxon{Psalmus}
+  \title{CXXXIV}
+  \tone-iii-vi{Om(g)ni(hv)a(hj) que(ji)cún(h)que.(g) (::)}{Lau}{dá}{te }{ *no}{{men} Dó}{_mi}{ni}{{Lau}dáte }{_ser}{vi }{ Dó}{mi}{ni.}
+  \ol{
+    \li{Laudáte \strong{no}men Dó\em{mi}ni : Laudáte \em{ser}vi Dómini.}
+    \li{Qui statis in \strong{do}mo Dó\em{mi}ni : in átriis do\em{mus} Dei nostri.}
+    \li{Laudáte Dóminum quia \strong{bo}nus Dó\em{mi}nus : psállite nómini ejus quó\em{ni}am suáve.}
+    \li{Quóniam Jacob elégit \strong{si}bi Dó\em{mi}nus : Israel in possess\em{i}ónem sibi.}
+    \li{Quia ego cognóvi quod \strong{mag}nus est Dó\em{mi}nus : et Deus noster pre \em{óm}nibus diis.}
+    \li{Omnia quecúnque vóluit Dóminus fecit in celo \strong{et} in \em{te}rra : in mari et in óm\em{ni}bus abyssis.}
+    \li{Edúcens nubes ab ext\strong{ré}mo \em{te}rre : fúlgura in \em{plú}viam fecit.}
+    \li{Qui prodúcit ventos de the\strong{sáu}ris \em{su}is : qui percússit primogénita Egypti, ab hómine \em{us}que ad pecus.}
+    \li{Et misit signa et prodígia in médio \strong{tu}i E\em{gyp}te : in Pharaónem et in om\em{nes} servos ejus.}
+    \li{Qui percússit \strong{gen}tes \em{mul}tas : et occí\em{dit} reges fortes.}
+    \li{Seon regem Ammorreórum, et Og \strong{re}gem \em{Ba}san : et ómnia \em{reg}na Chánaan. }
+    \li{Et dedit terram eórum he\strong{re}di\em{tá}tem : hereditátem Israel \em{pó}pulo suo.}
+    \li{Dómine nomen tuum \strong{in} e\em{tér}num : Dómine memoriále tuum, in generatióne et ge\em{ne}ratiónem.}
+    \li{Quia judicábit Dóminus \strong{pó}pulum \em{su}um : et in servis suis \em{de}precábitur.}
+    \li{Simuláchra géntium ar\strong{gén}tum et \em{au}rum : ópera mán\em{u}um hóminum.}
+    \li{Os habent et \strong{non} lo\em{quén}tur : óculos habent \em{et} non vidébunt.}
+    \li{Aures habent et \strong{non} áu\em{di}ent : neque enim est spíritus in \em{o}re ipsórum.}
+    \li{Símiles illis fiant qui \strong{fá}ciunt \em{e}a : et omnes qui con\em{fí}dunt in eis.}
+    \li{Domus Israel bene\strong{dí}cite Dó\em{mi}num : domus Aaron bene\em{dí}cite Dóminum. }
+    \li{Domus Levi bene\strong{dí}cite Dó\em{mi}num : qui timétis Dóminum bene\em{dí}cite Dóminum. }
+    \li{Benedíctus \strong{Dó}minus ex \em{Sy}on : qui hábi\em{tat} in Hierúsalem. }
+    \li{Glória \strong{Pa}tri et Fí\em{li}o : et Sp\em{rí}tui Sancto.}
+    \li{Sicut erat in princípio et \strong{nunc} et semper : et in sécula se\em{cu}lórum, Amen.}        
+  }
+  \gabc{(c4) Om(g)ni(hv)a(hj) que(ji)cún(h)que(g) *(,) vó(hv)lu(g)it(g) Dó(gf)mi(gh)nus(gf) fe(e)cit.(e) (::) }
+}
+
+\subtree{
+\taxon{Psalmus}
+\title{CXXXV}
+\tone-iii-vi{Quó(g)ni(hv)am(hj) in(ji) e(h)tér(g)num(hv). (::)}{Con}{fi}{{té}mini Dómino }{ *quó}{{ni}am }{ _bo}{nus}{{Quó}niam in etérnum miseri}{_cór}{di}{a}{ e}{jus.}
+\def\endbit{: quóniam in etérnum miseri\em{cór}dia ejus.}
+\ol{
+  \li{Confitémini Dómino \strong{quó}niam \em{bo}nus \endbit}
+  \li{Confitémini \strong{De}o de\em{ó}rum \endbit}
+  \li{Confitémini Dómino \strong{do}mi\em{nó}rum \endbit}
+  \li{Qui facit mirabília \strong{mag}na \em{so}lus \endbit}
+  \li{Qui fecit celos in \strong{in}tel\em{léc}tu \endbit}
+  \li{Qui firmávit terram \strong{su}per \em{a}quas \endbit}
+  \li{Qui fecit lumi\strong{ná}ria \em{mag}na \endbit}
+  \li{Solem in potes\strong{tá}tem di\em{é}i \endbit}
+  \li{Lunam et stellas in pote\strong{stá}tem \em{noc}tis \endbit}
+  \li{Qui percússit Egyptum cum primo\strong{gén}itis e\em{ó}rum \endbit}
+  \li{Qui edúxit Israel de \strong{me}dio e\em{o}rum \endbit}
+  \li{In manu poténti et \strong{brá}chio ex\em{cél}so \endbit}
+  \li{Qui divísit mare Rubrum in di\strong{vi}si\em{ó}nes \endbit}
+  \li{Et edúxit Israel per \strong{mé}dium \em{e}jus \endbit}
+  \li{Et excússit Pharaónem et virtutem ejus in \strong{ma}ri \em{Ru}bro \endbit}
+  \li{Qui tradúxit pópulum suum \strong{per} de\em{sér}tum \endbit}
+  \li{Qui percússit \strong{re}ges magnos \endbit}
+  \li{Et occídit \strong{re}ges fortes \endbit}
+  \li{Seon regem Am\strong{mo}re\em{ó}rum \endbit}
+  \li{Et Og \strong{re}gem \em{Ba}san \endbit}
+  \li{Et dedit terram eórum he\strong{re}di\em{tá}tem \endbit}
+  \li{Hereditátem Israel \strong{sér}vo \em{su}o \endbit}
+  \li{Quia in humilitáte nostra memor \strong{fu}it \em{no}stri \endbit}
+  \li{Et redémit nos ad ini\strong{mí}cis \em{no}stris \endbit}
+  \li{Qui dat escam \strong{om}ni \em{car}ni \endbit}
+  \li{Confitémini \strong{De}o \em{ce}li \endbit}
+  \li{Confitémini Dómino \strong{do}mi\em{nó}rum \endbit}
+  \li{Glória \strong{Pa}tri et Fí\em{li}o : et Sp\em{rí}tui Sancto.}
+  \li{Sicut erat in princípio et \strong{nunc} et semper : et in sécula se\em{cu}lórum, Amen.}
+}
+\gabc{(c4) Quó(g)ni(hv)am(hj) in(ji) e(h)tér(g)num(hv) *(,) mi(g)se(g)ri(g)cór(gf)di(gh)a(gf) e(e)jus.(e) (::)}
+
+}
+\subtree{
+\taxon{Psalmus}
+\title{CXXXVI}
+\tone-viii-i{Hym(fv)num(d) can(ev)tá(ev)te.(fv) (::)}{Su}{per }{ {flú}mina Babylónis illic sédimus et }{ *flé}{{vi}mus}{{dum} recorda}{_ré}{mur }{ Sy}{on.}
+\ol{
+  \li{Super flúmina Babylónis illic sédimus et \strong{flé}vimus : dum recorda\em{ré}mur Syon.}
+  \li{In salícibus in médio \strong{e}jus : suspéndimus ór\em{ga}na nostra.}
+  \li{Quia illic interrogavérunt nos, qui captívos duxérunt \strong{nos} : verba \em{can}tiónum. }
+  \li{Et qui abduxérunt \strong{nos} : Hymnum cantáte nobis de cán\em{ti}cis Syon.}
+  \li{Quómodo cantábimus cánticum \strong{Dó}mini : in terra \em{a}liena. }
+  \li{Si oblítus fúero tui Hie\strong{rú}salem : oblivióni detur déx\em{te}ra mea.}
+  \li{Adhéreat lingua mea fáucibus \strong{me}is : si non memí\em{ne}ro tui.}
+  \li{Si non proposúero Hie\strong{rú}salem : in princípio le\em{tí}cie mee.}
+  \li{Memor esto Dómine filiórum Edom : in di\em{em} Hierúsalem.}
+  \li{Qui dicunt Exinaníte exina\strong{ní}te : usque ad funda\em{mén}tum in ea.}
+  \li{Fília Babylónis \strong{mí}sera : beátus qui retríbuet tibi retributiónem tuam, quam retribu\em{í}sti nobis.}
+  \li{Beátus qui te\strong{né}bit : et allídet párvulos \em{su}os ad petram. }
+  \li{Glória Patri et \strong{Fí}lio : et Spirí\em{tu}i Sancto. }
+  \li{Sicut erat in princípio et nunc et \strong{sem}per : et in sécula secul\em{ó}rum, Amen.}
+}
+\gabc{(c3) Hym(fv)num(d) can(ev)tá(ev)te(fv) *(,) no(e)bis(d) de(fh) cán(hghih)ti(fe)cis(de) Sy(e)on.(e) (::)}
+}
