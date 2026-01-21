@@ -2,6 +2,7 @@
 \taxon{Ordo}
 \put\transclude/heading{false}
 \put\transclude/numbered{false}
+\put\transclude/toc{false}
 \transclude{sarum-v-intro}
 \transclude{sarum-v-psalmody-feria-v}
 \scope{

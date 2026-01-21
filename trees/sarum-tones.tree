@@ -7,7 +7,7 @@
 
 \def\tone-i-i[incipit][first][second][firstverse][firstdown][firstend][secondverse][secondd1][secondd2][secondpenult][secondend]{\gabc{(c4) \incipit \first(f)\second(g)\firstverse(hr0)\firstdown(g)\firstend(h) :(:) \secondverse(hr0)\secondd1(g)\secondd2(f)\secondpenult(gh)\secondend(g) (::)}}
 
-\def\oratio-preface{\gabc{(f4) Dó(h)mi(h)nus(h) vo(h)bís(h)cum.(f) (:)  ℟. Et(h) cum(h) spí(h)ri(h)tu(h) tu(h)o.(f) (::) ℣. O(h)ré(h)mus.(h) (::) }}
+\def\oratio-preface{\gabc{(f3) Dó(h)mi(h)nus(h) vo(h)bís(h)cum.(f) (:)  ℟. Et(h) cum(h) spí(h)ri(h)tu(h) tu(h)o.(f) (::) ℣. O(h)ré(h)mus.(h) (::) }}
 \def\tone-iii-vi[incipit][first][second][firstverse][med1][med2][med3][firstend][secondverse][secondbot1][secondbot2][secondbot3][secondbot4][secondend]{\gabc{(c4) \incipit \first(g)\second(h)\firstverse(jr0)\med1(k)\med2(jr0)\med3(i)\firstend(j) :(:) \secondverse(jr0) \secondbot1(h)\secondbot2(j)\secondbot3(i)\secondbot4(h)\secondend(g) (::)}}
 
 \def\tone-viii-i[incipit][first][second][firstverse][med][firstend][secondverse][end1][end2][end3][secondend]{\gabc{(c3) \incipit \first(e)\second(f)\firstverse(hr0)\med(i)\firstend(h) :(:) \secondverse(hr0)\end1(g)\end2(h)\end3(f)\secondend(e) (::)}}
