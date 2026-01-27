@@ -1,0 +1,16 @@
+\import{sarum-tones}
+\import{gabc-macros}
+\taxon{Psalmus}
+\title{CXIX}
+\tone-iv-vii{Cla(hv)má(hvhv)vi.(g) (::)}{Ad }{ Dó}{{mi}num cum tribulár}{_er }{ cla}{*má}{vi}{{et} exaudív}{_it }{ me.}
+\ol{
+  \li{Ad Dóminum cum tribulár\em{er} cla\strong{má}vi : et exaudív\em{it} me.}
+  \li{Dómine líbera ánimam meam a lábi\em{is} i\strong{ní}quis : et a lingua do\em{ló}sa.}
+  \li{Quid detur tibi, aut quid apo\em{ná}tur \strong{ti}bi : ad linguam do\em{ló}sam.}
+  \li{Sagítte po\em{tén}tis a\strong{cú}te : cum carbónibus desola\em{tó}riis.}
+  \li{Heu michi quia incolátus meus \em{pro}lon\strong{gá}tus est : habitávi cum habitántibus Cedar, multum íncola fuit ánima \em{me}a.}
+  \li{Cum his qui odérunt pacem, e\em{ram} pa\strong{cí}ficus : cum loquébar illis impugnábant me \em{gra}tis.}
+    \li{Glória Pa\em{tri} et \strong{Fí}lio : et Spirítui \em{San}cto.}
+  \li{Sicut erat in princípio et \em{nunc} et \strong{sem}per : et in sécula seculórum, \em{A}men.}
+}
+\gabc{(c4) Cla(hv)má(hvhv)vi(g) *(,) et(f) ex(gv)au(ixiv)dí(g)vit(iv) me.(h) (::)}

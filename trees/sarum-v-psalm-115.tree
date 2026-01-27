@@ -1,0 +1,18 @@
+\import{sarum-tones}
+\import{gabc-macros}
+\taxon{Psalmus}
+\title{CXV}
+\tone-viii-ii{Cré(hv)di(g)di(f) (::)}{prop}{ter }{ {quod} locútus }{ *sum }{ }{{e}go autem humili}{_á}{{tus} sum }{ *ni}{mis.}
+\ol{
+  \li{Crédidi † propter quod locútus \strong{sum} : ego autem humili\em{á}tus sum \strong{ni}mis.}
+  \li{Ego dixi in excéssu \strong{me}o : Omnis \em{ho}mo \strong{men}dax.}
+  \li{Quid retríbuam \strong{Dó}mino : pro ómnibus que re\em{trí}buit \strong{mi}chi. }
+  \li{Cálicem salutáris ac\strong{cí}piam : et nomen Dómini \em{in}vo\strong{cá}bo. }
+  \li{Vota mea Dómino reddam coram omni pópulo \strong{e}jus : preciósa in conspéctu Dómini, mors sanc\em{tó}rum ejus.}
+  \li{O Dómine quia ego servus \strong{tu}us : ego servus tuus et fílius an\em{cí}lle \strong{tu}e.}
+  \li{Dirupísti vincula \strong{me}a : tibi sacrificábo hóstiam laudis, et nomen Dómini \em{in}vo\strong{cá}bo.}
+  \li{Vota mea Dómino reddam in conspéctu omnis pópuli \strong{e}jus : in \strong{á}triis domus Dómini, in médio \em{tu}i Hie\strong{rú}salem. }
+  \li{Glória Patri et \strong{Fí}lio : et Spi\em{rí}tui \strong{San}cto. }
+  \li{Sicut erat in princípio et nunc et \strong{sem}per : et in sécula secu\em{ló}rum, \strong{A}men.}
+}
+\gabc{(c3) Cré(hv)di(g)di(f) *(,) prop(f)ter(e) quod(fg) lo(fd)cú(fe)tus(de) sum.(ev) (::)}

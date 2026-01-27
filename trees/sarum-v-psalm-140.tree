@@ -1,0 +1,21 @@
+\import{gabc-macros}
+\import{sarum-tones}
+\taxon{Psalmus}
+\title{CXL}
+\tone-viii-ii{Dó(hv)mi(hv)ne(g) cla(hv)má(f)vi(e) (::) }{ad }{ te }{ {ex}áudi }{ *me }{ }{ {in}ténde voci mee cum clamá}{_ve}{ro }{ *ad }{ te.}
+\ol{
+  \li{ Dómine clamávi † ad te exáudi \strong{me} : inténde voci mee cum clamá\em{ve}ro \strong{ad} te.  }
+  \li{Dirigátur orátio mea sicut incénsum in conspéctu \strong{tu}o : elevátio mánuum meárum sacrifícium \em{ves}per\strong{tí}num. }
+  \li{Pone Dómine custódiam ori \strong{me}o : et óstium circunstántie lá\em{bi}is \strong{me}is. }
+  \li{Non declínes cor meum in verba ma\strong{lí}cie : ad excusándas excusatiónes \em{in} pec\strong{cá}tis.}
+  \li{Cum homínibus operántibus iniqui\strong{tá}tem : et non communicábo cum eléc\em{tis} e\strong{ó}rum.}
+  \li{Corrípiet me justus in misericórdia et increpábit \strong{me} : óleum autem peccatóris non impínguet \em{ca}put \strong{me}um.}
+  \li{Quóniam adhuc et orátio mea in beneplácitis e\strong{ó}rum : absórpti sunt juncti petre júdi\em{ces} e\strong{ó}rum. }
+  \li{Audient verba mea quóniam potu\strong{é}runt : sicut crassitúdo terre erúpta est \em{su}per \strong{ter}ram. }
+  \li{Dissipáta sunt ossa nostra secus in\strong{fér}num : quia ad te Dómine Dómine óculi mei, in te speravi non áuferas á\em{ni}mam \strong{me}am.}
+  \li{Custódi me a láqueo quem statuérunt \strong{mi}chi : et ab scándalis operántium in i\em{ni}qui\strong{tá}tem.}
+  \li{Cadent in retiáculo ejus pecca\strong{tó}res : singuláriter sum ego \em{do}nec \strong{trán}seam. }
+  \li{Glória Patri et \strong{Fí}lio : et Spirí\em{tu}i \strong{Sanc}to.}
+  \li{Sicut erat in princípio et nunc et \strong{sem}per : et in sécula secu\em{ló}rum, \strong{A}men.}
+}
+\gabc{(c3) Dó(hv)mi(hv)ne(g) cla(hv)má(f)vi(e) *() ad(fG~) te:(gv) (,) et(hv) ex(fe)áu(fv)di(e) me.(e) (::) }

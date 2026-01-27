@@ -1,0 +1,26 @@
+\import{gabc-macros}
+\taxon{Hymnus}
+\title{Deus tuórum mílitum}
+% For before candlemas
+\gabc{(c4) De(g)us(hi) tu(jv)ó(ih)rum(g) mí(hv)li(f)tum,(gv) *(,)
+Sors(iv) et(kv) co(j)ró(i)na(kv) pré(j)mi(ih)um(g) :(;) Lau(g)des(hv) ca(f)nén(gv)tes(e) mar(fv)ty(ed)ris,(c) (,) Ab(gv)sól(hi)ve(jv) nex(ih)u(g) crí(hv)mi(f)nis.(gv) (::)
+2. Hic(g) nem(hi)pe(jv) mun(ih)di(g) gáu(hv)di(f)a,(gv) (,)
+Et(iv) blan(kv)di(j)mén(i)ta(kv) nó(j)xi(ih)a(g) :(;) Ca(g)dú(hv)ca(f) ri(gv)te(e) dé(fv)pu(ed)tans,(c) (,) Per(gv)vé(hi)nit(jv) ad(ih) ce(g)lés(hv)ti(f)a.(gv) (::)
+3. Pe(g)nas(hi) cu(jv)cúr(ih)rit(g) fór(hv)ti(f)ter,(gv) (,)
+Et(iv) sús(kv)tu(j)lit(i) vi(kv)rí(j)li(ih)ter(g) :(;) 
+Pro(g) te(hv) ef(f)fún(gv)dens(e) sán(fv)gui(ed)nem,(c) (,) 
+E(gv)tér(hi)na(jv) do(ih)na(g) pós(hv)si(f)det.(gv) (::)
+4. Ob(g) hoc(hi) pre(jv)cá(ih)tu(g) súp(hv)pli(f)ci,(gv) (,)
+Te(iv) pó(kv)sci(j)mus(i) pi(kv)ís(j)si(ih)me(g) :(;) 
+In(g) hoc(hv) tri(f)úm(gv)pho(e) már(fv)ty(ed)ris,(c) (,) 
+Di(gv)mít(hi)te(jv) no(ih)xam(g) crí(hv)mi(f)nis.(gv) (::)
+5. Sit(g) Chri(hi)ste(jv) Rex(ih) pi(g)ís(hv)si(f)me,(gv) (,)
+Ti(iv)bi(kv) Pa(j)trí(i)que(kv) gló(j)ri(ih)a(g) :(;) 
+Cum(g) Spí(hv)ri(f)tu(gv) Pa(e)ra(fv)clí(ed)to,(c) (,) 
+In(gv) sem(hi)pi(jv)tér(ih)na(g) sé(hv)cu(f)la.(gv) (::) A(gh)men.(gfg) (::)
+}
+%5. Pre(hv)sta,(hv) Pa(iv)ter(jv) pi(i)ís(i)si(h)me,(g) (,)
+%Pa(iv)trí(g)que(hv) com(f)par(e) U(hv)ni(hv)ce(hv) :(;)
+%Cum(hv) Spí(hv)ri(iv)tu(jv) Pa(i)rá(i)cli(h)to,(g) (,)
+%Re(iv)gnans(g) per(hv) om(f)ne(e) sé(hv)cu(f)lum.(f) (::) A(fg)%men.(fef) (::)
+%}

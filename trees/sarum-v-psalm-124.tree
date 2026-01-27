@@ -1,0 +1,15 @@
+\import{sarum-tones}
+\import{gabc-macros}
+\taxon{Psalmus}
+\title{CXXIV}
+\tone-viii-ii{Be(hv)ne(hv)fac(gh) Dó(f)mi(e)ne.(gv) (::)}{Qui }{ con}{{fí}dunt in Dómino sicut mons }{ *Sy}{on}{non commovébitur in etérnum, qui hábitat }{ _in }{ Hie}{*rú}{{sa}lem.}
+\ol{
+  \li{Qui confídunt in Dómino sicut mons \strong{Sy}on : non commovébitur in etérnum, qui hábitat \em{in} Hie\strong{rú}salem.}
+  \li{Montes in circúitu ejus, et Dóminus in circúitu pópuli \strong{su}i : ex hoc nunc et \em{us}que in \strong{sé}culum.}
+  \li{Quia non relínquet Dóminus virgam peccatórum super sortem jus\strong{tó}rum : ut non exténdant justi ad iniquitátem \em{ma}nus \strong{su}as.}
+  \li{Bénefac \strong{Dó}mine : bonis et \em{rec}tis \strong{cor}de.}
+  \li{Declinántes autem in obligatiónes, addúcet Dóminus operántibus iniqui\strong{tá}tem : pax \em{su}per \strong{Is}rael.}
+  \li{Glória Patri et \strong{Fí}lio : et Spi\em{rí}tui \strong{San}cto.}
+  \li{Sicut erat in princípio et nunc et \strong{sem}per : et in sécula secu\em{ló}rum, \strong{A}men.}
+}
+\gabc{(c3) Be(hv)ne(hv)fac(gh) Dó(f)mi(e)ne(gv) *(,) bo(f)nis(gv) et(hv) rec(fe)tis(fv) cor(fv)de.(e) (::)}

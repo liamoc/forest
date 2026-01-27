@@ -1,0 +1,26 @@
+\title{Sarum Vespers (St. Blaise)}
+\taxon{Ordo}
+\put\transclude/heading{false}
+\put\transclude/numbered{false}
+\put\transclude/toc{false}
+\transclude{sarum-v-intro}
+\transclude{sarum-v-ii-antiph-martyris}
+\transclude{sarum-v-psalmody-feria-iii}
+\scope{
+  \put\transclude/heading{true}
+\transclude{sarum-cap-hebr-v-1}
+%blasian responsory
+\transclude{sarum-hymn-deus-tuorum-militum-1}
+}
+\transclude{sarum-v-justus-germinabit}
+
+\transclude{sarum-v-antiph-martyris}
+\transclude{sarum-v-magnificat-iv-i}
+\transclude{sarum-v-antiph-martyris}
+\scope{
+\put\transclude/heading{true}
+\transclude{sarum-v-preces}
+\transclude{sarum-v-oratio-blasius}
+}
+
+\transclude{sarum-v-benedicamus}

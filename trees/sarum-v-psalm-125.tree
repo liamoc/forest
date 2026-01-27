@@ -1,0 +1,18 @@
+\import{sarum-tones}
+\import{gabc-macros}
+\taxon{Psalmus}
+\title{CXXV}
+\tone-i-iv{Fac(hv)ti(g) su(hv)mus.(gf) (::)}{In }{ con}{{ver}téndo Dóminus captivitátem }{ _Sy}{on}{{fac}ti sumus sicut}{ _con}{so}{lá}{ti.}
+\ol{
+  \li{In converténdo Dóminus captivitátem \em{Sy}on : facti sumus sicut \em{con}soláti.}
+  \li{Tunc replétum est gáudio os \em{nos}trum : et lingua nostra exul\em{ta}tióne.}
+  \li{Tunc dicent inter \em{gen}tes : Magnificávit Dóminus fáce\em{re} cum eis.}
+  \li{Magnificávit Dóminus fácere no\em{bís}cum : facti \em{su}mus letántes.}
+  \li{Convérte Dómine captivitátem \em{nos}tram : sicut \em{tor}rens in austro.}
+  \li{Qui séminant in \em{lách}rymis : in exultati\em{ó}ne metent.}
+  \li{Eúntes ibant et \em{fle}bant : mitténtes \em{sé}mina sua.}
+  \li{Veniéntes autem vénient cum exultati\em{ó}ne : portántes ma\em{ní}pulos suos.}
+  \li{Glória Patri et \em{Fí}lio : et Spi\em{rí}tui Sancto.}
+  \li{Sicut erat in princípio et nunc et \em{sem}per : et in sécula sécu\em{lo}rum, Amen.}
+}
+\gabc{(c4) Fac(hv)ti(g) su(hv)mus(gf) *(,) si(e)cut(fv) con(gv)so(fe)lá(d)ti.(d) (::)}

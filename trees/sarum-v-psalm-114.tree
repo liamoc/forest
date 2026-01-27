@@ -1,0 +1,19 @@
+\import{sarum-tones}
+\import{gabc-macros}
+\taxon{Psalmus}
+\title{CXIV}
+\tone-i-iii{In(f)cli(f)ná(gh)vit.(hv) (::) Dí(ixiv)le(g)xi(hv) :(;) {quó}niam exáudiet Dóminus vocem orati(hr0)_ó(g)nis(f) me(g)e.(ghg) (::) }{Qui}{a}{ {in}clinávit aurem suam}{ _mi}{chi}{{et} in diébus meis }{ _in}{vo}{cá}{bo.}
+\ol{
+  \li{Diléxi : quóniam exáudiet Dóminus vocem orati\em{ó}nis mee.}
+  \li{Quia inclinávit aurem suam \em{mi}chi : et in diébus meis \em{in}vocábo.}
+  \li{Circundedérunt me dolóres \em{mor}tis : et perícula inférni \em{in}venérunt mee.}
+  \li{Tribulatiónem et dolórem in\em{vé}ni : et nomen Dómini \em{in}vocávi.}
+  \li{O Dómine líbera ánimam meam miséricors Dóminus et \em{jus}tus : et Deus nos\em{ter} miserétur. }
+  \li{Custódiens párvulos Dó\em{mi}nus : humilátus sum et \em{li}berávit me.}
+  \li{Convértere ánima mea in réquiem \em{tu}am : quia Dóminus bene\em{fé}cit tibi.}
+  \li{Quia erípuit ánimam meam de \em{mor}te : óculos meos a láchrymis, pedes \em{me}os a lapsu.}
+  \li{Placébo Dó\em{mi}no : in regi\em{ó}ne vivórum.}
+  \li{Glória Patri et Fí\em{li}o : et Spi\em{rí}tui Sancto.}
+  \li{Sicut erat in princípio et nunc et \em{sem}per : et in sécula secu\em{ló}rum. Amen.}
+}
+\gabc{(c4) In(f)cli(f)ná(gh)vit.(hv) *(,) Dó(hv)mi(g)nus(hg) au(e)rem(fv) su(gv)am(fe) mi(d)chi.(d) (::)}

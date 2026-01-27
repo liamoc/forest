@@ -1,23 +1,24 @@
-\title{Sarum Vespers (Thu 22nd Jan)}
+\title{Sarum Vespers (Tue 27th Jan)}
 \taxon{Ordo}
 \put\transclude/heading{false}
 \put\transclude/numbered{false}
 \put\transclude/toc{false}
 \transclude{sarum-v-intro}
-\transclude{sarum-v-psalmody-feria-v}
+\transclude{sarum-v-psalmody-feria-iii}
 \scope{
   \put\transclude/heading{true}
 \transclude{sarum-cap-ii-thessa-iii-5}
-\transclude{sarum-hymn-magne-deus-1}
+\transclude{sarum-hymn-telluris-ingens-conditor-1}
 }
 \transclude{sarum-v-dirigatur}
 
-\transclude{sarum-v-antiph-feria-v}
-\transclude{sarum-v-magnificat-i-i}
-\transclude{sarum-v-antiph-feria-v}
+\transclude{sarum-v-antiph-feria-iii}
+\transclude{sarum-v-magnificat-iv-i}
+\transclude{sarum-v-antiph-feria-iii}
 \scope{
 \put\transclude/heading{true}
 \transclude{sarum-v-preces}
-\transclude{sarum-v-oratio-vota-quesumus}
+\transclude{sarum-v-oratio-osd-infirmitatem}
 }
+
 \transclude{sarum-v-benedicamus}

@@ -1,0 +1,33 @@
+\import{gabc-macros}
+\import{sarum-tones}
+\taxon{Psalmus}
+\title{CXXXVIII}
+  \tone-iii-vi-skip{Dó(g)mi(hv)ne(hj) (::)}{{pro}básti me et }{ *cog}{no}{_vís}{{ti} me}{{tu} cognovísti sessiónem me(jr0){am} et resurrec}{_ti}{ó}{nem }{ me}{am.}
+  \ol{
+    \li{Dómine † probásti me et \strong{cog}no\em{vís}ti me : tu cognovísti sessiónem meam et resurrec\em{ti}ónem meam.}
+    \li{Intellexísti cogitatiónes meas de \strong{lo}nge : sémitam meam et funículum meum \em{in}vestigásti.}
+    \li{Et omnes vias meas \strong{pre}ve\em{dís}ti : quia non est sermo \em{in} lingua mea.  }
+    \li{Ecce Dómine tu cognovisti omnia no\strong{vís}sima et an\em{tí}qua : tu formásti me et posuísti super \em{me} manum tuam.}
+    \li{Mirábilis facta est sciéntia \strong{tu}a \em{ex} me : confortáta est et non pó\em{te}ro ad eam.}
+    \li{Quo ibo a \strong{spí}ritu \em{tu}o : et quo a fáci\em{e} tua fúgiam.}
+    \li{Si ascéndero in \strong{ce}lum tu il\em{lic} es : si descéndero in \em{in}férnum ades.}
+    \li{Si sumpséro pennas \strong{me}as di\em{lú}culo : et habitavéro in \em{ex}trémis maris.}
+    \li{Etenim illuc manus \strong{tu}a de\em{dú}cet me : et tenébit me \em{déx}tera tua.}
+    \li{Et dixi Fórsitan ténebre \strong{conc}ul\em{cá}bunt me : et nox illuminátio mea in de\em{lí}ciis meis.}
+    \li{Quia tenébre non obscura\strong{bún}tur \em{a} te : et nox sicut dies illuminábitur, sicut tenebré ejus ita \em{et} lumen ejus.}
+    \li{Quia tu possedísti \strong{re}nes \em{me}os : suscepísti me de úte\em{ro} matris mee.}
+    \li{Confitébor tibi quia terribíliter mag\strong{ni}fi\em{cá}tus es : mirabília ópera tua, et ánima mea \em{co}gnóscet nimis. }
+    \li{Non est occultátum os meum a te quod fe\strong{cí}sti in oc\em{cúl}to : et substáncia mea in inferi\em{ó}ribus terre.}
+    \li{Imperféctum meum vidérunt óculi tui, et in libro tuo \strong{om}nes scri\em{bén}tur : dies formabúntur et \em{ne}mo in eis.}
+    \li{Michi autem nimis honorificáti sunt amíci \strong{tu}i \em{De}us : nimis confortátus est principátus eórum.}
+    \li{Dinumerábo eos et super arénam multi\strong{pli}ca\em{bún}tur : exurréxi, ed \em{ad}huc sum tecum.}
+    \li{Si occíderis Deus \strong{pec}ca\em{tó}res : viri sánguinem dec\em{li}náte a me. }
+    \li{Quia dícitis in cogi\strong{ta}ti\em{ó}ne : accípient in vanitáte ci\em{vi}tátes suas.}
+    \li{Nonne qui odérunt te \strong{Dó}mine \em{ó}deram : et super inimícos tu\em{os} tabescébam. }
+    \li{Perfécto ódio \strong{ó}deram \em{il}los : inimíci \em{fac}ti sunt michi.}
+    \li{Proba me Deus et \strong{sci}to cor \em{me}um : intérroga me, et cognósce \em{sé}mitas meas.}
+    \li{Et vide si via iniqui\strong{tá}tis in \em{me} est : et deduc me in \em{vi}a etérna.}
+    \li{Glória \strong{Pa}tri et Fí\em{li}o : et Sp\em{rí}tui Sancto.}
+    \li{Sicut erat in princípio et \strong{nunc} et semper : et in sécula se\em{cu}lórum, Amen.}
+  }
+  \gabc{(c4) Dó(g)mi(hv)ne(hj) *(,) pro(ji)bás(hv)ti(g) me(hv) et(gF) cog(e)no(fv)vís(gh)ti(gFE) me.(e) (::)}

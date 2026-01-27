@@ -1,0 +1,18 @@
+\import{sarum-tones}
+\import{gabc-macros}
+\taxon{Psalmus}
+\title{CXXIII}
+\tone-i-iii{Ad(f)ju(gv)tó(gh)ri(g)um.(f) (::)}{Ni}{si}{ {qui}a Dóminus erat in nobis dicat nunc Is}{_ra}{el}{{ni}si quia Dóminus }{ _e}{rat }{ in no}{bis.}
+\ol{
+  \li{Nisi quia Dóminus erat in nobis dicat nunc Is\em{ra}el : nisi quia Dóminus \em{e}rat in nobis.}
+  \li{Cum exúrgent hómines in \em{nos} : forte vivos \em{de}glutíssent nos.}
+  \li{Cum irascerétur furor eórum in \em{nos} : fórsitan aqua ab\em{sor}buísset nos.}
+  \li{Torréntem pertransívit ánima \em{nos}tra : fórsitan pertransísset ánima nostra aquam in\em{to}lerábilem.}
+  \li{Benedíctus Dóminus qui non dedit \em{nos} : in captiónem dénti\em{bus} eórum.  }
+  \li{Anima nostra sicut passer erép\em{ta} est : de láque\em{o} venántium. }
+  \li{Láqueus contrí\em{tus} est :  et nos libe\em{rá}ti sumus.}
+  \li{Adjutórium nostrum in nómine Dómini : qui fecit \em{ce}lum et terram.}
+  \li{Glória Patri et Fí\em{li}o : et Spi\em{rí}tui Sancto.}
+  \li{Sicut erat in princípio et nunc et \em{sem}per : et in sécula secu\em{ló}rum. Amen.}
+}
+\gabc{(c4) Ad(f)ju(gv)tó(gh)ri(g)um(f) *() nos(gv)trum(f) in(f) nó(ef)mi(gv)ne(fe) Dó(d)mi(d)ni.(d) (::) }

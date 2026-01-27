@@ -1,0 +1,20 @@
+\import{gabc-macros}
+\import{sarum-tones}
+\taxon{Psalmus}
+\title{CXLI}
+\tone-viii-ii{Por(hv)ti(hv)o(hv) me(g)a(hv) Dó(f)mi(e)ne(gv) (::) }{Vo}{ce }{ {me}a ad Dóminum cla}{*má}{vi}{ {vo}ce mea ad Dóminum}{_de}{pre}{*cá}{tus sum.}
+\ol{
+  \li{ Voce mea ad Dóminum cla\strong{má}vi : voce mea ad Dóminum \em{de}pre\strong{cá}tus sum.  }
+  \li{Effúndo in conspéctu ejus oratiónem \strong{me}am : et tribulatiónem meam ante ip\em{sum} pro\strong{nún}cio.}
+  \li{In deficiéndo ex me spíritum \strong{me}um : et tu cognovísti sé\em{mi}tas \strong{me}as.}
+  \li{In via hac qua ambu\strong{lá}bam : abscondérunt lá\em{que}um \strong{mi}chi.}
+  \li{Considerábam ad déxteram et vi\strong{dé}bam : et non erat qui \em{co}gnó\strong{sce}ret me.}
+  \li{Périit fuga a \strong{me} : et non est qui requírat á\em{ni}mam \strong{me}am.}
+  \li{Clamávi ad te \strong{Dó}mine : dixi Tu es spes mea, pórtio mea in ter\em{ra} vi\strong{vén}tium.}
+  \li{Inténde ad deprecatiónem \strong{me}am : quia humiliátus sum \strong{ni}mis.}
+  \li{Líbera me a persequéntibus \strong{me} : quia confortá\em{ti} sunt \strong{su}per me. }
+  \li{Educ de custódia ánimam meam, ad confiténdum nómini \strong{tu}o : me expéctant justi, donec re\em{trí}buas \strong{mi}chi. }
+  \li{Glória Patri et \strong{Fí}lio : et Spirí\em{tu}i \strong{Sanc}to.}
+  \li{Sicut erat in princípio et nunc et \strong{sem}per : et in sécula secu\em{ló}rum, \strong{A}men.}
+}
+\gabc{(c3) Por(hv)ti(hv)o(hv) me(g)a(hv) Dó(f)mi(e)ne(gv) *(,) sit(f) in(gv) ter(hv)ra(f) vi(e)vén(fv)ti(e)um.(e) (::) }

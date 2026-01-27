@@ -2,13 +2,23 @@
 
 
 \def\tone-iv-vii[incipit][first][second][firstverse][firstdown][firstmiddle][firsttop][firstend][secondverse][secondbottom][secondend]{\gabc{(c4) \incipit \first(h)\second(g)\firstverse(hr0)\firstdown(g)\firstmiddle(h)\firsttop(i)\firstend(h) :(:) \secondverse(hr0)\secondbottom(g)\secondend(h) (::)}}
+\def\tone-iv-vi[incipit][first][second][firstverse][firstdown][firstmiddle][firsttop][firstend][secondverse][secondend]{\gabc{(c4) \incipit \first(h)\second(g)\firstverse(hr0)\firstdown(g)\firstmiddle(h)\firsttop(i)\firstend(h) :(:) \secondverse(hr0)\secondend(g) (::)}}
+\def\tone-iv-i[incipit][first][second][firstverse][firstdown][firstmiddle][firsttop][firstend][secondverse][secondbottom][secondend][moreend][moreend2][moreend3]{\gabc{(c4) \incipit \first(h)\second(g)\firstverse(hr0)\firstdown(g)\firstmiddle(h)\firsttop(i)\firstend(h) :(:) \secondverse(hr0)\secondbottom(g)\secondend(h)\moreend(ih)\moreend2(gFE)\moreend3(e) (::)}}
 
+\def\tone-i-iii[incipit][first][second][firstverse][firstdown][firstend][secondverse][secondd1][secondd2][secondpenult][secondend]{\gabc{(c4) \incipit \first(f)\second(g)\firstverse(hr0)\firstdown(g)\firstend(h) :(:) \secondverse(hr0)\secondd1(g)\secondd2(f)\secondpenult(gr0)\secondend(ghg) (::)}}
 \def\tone-i-iv[incipit][first][second][firstverse][firstdown][firstend][secondverse][secondd1][secondd2][secondpenult][secondend]{\gabc{(c4) \incipit \first(f)\second(g)\firstverse(hr0)\firstdown(g)\firstend(h) :(:) \secondverse(hr0)\secondd1(g)\secondd2(f)\secondpenult(gr0)\secondend(h) (::)}}
 
 \def\tone-i-i[incipit][first][second][firstverse][firstdown][firstend][secondverse][secondd1][secondd2][secondpenult][secondend]{\gabc{(c4) \incipit \first(f)\second(g)\firstverse(hr0)\firstdown(g)\firstend(h) :(:) \secondverse(hr0)\secondd1(g)\secondd2(f)\secondpenult(gh)\secondend(g) (::)}}
 
+\def\tone-v-i[incipit][first][second][firstverse][firstdown][firstend][secondverse][secondd1][secondd2][secondpenult][secondend]{\gabc{(c3) \incipit \first(d)\second(f)\firstverse(hr0)\firstdown(i)\firstend(h) :(:) \secondverse(hr0)\secondd1(i)\secondd2(g)\secondpenult(h)\secondend(f) (::)}}
+
+
+\def\tone-iii-vi[incipit][first][second][firstverse][med1][med2][med3][firstend][secondverse][secondbot1][secondbot2][secondbot3][secondbot4][secondend]{\gabc{(c4) \incipit \first(g)\second(h)\firstverse(jr0)\med1(k)\med2(jr0)\med3(i)\firstend(j) :(:) \secondverse(jr0)\secondbot1(h)\secondbot2(j)\secondbot3(i)\secondbot4(h)\secondend(g) (::)}}
+
+
+\def\tone-iii-vi-skip[incipit][firstverse][med1][med2][med3][firstend][secondverse][secondbot1][secondbot2][secondbot3][secondbot4][secondend]{\gabc{(c4) \incipit \firstverse(jr0)\med1(k)\med2(jr0)\med3(i)\firstend(j) :(:) \secondverse(jr0)\secondbot1(h)\secondbot2(j)\secondbot3(i)\secondbot4(h)\secondend(g) (::)}}
+
+\def\tone-viii-i[incipit][first][second][firstverse][med][firstend][secondverse][end1][end2][end3][secondend]{\gabc{(c3) \incipit \first(e)\second(f)\firstverse(hr0)\med(i)\firstend(hr0) :(:) \secondverse(hr0)\end1(g)\end2(h)\end3(f)\secondend(e) (::)}}
+\def\tone-viii-ii[incipit][first][second][firstverse][med][firstend][secondverse][end1][end2][end3][secondend]{\gabc{(c3) \incipit \first(e)\second(f)\firstverse(hr0)\med(i)\firstend(hr0) :(:) \secondverse(hr0)\end1(f)\end2(h)\end3(i)\secondend(h) (::)}}
+
 \def\oratio-preface{\gabc{(f3) Dó(h)mi(h)nus(h) vo(h)bís(h)cum.(f) (:)  ℟. Et(h) cum(h) spí(h)ri(h)tu(h) tu(h)o.(f) (::) ℣. O(h)ré(h)mus.(h) (::) }}
-\def\tone-iii-vi[incipit][first][second][firstverse][med1][med2][med3][firstend][secondverse][secondbot1][secondbot2][secondbot3][secondbot4][secondend]{\gabc{(c4) \incipit \first(g)\second(h)\firstverse(jr0)\med1(k)\med2(jr0)\med3(i)\firstend(j) :(:) \secondverse(jr0) \secondbot1(h)\secondbot2(j)\secondbot3(i)\secondbot4(h)\secondend(g) (::)}}
-
-\def\tone-viii-i[incipit][first][second][firstverse][med][firstend][secondverse][end1][end2][end3][secondend]{\gabc{(c3) \incipit \first(e)\second(f)\firstverse(hr0)\med(i)\firstend(h) :(:) \secondverse(hr0)\end1(g)\end2(h)\end3(f)\secondend(e) (::)}}
-

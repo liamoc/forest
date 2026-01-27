@@ -1,0 +1,29 @@
+\import{gabc-macros}
+\import{sarum-tones}
+\taxon{Psalmus}
+  \title{CXXXI}
+  \tone-iv-vii{Et(hv) om(hvhv)nis.(g) (::)}{Me}{mé}{{n}to Dó}{_{mi}}{ne}{ *Da}{vid}{{et} omnis mansuetúdinis}{ _e}{jus.}
+\ol{
+    \li{Meménto Dó\em{mi}ne \strong{Da}vid : et omnis mansuetúdinis \em{e}jus.}
+    \li{Sicut ju\em{rá}vit \strong{Dó}mino : votum vovit Deo \em{Ja}cob.}
+    \li{Si introíero in tabernáculum \em{do}mus \strong{me}e : si ascéndero in lectum strati \em{me}i.}
+    \li{Si dédero somnum óc\em{u}lis \strong{me}is : et pálpebris meis dormitati\em{ó}nem.}
+    \li{Et réquiem tempóribus meis donec invéniam \em{ló}cum \strong{Dó}mino : tabernáculum Deo \em{Ja}cob.}
+    \li{Ecce audívimus e\em{am} in \strong{Ef}frata : invénimus eam in campis \em{sil}ve.}
+    \li{Introíbimus in taberná\em{cu}lum \strong{e}jus : adorábimus in loco ubi stetérunt pedes \em{e}jus.}
+    \li{Surge Dómine in ré\em{qui}em \strong{tu}am : tu et arca sanctificatiónis \em{tu}e. }
+    \li{Sacerdótes tui induán\em{tur} jus\strong{tí}ciam : et sancti tui ex\em{úl}tent.}
+    \li{Propter David \em{ser}vum \strong{tu}um : non avértas fáciem Christi \em{tu}i.}
+    \li{Jurávit Dóminus David veritátem et non frustrá\em{bi}tur \strong{e}am : de fructu ventris tui, ponam super sedem \em{tu}am.}
+    \li{Si custodíerint fílii tui testa\em{mén}tum \strong{me}um : et testimónia mea hec que docébo \em{e}os.}
+    \li{Et fili\em{i} e\strong{ó}rum : usque in séculum sedébunt super sedem tuam.}
+    \li{Quóniam elégit Dó\em{mi}nus \strong{Sy}on : elégit eam in habitatiónem \em{si}bi. }
+    \li{Hec réquies mea in sé\em{cu}lum \strong{sé}culi : hic habitábo quóniam elégi \em{e}am. }
+    \li{Víduam ejus benedícens \em{be}ne\strong{dí}cam : páuperes ejus saturábo \em{pá}nibus.}
+    \li{Sacerdótes ejus índuam \em{sa}lu\strong{tá}ri : et sancti ejus exultatióne exul\em{tá}bunt.}
+    \li{Illuc prodúcam \em{cor}nu \strong{Da}vid : parávi lucérnam Christo \em{me}o.}
+    \li{Inimícos ejus índuam con\em{fu}si\strong{ó}ne : super ipsum autem efflorébit sanctificátio \em{me}a.}
+    \li{Glória Pa\em{tri} et \strong{Fí}lio : et Spirítui \em{San}cto.}
+    \li{Sicut erat in princípio et \em{nunc} et \strong{sem}per : et in sécula seculórum, \em{A}men.}
+  }
+  \gabc{(c4) Et(hv) om(hvhv)nis(g) *(,) man(g)su(f)e(gv)tú(ixiv)di(iv)nis(g) e(ixiv)jus.(h) (::)}

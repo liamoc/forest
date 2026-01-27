@@ -1,0 +1,38 @@
+\import{gabc-macros}
+\import{sarum-tones}
+\taxon{Psalmus}
+\title{CXXXV}
+\tone-iii-vi{Quó(g)ni(hv)am(hj) in(ji) e(h)tér(g)num(hv). (::)}{Con}{fi}{{té}mini Dómino }{ *quó}{{ni}am }{ _bo}{nus}{{Quó}niam in etérnum miseri}{_cór}{di}{a}{ e}{jus.}
+\def\endbit{: quóniam in etérnum miseri\em{cór}dia ejus.}
+\ol{
+  \li{Confitémini Dómino \strong{quó}niam \em{bo}nus \endbit}
+  \li{Confitémini \strong{De}o de\em{ó}rum \endbit}
+  \li{Confitémini Dómino \strong{do}mi\em{nó}rum \endbit}
+  \li{Qui facit mirabília \strong{mag}na \em{so}lus \endbit}
+  \li{Qui fecit celos in \strong{in}tel\em{léc}tu \endbit}
+  \li{Qui firmávit terram \strong{su}per \em{a}quas \endbit}
+  \li{Qui fecit lumi\strong{ná}ria \em{mag}na \endbit}
+  \li{Solem in potes\strong{tá}tem di\em{é}i \endbit}
+  \li{Lunam et stellas in pote\strong{stá}tem \em{noc}tis \endbit}
+  \li{Qui percússit Egyptum cum primo\strong{gén}itis e\em{ó}rum \endbit}
+  \li{Qui edúxit Israel de \strong{me}dio e\em{o}rum \endbit}
+  \li{In manu poténti et \strong{brá}chio ex\em{cél}so \endbit}
+  \li{Qui divísit mare Rubrum in di\strong{vi}si\em{ó}nes \endbit}
+  \li{Et edúxit Israel per \strong{mé}dium \em{e}jus \endbit}
+  \li{Et excússit Pharaónem et virtutem ejus in \strong{ma}ri \em{Ru}bro \endbit}
+  \li{Qui tradúxit pópulum suum \strong{per} de\em{sér}tum \endbit}
+  \li{Qui percússit \strong{re}ges magnos \endbit}
+  \li{Et occídit \strong{re}ges fortes \endbit}
+  \li{Seon regem Am\strong{mo}re\em{ó}rum \endbit}
+  \li{Et Og \strong{re}gem \em{Ba}san \endbit}
+  \li{Et dedit terram eórum he\strong{re}di\em{tá}tem \endbit}
+  \li{Hereditátem Israel \strong{sér}vo \em{su}o \endbit}
+  \li{Quia in humilitáte nostra memor \strong{fu}it \em{no}stri \endbit}
+  \li{Et redémit nos ad ini\strong{mí}cis \em{no}stris \endbit}
+  \li{Qui dat escam \strong{om}ni \em{car}ni \endbit}
+  \li{Confitémini \strong{De}o \em{ce}li \endbit}
+  \li{Confitémini Dómino \strong{do}mi\em{nó}rum \endbit}
+  \li{Glória \strong{Pa}tri et Fí\em{li}o : et Sp\em{rí}tui Sancto.}
+  \li{Sicut erat in princípio et \strong{nunc} et semper : et in sécula se\em{cu}lórum, Amen.}
+}
+\gabc{(c4) Quó(g)ni(hv)am(hj) in(ji) e(h)tér(g)num(hv) *(,) mi(g)se(g)ri(g)cór(gf)di(gh)a(gf) e(e)jus.(e) (::)}
