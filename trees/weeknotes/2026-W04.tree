@@ -1,0 +1,13 @@
+\import{table-macros}
+\title{Weeknotes 2026-W04}
+\author{liamoc}
+\date{2026-01-25}
+\p{This week was primarily spent travelling, although I have safely made it to Edinburgh. I'm here for two weeks or so, and I'm trying to maximise the amount of good church singing I do while I'm here.}
+\figure{
+  \<html:img>[width]{260px}[src]{\route-asset{assets/edinburgh1.jpeg}}%{}
+  %\<html:img>[width]{260px}[src]{\route-asset{assets/edinburgh2.jpeg}}%{}
+  \<html:img>[width]{260px}[src]{\route-asset{assets/edinburgh3.jpeg}}%{}
+ \figcaption{Gloomy, wet, cold, miserable, lovely Edinburgh.}
+}
+\transclude{loc-0030}
+\transclude{loc-002Z}

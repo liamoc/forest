@@ -1,0 +1,56 @@
+\date{2026-01-25}
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{Third Sunday after Epiphany 2026}
+\tag{cmc}
+\author{liamoc}
+\quote{Dóminus secus mare Galiláeae vidit duos fratres, Petrum et Andréam, et vocávit eos: Veníte post me: fáciam vos fíeri piscatóres hóminum.\br
+Adoráte Deum omnes Angeli eius audívit, et lætáta est Sion: et exsultavérunt fíliæ Iudæ.
+}
+ \figure{
+   \<html:img>[width]{250px}[src]{\route-asset{assets/smas1.jpeg}}{}
+   \<html:img>[width]{250px}[src]{\route-asset{assets/smas2.jpeg}}{}
+   \figcaption{It's good to be back at St. Michael and All Saints.}
+ }
+\p{This Sunday I sang with two choirs: [St. Michael and All Saints](https://smas.church) for the morning mass and [Old St. Paul's](https://www.osp.org.uk/) for evensong, which included lucernarium and benediction of the Blessed Sacrament. In the morning we sang Franck's [Panis Angelicus](https://www.youtube.com/watch?v=PK3TeWqSAZk) and a simple choral mass setting whose composer I can't now recall. }
+\quote{
+\table{
+  \tr{
+    \td{
+      Panis angelicus
+    }\td{Bread of angels}
+  }\tr{
+    \td{fit panis hominum;}
+    \td{Becomes the bread of men;}
+  }\tr{
+    \td{Dat panis cœlicus figuris terminum:}
+    \td{The heavenly bread ends the old figures:}
+}\tr{\td{O res mirabilis!}
+\td{O wondrous thing!}
+}\tr{\td{Manducat Dominum}\td{To eat of the Lord}}\tr{\td{
+pauper, servus et humilis.}\td{The poor, the servant, the humble.}}}
+}
+
+\p{I cantored for the propers. In the evening, as it's the Conversion of St. Paul, the namesake of the church, we performed some ambitious repertoire, including the [Bairstow Magnificat](https://www.youtube.com/watch?v=AIsBdhEdfV0) and [Nunc Dimittis](https://www.youtube.com/watch?v=3hnVnlZy5yo), as well as Palestrina's Magnus Sanctus Paulus for eight voices, which I can't find a recording of anywhere.}
+\quote{
+  \table{
+    \tr{
+      \td{Magnus sanctus Paulus,}\td{Saint Paul the Great,}
+    }\tr{
+      \td{vas electiónis}\td{The vessel that was chosen,}
+      }\tr{
+      \td{vere digne est glorificándus,}\td{truly worthy to be praised,}
+      }\tr{
+      \td{qui et thronum duodécimum  méruit possidére.}\td{who merited the twelfth throne.}
+      }\tr{
+      \td{intercéde pro nobis ad Deum,}\td{Intercede for us to God,}
+      }\tr{
+      \td{qui te elegit, ut digni efficiamur gratia Dei.}\td{who chose thee, that we may be made worthy of the grace of God.}
+      }    
+    }
+  }
+  \p{We also performed Widor's [Tantum Ergo](https://www.youtube.com/watch?v=i1FLpyxo3nw) for the Benediction.}
+  \p{In between those two services I also stopped in to hear Evensong at St. Mary's Episcopal Cathedral in Edinburgh's west end. The choir there is very good, and I always like attending evensong there, although one of the sopranos was annoyingly out of tune this time.}
+  
