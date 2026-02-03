@@ -10,8 +10,8 @@
 Adoráte Deum omnes Angeli eius audívit, et lætáta est Sion: et exsultavérunt fíliæ Iudæ.
 }
  \figure{
-   \<html:img>[width]{250px}[src]{\route-asset{assets/smas1.jpeg}}{}
-   \<html:img>[width]{250px}[src]{\route-asset{assets/smas2.jpeg}}{}
+   \<html:img>[loading]{lazy}[width]{250px}[src]{\route-asset{assets/smas1.jpeg}}{}
+   \<html:img>[loading]{lazy}[width]{250px}[src]{\route-asset{assets/smas2.jpeg}}{}
    \figcaption{It's good to be back at St. Michael and All Saints.}
  }
 \p{This Sunday I sang with two choirs: [St. Michael and All Saints](https://smas.church) for the morning mass and [Old St. Paul's](https://www.osp.org.uk/) for evensong, which included lucernarium and benediction of the Blessed Sacrament. In the morning we sang Franck's [Panis Angelicus](https://www.youtube.com/watch?v=PK3TeWqSAZk) and a simple choral mass setting whose composer I can't now recall. }

@@ -20,12 +20,12 @@
 }
 \p{We also had a small celebration of our choir and sanctuary party at Corroboree park in Ainslie.}
 \figure{
-  \<html:img>[width]{220px}[src]{\route-asset{assets/alipate.jpeg}}{}
+  \<html:img>[loading]{lazy}[width]{220px}[src]{\route-asset{assets/alipate.jpeg}}{}
   \figcaption{Fr. Alipate works for over an hour at the barbeque.}
 }
 \p{We were blessed with a gorgeous sunset to conclude the evening.}
 \figure{
-  \<html:img>[width]{240px}[src]{\route-asset{assets/choirsunset1.jpeg}}{}
-  \<html:img>[width]{240px}[src]{\route-asset{assets/choirsunset2.jpeg}}{}
-  \<html:img>[width]{240px}[src]{\route-asset{assets/choirsunset3.jpeg}}{}
+  \<html:img>[loading]{lazy}[width]{240px}[src]{\route-asset{assets/choirsunset1.jpeg}}{}
+  \<html:img>[loading]{lazy}[width]{240px}[src]{\route-asset{assets/choirsunset2.jpeg}}{}
+  \<html:img>[loading]{lazy}[width]{240px}[src]{\route-asset{assets/choirsunset3.jpeg}}{}
 }

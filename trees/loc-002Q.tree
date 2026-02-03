@@ -9,7 +9,7 @@
 \quote{ Roráte cæli désuper, et nubes pluant iustum: aperiátur terra, et gérminet Salvatórem.
  }
  \figure{
-   \<html:img>[width]{350px}[src]{\route-asset{assets/allsaints.jpeg}}{}
+   \<html:img>[loading]{lazy}[width]{350px}[src]{\route-asset{assets/allsaints.jpeg}}{}
    \figcaption{Rehearsing in a hot and humid, but charming church.}
  }
 \p{This muggy Sunday at [All Saints Ainslie](https://allsaintsainslie.org.au) we sang Prätorius' [Es ist ein Ros' entsprungen](https://www.youtube.com/watch?v=7RjAXOcTebI) under my direction. There was also a memorial minute of silence for the victims of the horrific Bondi shooting in Sydney last Sunday. }

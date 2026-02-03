@@ -4,10 +4,10 @@
 \date{2025-12-28}
 \p{This week I have been holidaying in Melbourne!}
 \figure{
-  \<html:img>[width]{250px}[src]{\route-asset{assets/melb1.jpeg}}%{}
-  \<html:img>[width]{250px}[src]{\route-asset{assets/melb2.jpeg}}%{}
-  \<html:img>[width]{250px}[src]{\route-asset{assets/melb4.jpeg}}%{}
-  \<html:img>[width]{250px}[src]{\route-asset{assets/melb5.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{250px}[src]{\route-asset{assets/melb1.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{250px}[src]{\route-asset{assets/melb2.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{250px}[src]{\route-asset{assets/melb4.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{250px}[src]{\route-asset{assets/melb5.jpeg}}%{}
  \figcaption{Some sights of Melbourne.}
 }
 \transclude{loc-002V}

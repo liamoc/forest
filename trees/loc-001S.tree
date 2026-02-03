@@ -3,8 +3,8 @@
 \title{COMP1100 lectures done}
 \author{liamoc}
 \figure{
-  \<html:img>[width]{220px}[src]{\route-asset{assets/cockies1.jpeg}}{}
-  \<html:img>[width]{220px}[src]{\route-asset{assets/cockies2.jpeg}}{}
+  \<html:img>[loading]{lazy}[width]{220px}[src]{\route-asset{assets/cockies1.jpeg}}{}
+  \<html:img>[loading]{lazy}[width]{220px}[src]{\route-asset{assets/cockies2.jpeg}}{}
   \figcaption{The squawking cockatoos on the walk from my lecture theatre.}
 }
 

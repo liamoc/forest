@@ -4,8 +4,8 @@
 \date{2025-07-06}
 \p{I decided to try out the Weeknotes idea, that I first saw from [[jonsterling]]. This was a pretty full week, ending with the somewhat devastating news that dozens of academic and professional positions will be gutted from, among others, the College of Arts and Social Sciences at the [[anu]]. I hear that Music will in particular be sorely affected. My heart goes out to all my colleagues and I hope that all of their futures are bright. }
 \figure{
-  \<html:img>[width]{220px}[src]{\route-asset{assets/tidbin0.jpeg}}{}
-  \<html:img>[width]{220px}[src]{\route-asset{assets/tidbin1.jpeg}}{}
+  \<html:img>[loading]{lazy}[width]{220px}[src]{\route-asset{assets/tidbin0.jpeg}}{}
+  \<html:img>[loading]{lazy}[width]{220px}[src]{\route-asset{assets/tidbin1.jpeg}}{}
   \figcaption{Some shots from the Tidbinbilla nature reserve, south of Canberra.}
 }
 \transclude{loc-001A}

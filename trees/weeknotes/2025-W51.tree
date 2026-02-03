@@ -4,7 +4,7 @@
 \date{2025-12-21}
 \p{This week somehow I didn't end up getting much work done, although a bunch of admin was handled. Next week I will be singing at Midnight Mass and then travelling to Sydney to spend Christmas day with my family.}
 \figure{
-  \<html:img>[width]{350px}[src]{\route-asset{assets/morning.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{350px}[src]{\route-asset{assets/morning.jpeg}}%{}
  \figcaption{A nice Canberra morning.}
 }
 \transclude{loc-002Q}

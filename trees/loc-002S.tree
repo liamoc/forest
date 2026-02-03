@@ -12,9 +12,9 @@
  }
 \p{I got up early to attend the BCP service at [St. John's](https://www.stjohnscanberra.org/), but was disappointed to see that the service was following the APBA and not the BCP. I think the BCP is only used after January. Furthermore, even by APBA standards the Eucharistic prayer was rushed and insufficiently reverent. Oh well, it is a lovely little church:}
 \figure{
-  \<html:img>[width]{250px}[src]{\route-asset{assets/stjohns1.jpeg}}{}
-  \<html:img>[width]{250px}[src]{\route-asset{assets/stjohns2.jpeg}}{}
-  \<html:img>[width]{250px}[src]{\route-asset{assets/stjohns3.jpeg}}{}
+  \<html:img>[loading]{lazy}[width]{250px}[src]{\route-asset{assets/stjohns1.jpeg}}{}
+  \<html:img>[loading]{lazy}[width]{250px}[src]{\route-asset{assets/stjohns2.jpeg}}{}
+  \<html:img>[loading]{lazy}[width]{250px}[src]{\route-asset{assets/stjohns3.jpeg}}{}
   \figcaption{Church of St. John the Baptist, Reid.}
 }
 

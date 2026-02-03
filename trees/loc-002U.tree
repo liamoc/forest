@@ -10,10 +10,10 @@
   Benedíctus qui venit in nómine Dómini: benedíximus vobis de domo Dómini: Deus Dóminus, et illúxit nobis, allelúia, allelúia.
  }
  \figure{
-   \<html:img>[width]{250px}[src]{\route-asset{assets/stpeters4.jpeg}}{}
-   \<html:img>[width]{250px}[src]{\route-asset{assets/stpeters3.jpeg}}{}
-   \<html:img>[width]{250px}[src]{\route-asset{assets/stpeters2.jpeg}}{}
-   \<html:img>[width]{250px}[src]{\route-asset{assets/stpeters.jpeg}}{}
+   \<html:img>[loading]{lazy}[width]{250px}[src]{\route-asset{assets/stpeters4.jpeg}}{}
+   \<html:img>[loading]{lazy}[width]{250px}[src]{\route-asset{assets/stpeters3.jpeg}}{}
+   \<html:img>[loading]{lazy}[width]{250px}[src]{\route-asset{assets/stpeters2.jpeg}}{}
+   \<html:img>[loading]{lazy}[width]{250px}[src]{\route-asset{assets/stpeters.jpeg}}{}
    \figcaption{St Peter's Eastern Hill, Melbourne.}
  }
 \p{This Sunday I sang with the choir of [St. Peter's Eastern Hill](https://www.stpeters.org.au) in Melbourne. We sang the Simple Communion Service in F Major by William Harris, for which I can't find a recording online (although the [livestream link for St. Peter's](https://www.youtube.com/watch?v=LsT4HF1ND7E) isn't bad, and we sang it well). For a motet we sang Marenzio's [Tribus miraculis](https://www.youtube.com/watch?v=5DW4n-Wgcs8): }

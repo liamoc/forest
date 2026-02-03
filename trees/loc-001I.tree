@@ -4,8 +4,8 @@
 \title{Engagement Crisis in Teaching}
 
 \figure{
-  \<html:img>[width]{220px}[src]{\route-asset{assets/anu0.jpeg}}{}
-  \<html:img>[width]{220px}[src]{\route-asset{assets/anu1.jpeg}}{}
+  \<html:img>[loading]{lazy}[width]{220px}[src]{\route-asset{assets/anu0.jpeg}}{}
+  \<html:img>[loading]{lazy}[width]{220px}[src]{\route-asset{assets/anu1.jpeg}}{}
   \figcaption{A sunset and a morning photo of the same location on the [[anu]] campus, on the way to my lecture theatre}
 }
 

@@ -4,8 +4,8 @@
 \date{2025-11-30}
 \p{I spent much of this week preparing notes for my upcoming Logic Summer School course, [[isa-0001]].}
 \figure{
-  \<html:img>[width]{250px}[src]{\route-asset{assets/clear1.jpeg}}%{}
-  \<html:img>[width]{250px}[src]{\route-asset{assets/clear2.jpeg}}{}
+  \<html:img>[loading]{lazy}[width]{250px}[src]{\route-asset{assets/clear1.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{250px}[src]{\route-asset{assets/clear2.jpeg}}{}
  \figcaption{Clear skies on my walk to work.}
 }
 \transclude{loc-002J}

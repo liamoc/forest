@@ -6,7 +6,7 @@
   This post could be considered a sequel to [my previous post](loc-001H) regarding the use of LLMs in education, to which I recently added [Ed Zitron's excellent article](https://www.wheresyoured.at/the-haters-gui/), but here I describe  more generally the attitude I observe among students recently.
 }
 \figure{
-  \<html:img>[src]{\route-asset{assets/ftgraph.jpeg}}{}
+  \<html:img>[loading]{lazy}[src]{\route-asset{assets/ftgraph.jpeg}}{}
 }
 \p{I am avoiding mention of specific incidents to preserve anonymity, so I will by necessity speak in generalities, but of course there are still engaged, conscientious and diligent students, and not all hope is lost. \strong{If you are a student of mine reading this, I most probably consider you part of this hopeful set.}}
 \p{

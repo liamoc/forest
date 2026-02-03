@@ -2,8 +2,8 @@
 \date{2025-08-17}
 \title{I'm moving to Dickson}
 \figure{
-  \<html:img>[width]{220px}[src]{\route-asset{assets/confucius.jpeg}}{}
-  \<html:img>[width]{220px}[src]{\route-asset{assets/biketrack.jpeg}}{}
+  \<html:img>[loading]{lazy}[width]{220px}[src]{\route-asset{assets/confucius.jpeg}}{}
+  \<html:img>[loading]{lazy}[width]{220px}[src]{\route-asset{assets/biketrack.jpeg}}{}
   \figcaption{Some shots of Dickson, including a statue of Confucius.}
 }
 \p{With the dire state of the Australian property market, it seems that my landlord has decided to pick the most inconvenient possible time for me to sell the flat that I currently live in, in the Braddon suburb of inner Canberra.}
