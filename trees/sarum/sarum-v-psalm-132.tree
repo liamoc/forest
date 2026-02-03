@@ -1,0 +1,14 @@
+\import{gabc-macros}
+\import{sarum-tones}
+\taxon{Psalmus}
+\title{CXXXII}
+  \tone-i-iv{Ec(hv)ce(hv) quam(g) bo(gf)num(e) (::)}{et }{ quam }{ jo}{_cún}{dum}{{ha}bitáre frat}{_res}{ in}{ u}{num.}
+  \ol{
+    \li{Ecce quam bonum † et quam jo\em{cún}dum : habitáre frat\em{res} in unum.}
+    \li{Sicut unguéntum in cá\em{pi}te : quod descéndit in barbam \em{bar}bam Aaron.}
+    \li{Quod descéndit in oram vestiménti \em{e}jus : sicut ros Hermon qui descéndit in \em{mon}tem Syon.}
+    \li{Quóniam illic mandávit Dóminus benedicti\em{ó}nem : et vitam us\em{que} in séculum.}
+    \li{Glória Patri et \em{Fí}lio : et Spirí\em{tu}i Sancto.}
+    \li{Sicut erat in princípio et nunc et \em{sem}per : et in sécula secul\em{ó}rum, Amen.}
+  }
+  \gabc{(c4) Ec(hv)ce(hv) quam(g) bo(gf)num(e) *(,) et(fv) quam(gv) jo(fe)cún(d)dum.(d) (::)}

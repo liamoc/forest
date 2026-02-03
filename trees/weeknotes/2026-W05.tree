@@ -1,0 +1,13 @@
+\import{table-macros}
+\title{Weeknotes 2026-W05}
+\author{liamoc}
+\date{2026-02-01}
+\p{This week was primarily spent working in Edinburgh.}
+\figure{
+  \<html:img>[width]{260px}[src]{\route-asset{assets/edinburgh4.jpeg}}%{}
+  %\<html:img>[width]{260px}[src]{\route-asset{assets/edinburgh2.jpeg}}%{}
+  \<html:img>[width]{260px}[src]{\route-asset{assets/edinburgh5.jpeg}}%{}
+ \figcaption{A rare glimpse of the sun in wintry Edinburgh.}
+}
+\transclude{loc-0033}
+\transclude{loc-0032}

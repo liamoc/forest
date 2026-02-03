@@ -1,0 +1,12 @@
+\import{sarum-tones}
+\import{gabc-macros}
+\taxon{Psalmus}
+\title{CXVI}
+\tone-iv-i{Lau(d)dá(fv)te (fv) (::)}{Dó}{mi}{num}{ _om}{nes }{ *gen}{tes}{ {lau}dáte e}{_um}{ om}{*nes }{ pó}{puli.}
+\ol{
+  \li{Laudáte Dóminum \em{om}nes \strong{gen}tes : laudáte e\em{um} om\strong{nes} pópuli.}
+  \li{Quóniam confirmáta est super nos miseri\em{cór}dia \strong{e}jus : et veritas Dómini man\em{et} in \strong{e}térnum.}
+  \li{Glória Pa\em{tri} et \strong{Fí}lio : et Spi\em{rí}tu\strong{i} Sáncto.}
+  \li{Sicut erat in princípio et \em{nunc} et \strong{sem}per : et in sécula se\em{cu}ló\strong{rum}, Amen}
+}
+\gabc{(c4) Lau(d)dá(fv)te(fv) *() Dó(de)mi(d)num(c) om(dv)nes(ev) gen(ev)tes.(ev) (::)}

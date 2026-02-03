@@ -1,0 +1,11 @@
+\taxon{Memoria}
+\import{sarum-tones}
+\import{gabc-macros}
+\title{de omnibus sanctis}
+% post Deus Omnium, but also other times
+\gabc{(c3)O(ghffv) quam(fe~) *() glo(hv)ri(hi)ó(ih)sum(iv) est(iji) reg(h)num(h) (,) in(hij) quo(ji) cum(kv) Chri(kj)sto(ih) gau(iv)dent(hi) om(jv)nes(i) san(h)cti(h) (;) a(fe)míc(hv)ti(iv) sto(jv)lis(i) al(hiji~)bis :(jkj) se(fe)qu(i)ún(iv)tur(iji) Ag(hg)num(fe) quo(ih)cúm(iv)que(iji) í(h)e(gxgh)rit.(hv) (::) }
+% Letámini in Dómino in exultáte justi.
+% Et gloriámini omnes recte corde.
+\put\gabc/use-drop-cap{false}
+\gabc{(f3) ℣. {Le}támini in Dómino(hr0) {in} exultate(hr0) jus(f)ti(gv) :(:) ℟. {Et} gloriámini(hr0) {omn}es recte(hr0) cor(hr0)de.(f) (::) ℣. O(h)ré(gh)mus.(h) (::)}
+\transclude{sarum-v-oratio-vide-domine-infirmitates}

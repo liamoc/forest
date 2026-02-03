@@ -1,0 +1,18 @@
+\import{sarum-tones}
+\import{gabc-macros}
+\taxon{Psalmus}
+\title{CXX}
+\tone-viii-ii{Au(hv)xí(hv)li(hg)um.(f) (::)}{Le}{vá}{{vi} óculos meos in }{ *mon}{tes}{{un}de véniet au}{_xí}{{li}um }{ *mi}{chi.}
+\ol{
+  \li{Levávi óculos meos in \strong{mon}tes : unde véniet au\em{xí}lium \strong{mi}chi.}
+  \li{Auxílium meum a \strong{Dó}mino : qui fecit cel\em{um} et \strong{ter}ram.}
+  \li{Non det in commotiónem pedem \strong{tu}um : neque dormítet \em{qui} cus\strong{tó}dit te.}
+  \li{Ecce non dormitábit neque \strong{dór}miet : qui cus\em{tó}dit \strong{Is}rael.}
+  \li{Dóminus custódit \strong{te} : Dóminus protéctio tua, super manum \em{déx}teram \strong{tu}am. }
+  \li{Per diem sol non uret \strong{te} : neque \em{lu}na per \strong{noc}tem.}
+  \li{Dóminus custódit te ab omni \strong{ma}lo : custódiat ánimam \em{tu}am \strong{Dó}minus.}
+  \li{Dóminus custódiat intróitum tuum et éxitum \strong{tu}um : ex hoc nunc \em{us}que in \strong{sé}culum.}
+  \li{Glória Patri et \strong{Fí}lio : et Spi\em{rí}tui \strong{San}cto.}
+  \li{Sicut erat in princípio et nunc et \strong{sem}per : et in sécula secu\em{ló}rum, \strong{A}men. }
+}
+\gabc{(c3) Au(hv)xí(hv)li(hg)um(f) *() me(f)um(e) a(fv) Dó(fv)mi(e)no.(e) (::)}

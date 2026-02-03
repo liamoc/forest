@@ -1,0 +1,19 @@
+\import{gabc-macros}
+\import{sarum-tones}
+\taxon{Canticum}
+\title{Magnificat}
+
+\gabc{(c4)Ma(hg)gní(gh)fi(h)cat(h) :(;) á(h)ni(h)_ma(g) me(h)*a(ih) Dó(g)mi(fe)num.(e) (::) Et(hg) ex(gh)ul(h)tá(h)_vit(hg) *spí(gi)ri(i)tus(i) _me(hi)us(h) :(;) in(h) *De(hi)o(h) sa(h)_lu(g)tá(h)*ri(ih) me(gFE)o.(e) (::)}
+\ol{\li{Magníficat : áni\em{ma} me\strong{a} Dóminum.}
+\li{Et exultá\em{vit} \strong{spí}ritus \em{me}us : in \strong{De}o sa\em{lu}tá\strong{ri} meo.}
+\li{Quia respéxit humilitátem \em{an}\strong{cíl}le \em{su}e : ecce enim ex hoc be\strong{á}tam me dicent omnes ge\em{ne}ra\strong{ti}ónes.}
+\li{Quia fecit mi\em{chi} \strong{mag}na qui \em{po}tens est : et sanct\em{um} no\strong{men} ejus.}
+\li{Et misericórdia ejus a \em{pro}\strong{gé}nie in pro\em{géni}es : ti\em{mén}ti\strong{bus} eum. }
+\li{Fecit poténtiam \em{in} \strong{brá}chio \em{su}o : dispérsit su\strong{pér}bos men\em{te} cor\strong{dis} sui.  }
+\li{Depósuit \em{po}\strong{tén}tes de \em{se}de : et ex\em{al}ltavit \strong{hú}miles.}
+\li{Esuriéntes \em{im}\strong{plé}vit \em{bo}nis : et \strong{dí}vites di\em{mí}sit \strong{i}nánes. }
+\li{Suscépit Isra\em{el} \strong{pú}erum \em{su}um : recor\strong{dá}tus miseri\em{cór}di\strong{e} sue. }
+\li{Sicut locútus est \em{ad} \strong{pa}tres \em{nos}tros : Abra\strong{ham} et sémini e\em{jus} in \strong{se}cula.  } 
+\li{Glória \em{Pa}\strong{tri} et \em{Fí}lio : et Spi\em{rí}tu\strong{i} Sancto.}
+\li{Sicut erat in princípio \em{et} \strong{nunc} et \em{sem}per : et in \strong{sé}cula se\em{cu}ló\strong{rum}, Amen.}
+}

@@ -1,0 +1,6 @@
+\import{gabc-macros}
+\import{sarum-tones}
+\scope{
+\put\gabc/annotation{Ant.}
+\tone-i-i{Qui(dv) me(dv) con(dc~)fés(fv)sus(gv) fú(f)e(gh)rit(hv) *(,) co(ixih)ram(g) ho(g)mí(f)ni(gh)bus(g) : (;) con(g)fi(g)té(g)bor(g) et(g) e(e)go(gv) e(hg)um(fg) co(fe)ram(c) Pa(eg)tre(fe) me(d)o.(d) (::) Gló(f)ri(g){a} Patri et Fí(hr0)li(g)o(h) :(:) {et} Spirí(hr0)tu(g)i(f) San(gh)cto.(g) (::)}{Si}{cut}{{e}rat in princípio et nunc et }{ sem}{per}{{et} in sécula secu}{ló}{rum, }{ A}{men.}
+}

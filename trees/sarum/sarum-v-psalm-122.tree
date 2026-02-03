@@ -1,0 +1,15 @@
+\import{sarum-tones}
+\import{gabc-macros}
+\taxon{Psalmus}
+\title{CXXII}
+\tone-viii-i{Qui(hv) há(f)bi(fg)tas.(gv) (::)}{Ad }{ te }{ {le}vávi óculos}{ *me}{os}{{qui} hábi}{_tas}{ in }{ _ce}{lis.}
+\ol{
+  \li{Ad te levávi óculos \strong{me}os : qui hábi\em{tas} in \em{ce}lis.}
+  \li{Ecce sicut óculi ser\strong{vó}rum : in mánibus domi\em{nó}rum su\em{ó}rum.}
+  \li{Sicut óculi ancílle in mánibus dómine \strong{su}e : ita óculi nostri ad Dóminum Deum nostrum, donec misere\em{á}tur \em{nos}tri.}
+  \li{Miserére nostri Dómine miserére \strong{nos}tri : quia multum repléti sumus des\em{pec}ti\em{ó}ne. }
+  \li{Quia multum repléta est ánima \strong{nos}tra : oppróbrium abundántibus et des\em{péc}tio su\em{pér}bis.}
+  \li{Glória Patri et \strong{Fí}lio : et Spirí\em{tu}i \em{San}cto. }
+  \li{Sicut erat in princípio et nunc et \strong{sem}per : et in sécula secul\em{ó}rum, \em{A}men.}
+}
+\gabc{(c3) Qui(hv) há(f)bi(fg)tas(gv) *() in(hj) ce(jIH)lis(iv) mi(h)se(h)ré(iv)re(h) no(g)bis.(g) (::) }

@@ -1,0 +1,9 @@
+\taxon{Memoria}
+\import{sarum-tones}
+\import{gabc-macros}
+\title{de Sancta Maria}
+% post Deus Omnium, but also other times
+\gabc{(c4)San(ghj~)cta(jv) *(,) Ma(jv)rí(ji)a(hg) vir(hv)go(g) (,) in(hv)ter(hj)cé(gf)de(ed) pro(gv) to(hj)to(ijIHG) mun(hj~)do,(jv) (,) qui(ji)a(jk) ge(ji)nu(hg)ís(hv)ti(g) re(g)gem(f) or(hjjhih~)bis.(g) (::)}
+\put\gabc/use-drop-cap{false}
+\gabc{(f3) ℣. {San}cta Dei(hr0) {gén}itrix virgo(hr0) {sem}per Ma(hr0)rí(f)a(gv) :(:) ℟. {In}tercéde pro(hr0) {no}bis(hr0) {ad} Dóminum(hr0) {De}um nos(hr0)trum.(f) (::) ℣. O(h)ré(gh)mus.(h) (::)}
+\transclude{sarum-v-oratio-osd-nos-famulos}

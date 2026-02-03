@@ -1,0 +1,20 @@
+\import{sarum-tones}
+\import{gabc-macros}
+\taxon{Psalmus}
+\title{CXXI}
+\tone-iv-vi{In(g) do(g)mum(g) Dó(g)mi(hi)ni.(h) (::)}{Le}{tá}{{tus} sum in his que dic}{_ta }{ sunt }{ *mi}{chi}{in domum Dómini íbi}{_mus.}
+\ol{
+  \li{Letátus sum in his que dic\em{ta} sunt \strong{mi}chi : in domum Dómini íbi\em{mus}.}
+  \li{Stantes erant \em{pe}des \strong{nos}tri : in átriis tuis Hierúsa\em{lem}.}
+  \li{Hierúsalem que edificá\em{tur} ut \strong{cí}vitas : cujus participátio ejus in idíp\em{sum}. }
+  \li{Illuc enim ascendérunt tribus \em{tri}bus \strong{Dó}mini : testimónium Israel ad confiténdum nómini Dómi\em{ni.}}
+  \li{Quia illic sedérunt sedes \em{in} ju\strong{dí}cio : sedes super domum Dav\em{id}.}
+  \li{Rogáte que ad pacem \em{sunt} Hie\strong{rú}salem : et abundáncia diligéntibus \em{te}.}
+  \li{Fiat pax in vir\em{tú}te \strong{tu}a : et abundáncia in túrribus tu\em{is.}}
+  \li{Propter fratres meos et pró\em{xi}mos \strong{me}os : loquébar pacem de \em{te}.}
+  \li{Propter domum Dómini \em{De}i \strong{nos}tri : quesívi bona ti\em{bi}.}
+  \li{Glória Pat\em{ri} et \strong{Fí}lio : et Spirítui Sanc\em{to}. }
+  \li{Sicut erat in princípio et \em{nunc} et \strong{sem}per : et in sécula seculórum, A\em{men}.}
+}
+\gabc{(c4) In(g) do(g)mum(g) Dó(g)mi(hi)ni(h) *(,) le(hi)tán(g)tes(g) í(g)bi(f)mus.(e) (::)}
+

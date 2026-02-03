@@ -1,0 +1,21 @@
+\title{Sarum Compline}
+\taxon{Ordo}
+\put\transclude/heading{false}
+\put\transclude/numbered{false}
+\put\transclude/toc{false}
+\transclude{sarum-c-intro}
+\transclude{sarum-c-psalmody}
+\scope{
+  \put\transclude/heading{true}
+  \transclude{sarum-cap-hieremie-xiv-9}
+  \transclude{sarum-hymn-te-lucis-ante-terminum-1}
+}
+\transclude{sarum-c-custodi-nos-domine}
+\transclude{sarum-c-antiph-salva-nos}
+\transclude{sarum-c-nunc-dimittis-iii-iv}
+\transclude{sarum-c-antiph-salva-nos}
+\scope{
+  \put\transclude/heading{true}
+\transclude{sarum-c-preces}
+
+}

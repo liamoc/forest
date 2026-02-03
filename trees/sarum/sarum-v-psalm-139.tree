@@ -1,0 +1,24 @@
+\import{gabc-macros}
+\import{sarum-tones}
+\taxon{Psalmus}
+\title{CXXXIX}
+\tone-iv-vi{A(g)vi(g)ro(g) i(ghi)ní(h)quo.(h) (::)}{E}{ri}{{pe} me Dómine ab hó}{_mi}{ne }{ *ma}{lo}{a viro iníquo éripe }{ _me.}
+\ol{
+  \li{Eripe me Dómine ab hó\em{mi}ne \strong{ma}lo : a viro iníquo éripe \em{me}.}
+  \li{Qui cogitavérunt iniquitá\em{tes} in \strong{cor}de : tota die constituébant préli\em{a}. }
+  \li{Acuérunt linguam suam si\em{cut} ser\strong{pén}tes : venénum áspidum sub lábiis eó\em{rum}.}
+  \li{Custódi me Dómine de manu \em{pec}ca\strong{tó}ris : et ab homínibus iníquis éripe \em{me}.}
+  \li{Qui cogitavérunt supplantáre \em{gres}sus \strong{me}os : abscondérunt supérbi láqueum mi\em{chi}.}
+  \li{Et funes extendé\em{runt} in \strong{lá}queum : juxta iter scándalum posuérunt mi\em{chi}.  }
+  \li{Dixi Dómino Deus me\em{us} es \strong{tu} : exáudi Dómine vocem deprecatiónis me\em{e}.}
+  \li{Dómine Dómine virtus sa\em{lú}tis \strong{me}e : obumbrásti super caput meum in die bel\em{li}.}
+  \li{Non tradas me Dómine a desidério meo \em{pe}cca\strong{tó}ri : cogitavérunt contra me, ne derelínquas me ne forte exaltén\em{tur}.}
+  \li{Caput circúi\em{tus} e\strong{ó}rum : labor laboriórum ipsórum opériet e\em{os}. }
+  \li{Cadent super eos carbónes in ignem de\em{jí}cies \strong{e}os : in misériis non subsís\em{tent}.}
+  \li{Vir linguósus non dirigé\em{tur} in \strong{te}rra : virum injústum mala cápient in intéri\em{tu}.}
+  \li{Cognóvi quia fácient Dóminus ju\em{dí}cium \strong{ín}opis : et vindíctam páupe\em{rum}.}
+  \li{Verúmtamen justi confitebúntur \em{nó}mini \strong{tu}o : et habitábunt recti cum vultu tu\em{o}.}
+    \li{Glória Pa\em{tri} et \strong{Fí}lio : et Spirítui Sanc\em{to}.}
+  \li{Sicut erat in princípio et \em{nunc} et \strong{sem}per : et in sécula seculórum, A\em{men}.}
+}
+\gabc{(c4) A(g)vi(g)ro(g) i(ghi)ní(h)quo(h) *(,) lí(g)be(f)ra(gv) me(gf) Dó(e)mi(e)ne.(e) (::) }

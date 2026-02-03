@@ -1,0 +1,18 @@
+\import{gabc-macros}
+\import{sarum-tones}
+\taxon{Psalmus}
+\title{CXXXVI}
+\tone-v-i{In(fv) con(fv)spéc(fv)tu(ed) an(hv)ge(hi)ló(gxhGF)rum.(f) (::)}{Con}{fi}{{té}bor tibi Dómine in toto córde}{ *me}{o}{{quó}niam audísti verba }{ *o}{ris }{ *me}{i.}
+\ol{  
+  \li{Confitébor tibi Dómine in toto córde \strong{me}o : quóniam audísti verba \strong{o}ris \strong{me}i.}
+  \li{In conspéctu angelórum psallam \strong{ti}bi : adorábo ad templum sanctum tuum et confitébor \strong{no}mini \strong{tu}o.}
+  \li{Super misericórdia tua et veritáte \strong{tu}a : quóniam magnificásti super omne nomen \strong{sanc}tum \strong{tu}um.}
+  \li{In quaqúnque die invocávero te exáudi \strong{me} : multiplicábis in ánima \strong{me}a vir\strong{tú}tem.}
+  \li{Confiteántur tibi Dómine omnes reges \strong{te}rre : quia audiérunt ómnia verba \strong{o}ris \strong{tu}i. }
+  \li{Et cantent in viis \strong{Dó}mini : quóniam magna est \strong{gló}ria \strong{Dó}mini.}
+  \li{Quóniam excelsus Dóminus et humilia \strong{ré}spicit : et alta a \strong{lon}ge co\strong{gnó}scit. }
+  \li{Si ambulávero in médio tribulatiónis vivificábis \strong{me} : et super iram inimicórum meórum extendísti manum tuam, et salvum me fecit \strong{déx}tera \strong{tu}a.}
+  \li{Glória Patri et \strong{Fí}lio : et Spirí\strong{tu}i \strong{Sanc}to. }
+  \li{Sicut erat in princípio et nunc et \strong{sem}per : et in sécula secul\strong{ó}rum, \strong{A}men.}
+}
+\gabc{In(fv) con(fv)spéc(fv)tu(ed) an(hv)ge(hi)ló(gxhGF)rum :(f) *(;) psal(f)lam(e) ti(fv)bi(ed) De(ef)us(e) me(d)us.(d) (::)}

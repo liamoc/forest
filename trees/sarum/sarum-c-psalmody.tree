@@ -1,0 +1,70 @@
+\import{sarum-tones}
+\import{gabc-macros}
+\tone-viii-i{Mi(e)se(e)ré(fv)re.(ed) (::)}{Cum }{ in}{{vo}cárem exaudívit me Deus justície }{ *me}{e}{{in} tribulatióne dila}{_tás}{ti }{ mi}{chi.}
+\subtree{
+  \taxon{Psalmus}
+  \title{IV}
+  \ol{
+    \li{Cum invocárem exaudívit me Deus justície \strong{me}e : in tribulatióne dila\em{tas}ti michi.}
+    \li{Miserére \strong{me}i : et exáudi orati\em{ó}nem meam.}
+    \li{Fílii hóminum úsquequo gravi \strong{cor}de : ut quid dilígitis vanitátem, et quéri\em{tis} mendácium.}
+    \li{Et scitóte quóniam mirificávit Dóminus sanctum \strong{su}um : Dóminus exáudiet cum clamáve\em{ro} ad eum.}
+    \li{Irascímini et nolíte peccáre que dícitis in córdibus \strong{ves}tris : et in cubílibus vestris \em{com}pungímini.}
+    \li{Sacrificáte et speráte in \strong{Dó}mino : multi dicunt, Quis osténdit \em{no}bis bona.}
+    \li{Signátum est super nos lumen vultus tui \strong{Dó}mine : dedísti letíciam in \em{cor}de meo.}
+    \li{A fructu fruménti vini et ólei \strong{su}i : mul\em{ti}plicati sunt.}
+    \li{In pace in i\strong{díp}sum : dórmiam et \em{re}quiéscam.}
+    \li{Quóniam tu Dómine singuláriter in spe : cons\em{ti}tuísti me.}
+    \li{Gloria Patri et \strong{Fí}lio : et Spi\em{ri}tui Sancto.}
+    \li{Sicut erat in princípio et nunc et \strong{sem}per : et in sécula secu\em{ló}rum, Amen.}
+  }
+}
+\subtree{
+  \taxon{Psalmus}
+  \title{XXX}
+  \ol{
+    \li{In te Dómine sperávi non confúndar in e\strong{tér}num : in justícia tua \em{lí}bera me.}
+    \li{Inclína ad me aurem \strong{tu}am : accélera ut \em{é}ruas me.}
+    \li{Esto michi in Deum protec\strong{tó}rem : et in domum refúgii, ut \em{sal}vum me facias.}
+    \li{Quóniam fortitúdo mea et refúgium meum es \strong{tu} : et propter nomen tuum dedúces me, et e\em{nú}tries me.}
+    \li{Edúces me de láqueo quem abscondérunt \strong{mi}chi : quóniam tu es pro\em{téc}tor meus.}
+    \li{In manus tuas comméndo spíritum \strong{me}um : redemísti me Dómine Deus \em{ve}ritátis.}
+    \li{Gloria Patri et \strong{Fí}lio : et Spi\em{ri}tui Sancto.}
+    \li{Sicut erat in princípio et nunc et \strong{sem}per : et in sécula secu\em{ló}rum, Amen.}
+  }
+}
+\subtree{
+  \taxon{Psalmus}
+  \title{XC}
+  \ol{
+    \li{Qui hábitat in adjutório Al\strong{tís}simi : in protectióne Dei celi \em{com}morábitur.}
+    \li{Dicet Dómino, Suscéptor meus es tu, et refúgium meum Deus \strong{me}us : sperábo in \em{e}um.}
+    \li{Quóniam ipse liberávit me de láqueo ve\strong{nán}tium : et a \em{ver}bo áspero.}
+    \li{Scápulis suis obumbrábit \strong{ti}bi : et sub pennis \em{e}jus sperábis.}
+    \li{Scuto circúndabit te véritas \strong{e}jus : non timébis a ti\em{mó}re noctúrno.}
+    \li{A sagítta volánte in die, a negócio perambulánte in \strong{té}nebris : ab incúrsu et demónio me\em{ri}diáno.}
+    \li{Cadent a látere tuo mille, et decem mília a dextris \strong{tu}is : ad te autem non ap\em{pro}pinquábit.}
+    \li{Verúntamen óculis tuis conside\strong{rá}bis : et retributiónem pecca\em{tó}rum vidébis.}
+    \li{Quóniam tu es Dómine spes \strong{me}a : Altíssimum posuísti re\em{fú}gium tuum.}
+    \li{Non accédet ad te \strong{ma}lum : et flagéllum non appropinquábit taber\em{ná}culo tuo.}
+    \li{Quóniam ángelis suis mandávit de \strong{te} : ut custódiant te in ómnibus \em{vi}is tuis.}
+    \li{In mánibus portábunt \strong{te} : ne forte offéndas ad lápidem \em{pe}dem tuum.}
+    \li{Super áspidem et basilíscum ambulábis : et conculcábis leónem \em{et} dracónem.}
+    \li{Quóniam in me sperávit libe\strong{rá}bo eum : prótegam eum quóniam cognóvit \em{no}men tuum.}
+    \li{Clamávit ad me et ego exáudiam \strong{e}um : cum ipso sum in tribulatióne, erípiam eum et glorifi\em{cá}bo eum.}
+    \li{Longitúdine diérum replébo \strong{e}um : et osténdam illi salu\em{tá}re meum.}
+  }
+}
+\subtree{
+  \taxon{Psalmus}
+  \title{CXXXIII}
+  \ol{
+    \li{Ecce nunc benedícite \strong{Dó}minum : omnes \em{ser}vi Dómini.}
+    \li{Qui statis in domo \strong{Dó}mini : in átriis domus \em{De}i nostri.}
+    \li{In nóctibus extóllite manus vestras in \strong{san}cta : et bene\em{dí}cite Dóminum.}
+    \li{Benedícat te Dóminus ex \strong{Sy}on : qui fecit \em{ce}lum et terram.}
+    \li{Gloria Patri et \strong{Fí}lio : et Spi\em{ri}tui Sancto.}
+    \li{Sicut erat in princípio et nunc et \strong{sem}per : et in sécula secu\em{ló}rum, Amen.}
+  }
+}
+\gabc{(c3) Mi(e)se(e)ré(fv)re(ed) mi(ef)chi(fv) Dó(e)mi(de)ne :(ev) (;) et(fv) ex(hv)áu(gh)di(f) o(f)ra(fe)ti(d)ó(ef)nem(fv) me(e)am.(e) (::)}

@@ -1,0 +1,7 @@
+\taxon{Oratio}
+\import{gabc-macros}
+\import{sarum-tones}
+\put\gabc/use-drop-cap{false}
+\oratio-preface-elaborate
+\p{Beátus martyr tuus Blásius Dómine nobis misericórdie tue implóret auxílium : ut cujus festa celebrámus, ejus apud te patrocínia sentiámus.  Per Dóminum nostrum Jesum Christum Fílium tuum qui tecum vivit et regnat in unitáte Spiritus Sancti Deus.}
+\oratio-conclusion-elaborate
