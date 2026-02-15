@@ -1,0 +1,17 @@
+\taxon{Research Notebook}
+\title{Linear-time Temporal Properties}
+\author{liamoc}
+\transclude{ltp-0002}
+\transclude{ltp-0003}
+\transclude{ltp-0004}
+\transclude{ltp-0005}
+\p{The [famous paper](alpern-schneider-1985) of [[alpern]] and [[schneider]] defines a topology where the closed sets are safety properties, and the open sets are the guarantee properties. The closure operator #{\overline{X}} therefore gives the smallest safety property #{\supseteq X}, and the interior operator #{\underline{X}} gives the largest guarantee property #{\subseteq X}.  }
+\p{This space is a metric space, using the standard prefix-agreement metric that one might use for a Baire or Cantor space: }
+##{
+  \begin{array}{l}
+  d : \Sigma^\omega \times \Sigma^\omega \rightarrow \mathbb{R} \\
+  d(\sigma,\rho) = 2^{-\sup\{ i \mid \sigma_{0\dots{}i} = \rho_{0\dots{}i}\}} \\
+  \\
+  \qquad\text{where}\ 2^{-\infty} = 0
+\end{array}}
+\p{[[alpern]] and [[schneider]] then go on to prove that all properties are the intersection of \em{safety} and \em{liveness} (i.e. \em{dense} sets, #{\overline{X} = \Sigma^\omega})}

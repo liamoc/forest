@@ -1,0 +1,15 @@
+\import{table-macros}
+\title{Weeknotes 2026-W06}
+\author{liamoc}
+\date{2026-02-08}
+\p{This week was unfortunately marred by a nasty cold that took me out of most of it. Nonetheless I got some church singing done, and I had a productive meeting that generated some new ideas, which I might blog about next week.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{360px}[src]{\route-asset{assets/edinburgh6.jpeg}}%{}
+  %\<html:img>[width]{260px}[src]{\route-asset{assets/edinburgh2.jpeg}}%{}
+  %\<html:img>[loading]{lazy}[width]{260px}[src]{\route-asset{assets/edinburgh5.jpeg}}%{}
+ \figcaption{My spiritual home: St. Michael and All Saints, Edinburgh }
+}
+
+\transclude{loc-0035}
+\transclude{loc-0034}
+\transclude{loc-0036}

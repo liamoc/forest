@@ -1,0 +1,5 @@
+\title{Begun Notes on Linear-time Temporal Properties}
+\author{liamoc}
+\date{2026-02-15}
+\p{In my work with [[rayhana]] and [[rvg]], I've been thinking a bit about the space of linear-time temporal properties #{\Sigma^\omega}. There are a lot of results about this, some of which we're still working on proving. While the canonical account will be in our forthcoming journal paper and [Rayhana](rayhana)'s PhD thesis, I'm going to start writing [a research notebook](ltp-0001) on this topic. I've decided to do this rather than blog about our results, because it's more in the spirit of Zettelkästen (Zettelkastengeist?) — the post I had in mind ended up ballooning in size because it needed so much context. Instead, I will just fill in the notebook including our current conjectures.}
+\p{Currently, there isn't much there, just some basic definitions from [[alpern-schneider-1985]]. But I will eventually hopefully have a fairly well-developed summary of a lot of the work in this area over there.}

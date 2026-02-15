@@ -1,0 +1,13 @@
+\import{table-macros}
+\title{Weeknotes 2026-W07}
+\author{liamoc}
+\date{2026-02-08}
+\p{I returned to Canberra this week. I needed the remainder of the week to recover from my illness and the flight, but I'm feeling alright now. As much as I enjoyed being in Edinburgh again, it's great to be back in clean, sunny, quiet Canberra. }
+\figure{
+  \<html:img>[loading]{lazy}[width]{360px}[src]{\route-asset{assets/leafy.jpeg}}%{}
+  %\<html:img>[width]{260px}[src]{\route-asset{assets/edinburgh2.jpeg}}%{}
+  %\<html:img>[loading]{lazy}[width]{260px}[src]{\route-asset{assets/edinburgh5.jpeg}}%{}
+ \figcaption{A Leafy Canberra Street. }
+}
+\transclude{loc-0039}
+\transclude{loc-0038}
