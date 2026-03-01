@@ -8,7 +8,7 @@
 \scope{
   \put\transclude/heading{true}
 \transclude{sarum-cap-ii-thessa-iii-5}
-\transclude{sarum-hymn-plasmator-hominis-1}
+\transclude{sarum-hymn-plasmator-hominis-1  1q}
 }
 \transclude{sarum-v-dirigatur}
 

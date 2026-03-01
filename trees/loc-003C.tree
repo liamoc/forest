@@ -1,0 +1,16 @@
+\date{2026-02-21}
+\import{table-macros}
+\title{Lunar New Year at Dickson}
+\author{liamoc}
+\p{I had to head to the office today even though it's a Saturday to prepare for my upcoming [[COMP1110]] course, but I was surprised to see Lunar New Years festivities had been transferred to the weekend.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{360px}[src]{\route-asset{assets/lny26.png}}
+ \figcaption{Happy Year of the Horse! }
+}
+\p{I saw the Dragon and Lion dances as well as some other performances from Chinese and Vietnamese residents of Dickson, and the Canberra Yut Hung Kung Fu school: }
+\figure{
+  \<html:img>[loading]{lazy}[width]{280px}[src]{\route-asset{assets/lny26_1.jpeg}}
+  \<html:img>[loading]{lazy}[width]{280px}[src]{\route-asset{assets/lny26_2.jpeg}}
+  \<html:img>[loading]{lazy}[width]{280px}[src]{\route-asset{assets/lny26_3.jpeg}}
+}
+\p{In the nearby market stall there was a Korean 호떡 vendor. From our conversation I gathered that there were Korean 설날 events there as well, but in the morning and I was already too late. Oh well, the 호떡 was delicious though! }

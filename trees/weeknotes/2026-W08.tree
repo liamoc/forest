@@ -1,0 +1,14 @@
+\import{table-macros}
+\title{Weeknotes 2026-W08}
+\author{liamoc}
+\date{2026-02-22}
+\p{This week was insanely busy, as I was (and am) preparing to teach [[COMP1110]] this semester. }
+\figure{
+  \<html:img>[loading]{lazy}[width]{280px}[src]{\route-asset{assets/lw1.jpeg}}
+  \<html:img>[loading]{lazy}[width]{280px}[src]{\route-asset{assets/lw2.jpeg}}
+  \<html:img>[loading]{lazy}[width]{360px}[src]{\route-asset{assets/lw3.jpeg}}%{}
+ \figcaption{The stunning Lyneham Wetlands on my commute to work. }
+}
+\transclude{loc-003C}
+\transclude{loc-003B}
+\transclude{loc-003A}

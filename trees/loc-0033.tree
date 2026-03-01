@@ -5,6 +5,6 @@ and [[obrw]] my priest.}
 \p{He was also nice enough to give me free access to the church whenever I want to use it, so I have been chanting the evening office there according to the Use of Sarum. To avoid keeping 17 places open in 3 books simultaneously, I transcribed large parts of the Sarum vespers and compline office into Forester. You can see the results [here](sarum-26-01-22) for example, but there are more that can be found by searching "Ordo". They use my chant plugins. Fr. [Oliver](obrw) will join me for the [vespers](sarum-26-02-03) and [compline](sarum-26-02-03-b) of St. Blaise next week.   }
 \p{On the way back from our chat I stopped by a charity shop and got this old illustrated KJV bible for free:}
  \figure{
-   \<html:img>[width]{350px}[src]{\route-asset{assets/bible.jpeg}}{}
+   \<html:img>[loading][width]{350px}[src]{\route-asset{assets/bible.jpeg}}{}
  }
 
