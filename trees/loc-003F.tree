@@ -1,0 +1,6 @@
+\date{2026-03-01}
+\import{table-macros}
+\title{Welcome, [[kaiphan]] and [[edwinpark]]!}
+\author{liamoc}
+\p{I have taken on another PhD student, [[kaiphan]], who (at least to start) will conduct some investigations into incorrectness logic, along with me, [[xinloi]], and [[hoefner]].  Welcome, Kai!}
+\p{[[edwinpark]], a new honours student, has also arrived from [[unimelb]] to do an honours project with me here at the ANU. We are looking at program calculational techniques such as [[ccm]]'s refinement calculus, and exploring proof-assistant-integrated program calculation techniques.}

@@ -1,0 +1,12 @@
+\import{table-macros}
+\title{Weeknotes 2026-W09}
+\author{liamoc}
+\date{2026-03-01}
+\p{This week was also very busy, with my teaching obligations starting in earnest. }
+\figure{
+  \<html:img>[loading]{lazy}[width]{350px}[src]{\route-asset{assets/sunclouds.jpeg}}
+ \figcaption{The sunset after rain in Canberra. }
+}
+\transclude{loc-003F}
+\transclude{loc-003E}
+\transclude{loc-003D}
