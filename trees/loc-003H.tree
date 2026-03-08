@@ -1,0 +1,10 @@
+\import{table-macros}
+\title{A TextMate bundle for Forester}
+\author{liamoc}
+\date{2026-03-07}
+\p{As part of my embrace of well-designed old Mac software, I've started using [TextMate](https://macromates.com/textmate/) again. I made a bundle for building Forester forests that supports completion using \code{forester complete} (not LSP, as TextMate predates that).}
+\p{The bundle can be downloaded from my [git repository on tangled](https://tangled.org/liamoc.net/forester.tmbundle).}
+\figure{
+  \<html:img>[loading]{lazy}[width]{550px}[src]{\route-asset{assets/tm1.png}}
+  \<html:img>[loading]{lazy}[width]{550px}[src]{\route-asset{assets/tm2.png}}
+}

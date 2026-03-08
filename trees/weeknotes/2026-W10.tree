@@ -1,0 +1,13 @@
+\import{table-macros}
+\title{Weeknotes 2026-W10}
+\author{liamoc}
+\date{2026-03-08}
+\p{This week I started to feel a bit more on top of things, and enjoying living in one of the nicest cities in the world.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{480px}[src]{\route-asset{assets/corella.jpeg}}%{}
+ \figcaption{The corellas assemble on my way to my [Coro](https://corocanberra.com) audition. }
+}
+\transclude{loc-003I}
+\transclude{loc-003H}
+\transclude{loc-003G}
+\transclude{loc-003J}
