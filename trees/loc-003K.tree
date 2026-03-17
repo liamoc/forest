@@ -1,0 +1,25 @@
+\date{2026-03-15}
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{Fourth Sunday of Lent 2026}
+\tag{cmc}
+\author{liamoc}
+\quote{Lætáre Ierúsalem: et convéntum fácite omnes qui dilígitis eam: gaudéte cum lætítia, qui in tristítia fuístis: ut exultétis, et satiémini ab ubéribus consolatiónis vestræ.
+}
+\p{This was a fairly routine Sunday at [All Saints Ainslie](https://allsaintsainslie.org.au), where we sang Gibbons' [Drop, Drop Slow Tears](https://www.youtube.com/watch?v=lZTFLZiZUSo):}
+\quote{\poem{
+  \line{Drop, drop slow tears}
+  \line{And bathe those beauteous feet,}
+  \line{Which brought from heav'n the news and Prince of Peace.\br}
+  \line{Cease not, wet eyes,}
+  \line{His mercies to entreat,}
+  \line{To cry for vengeance, sin doth never cease.\br}
+  \line{In your deep floods}
+  \line{Drown all my faults and fears,}
+  \line{Nor let His eye see sin, but through my tears.}
+}}
+\p{Next week is Evensong (I'll cantor for the morning mass) and the following week is our concert, [In The Midst of Life](https://www.trybooking.com/events/landing/1554834). Please do come along!}
+\figure{\<html:img>[loading]{lazy}[width]{480px}[src]{\route-asset{assets/asa_concert0326.png}}%{}
+}

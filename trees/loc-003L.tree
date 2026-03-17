@@ -1,0 +1,14 @@
+\title{Some more anti-AI articles}
+\date{2026-03-15}
+\author{liamoc}
+\p{Perhaps I should consolodate all of my previous posts linking to articles discussing various aspects of why LLMs are so unconscionable to me:}
+\ol{
+  \li{[[loc-001H]]}
+  \li{[[loc-001M]]}
+  \li{[[loc-0020]]}
+  \li{[[loc-0035]]}
+}
+\p{This post is adding to their number. [[wilbowma]] recently wrote up [this excellent article](https://www.williamjbowman.com/blog/2026/03/05/against-vibes-when-is-a-generative-model-useful/) which really delves into whether LLMs could actually be considered useful. A great point he made is that as the models get "better", they actually require \em{more} work to be useful, as finding the problems in their output becomes harder and harder.}
+\p{I was also relieved to see that [AI is even less popular than ICE in the US](https://gizmodo.com/people-hate-ai-even-more-than-they-hate-ice-poll-finds-2000731438) (although I was slightly annoyed by the headline of the article, which claims that people hate AI more than ICE, a claim not supported by the poll, which does not measure intensity of dislike).}
+\p{Also Anthony Moser wrote [this excellent piece](https://anthonymoser.github.io/writing/ai/haterdom/2025/08/26/i-am-an-ai-hater.html) that was very cathartic for me to read. }
+\p{Finally, I was glad to see [this list of software that has pledged not to accept AI contributions and not to integrate generative AI features](https://noai.starlightnet.work/list.html). While most of the software on this list is not useful to me at present, I hope it takes off and grows. I do have a very brutal approach: if any software I use tries to integrate AI features, I immediately cut it out of my workflow, no matter how essential. And, if a project accepts AI-authored contributions, I'm on high alert for any possible replacement. This is, for example, why I stopped using ghostty.}

@@ -1,0 +1,12 @@
+\import{table-macros}
+\title{Weeknotes 2026-W11}
+\author{liamoc}
+\date{2026-03-18}
+\p{These weeknotes are a few days late because I was swamped by preparing, running, and marking the first mid-term test for [[COMP1110]].}
+\figure{
+  \<html:img>[loading]{lazy}[width]{290px}[src]{\route-asset{assets/cockatoo.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{290px}[src]{\route-asset{assets/silhouette.jpeg}}%{}
+ \figcaption{Some sights from my walking commute.}
+}
+\transclude{loc-003L}
+\transclude{loc-003K}
