@@ -1,0 +1,10 @@
+\date{2026-03-22}
+\title{Reviving the Apple IIe for the open day}
+\p{On the 28th of March (the same day as our [choir concert](loc-003K)), we have the ANU open day. I'll be there in the morning, showcasing some of my 
+retro computer collection. I decided to write a 140KB program for my Apple IIe (just enough to fit on one floppy image) that prospective students can use to learn about our degree programmes. }
+\figure{
+  \<html:img>[loading]{lazy}[width]{550px}[src]{\route-asset{assets/aii.jpeg}}
+}
+\p{This was about 1000 lines of assembly: the entire thing is actually graphics, I don't use the Apple II text mode at all. It's actually quite impressive that the Apple IIe is fast enough to do this kind of bitmap rendering. But it truly is a bizarre system: the addressing for the bitmap data is super weird (all over the place), and each byte of bitmap data is 7 (not 8) pixels of data. Still, it means you can do some impressive graphics considering when the
+first Apple II came out. }
+\p{It also has a screensaver to stop the burn in on my amber monochrome monitor (which has the right colours for ANU). }

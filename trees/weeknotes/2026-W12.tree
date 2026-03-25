@@ -1,0 +1,13 @@
+\import{table-macros}
+\title{Weeknotes 2026-W12}
+\author{liamoc}
+\date{2026-03-25}
+\p{These weeknotes are even more late because I was occupied by my singing engagements and then I caught a cold.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{290px}[src]{\route-asset{assets/purple1.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{290px}[src]{\route-asset{assets/purple2.jpeg}}%{}
+ \figcaption{Purple skies for a few minutes on a Friday sunset.}
+}
+\transclude{loc-003N}
+\transclude{loc-003O}
+\transclude{loc-003M}
