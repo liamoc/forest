@@ -1,0 +1,27 @@
+\date{2026-03-29}
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{Palm Sunday 2026}
+\tag{cmc}
+\author{liamoc}
+\quote{Hosánna fílio David, benedíctus qui venit in nómine Dómini. Rex Israël: Hosánna in excélsis.\br
+  Púeri Hebræórum, portántes ramos olivárum, obviavérunt Dómino, clamántes et dicéntes: Hosánna in excélsis.\br
+  Púeri Hebræórum vestiménta prosternébant in via, et clámabant dicéntes: Hosánna fílio David, benedíctus qui venit in nómine Dómini.
+}
+\p{This Palm Sunday at [All Saints Ainslie](https://allsaintsainslie.org.au) went rather well considering that we were all exhausted from [our concert the night before](loc-003R).  We sang Mathias' [Lift up your heads](https://www.youtube.com/watch?v=Wa7VMMvsvAg):}
+\quote{\poem{
+  \line{Lift up your heads, O ye gates:}
+  \line{And be ye lift up, ye everlasting doors:}
+  \line{And the King of Glory shall come in.}
+  \line{Who is this King of Glory?}
+  \line{The Lord, strong and mighty, }
+  \line{The Lord, mighty in battle.}
+  \line{Lift up your heads, O ye gates:}
+  \line{Even lift them up, ye everlasting doors:}
+  \line{And the King of Glory shall come in.}
+  \line{Who is this King of Glory?}
+  \line{The Lord of Hosts, he is the King of Glory.}
+}}
+

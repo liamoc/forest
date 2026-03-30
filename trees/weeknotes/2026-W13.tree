@@ -1,0 +1,11 @@
+\import{table-macros}
+\title{Weeknotes 2026-W13}
+\author{liamoc}
+\date{2026-03-30}
+\p{These weeknotes are only one day late this time. I'm getting back on the ball! I don't have much to report this week, although I was very busy: mostly the week was occupied with preparation for the concert and for the ANU Open Day, both of which went successfully on Saturday, as well as the usual [[COMP1110]] stress.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{320px}[src]{\route-asset{assets/display.jpeg}}%{}
+ \figcaption{My computers on display for the open day.}
+}
+\transclude{loc-003R}
+\transclude{loc-003Q}
