@@ -1,0 +1,35 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{Easter 2026}
+\tag{cmc}
+\date{2026-04-05}
+\author{liamoc}
+\quote{
+  RESURREXI, et adhuc tecum sum, allelúia: posuísti super me manum tuam, allelúia: mirábilis facta est sciéntia tua, allelúia, allelúia.
+}
+\p{For Easter this year the church at [All Saints Ainslie](https://allsaintsainslie.org.au) was filled with flowers, which was lovely. We had a vigil service at night followed by a service in the morning. Sadly the Vigil service didn't include a litany, but we sang [Holy is the True Light](https://www.youtube.com/watch?v=KLr12AX7mEs) at the vigil: }
+\quote{
+  \poem{
+    \line{Holy is the True Light, and passing wonderful,}
+    \line{Lending radiance to them that endured}
+    \line{In the heat of the conflict.}
+    \line{From Christ they inherit a home of unfading splendour,}
+    \line{Wherein they rejoice with gladness evermore. Alleluia!}
+  }
+}
+\p{We also sang the Easter inaugural Gloria from the [Darke Mass in F](https://www.youtube.com/watch?v=9_YotRZXipY), both in the vigil and the Sunday Mass.}
+\p{For the Sunday Mass we sang Ouseley's [From the Rising of the Sun](https://www.youtube.com/watch?v=CnEFkTCOuEE): }
+\quote{\poem{
+  \line{From the rising of the sun}
+  \line{To the going down of the same,}
+  \line{My Name shall be great among the Gentiles,}
+  \line{And in ev'ry place incense shall be offer'd up unto my Name:}
+  \line{For My Name shall be great among the heathen,}
+  \line{Thus saith the Lord!}
+}
+}
+\p{I was also given the honour and privilege to once again proclaim the resurrection during the vigil, video below. This chant is [my own version](loc-0012) by expurgating some bits from the Roman Missal for length. I got a lot of compliments afterwards; although I can detect a few wobbly notes, I think my delivery is improved compared to [last year](loc-000O).}
+\<html:iframe>[style]{aspect-ratio: 16 / 9;}[width]{100\percent}[src]{https://www.youtube.com/embed/wXlG2XW6D2U}[title]{Easter Proclamation 2026}[frameborder]{0}[allow]{accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share}[referrerpolicy]{strict-origin-when-cross-origin}{}
+

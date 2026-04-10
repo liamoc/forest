@@ -1,0 +1,16 @@
+\import{table-macros}
+\title{Weeknotes 2026-W14}
+\author{liamoc}
+\date{2026-04-05}
+\p{This week was holy week, so I was mostly occupied by church singing. Now I'm thankfully on teaching break, so I might have a chance to get some research work done.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{270px}[src]{\route-asset{assets/pink.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{270px}[src]{\route-asset{assets/pink2.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{270px}[src]{\route-asset{assets/possum.jpeg}}%{}
+ \figcaption{Various sights from walking to and from church so often this week.}
+}
+\transclude{loc-003V}
+\transclude{loc-003W}
+\transclude{loc-003S}
+\transclude{loc-003T}
+\transclude{loc-003U}

@@ -1,0 +1,8 @@
+\author{liamoc}
+\date{2026-04-02}
+\title{More LLM Griping}
+\p{Part of my job as an educator is to create situations where my students will be stressed, they will struggle, they might get frustrated, they might even hate me (although that's rare). My mentor [[kaie]] said that part of his job was to "torture students". It's a joke of course but there is a kernel of truth there: particularly for learning skills like debugging, there's no better way to learn than by trying to reason your way out of a buggy mess of your own creation. Inflicting this kind of stuff on students is actually kind of essential to education. }
+
+\p{A lot of students these days are totally unused to feeling stuck. I asked my [[COMP1110]] students who failed my midterm test the other week how they studied. Many of them actually did quite a lot of practice! But the moment they encountered a bug they couldn't immediately fix, they turned to the bots to solve their problem for them. They read and understood what the bot did, and they conflated that with being able to do it themselves.}
+
+\p{Part of the reason [these bots are hurting education](loc-002O) because they undercut my ability to inflict (educational, non-excessive) stress on my students. I used to design effective programming courses that would keep the stress levels low enough to avoid demoralising students but high enough that they had to engage and work and learn. Now if stress levels go over a certain (low) threshold, all the work gets done by AI unless it's in an invigilated exam, which I used to avoid because they're stress spikes. I don't have a good solution. Just very unhappy.}

@@ -5,7 +5,7 @@
  \ul{
  \li{ [[rayhana]]: 2023–present. Linear infinite time within finite observations. Jointly supervised with [[rvg]] at the [[uoe]]. }
  \li{ [[xinloi]]: 2025–present. Incorrectness logic with exploitation strategies. Jointly supervised with [[hoefner]]. }
- \li{ [[kaiphan]]: 2026–present. Incorrectness logic and dynamic logic. }
+ \li{ [[kaiphan]]: 2026–present. Revocable semantics for run-time monitors. }
  }
  \scope{
 \put\transclude/toc{false}
@@ -16,7 +16,7 @@
  \li{ [[carloz]]: 2026-present. Gradual Typing with Parametric Polymorphism. Primary supervisor is [[muehlboeck]] at the [[anu]]. }
  \li{ [[yiyao]]: 2025-present. Unifying algebraic models of automata and computation. Primary supervisor is [[hoefner]] at the [[anu]]. }
  \li{ [[tudor]]: 2021–present. Formal verification of smart contracts. Primary supervisor is [[wadler]] at the [[uoe]]. }
- \li{ [[mathieu]]: 2022–present. DSLs for compiler passes. Primary supervisor is [[tgrosser]] at the [[cam]]. }
+ \li{ [[mathieu]]: 2022–2026. DSLs for compiler passes. Primary supervisor is [[tgrosser]] at the [[cam]]. }
  }
  }}
 }

@@ -16,6 +16,12 @@
   \title{\tile}
   \body
 }}}
+\def\warningblock[body]{\scope{
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
+\subtree{\taxon{Warning}
+\body
+}}}
 \def\thesisblock[body]{\scope{
 \put\transclude/toc{false}
 \put\transclude/numbered{false}

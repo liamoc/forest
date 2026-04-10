@@ -1,0 +1,4 @@
+\author{liamoc}
+\date{2026-04-02}
+\title{Surprising no one, Claude Code is a pile of vibe-coded garbage slop.}
+\p{I found [this excellent mastodon thread](https://neuromatch.social/@jonny/116324676116121930) where someone was brave enough to have a look at the leaked Claude Code source code. Anthropic proudly boasted that much of Claude Code was written by Claude Code — and it definitely shows, and not in a good way. One of the most atrocious code bases I've ever seen. I guess they anticipate going out of business before they have to maintain this crap. }

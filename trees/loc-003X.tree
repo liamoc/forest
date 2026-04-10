@@ -1,0 +1,26 @@
+\import{dt-macros}
+\title{Study a PhD with me}
+\author{liamoc}
+\p{If you're interested in doing research in programming language semantics, formal methods, proof assistants, type systems or related domains, you might be interested in working with me. My [bibliography](loc-0001) may also give some indication of the sort of stuff I'm interested in, however my interests are very broad. My [students](loc-0002) are currently working on various topics, which shows better the breadth of my interests.  }
+\subblock{Current Status}{
+\p{I currently have one fully-funded 3.5 year PhD scholarship available, that I may allocate to the right student.}
+\p{In addition, particularly for Australian domestic students and exceptional international students, merit-based scholarships are often awarded by the University, funded by the Australian Government. The relevant deadlines are typically in April (both domestic and international) for admission in Semester 2 of the same year, and in August (international) or October (domestic) for admission in Semester 1 of the following year, and any application that is completed by the relevant date is automatically considered.  }
+}
+\p{If you want to do a PhD with me, you must first meet the [ANU](anu) requirements: you must have an Honours degree (with 2:1 or higher) or equivalent (e.g. a Masters degree), typically in computing or mathematics, and must have strong English skills.}
+\p{If you don't yet have the requisite honours degree, or you are currently studying an undergraduate degree, you may be interested in the [one year honours programme](https://programsandcourses.anu.edu.au/2025/program/HCOMP) offered by ANU. I have supervised many honours students and have had good results through this programme. The [COMP projects page](https://comp.anu.edu.au/study/projects/) lists honours projects I've currently made available (select \code{liam-oconnor} from the list of researchers), but other projects may be possible too.}
+
+\p{All of my students are expected to have computing skills (i.e. some knowledge of programming), good command of English, mathematical aptitude and communication skills. \strong{I also expect my students to be Canberra-based and primarily meet in person.} This means you must be open to moving to Canberra at least for the majority of your PhD. }
+\p{The following are all skill areas that are nice to have, but their lack shouldn't hold you back from reaching out to me: proof assistants (e.g. Rocq, Lean, Agda, Isabelle/HOL), logic, programming languages theory (e.g. operational semantics, types), functional programming, model checkers, formal verification.}
+\warningblock{
+\p{\strong{I do not supervise topics that relate to LLMs or AI}, nor do I look favourably on such research. If you wish to undertake research on or using these tools, please look elsewhere for a supervisor. }
+}
+\p{While it is possible to simply apply from the ANU website without consulting me first, such applications are typically discarded without further review. So, it's in your best interest to first reach out to me via email (\code{liam.oconnor} at \code{anu.edu.au}) where we can arrange a chat. Please include in the email:}
+\ul{
+  \li{A short statement explaining who you are and why you want to do a PhD with me. }
+  \li{A CV outlining all education and past work experience and a transcript (unofficial is fine) of your existing studies.}
+  \li{A copy of your thesis or a recent publication, if any.}
+  \li{\strong{The word "penitenziagite", towards the beginning of your email}, just to demonstrate that you have read this page and to filter out mass emails — I get a lot of email, and a lot of it is spam. This stops me from deleting your email.}
+  \li{A description of any topic(s) you are interested in pursuing.}
+  \li{Any particular times suitable for a chat.}
+}
+\p{Typically, during our discussion we will arrive at an idea for a topic, and I will ask you to write a proposal for the topic. I can give you notes to improve your proposal, so it's okay if it's rough at first — it's not an examination — but part of this exercise is to see how well we can work together, as well as how capable you are of independent learning and written communication.  Once we have a proposal ready, this proposal can be part of your application. Typically you will also need \strong{2-3 letters of recommendation} to accompany your application, so consider who you might ask to write you a letter. }
