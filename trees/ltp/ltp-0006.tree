@@ -1,0 +1,6 @@
+\taxon{Definition}
+\import{ltp-macros}
+\author{liamoc}
+\title{Liveness properties}
+\p{A \em{liveness} [property](ltp-0003) says that a good thing happens eventually, but unlike [guarantee properties](ltp-0005), the "good thing" need not be some finite, observable event. Rather, liveness properties are those [properties](ltp-0003) whose violation \em{cannot} be established by examining only a \em{finite} prefix of the behaviour. In other words, #{P} is a liveness property iff for any finite prefix #{t \in \ftraces}, there exists an infinite extension #{\sigma \in \itraces} such that #{t\sigma} is in the property #{P}.}
+\p{For example, the property "Every #{\mathtt{r}}equest state is eventually followed by an #{\mathtt{a}}nswer state" is a liveness property: No matter how many unanswered #{\mathtt{r}}equests are in a finite prefix, we could always see the #{\mathtt{a}}nswer in the future. }

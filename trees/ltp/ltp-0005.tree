@@ -1,5 +1,7 @@
+\import{ltp-macros}
 \taxon{Definition}
 \author{liamoc}
-\title{Guarantee Properties}
-\p{A \em{guarantee} [property](ltp-0003) is the complement of a [safety property](ltp-0004). A guarantee property says that a good thing happens eventually. As with safety properties, the "good thing" is some finite, observable event. In other words, guarantee properties are those [properties](ltp-0003) whose \em{satisfaction} can be established by examining only a \em{finite} prefix of the behaviour.}
+\title{Guarantee properties}
+\p{A \em{guarantee} (or \em{cosafety}) [property](ltp-0003) is the complement of a [safety property](ltp-0004). A guarantee property says that a good thing happens eventually. As with safety properties, the "good thing" is some finite, observable event. In other words, guarantee properties are those [properties](ltp-0003) whose \em{satisfaction} can be established by examining only a \em{finite} prefix of the behaviour.}
 \p{For example, the guarantee property "The state #{\mathtt{a}} is eventually reached" is satisfied by any finite prefix containing the state #{\mathtt{a}}.}
+\p{[[lamport]] [originally called](lamport-1977) these \em{liveness} properties, but we use [the more popular definition](ltp-0006) of that term from [Alpern and Schneider](alpern-schneider-1985). }

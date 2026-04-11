@@ -1,0 +1,11 @@
+\taxon{Theorem}
+\import{dt-macros}
+\import{ltp-macros}
+\author{liamoc}
+\title{Trivial properties are safety properties}
+\p{The empty property #{\emptyset} and the [property](ltp-0003) #{\itraces} are both [safety properties](ltp-0004).}
+\proofblock{
+\p{The property #{\itraces} has no violating [behaviours](ltp-0002), so vacuously all violations can be established by finite prefixes.}
+\p{For the property #{\emptyset}, all [behaviours](ltp-0002) are violating, so the empty prefix #{\varepsilon} is a [bad prefix](ltp-000B).
+}
+}

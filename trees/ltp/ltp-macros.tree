@@ -1,0 +1,6 @@
+\def\itraces{\Sigma^\omega}
+\def\ftraces{\Sigma^\ast}
+\def\fitraces{\Sigma^\infty}
+\def\compl[body]{\body^\complement}
+\def\gk[body]{\underline{\body}}
+\def\sc[body]{\overline{\body}}

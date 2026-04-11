@@ -1,0 +1,9 @@
+\taxon{Theorem}
+\import{dt-macros}
+\import{ltp-macros}
+\title{Liveness properties are dense}
+\meta{source}{(from [[alpern-schneider-1985]])}
+\p{In the [topology of properties](ltp-0007), a property #{P} is a [liveness property](ltp-0006) iff #{P} is dense. In other words, when the [safety closure](ltp-000J) #{\sc{P} = \itraces}.}
+\proofblock{
+\p{  If #{\sigma \in \sc{P}} that means no finite prefix of #{\sigma} can be used to rule out #{P}, i.e. every prefix of #{\sigma} can be extended in some way to a behaviour in #{P}. If #{\sc{P} = \itraces}, this means that \em{every} finite prefix can be extended to a behaviour in #{P}, which is exactly the definition of a [liveness property](ltp-0006).
+}}

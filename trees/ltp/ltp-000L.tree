@@ -1,0 +1,18 @@
+\taxon{Theorem}
+\import{dt-macros}
+\import{ltp-macros}
+\title{Safety-liveness decomposition}
+\meta{source}{(from [[alpern-schneider-1985]])}
+\p{Every [property](ltp-0003) is the intersection of a [safety](ltp-0004) and a [liveness](ltp-0006) property.}
+\proofblock{
+\p{Let #{P} be a property. Then, let #{L} = #{\compl{(\sc{P} \setminus P)}}. Then: }
+##{\begin{array}{lcl}
+L \cap \sc{P} & = & \compl{(\sc{P} \setminus P)} \cap \sc{P} \\
+& = & (\compl{\sc{P}} \cup P) \cap \sc{P} \\
+& = & (\compl{\sc{P}} \cap \sc{P}) \cup (P \cap \sc{P}) \\
+& = & \emptyset \cup (P \cap \sc{P}) \\
+& = & P
+\end{array}}
+\p{The set #{\sc{P}} is clearly [closed](ltp-000J) and therefore a [safety property](ltp-0004). It remains to show that #{L} is [dense](ltp-000K) (and therefore a [liveness property](ltp-0006)).   }
+\p{Assume for contradiction that #{A = \compl{(\sc{P}\setminus P)}} is not [dense](ltp-000K), so there exists #{\sigma \in \itraces} such that #{\sigma \notin \sc{A}}. By our definition of [safety closure](ltp-000J), some finite prefix #{u} of #{\sigma} is a [bad prefix](ltp-000B) of #{A}, meaning no extension of #{u} lies in #{A}. Hence every extension of #{u} lies in #{\sc{P} \setminus P}, i.e. every extension of #{u} lies in #{\sc{P}} but not in #{P}. Because every extension of #{u} lies in #{\sc{P}}, #{u} cannot finitely refute #{P}, so every extension of #{u} must be extendable to some trace in #{P}, contradicting that no extension of #{u} lies in #{P}. Therefore no such #{u} exists, so every [behaviour](ltp-0002) #{\sigma} is in #{\sc{A}}, and #{A} is [dense](ltp-000K).
+}}

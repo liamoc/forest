@@ -1,0 +1,5 @@
+\taxon{Construction}
+\import{ltp-macros}
+\meta{source}{(from [[alpern-schneider-1985]])}
+\title{Behaviours as topology}
+\p{The [space #{\itraces{}}](ltp-0002) forms a topology where [safety properties](ltp-0004) are the closed sets and [guarantee properties](ltp-0005) are the open sets. This follows from \ref{ltp-000C}, \ref{ltp-000G}, and \ref{ltp-000F} (or, equivalently, from \ref{ltp-000A}, \ref{ltp-0009} and \ref{ltp-0008}).}

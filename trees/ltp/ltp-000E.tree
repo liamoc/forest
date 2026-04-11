@@ -1,0 +1,6 @@
+\taxon{Counterexample}
+\import{dt-macros}
+\import{ltp-macros}
+\author{liamoc}
+\title{Safety properties are not closed under infinite union}
+\p{Consider the family of properties #{P_{i \in \mathbb{N}} = \{ \sigma \in \itraces \mid \sigma_i = \texttt{a}\}}, i.e. the property where the #{i}th state is #{\texttt{a}}. Each #{P_i} is a [safety property](ltp-0004), as all violating behaviours are extensions of [bad prefixes](ltp-000B) of length #{i}. Their union #{\bigcup_{i \in \mathbb{N}} P_i}, however, is not a [safety property](ltp-0004), as any finite prefix can be extended to a [good prefix](ltp-000D) by appending an #{\texttt{a}}-state, and therefore cannot be a [bad prefix](ltp-000D). }

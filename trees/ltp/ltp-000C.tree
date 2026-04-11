@@ -1,0 +1,9 @@
+\taxon{Theorem}
+\import{dt-macros}
+\import{ltp-macros}
+\author{liamoc}
+\title{Trivial properties are guarantee properties}
+\p{The empty property #{\emptyset} and the [property](ltp-0003) #{\itraces} are both [guarantee properties](ltp-0005).}
+\proofblock{
+\p{Follows from \ref{ltp-000A} as the complement of any [safety property](ltp-0004) is a [guarantee property](ltp-0005).}
+}

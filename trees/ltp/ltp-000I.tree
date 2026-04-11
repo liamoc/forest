@@ -1,0 +1,9 @@
+\taxon{Definition}
+\import{dt-macros}
+\import{ltp-macros}
+\title{Guarantee kernel}
+\meta{source}{(from [[amjad-vanglabbeek-oconnor-2026]])}
+\p{Given a [property](ltp-0003) #{P \subseteq \itraces}, the \em{guarantee kernel} of #{P}, written #{\gk{P}}, is the largest subset of #{P} which is a [guarantee property](ltp-0005). That is, #{\gk{P}} is the set of all infinite extensions of the [good prefixes](ltp-000D) of #{P}. }
+\p{It follows that #{P} is a [guarantee property](ltp-0005) iff #{\gk{P} = P}.}
+\p{This is a kernel operator, so it is co-extensive (#{\gk{P} \subseteq P}), idempotent (#{\gk{\gk{P}} = \gk{P}}), and monotonic (#{P \subseteq R} implies #{\gk{P} \subseteq \gk{R}}). }
+\p{[Topologically speaking](ltp-0007), the guarantee kernel is the \em{interior operator}.}

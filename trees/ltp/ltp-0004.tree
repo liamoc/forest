@@ -1,5 +1,5 @@
 \taxon{Definition}
 \author{liamoc}
-\title{Safety Properties}
+\title{Safety properties}
 \p{A \em{safety} [property](ltp-0003) says that a bad thing does not happen. The "bad thing" in this case is some finite, observable event. In other words, safety properties are those [properties](ltp-0003) whose \em{violation} can be established by examining only a \em{finite} prefix of the behaviour.}
 \p{For example, the safety property "The state #{\mathtt{a}} is never reached" is violated by any finite prefix containing the state #{\mathtt{a}}.}

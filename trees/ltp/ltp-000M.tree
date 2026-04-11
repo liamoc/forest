@@ -1,0 +1,16 @@
+\taxon{Theorem}
+\import{dt-macros}
+\import{ltp-macros}
+\author{liamoc}
+\title{A metric space of properties}
+\p{The [topological space of properties](ltp-0007) is a metric space by the following metric, standard for Cantor or Baire spaces:}
+##{d(\sigma,\rho) = \begin{cases} 0 & \text{if}\ \sigma = \rho \\ 
+                                  2^{-\startverb\!\stopverb\sup\{\ \ell\ \mid\ \forall i < \ell.\ \sigma_i = \rho_i\}} & \text{otherwise}\end{cases}}
+\p{The function #{d} is a valid metric as #{d(\sigma,\rho) = 0} iff #{\sigma = \rho}, #{d} is symmetric, and the triangle inequality holds: ##{d(\sigma,\rho) \leq d(\sigma,\tau) + d(\tau,\rho)}}
+\proofblock{
+  It suffices to show that a [property](ltp-0003) #{P} is a [guarantee property](ltp-0005) (i.e. [open](ltp-0007)) iff #{P} is open in the metric topology, i.e. #{\forall \sigma \in P.\ \exists \varepsilon > 0.\ \{ \rho \mid d(\sigma,\rho) < \varepsilon \} \subseteq P }.
+  \ul{
+  \li{#{\implies\startverb\!:\stopverb} Assume #{P} is a [guarantee property](ltp-0005). Let #{\sigma \in P}. Then, because #{P} is guarantee, there must exist some finite prefix #{p} of #{\sigma} which is [good](ltp-000D) for #{P}, i.e. all extensions of #{p} are in #{P}. Set #{r = |p| - 1} and #{\varepsilon = 2^{-r}}. Then the metric ball of radius #{\varepsilon}, i.e. #{\{ u \mid d(t,u) < \varepsilon \}}, is the set of all infinite extensions of #{p}, because #{d(\sigma,\rho) < 2^{-r}} iff #{\sigma} and #{\rho} agree for a prefix of length #{r + 1} — that is, #{p}. Since #{\sigma} was arbitrary, this shows that #{\forall \sigma \in P.\ \exists \varepsilon > 0.\ \{ \rho \mid d(\sigma,\rho) < \varepsilon \} \subseteq P} as required.}
+  \li{#{\impliedby\startverb\!:\stopverb} Assume #{P} is open in the metric topology, i.e. that #{\forall \sigma \in P.\ \exists \varepsilon > 0.\ \{ \rho \mid d(\sigma,\rho) < \varepsilon \} \subseteq P}.  We shall show that #{P} is a [guarantee property](ltp-0005), by showing that it is contained in its [guarantee kernel](ltp-000I) #{P \subseteq \gk{P}}. Assume #{\sigma \in P}. Let #{\varepsilon > 0} be such that  #{\{ \rho \mid d(\sigma,\rho) < \varepsilon \} \subseteq P }. By the Archimedean property, there must be some natural number #{r} such that #{2^{-r} < \varepsilon}. The ball of radius #{2^{-r}}, i.e. #{\{ \rho \mid d(\sigma,\rho) < 2^{-r} \}} is therefore contained within the ball of radius #{\varepsilon}, which, by our openness assumption, must in turn be contained within #{P}. Because #{d(\sigma,\rho) < 2^{-r}} iff #{\sigma} and #{\rho} agree for a prefix of length #{r + 1}, let #{p} be a prefix of #{\sigma} of length #{r + 1}. Then the ball of radius #{2^{-r}} is exactly all infinite extensions of #{p}. As our openness assumption says that this ball is a subset of #{P}, all infinite extensions of #{p} are therefore in #{P} and thus #{p} is a [good prefix](ltp-000D) of #{P}. This shows, as #{\sigma} was arbitrary, that all #{\sigma \in P} are the extension of some [good prefix](ltp-000D), and therefore that #{\sigma \in \gk{P}}. Therefore #{P \subseteq \gk{P}} and {P} is a [guarantee property](ltp-0005).}
+}
+}                                  

@@ -1,0 +1,8 @@
+\taxon{Definition}
+\import{dt-macros}
+\import{ltp-macros}
+\meta{source}{(from [[kupferman-vardi-2001]])}
+\title{Good prefixes}
+\p{For a [property](ltp-0003) #{P}, the \em{good prefixes} of #{P} are those finite prefixes #{t \in \ftraces} from which the satisfaction of #{P} can be established, i.e. #{\forall \sigma \in \itraces.\ t\sigma \in P}.}
+\p{A [property](ltp-0003) #{P} is a [guarantee property](ltp-0005) iff all satisfying [behaviours](ltp-0002) are extensions of good prefixes.
+}

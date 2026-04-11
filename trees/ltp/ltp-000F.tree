@@ -1,0 +1,7 @@
+\taxon{Theorem}
+\import{dt-macros}
+\import{ltp-macros}
+\author{liamoc}
+\title{Guarantee properties are closed under union}
+\p{For a (possibly infinite) collection of properties #{P_{i \in I}}, if every #{P_i} is a [guarantee property](ltp-0005) then #{\bigcup_{i \in I} P_i} is a [guarantee property](ltp-0005). }
+\proofblock{ \p{Let #{ P_{i \in I}} be a (possibly infinite) family of [guarantee properties](ltp-0005). Then each #{\compl{P_i}} is a [safety property](ltp-0004) and therefore #{\bigcap_{i \in I} \compl{P_i}} is a [safety property](ltp-0004) by \ref{ltp-0008}. Its complement #{\compl{(\bigcap_{i \in I} \compl{P_i})} = \bigcup_{i \in I} P_i} is therefore a [guarantee property](ltp-0005).}}

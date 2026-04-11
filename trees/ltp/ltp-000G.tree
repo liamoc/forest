@@ -1,0 +1,10 @@
+\taxon{Theorem}
+\import{dt-macros}
+\import{ltp-macros}
+\author{liamoc}
+\title{Guarantee properties are closed under finite intersection}
+\p{The intersection of any two [guarantee properties](ltp-0005) is a [guarantee property](ltp-0005). }
+\proofblock{
+\p{Let #{P} and #{Q} be [guarantee properties](ltp-0005). Then #{\compl{P}} and #{\compl{Q}} are [safety properties](ltp-0004). By \ref{ltp-0009} their union #{\compl{P} \cup \compl{Q}} is a [safety property](ltp-0004) and thus its complement #{\compl{(\compl{P} \cup \compl{Q})} = P \cap Q} is a [guarantee property](ltp-0005).
+ }
+}

@@ -1,0 +1,9 @@
+\taxon{Definition}
+\import{dt-macros}
+\import{ltp-macros}
+\title{Safety closure}
+\meta{source}{(from [[alpern-schneider-1985]])}
+\p{Given a [property](ltp-0003) #{P \subseteq \itraces}, the \em{safety closure} of #{P}, written #{\sc{P}}, is the smallest superset of #{P} which is a [safety property](ltp-0004). It is the dual of the [guarantee kernel](ltp-000I), so #{\gk{\compl{P}} = \compl{\sc{P}}}. This means that the safety closure of #{P} contains all behaviours which cannot be shown to violate #{P} by a finite [bad prefix](ltp-000B).} 
+\p{It follows that #{P} is a [safety property](ltp-0004) iff #{\sc{P} = P}.}
+\p{This is a closure operator, so it is extensive (#{\sc{P} \supseteq P}), idempotent (#{\sc{\sc{P}} = \sc{P}}), and monotonic (#{P \subseteq R} implies #{\sc{P} \subseteq \sc{R}}). }
+\p{[Topologically speaking](ltp-0007), the safety closure is the (limit-)\em{closure}.}

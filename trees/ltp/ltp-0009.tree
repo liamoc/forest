@@ -1,0 +1,10 @@
+\taxon{Theorem}
+\import{dt-macros}
+\import{ltp-macros}
+\author{liamoc}
+\title{Safety properties are closed under finite union}
+\p{The union of any two [safety properties](ltp-0004) is a [safety property](ltp-0004). }
+\proofblock{
+\p{Let #{P} and #{Q} be [safety properties](ltp-0004). Take any violating behaviour #{\sigma \notin P \cup Q}. Then, #{\sigma \notin P} and #{\sigma \notin Q}. Since #{P} and #{Q} are safety properties, there exist finite prefixes #{t} and #{u} of #{\sigma} such that no extension of #{t} is in #{P} and no extension of #{u} is in #{Q}. Let #{v} be the longer of #{t} and #{u}; then #{v} is still a prefix of #{\sigma}. Any extension of #{v} is also an extension of both [bad prefixes](ltp-000B) #{t} and #{u}, so it is in neither in #{P} nor #{Q}, and hence not in #{P \cup Q}. Thus the violation of #{P} can be established just by examining the [bad prefix](ltp-000B) #{v}, so #{P \cup Q} is a [safety property](ltp-0004).
+ }
+}

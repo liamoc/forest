@@ -1,5 +1,7 @@
 \taxon{Definition}
-\title{The space #{\Sigma^\omega}}
+\import{ltp-macros}
+\title{Traces and behaviours}
 \author{liamoc}
-\p{Let the set of all possible \em{states} be #{\Sigma}. Then, the set of all possible \em{behaviours} —infinite sequences of states — is #{\Sigma^\omega}. Note that we do not require that #{\Sigma} is finite.}
+\p{Let the set of all possible \em{states} be #{\Sigma}. Note that we do not require that #{\Sigma} is finite. Then, #{\ftraces} is the set of finite sequences of states. We denote the empty sequence as #{\varepsilon}. The concatenation of two sequences #{t} and #{u} is written #{tu}.  }
+\p{The set of all \em{behaviours} — \em{infinite} sequences of states — is #{\itraces}. We define #{\sigma{}t = \sigma} when the sequence #{\sigma} is infinite. }
 \p{We shall model terminating systems, which have finite behaviours, as behaviours that infinitely repeat their final state.}

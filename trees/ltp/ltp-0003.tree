@@ -1,4 +1,5 @@
 \title{Properties}
 \taxon{Definition}
+\import{ltp-macros}
 \author{liamoc}
-\p{A property, being a specification of a system, can be thought of as simply a set of behaviours, i.e. a subset of [the space #{\Sigma^\omega}](ltp-0002). A property is \em{satisfied} by a system if all behaviours exhibited by the system are contained within the set. It is \em{violated} by a system if there exists a behaviour exhibited by the system that is not contained within the set. }
+\p{A property, being a specification of a system, can be thought of as simply a set of behaviours, i.e. a subset of [the space #{\itraces{}}](ltp-0002). A property is \em{satisfied} by a system if all behaviours exhibited by the system are contained within the set. It is \em{violated} by a system if there exists a behaviour exhibited by the system that is not contained within the set. }

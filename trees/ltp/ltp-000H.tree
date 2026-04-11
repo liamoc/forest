@@ -1,0 +1,6 @@
+\taxon{Counterexample}
+\import{dt-macros}
+\import{ltp-macros}
+\author{liamoc}
+\title{Guarantee properties are not closed under infinite intersection}
+\p{Consider the family of properties #{P_{i \in \mathbb{N}} = \{ \sigma \in \itraces \mid \sigma_i \neq \texttt{a}\}}, i.e. the property where the #{i}th state is not #{\texttt{a}}. Each #{P_i} is a [guarantee property](ltp-0005), as all satisfying behaviours are extensions of [good prefixes](ltp-000D) ending in a non-#{\mathtt{a}} state of length #{i}. Their intersection #{\bigcap_{i \in \mathbb{N}} P_i}, however, is not a [guarantee property](ltp-0005), as any finite prefix can be extended to a [bad prefix](ltp-000B) by appending an #{\texttt{a}}-state, and therefore cannot be a [good prefix](ltp-000D). }

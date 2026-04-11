@@ -1,0 +1,7 @@
+\taxon{Theorem}
+\import{dt-macros}
+\import{ltp-macros}
+\author{liamoc}
+\title{Safety properties are closed under intersection}
+\p{For a (possibly infinite) collection of properties #{P_{i \in I}}, if every #{P_i} is a [safety property](ltp-0004) then #{\bigcap_{i \in I} P_i} is a [safety property](ltp-0004). }
+\proofblock{ Let #{ P_{i \in I}} be a (possibly infinite) family of [safety properties](ltp-0004) and let #{P = \bigcap_{i \in I} P_i}. Take any behaviour #{\sigma \notin P}. Then there exists some #{j \in I} such that #{\sigma \notin P_j}. Since #{P_j} is a [safety property](ltp-0004), there is a finite prefix #{u} of #{\sigma} such that no extension of #{u} lies in #{P_j}. But then no extension of #{u} can lie in #{\bigcap_{i \in I} P_i}, because membership in the intersection requires membership in #{P_j}, which is already ruled out. Hence #{u} is a [bad prefix](ltp-000B) for #{P}, so #{P} is a [safety property](ltp-0004).}
