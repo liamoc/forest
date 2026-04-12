@@ -1,0 +1,26 @@
+\taxon{Definition}
+\import{dt-macros}
+\import{ltp-macros}
+\title{Linear-time temporal logic}
+\p{[Properties](ltp-0003) are commonly written using \em{linear-time temporal logic} (LTL), a modal logic defined over [behaviours](ltp-0002). Given atomic propositions #{\mathsf{a} : \Sigma \rightarrow \bool}, the syntax for formulae is given by:  }
+##{ \begin{array}{lcl}
+       \varphi, \psi &::=& \top \mid \bot \mid \mathsf{a} \mid \varphi \land \psi \mid \varphi \lor \psi \mid \neg \varphi \\
+                    &\mid& \next \varphi \mid \eventually \varphi \mid \always \varphi \mid \varphi \until \psi \mid \varphi \release \psi \end{array}  }
+\p{To assign semantics, we compositionally map each formula to a [property](ltp-0003). Here the notation #{f^k} indicates the self-composition of #{f} #{k} times, i.e. #{f^0(x)=x} and #{f^{k+1}(x)=f^k(f(x))}. The function #{\prep}, the \em{prepend operator}, is defined as follows:}
+##{\prep X = \{ s\sigma \mid s \in \Sigma \land \sigma \in X \}}
+
+##{\begin{array}{lcl}
+\sems{\top} &=& \itraces \\
+\sems{\bot} &=& \emptyset \\
+\sems{\mathsf{a}} &=& \{ \sigma \mid \mathsf{a}(\sigma_0) \} \\
+\sems{\varphi \land \psi} &=& \sems{\varphi} \cap \sems{\psi} \\
+\sems{\varphi \lor \psi} &=& \sems{\varphi} \cup \sems{\psi} \\
+\sems{\neg \varphi} &=& \compl{\sems{\varphi}} \\
+\sems{\next \varphi} &=& \prep\sems{\varphi} \\
+\sems{\eventually \varphi} &=& \bigcup_{i \in \mathbb{N}}\prep^i\sems{\varphi} \\
+\sems{\always \varphi} &=& \bigcap_{i \in \mathbb{N}}\prep^i\sems{\varphi} \\
+\sems{\varphi \until \psi} &=& \bigcup_{i \in \mathbb{N}}f^k(\sems{\psi})\text{, where}\ f(X) = \prep X \cap \sems{\varphi}\\
+\sems{\varphi \release \psi} &=& \bigcap_{i \in \mathbb{N}}f^k(\sems{\psi})\text{, where}\ f(X) = \prep X \cup \sems{\varphi}\\
+\end{array}
+}
+\p{These semantics are sometimes written in terms of a satisfaction relation like #{\sigma \models \varphi}. This notation is equivalent to our #{\sigma \in \sems{\varphi}}.}

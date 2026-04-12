@@ -1,4 +1,5 @@
 \taxon{Research Notebook}
+\import{ltp-macros}
 \title{Linear-time temporal properties}
 \author{liamoc}
 \transclude{ltp-0002}
@@ -25,13 +26,25 @@
   \title{Properties as a topological space}
   \scope{\put\transclude/metadata{true}\transclude{ltp-0007}}
   \scope{\put\transclude/metadata{true}\transclude{ltp-000I}}
+  \scope{\put\transclude/metadata{true}\transclude{ltp-000N}}
+  \transclude{ltp-000P}
+  \scope{\put\transclude/metadata{true}\transclude{ltp-000O}}
   \scope{\put\transclude/metadata{true}\transclude{ltp-000J}}
+  \transclude{ltp-000Q}
+  \transclude{ltp-000R}
+  \transclude{ltp-000S}
   \transclude{ltp-000M}
 }
 \subtree{
   \title{Concerning liveness properties}
   \transclude{ltp-0006}
   \scope{\put\transclude/metadata{true}\transclude{ltp-000K}}
+  \transclude{ltp-000T}
+  \transclude{ltp-000U}
   \scope{\put\transclude/metadata{true}\transclude{ltp-000L}}
-  % closure properties go here?
+}
+\subtree{
+  \title{Concerning LTL}
+  \transclude{ltp-000V}
+  \transclude{ltp-000W}
 }

@@ -1,0 +1,6 @@
+\title{Holbert-NG status: pluggable terms and tangled}
+\author{liamoc}
+\date{2026-04-12}
+\p{My students [[miowu]] and [[joshbrown]] have been doing some great work on the next generation of the Holbert proof assistant. In particular, [Josh](joshbrown) has now implemented a \em{pluggable} term structure, allowing various types of terms, each with their own unification methods and structure definitions, to be combined together in judgements. [Mio](miowu) is confident she can generalise his approach to work for higher order terms as well, which is very exciting.}
+\p{As part of my general desire to stop using anything that feeds the LLM bots, I am gradually beginning to migrate off of GitHub. Fortunately the Holbert-NG crew are also happy to leave GitHub, so we are going to move to [tangled](https://tangled.org/liamoc.net/holbert-ng) for the time being. }
+\p{I also got the chance to do some programming work myself. Soon we should have a similar proof UI to what the original Holbert has. I think most of the architecture is in place now.}

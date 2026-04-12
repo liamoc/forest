@@ -1,0 +1,13 @@
+\taxon{Theorem}
+\import{dt-macros}
+\import{ltp-macros}
+\title{Guarantee kernel distributes over finite intersection}
+\meta{source}{(from [[amjad-vanglabbeek-oconnor-2026]])}
+\p{The [guarantee kernel](ltp-000I) distributes over binary intersection, i.e. #{\gk{P} \cap \gk{R} = \gk{P \cap R}}}
+\proofblock{
+  \p{Showing each direction separately:}
+  \ul{
+    \li{#{\gk{P} \cap \gk{R} \subseteq \gk{P \cap R}}: Let #{\sigma} be a [behaviour](ltp-0002) in #{\gk{P} \cap \gk{R}}. There must exist a prefix #{t} of #{\sigma} which is a [good prefix](ltp-000D) for #{P}, and a prefix #{u} of #{\sigma} which is a [good prefix](ltp-000D) for #{R}. Because both #{t} and #{u} are prefixes of #{\sigma}, either #{t} is a prefix of #{u} or #{u} is a prefix of #{t}. If #{t} is a prefix of #{u}, then #{u} must also be a [good prefix](ltp-000D) for #{P \cap R} and thus #{\sigma \in \gk{P \cap R}}. Likewise for #{t} when #{u} is a prefix of #{t}.}
+    \li{#{\gk{P} \cap \gk{R} \supseteq \gk{P \cap R}}: Follows from [monotonicity of guarantee kernel](ltp-000I).}
+  }
+}

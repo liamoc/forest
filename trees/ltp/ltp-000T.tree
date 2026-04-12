@@ -1,0 +1,7 @@
+\taxon{Theorem}
+\import{dt-macros}
+\import{ltp-macros}
+\title{Liveness properties are closed under union}
+\p{For a (possibly infinite) collection of [properties](ltp-0003) #{P_{i \in I}}, if every #{P_i} is a [liveness property](ltp-0006) then #{\bigcup_{i \in I} P_i} is a [liveness property](ltp-0006). }
+\proofblock{
+\p{Let #{P_{i \in I}} be a family of [liveness properties](ltp-0006). Because [liveness properties are dense](ltp-000K), for any #{i}, #{\sc{P_i} = \itraces}. As [safety closure is monotonic](ltp-000J), #{\itraces \subseteq \sc{\bigcup_{i \in I} P_i }}. Therefore the union is [dense](ltp-000K) #{\sc{\bigcup_{i \in I} P_i } = \itraces} and therefore a [liveness property](ltp-0006). }}

@@ -4,3 +4,11 @@
 \def\compl[body]{\body^\complement}
 \def\gk[body]{\underline{\body}}
 \def\sc[body]{\overline{\body}}
+\def\bool{\mathbb{B}}
+\def\eventually{\mathop{\raisebox{-0.2em}{\text{\Large ◇}}}}
+\def\always{\mathop{\raisebox{-0.1em}{\text{\Large □}}}}
+\def\until{\mathbin{\mathcal{U}}}
+\def\release{\mathbin{\mathcal{R}}}
+\def\next{\mathop{\raisebox{-0.2em}{\text{\Large ○}}}}
+\def\sems[body]{\llbracket\body\rrbracket}
+\def\prep{\mathop{\triangleright}}

@@ -1,0 +1,6 @@
+\taxon{Counterexample}
+\import{dt-macros}
+\import{ltp-macros}
+\title{Guarantee kernel does not distribute over union}
+\meta{source}{(from [[amjad-vanglabbeek-oconnor-2026]])}
+\p{Take the [properties](ltp-0003) #{P = \{ \sigma \mid \texttt{a}\ \text{occurs infinitely often in}\ \sigma\}} and #{R = \{ \sigma \mid \texttt{a}\ \text{occurs finitely many times in}\ \sigma\}}. Both have an empty [guarantee kernel](ltp-000I), i.e. #{\gk{P} = \gk{R} = \emptyset}, however #{P \cup R = \itraces} so the [guarantee kernel](ltp-000I) of the union is #{\itraces}, not #{\emptyset}. }

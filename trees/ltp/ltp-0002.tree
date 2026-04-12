@@ -3,5 +3,5 @@
 \title{Traces and behaviours}
 \author{liamoc}
 \p{Let the set of all possible \em{states} be #{\Sigma}. Note that we do not require that #{\Sigma} is finite. Then, #{\ftraces} is the set of finite sequences of states. We denote the empty sequence as #{\varepsilon}. The concatenation of two sequences #{t} and #{u} is written #{tu}.  }
-\p{The set of all \em{behaviours} — \em{infinite} sequences of states — is #{\itraces}. We define #{\sigma{}t = \sigma} when the sequence #{\sigma} is infinite. }
+\p{The set of all \em{behaviours} — \em{infinite} sequences of states — is #{\itraces}. We define #{\sigma{}t = \sigma} when the sequence #{\sigma} is infinite. We say that #{t} is a \em{prefix} of #{u} (or #{u} is an \em{extension} of #{t}) iff there exists some #{w} such that #{tw = u}.}
 \p{We shall model terminating systems, which have finite behaviours, as behaviours that infinitely repeat their final state.}

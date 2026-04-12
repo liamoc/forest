@@ -1,0 +1,15 @@
+\import{dt-macros}
+\import{ltp-macros}
+\title{A minimal fragment of LTL}
+\p{All of the connectives [linear-time temporal logic](ltp-000V) can be constructed from the following minimal fragment (among others:)  }
+##{ \begin{array}{lcl}
+       \varphi, \psi &::=& \top \mid \mathsf{a} \mid \varphi \land \psi \mid \neg \varphi \mid \next \varphi \mid \varphi \until \psi \end{array}  }                    
+\p{The remaining connectives can be derived by using the following identities:
+\ul{
+  \li{#{\bot \equiv \neg \top}}
+  \li{#{\varphi \lor \psi \equiv \neg (\neg\varphi \land \neg\psi) }}
+  \li{#{\eventually \varphi \equiv \top \until \varphi}}
+  \li{#{\always \varphi \equiv \neg \eventually \neg \varphi}}
+  \li{#{\varphi \release \psi \equiv \neg (\neg \varphi \until \neg \psi)}}
+}
+(where #{\varphi \equiv \psi} means #{\sems{\varphi} = \sems{\psi}})}

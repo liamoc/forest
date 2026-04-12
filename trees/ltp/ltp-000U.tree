@@ -1,0 +1,5 @@
+\taxon{Counterexample}
+\import{dt-macros}
+\import{ltp-macros}
+\title{Liveness properties are not closed under intersection}
+\p{Take the [properties](ltp-0003) #{P = \{ \sigma \mid \texttt{a}\ \text{occurs infinitely often in}\ \sigma\}} and #{R = \{ \sigma \mid \texttt{a}\ \text{occurs finitely many times in}\ \sigma\}}. Both are [liveness properties](ltp-0006), i.e. [dense](ltp-000K) (#{\sc{P} = \sc{R} = \itraces}), however #{P \cap R = \emptyset} which is not a liveness property (as #{\sc{\emptyset} = \emptyset} not #{\itraces}).}

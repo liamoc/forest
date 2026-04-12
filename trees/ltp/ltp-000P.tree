@@ -1,0 +1,6 @@
+\taxon{Counterexample}
+\import{dt-macros}
+\import{ltp-macros}
+\title{Guarantee kernel does not distribute over infinite intersection}
+\author{liamoc}
+\p{Follows from \ref{ltp-000H}. As each #{P_i} is a [guarantee property](ltp-0005), the [guarantee kernel](ltp-000I) of each #{P_i} is just #{P_i}. But the [guarantee kernel](ltp-000I) of their infinite intersection #{\bigcap_{i \in \mathbb{N}} P_i} is #{\empty}.}

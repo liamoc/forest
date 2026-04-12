@@ -1,0 +1,12 @@
+\import{table-macros}
+\title{Weeknotes 2026-W15}
+\author{liamoc}
+\date{2026-04-12}
+\p{Thankfully this is the first week of semester break, so I was actually able to do a little research work.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{480px}[src]{\route-asset{assets/asas.jpg}}%{}
+ \figcaption{All Saints Ainslie in evening silhouette.}
+}
+\transclude{loc-003Z}
+\transclude{loc-0040}
+\transclude{loc-0041}

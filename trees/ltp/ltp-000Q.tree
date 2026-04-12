@@ -1,0 +1,16 @@
+\taxon{Theorem}
+\import{dt-macros}
+\import{ltp-macros}
+\title{Safety closure distributes over finite union}
+\author{liamoc}
+\p{The [safety closure](ltp-000J) distributes over binary union, i.e. #{\sc{P} \cup \sc{R} = \sc{P \cup R}}}
+\proofblock{
+  Follows from \ref{ltp-000N}: ##{
+    \begin{array}{lcl}
+    \sc{P} \cup \sc{R} &=& \compl{\gk{\compl{P}}} \cup \compl{\gk{\compl{R}}} \\
+    & = & \compl{(\gk{\compl{P}} \cap \gk{\compl{R}})} \\
+      & = & \compl{(\gk{\compl{P} \cap \compl{R}})}  \\
+      & = & \sc{\compl{(\compl{P} \cap \compl{R})}} \\
+      & = & \sc{P \cup R} \end{array}
+  }
+}

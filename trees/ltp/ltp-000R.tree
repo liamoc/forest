@@ -1,0 +1,6 @@
+\taxon{Counterexample}
+\import{dt-macros}
+\import{ltp-macros}
+\title{Safety closure does not distribute over infinite union}
+\author{liamoc}
+\p{Follows from \ref{ltp-000E}. As each #{P_i} is a [safety property](ltp-0004), the [safety closure](ltp-000j) of each #{P_i} is just #{P_i}. But the [safety closure](ltp-000J) of their infinite union #{\bigcup_{i \in \mathbb{N}} P_i} is #{\itraces}.}
