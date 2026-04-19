@@ -1,0 +1,14 @@
+\import{table-macros}
+\title{Weeknotes 2026-W16}
+\author{liamoc}
+\date{2026-04-19}
+\p{I was a little unwell at the beginning of this week, and extremely busy in the second half, mostly preparing [[COMP1110]] mid-term tests. Teaching courses is hard work!}
+\figure{
+  \<html:img>[loading]{lazy}[width]{290px}[src]{\route-asset{assets/postm4.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{290px}[src]{\route-asset{assets/postm.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{290px}[src]{\route-asset{assets/postm2.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{290px}[src]{\route-asset{assets/postm3.jpeg}}%{}  
+ \figcaption{Autumn is coming to Canberra}
+}
+\transclude{loc-0043}
+\transclude{loc-0042}
