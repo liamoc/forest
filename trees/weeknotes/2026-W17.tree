@@ -1,0 +1,14 @@
+\import{table-macros}
+\title{Weeknotes 2026-W17}
+\author{liamoc}
+\date{2026-04-26}
+\p{This week was the first week back teaching, but we are off to a good start, I think.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{290px}[src]{\route-asset{assets/autumn1.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{290px}[src]{\route-asset{assets/autumn2.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{290px}[src]{\route-asset{assets/autumn3.jpeg}}%{}
+ \figcaption{Autumnal sights around Lyneham and Acton.}
+}
+\transclude{loc-0046}
+\transclude{loc-0045}
+\transclude{loc-0044}

@@ -1,0 +1,14 @@
+\import{table-macros}
+\title{Weeknotes 2026-W18}
+\author{liamoc}
+\date{2026-05-03}
+\p{This week the public holiday on Monday and the running the [[COMP1110]] exam on Friday meant I had little time for anything else.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{290px}[src]{\route-asset{assets/commute.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{290px}[src]{\route-asset{assets/commute2.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{290px}[src]{\route-asset{assets/commute3.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{290px}[src]{\route-asset{assets/commute4.jpeg}}%{}  
+ \figcaption{Enjoying my commute to work rich with 단풍}
+}
+\transclude{loc-0048}
+\transclude{loc-0047}

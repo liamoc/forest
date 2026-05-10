@@ -1,7 +1,7 @@
 \title{Weeknotes}
 \parent{index}
 \author{liamoc}
-\date{2025-07-06}
+\date{2026-05-03}
 \tag{top}
 
 \syndicate-current-tree-as-atom-feed
@@ -11,6 +11,9 @@
 \put\transclude/expanded{false}
 
 \p{This page has an [atom feed](/forest/loc-001B/atom.xml).}
+\transclude{2026-W19}
+\transclude{2026-W18}
+\transclude{2026-W17}
 \transclude{2026-W16}
 \transclude{2026-W15}
 \transclude{2026-W14}

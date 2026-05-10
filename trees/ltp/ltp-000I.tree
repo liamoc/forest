@@ -7,3 +7,4 @@
 \p{It follows that #{P} is a [guarantee property](ltp-0005) iff #{\gk{P} = P}.}
 \p{This is a kernel operator, so it is co-extensive (#{\gk{P} \subseteq P}), idempotent (#{\gk{\gk{P}} = \gk{P}}), and monotonic (#{P \subseteq R} implies #{\gk{P} \subseteq \gk{R}}). }
 \p{[Topologically speaking](ltp-0007), the guarantee kernel is the \em{interior operator}.}
+\p{Intuitively, the guarantee kernel of #{P} is all [behaviours](ltp-0002) for which \strong{some} finite prefix extended in \strong{any} way will get into #{P}.}

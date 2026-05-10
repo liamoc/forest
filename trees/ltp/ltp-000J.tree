@@ -7,3 +7,4 @@
 \p{It follows that #{P} is a [safety property](ltp-0004) iff #{\sc{P} = P}.}
 \p{This is a closure operator, so it is extensive (#{\sc{P} \supseteq P}), idempotent (#{\sc{\sc{P}} = \sc{P}}), and monotonic (#{P \subseteq R} implies #{\sc{P} \subseteq \sc{R}}). }
 \p{[Topologically speaking](ltp-0007), the safety closure is the (limit-)\em{closure}.}
+\p{Intuitively, the safety closure of #{P} is all [behaviours](ltp-0002) for which \strong{any} finite prefix extended in \strong{some} way will get into #{P}.}

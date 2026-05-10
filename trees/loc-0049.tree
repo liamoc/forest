@@ -1,0 +1,21 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{6th Sunday of Easter 2026}
+\tag{cmc}
+\date{2026-05-10}
+\author{liamoc}
+\quote{
+  Vocem iucunditátis annuntiáte, et audiátur, allelúia: nuntiáte usque ad extrémum terræ: liberávit Dóminus pópulum suum, allelúia, allelúia.
+}
+\p{Today at [All Saints Ainslie](https://allsaintsainslie.org.au) I conducted a small group for the [Crux Fidelis](https://www.youtube.com/watch?v=PXGKd7-G84Q) commonly (but almost certainly wrongly) attributed to John IV of Portugal (I took Neale's translation rather than a more direct one): }
+\quote{\table{
+  \tr{\td{Crux fidélis, inter omnes}\td{Faithful Cross, above all other,}}
+  \tr{\td{Arbor una nóbilis:}\td{One and only noble tree:}}
+  \tr{\td{Nulla talem silva profert,}\td{None in foliage, none in blossom,}}
+  \tr{\td{Fronde, flóre, gérmine.}\td{None in fruit thy peer may be.}}
+  \tr{\td{Dulce lignum, dulci clavo,}\td{Sweetest wood and sweetest iron,}}
+  \tr{\td{Dulce pondus sústinens.}\td{Sweetest weight is hung on thee.}}
+}
+}

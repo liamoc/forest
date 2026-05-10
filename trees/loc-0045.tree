@@ -1,0 +1,24 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\date{2026-04-26}
+\author{liamoc}
+\title{Coro Concert: Radiant Dawn}
+
+\p{[Coro](loc-003G)'s concert has now been officially announced. Please [buy tickets](https://www.corocanberra.com/concerts) as soon as you can! The venue is my usual All Saints Ainslie church so the acoustic is good but seating is limited.}
+\figure{  
+  [\<html:img>[loading]{lazy}[width]{450px}[src]{\route-asset{assets/cororadiant.png}}{}](https://www.corocanberra.com/concerts)
+}
+\quote{
+  \p{Coro, one of Canberra's leading choral ensembles and two-time Canberra Critics' CIrcle Award recipient, invites audiences to experience Radiant Dawn: From Lamentation to Light, an extraordinary hour of choral music that traces the path from sorrow and supplication to renewal, wonder, and radiant joy.}
+
+  \p{This thoughtfully curated program - the ensemble's first for 2026 - brings together masterpieces from the Renaissance and the modern era, revealing how composers across centuries have responded to the deepest human emotions with beauty, faith, and hope.}
+
+  \p{Beginning in stillness and grief with three great sacred works of the Renaissance by Handl, Victoria, and Lobo, these works explore mortality, sorrow, and the search for consolation. Yet from darkness emerges hope. William Byrd’s three exquisite settings of the Agnus Dei — for three, four, and five voices — chart a journey from intimate simplicity to glorious fullness of sound. Interwoven are Igor Stravinsky’s luminous Ave Maria and Claude Le Jeune’s joyful Revecy venir du printemps, suggesting grace, renewal, and the first stirrings of life.}
+
+\p{At the centre of the evening, and giving the concert its title, stands James MacMillan’s breathtaking O Radiant Dawn, a contemporary choral masterpiece of glowing sonorities and spiritual intensity. }
+
+\p{Celebrating life with energy, intimacy and warmth, the afternoon closes with works by Finzi and Chilcott, followed by Morten Lauridsen’s beloved O Magnum Mysterium. }
+
+\p{Radiant Dawn: From Lamentation to Light is a concert of striking contrasts and deep emotional resonance — music that journeys through shadow into brilliance, reminding us of the enduring power of the human spirit.}
+}

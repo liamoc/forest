@@ -1,0 +1,14 @@
+\import{table-macros}
+\title{Weeknotes 2026-W19}
+\author{liamoc}
+\date{2026-05-10}
+\p{This week was so busy preparing for the Coro concert and dealing with the aftermath of exams.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{390px}[src]{\route-asset{assets/blackm.jpeg}}%{}
+ \figcaption{A nice view of Black Mountain from Ainslie.}
+}
+\transclude{loc-004C}
+\transclude{loc-004B}
+\transclude{loc-004A}
+\transclude{loc-0049}
+
