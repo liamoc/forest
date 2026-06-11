@@ -1,0 +1,13 @@
+\import{table-macros}
+\title{Weeknotes 2026-W20}
+\author{liamoc}
+\date{2026-05-17}
+\p{This week went well, I think. Still lots to do, but the end is in sight for [[COMP1110]].}
+\figure{
+  \<html:img>[loading]{lazy}[width]{390px}[src]{\route-asset{assets/fireclouds.jpeg}}%{}
+ \figcaption{Some golden clouds on my walk home.}
+}
+\transclude{loc-004F}
+\transclude{loc-004E}
+\transclude{loc-004D}
+

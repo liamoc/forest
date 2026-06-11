@@ -1,0 +1,15 @@
+\import{table-macros}
+\title{Weeknotes 2026-W22}
+\author{liamoc}
+\date{2026-05-31}
+\p{This week I finally wrapped up my teaching obligations for [[COMP1110]]. Just the final exam left to worry about.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{280px}[src]{\route-asset{assets/wetss1.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{280px}[src]{\route-asset{assets/wetss2.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{280px}[src]{\route-asset{assets/wetss3.jpeg}}%{}
+      \<html:img>[loading]{lazy}[width]{280px}[src]{\route-asset{assets/wetss4.jpeg}}%{}
+ \figcaption{An afternoon walk home after a wet day.}
+}
+\transclude{loc-004J}
+\transclude{loc-004K}
+

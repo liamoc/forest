@@ -1,0 +1,8 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\title{Teaching grant successful}
+\date{2026-05-15}
+\author{liamoc}
+\p{I'm happy to report that the small grant I applied for with [[cpmpercussion]] was successful. We will get a few thousand dollars to set up a teaching activity where students will program with \em{punch cards} again. }
+\p{The key to this approach will be having only \em{one} card reading/program executing machine for all students, who must then book computer time just like in the old days of batch processing. I also thing there's something important about the physicality of punching holes in cards that students might appreciate. It's also LLM-proof programming, so there's that.}

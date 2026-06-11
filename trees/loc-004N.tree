@@ -1,0 +1,19 @@
+\import{table-macros}
+\title{FMOz 2026}
+\author{liamoc}
+\date{2026-06-05}
+\p{This week I attended (along with many others from ANU including [[hoefner]], [[alinosher]], [[xinloi]], [[kaiphan]] and [[carloz]]) the yearly meeting of Formal Methods researchers in Australia at the [[uq]]. It was good to hear from colleagues again, and I was very impressed by the size of the group.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{180px}[src]{\route-asset{assets/brisbane_arch.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{180px}[src]{\route-asset{assets/brisbane_sign.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{180px}[src]{\route-asset{assets/brisbane_river.jpeg}}%{}
+% \figcaption{An afternoon walk home after a wet day.}
+}
+\p{[[hoefner]] also presented some of the initial thoughts and work around [[yiyao]]'s PhD topic, and it was good to help clarify our thinking there. I think I will encourage all of my students not just to attend, but also to speak next year.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{320px}[src]{\route-asset{assets/brisbane_kooka.jpeg}}%{}
+%  \<html:img>[loading]{lazy}[width]{220px}[src]{\route-asset{assets/brisbane_sign.jpeg}}%{}
+%  \<html:img>[loading]{lazy}[width]{220px}[src]{\route-asset{assets/brisbane_river.jpeg}}%{}
+ \figcaption{The fearless kookaburra of St. Lucia campus.}
+}
+\p{We encountered a kookaburra at breakfast that seemed determined to steal people's sausages (swooping right in front of them). This kookaburra seems to have absolutely no fear of humans, so I was able to get very close to take a picture. Eventually we saw it smashing a piece of bread against the table to "kill" it, as they do to lizards and snakes in more natural contexts.}

@@ -1,0 +1,12 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\title{Church cleaning bee and a new anthem book}
+\date{2026-05-16}
+\author{liamoc}
+\p{Today we had a cleaning bee at All Saints Ainslie where we cleaned up the organ loft and choir section of the church. It's a much nicer space to sing in now!}
+\p{The choir has accumulated several musical treasures, one of which is an old but still decent edition of the original Church Anthem Book from Oxford, which I was allowed to take home with me. This impression is from 1954, but it was first printed in 1933. The successor book, the New Church Anthem Book, includes many of the same anthems but there are several (now added to my [[loc-002D]]) anthems that are new to my collection. }
+\figure{
+  \<html:img>[loading]{lazy}[width]{390px}[src]{\route-asset{assets/cab.jpeg}}%{}
+ \figcaption{The Church Anthem Book}
+}
