@@ -1,0 +1,6 @@
+\import{table-macros}
+\title{Teaching finished, at last!}
+\date{2026-06-21}
+\author{liamoc}
+\p{I finished and marked the final exam for [[COMP1110]] last week. I enjoyed teaching this course but I am very glad it's over. Perhaps surprisingly, considering the [catastrophic results from my earlier exam](loc-004B), but the students in general did alright. Perhaps the poor performance shocked them into action somewhat and they practiced more. I also think I made the final exam a little gentler than the other assessments.}
+\p{One thing that I regret doing, and will change in future iterations, is that the homework assignments (which I no longer trust as summative assessment, as they are solvable by LLM) did not have fixed due dates, but instead only recommended due dates before the exam/test for which they served as practice. The actual final due date was just at the end of semester, before the final exam I just marked. The result was, predictably in hindsight, that students didn't do the homework until the last minute, depriving them of the necessary programming practice before the midsession tests. We won't repeat this mistake.}

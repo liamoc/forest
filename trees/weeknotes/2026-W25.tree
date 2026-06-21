@@ -1,0 +1,15 @@
+\import{table-macros}
+\title{Weeknotes 2026-W25}
+\author{liamoc}
+\date{2026-06-21}
+\p{I skipped a week of weeknoting, just because I didn't have much to say and I don't want weeknoting to feel like a chore. But there is a fair bit to say this week!}
+\figure{
+  \<html:img>[loading]{lazy}[width]{480px}[src]{\route-asset{assets/suns1.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{480px}[src]{\route-asset{assets/suns2.jpeg}}%{}
+ \figcaption{Another spectacular Canberra sunset.}
+}
+\transclude{loc-004Q}
+\transclude{loc-004R}
+\transclude{loc-004O}
+\transclude{loc-004P}
+
