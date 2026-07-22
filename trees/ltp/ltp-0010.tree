@@ -1,0 +1,7 @@
+\import{dt-macros}
+\import{ltp-macros}
+\taxon{Counterexample}
+\title{Decision properties are not closed under infinite union nor intersection}
+\author{liamoc}
+\p{Follows from \ref{ltp-000E}. Each #{P_i} is both a [safety property](ltp-0004)  and a [guarantee property](ltp-0005). Therefore, each #{P_i} is a [decision property](ltp-000X). But the [safety closure](ltp-000J) of their infinite union #{\bigcup_{i \in \mathbb{N}} P_i} is the strictly larger set #{\itraces}. Therefore, their infinite union is not even a [safety property](ltp-0004) so certainly not a [decision property](ltp-000X).}
+\p{Therefore, decision properties are not closed under infinite union. Because [decision properties are closed under complement](ltp-000Y), they cannot be closed under infinite intersection either.}

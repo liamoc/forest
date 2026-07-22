@@ -1,0 +1,15 @@
+\import{dt-macros}
+\import{ltp-macros}
+\taxon{Theorem}
+\author{liamoc}
+\title{Decision properties are closed under complement}
+\p{If #{P} is a [decision property](ltp-000X) then so is #{\compl{P}}.}
+\proofblock{
+  \p{
+  We know that #{\sc{P}=\gk{P}}. Then, from the definition of [safety closure](ltp-000J), we have::
+  ##{\begin{array}{lcl}
+     \sc{\compl{P}} & = & \compl{\gk{P}} \\
+                    & = & \compl{\sc{P}} \\ 
+                    & = & \gk{\compl{P}}\end{array}} 
+  }
+}

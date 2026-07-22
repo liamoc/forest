@@ -1,0 +1,13 @@
+\import{dt-macros}
+\import{ltp-macros}
+\title{Obligation properties}
+\taxon{Definition}
+\meta{source}{(from [[manna-pnueli-1990]])}
+\p{An \em{obligation} property is comprised of (finite) boolean combinations of [safety](ltp-0004) and [guarantee](ltp-0005) properties. That is:}
+\ul{
+\li{Every [guarantee](ltp-0004) property is an obligation property.}
+\li{If #{P} is an obligation property, then #{\compl{P}} is an obligation property.}
+\li{If #{P} and #{Q}  are obligation properties, then #{P \cap Q} is an obligation property.}
+\li{If #{P} and #{Q}  are obligation properties, then #{P \cup Q} is an obligation property.}
+}
+\p{Topologically, this is called the \em{constructible sets} of our [topology](ltp-0007).}

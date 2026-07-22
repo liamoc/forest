@@ -48,3 +48,11 @@
   \transclude{ltp-000V}
   \transclude{ltp-000W}
 }
+\subtree{
+  \title{Concerning decision properties}
+  \scope{\put\transclude/metadata{true}\transclude{ltp-000X}}
+  \transclude{ltp-000Y}
+  \transclude{ltp-000Z}
+    \transclude{ltp-0010}
+}
+      \scope{\put\transclude/metadata{true}\transclude{ltp-0011}}

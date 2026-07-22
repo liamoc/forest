@@ -1,0 +1,6 @@
+\import{conf-name-macros}
+\taxon{Conference}
+\meta{doi}{10.1145/93385}
+\title{\conf-name{PODC '90}{Ninth Annual ACM Symposium on Principles of Distributed Computing}}
+\date{1990-08}
+\meta{venue}{Quebec City, Quebec, Canada}

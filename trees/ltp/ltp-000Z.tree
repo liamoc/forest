@@ -1,0 +1,17 @@
+\import{dt-macros}
+\import{ltp-macros}
+\taxon{Theorem}
+\author{liamoc}
+\title{Decision properties are closed under finite union and intersection}
+\p{If #{P} and #{Q} are [decision properties](ltp-000X) then so is #{P \cup Q} and #{P \cap Q}.}
+\proofblock{
+  \p{
+  We know that #{\sc{P}=\gk{P}} and #{\sc{Q}=\gk{Q}}. As [safety closure distributes over finite union](ltp-000Q) and the [guarantee kernel is monotonic](ltp-000I), we have:
+  ##{\begin{array}{lcl}
+     \sc{P \cup Q} & = & \sc{P} \cup \sc{Q} \\
+                   & = & \gk{P} \cup \gk{Q}  \\ 
+                   & \subseteq & \gk{P \cup Q} \\
+                   & \subseteq & \sc{P \cup Q} \end{array}} 
+  }
+  As the inclusion ends up again at #{\sc{P\cup Q}}, the inclusions must be equalities, and thus #{\sc{P \cup Q} = \gk{P \cup Q}}. As [decision properties are closed under complement](ltp-000Y), the proof for intersection follows from this straightforwardly.
+}

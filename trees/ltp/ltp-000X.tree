@@ -1,0 +1,8 @@
+\import{dt-macros}
+\import{ltp-macros}
+\title{Decision properties}
+\taxon{Definition}
+%\author{liamoc}
+\meta{source}{(from [[amjad-vanglabbeek-oconnor-2026]])}
+\p{A \em{decision} property (called \em{strong monitorable} by [Amjad et al.](amjad-vanglabbeek-oconnor-2026)) is a [property](ltp-0003) for which \em{both} confirmation and refutation only require a finite prefix. In other words, decision properties are the intersection of a [safety](ltp-0004) and [guarantee](ltp-0005) property. 
+This makes decision properties the clopen sets in our [topology](ltp-0007). A simple characterisation from topology is that #{P} is a decision property iff #{\sc{P}=\gk{P}}.}
