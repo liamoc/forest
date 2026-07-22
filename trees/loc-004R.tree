@@ -1,0 +1,42 @@
+\title{The monitorability prism}
+\author{liamoc}
+\date{2026-06-21}
+\p{[[kaiphan]] has been building on her already [very impressive result](loc-0046) to produce a very nice picture of the monitorability landscape. I will present a brief summary of her results here, but eventually they will be incorporated into my [research notebook](ltp-0001) on linear-time temporal properties. Mostly, our results concern the space of program [properties](ltp-0003) — sets of program [behaviours](ltp-0002).}
+\figure{
+  \tex{\usepackage{tikz-cd}}{
+    \begin{tikzcd}
+    	& {\mathsf{Decision}} & \\
+    	& {\textsf{Quasi-decision}} \\
+    	{\mathsf{Safety}} & {\textsf{Weak-decision}} & {\mathsf{Guarantee}} \\
+    	{\textsf{Quasi-safety}} && {\textsf{Quasi-guarantee}} \\
+    	{\textsf{Bad}} & {\mathsf{Obligation}} & {\textsf{Good}} \\
+    	& {\textsf{Quasi-obligation}} \\
+    	& {\mathsf{Weak}}
+    	\arrow[from=1-2, to=2-2]
+    	\arrow[from=1-2, to=3-1]
+    	\arrow[from=1-2, to=3-3]
+    	\arrow[from=2-2, to=3-2]
+    	\arrow[from=2-2, to=4-1]
+    	\arrow[from=2-2, to=4-3]
+    	\arrow[from=3-1, to=4-1]
+    	\arrow[from=3-1, to=5-2]
+    	\arrow[from=3-2, to=5-1]
+    	\arrow[from=3-2, to=5-3]
+    	\arrow[from=3-3, to=4-3]
+    	\arrow[from=3-3, to=5-2]
+    	\arrow[from=4-1, to=5-1]
+    	\arrow[from=4-1, to=6-2]
+    	\arrow[from=4-3, to=5-3]
+    	\arrow[from=4-3, to=6-2]
+    	\arrow[from=5-1, to=7-2]
+    	\arrow[from=5-2, to=6-2]
+    	\arrow[from=5-3, to=7-2]
+    	\arrow[from=6-2, to=7-2]
+    \end{tikzcd}
+}
+}
+\p{The classes of [safety](ltp-0004) and [guarantee](ltp-0005) above are the familiar closed and open sets respectively in the [topology of program behaviours](ltp-0007).  In the above diagram, \strong{decision} properties are the clopen sets — those sets that are both [[ltp-0004]] and [[ltp-0005]], and \strong{obligation properties} are, following [[pnueli]], any boolean combination of closed or open sets.  }
+\p{Kai's [original result](loc-0046) was to show that all \em{Bauer monitorable} properties — that is, all properties for which a monitor can always \em{potentially} give an answer — cannot be distinguished from an obligation property by any monitor observing finite prefixes. What she has now done is prove that Bauer monitorable properties are \em{exactly} those properties that approximate an obligation property in this way. This led us to re-christen Bauer monitorability as the class of \em{quasi-obligation} properties. In a similar way, she has also identified the classes of \em{quasi-safety} and \em{quasi-guarantee}, which cannot be monitorably distinguished from safety and guarantee properties respectively, and proved that \em{quasi-obligation} properties are exactly those that are made up of boolean combinations of these.}
+\p{At the bottom of the prism, we have another set of classes. What is commonly called \em{weak monitorability} sits at the very bottom — those properties for which there is at least one finite prefix that causes a monitor to give a definitive answer. We also have \em{good monitorability} and \em{bad monitorability}, which are those properties with at least one [good](ltp-000D) or [bad](ltp-000B) prefix respectively. It is easy to see that \em{weak monitorability} is the union of these classes. (Taking boolean combinations, as in the higher levels of the cube, leads to a trivial class containing all properties).  }
+\p{Kai has also now defined CTL characterisations for all of these lower classes, expressed as formulae over monitor trees, which we define reminiscent of [Ghani](neilghani), [Hancock](peterhancock) and [Pattinson](dirkpattinson)'s [stream processors](ghani-hancock-pattinson-2009). She then showed that the CTL formulae for all of the middle layer classes of the prism are obtained by wrapping the corresponding formula for the class below with #{\mathbf{AG}}. For example, \em{weak} monitorability is defined as #{\mathbf{EF}\ (\mathit{yes} \lor \mathit{no})}, and \em{quasi-obligation} is just #{\mathbf{AG}\ \mathbf{EF}\ (\mathit{yes} \lor \mathit{no})}. Because of the aforementioned indistinguishability result (and because indistinguishable properties have indentical monitors), it's not possible to write CTL formulae for the top level of the prism, except for Decision properties (clopen sets) which correspond exactly to those monitors described by inductive trees — where all paths eventually terminate with an answer.}
+\p{We're aiming to get this into ESOP or FoSSaCS this year. Hoping for the best! I think this is great work.}
