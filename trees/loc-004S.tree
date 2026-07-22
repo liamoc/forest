@@ -1,0 +1,66 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{Feast of St. Peter and St. Paul 2026}
+\tag{cmc}
+\date{2026-06-28}
+\author{liamoc}
+\quote{
+  NUNC scio vere, quia  misit Dóminus Angelum suum: et erípuit me de manu Heródis, et de omni expectatióne plebis Iudæórum.
+}
+\p{This morning at [All Saints Ainslie](https://allsaintsainslie.org.au) I was the cantor for the morning mass, and with a soprano Cindy Chen (who was playing the organ for the other parts of the mass), we sang a 13th century English "gymel" piece, arranged by yours truly (I don't have a recording sadly):}
+\quote{
+  \table{
+    \tr{
+    \td{Jesu Cristes milde moder stud biheld hire sone o rofe that he was ipined on.}
+    \td{Jesus Christ's mild mother stood and beheld her son on the rood that he was pinned on.}
+    }\tr{
+    \td{The son heng, the moder stud and biheld hire childes blud wu it of hise wundes ran.}
+    \td{The son hanged, the mother stood, and beheld her child's blood as it from his wounds ran.}
+    }\tr{
+    \td{Neue blisse he us broute that mankin so dere boute, and for us gaf is dere lif.}
+    \td{New blessings he to us brought, for mankind so dearly bought, and for us gave his dear life.}
+  }\tr{
+    \td{Glade and blithe thu us make, for thi swete sones sake, edi maiden blisful wif.}
+    \td{Glad and blythe thou us make, for thy sweet son's sake, noble maiden, blessed wife.}
+  }\tr{
+    \td{Quen of evene for thi blisse lithe al hure sorinesse and went hur yvel al into qud.}
+    \td{Queen of Heaven, for thy blessedness lightens all our sorrows and turns our evil all into good.}
+  }\tr{
+    \td{Bring hus, moder, to thi sonne, mak hus ever with him wone that hus boute wit this blud.}
+    \td{Bring us, mother, to thy son. Make us ever with him one, that he bought with this blood.}
+  }
+  \tr{
+    \td{Amen.}\td{Amen.}
+  }
+  }
+}
+\p{I returned to the church in the evening for Evensong.  We sang Stainer's [Hail, Gladdening Light](https://www.youtube.com/watch?v=hYmHdJJAyeA) as usual, as well as Phillip Moore's third service for the [Magnificat](https://www.youtube.com/watch?v=hRN08tkNN_k) and [Nunc Dimittis](https://www.youtube.com/watch?v=KTqucmeGPR4). For anthem, we sang the first of Parry's Songs of Farewell, which we had previously performed at [our recent concert](loc-004M): [My soul there is a country](https://www.youtube.com/watch?v=F9AacmOZp3g)}
+\quote{
+  \poem{
+    \line{My soul, there is a country}
+    \line{Far beyond the stars,}
+    \line{Where stands a wingèd sentry}
+    \line{All skilful in the wars:}
+    \line{\br}
+    \line{There, above noise and danger,}
+    \line{Sweet Peace sits crown'd with smiles,}
+    \line{And One born in a manger}
+    \line{Commands the beauteous files.}
+    \line{\br}
+    \line{He is thy gracious Friend,}
+    \line{And—O my soul, awake!—}
+    \line{Did in pure love descend}
+    \line{To die here for thy sake.}
+    \line{\br}
+    \line{If thou canst get but thither,}
+    \line{There grows the flower of Peace,}
+    \line{The Rose that cannot wither,}
+    \line{Thy fortress, and thy ease.}
+    \line{\br}
+    \line{Leave then thy foolish ranges;}
+    \line{For none can thee secure}
+    \line{But One who never changes—}
+    \line{Thy God, thy life, thy cure. }
+    }}

@@ -1,0 +1,11 @@
+\import{table-macros}
+\title{Kangaroos at UC}
+\date{2026-06-21}
+\author{liamoc}
+\p{My partner will be studying at the [[uc]] so I went on a little tour of their campus with her. There seems to be a mob of Kangaroos (is that the right collective noun?) that lives on the campus there. They are the grey Kangaroos that can be seen elsewhere in Canberra, but that doesn't stop the males from being intimidating both in size and musculature. I was also struck by how small the campus is in terms of buildings for the amount of space it occupies. A much smaller scale operation than the [[anu]] seems to be.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{480px}[src]{\route-asset{assets/kanga1.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{480px}[src]{\route-asset{assets/kanga2.jpeg}}%{}
+      \<html:img>[loading]{lazy}[width]{480px}[src]{\route-asset{assets/kanga3.jpeg}}%{}
+          \<html:img>[loading]{lazy}[width]{480px}[src]{\route-asset{assets/kanga4.jpeg}}%{}
+}

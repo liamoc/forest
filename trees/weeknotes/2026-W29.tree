@@ -1,0 +1,17 @@
+\import{table-macros}
+\title{Weeknotes 2026-W29}
+\author{liamoc}
+\date{2026-07-19}
+\p{This weeknotes covers three weeks, but I have only a little to report, as I was travelling in Sydney with my in-laws.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{480px}[src]{\route-asset{assets/syd1.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{480px}[src]{\route-asset{assets/syd2.jpeg}}%{}
+      \<html:img>[loading]{lazy}[width]{480px}[src]{\route-asset{assets/syd3.jpeg}}%{}
+ \figcaption{Some sights of Sydney.}
+}
+\transclude{loc-004Y}
+\transclude{loc-004Z}
+\transclude{loc-004V} 
+\transclude{loc-004W}
+\transclude{loc-004X}
+

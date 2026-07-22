@@ -1,0 +1,11 @@
+\import{table-macros}
+\title{Good SELT results for [[COMP1110]]}
+\author{liamoc}
+\date{2026-07-19}
+
+\def\percent{\startverb%\stopverb
+   }
+\p{We got back our student experience evaluations for our teaching in semester one. I'm pleased to report that I managed to bring [[COMP1110]] from being one of the most unpopular courses in the university to one of the more liked, with 83\percent of respondents giving the thumbs up to the course and 95\percent to my teaching specifically, and no negative ratings. In particular, I was pleased that 100\percent of respondents indicated that I "treat students with respect".}
+\p{I particularly was glad to read this comment:}
+\quote{
+Liam is an excellent communicator, educator, and convenor. He consistently takes time after his lectures to answer student questions and support them with the course content. His live coding is impressive, and he battles through IT issues without losing it, which is impressive in it's own right. His lectures are engaging and for those who attend I believe it to be an excellent learning experience. By doing crowd informed live coding he engages each of us in the process of solving the problem the first time, while he demonstrates the new concept. This leaves you feeling like you CAN do it. That the new concept isn't so alien, because you saw all the steps to build it. This is a huge confidence booster going into the lab, as now this is the second time you are trying to implement the concept, alone this time. He was quick to address student concerns on the forum and consistently asking students for feedback and suggested improvements.  He showed genuine concern in the students that were struggling in the midsemester exams and adapted the course for their expressed needs. He is an excellent educator and I hope to take more of his classes in the future.}
