@@ -4,9 +4,9 @@
 \date{2026-07-27}
 \p{This weeknotes is a day late, but it's good to be back in the swing of things.}
 \figure{
-  \<html:img>[loading]{lazy}[width]{300px}[src]{\route-asset{assets/wint1.jpeg}}%{}
-  \<html:img>[loading]{lazy}[width]{300px}[src]{\route-asset{assets/wint2.jpeg}}%{}
-      \<html:img>[loading]{lazy}[width]{300px}[src]{\route-asset{assets/wint3.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{280px}[src]{\route-asset{assets/wint1.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{280px}[src]{\route-asset{assets/wint2.jpeg}}%{}
+      \<html:img>[loading]{lazy}[width]{280px}[src]{\route-asset{assets/wint3.jpeg}}%{}
  \figcaption{The crisp clear winter days in Canberra.}
 }
 %\transclude{loc-0051}
