@@ -1,12 +1,12 @@
 \import{table-macros}
 \import{dt-macros}
-\title{Operational semantics for Basic CCS}
+\title{Operational semantics for (non-recursive) CCS}
 \taxon{Definition}
 \author{liamoc}
 \def\xarrow[body]{\xrightarrow{\body}}
 \def\xarrowstar[body]{\xrightarrow{\body}^\ast}
 
-\p{We assign an \todo{operational semantics} to [Basic CCS](pa-0001) by describing a series of transition rules #{P \xarrow{a} Q} inductively as follows:}
+\p{We assign an \todo{operational semantics} to [CCS](pa-0001) by describing a series of transition rules #{P \xarrow{a} Q} inductively as follows:}
 ##{
   \begin{gather*}
   \inferrule{ }{a.P \xarrow{a} P} \quad \inferrule{P_k \xarrow{a} P'}{\sum_{i \in I} P_i \xarrow{a} P'}  \\[2em]

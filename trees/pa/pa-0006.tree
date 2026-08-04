@@ -1,10 +1,10 @@
 \import{table-macros}
 \import{dt-macros}
-\title{Possible termination predicate for Basic CCS with #{\textbf{1}}}
+\title{Possible termination predicate for CCS with #{\textbf{1}}}
 \taxon{Definition}
 \author{liamoc}
 
-\p{We define an inductive judgement #{P \checkmark}, where #{P} is a process in [Basic CCS](pa-0001) augmented with an additional process constant #{\textbf{1}}:}
+\p{We define an inductive judgement #{P \checkmark}, where #{P} is a process in [CCS](pa-0001) augmented with an additional process constant #{\textbf{1}}:}
 ##{
   \begin{gather*}
   \inferrule{ }{ \textbf{1} \checkmark} \quad \inferrule{P_k \checkmark}{\sum_{i \in I} P_i \checkmark}  \\[2em]

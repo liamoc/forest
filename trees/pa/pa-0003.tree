@@ -1,10 +1,10 @@
 \import{table-macros}
 \import{dt-macros}
-\title{Partial trace semantics for Basic CCS}
+\title{Partial trace semantics for (non-recursive) CCS}
 \taxon{Definition}
 \author{liamoc}
 \def\PTsems[body]{\sems{\body}_\text{PT}}
-\p{A simple [denotational semantics](dt-0001) for [Basic CCS](pa-0001) is in terms of partial traces: finite sequences of actions.}
+\p{A simple [denotational semantics](dt-0001) for [CCS](pa-0001) is in terms of partial traces: finite sequences of actions.}
 ##{
   \begin{array}{lcl}
   \PTsems{\textbf{0}} & = & \{ \varepsilon \} \\

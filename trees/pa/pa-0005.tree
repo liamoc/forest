@@ -1,10 +1,10 @@
 \import{table-macros}
 \import{dt-macros}
-\title{Explicit termination for Basic CCS}
+\title{Explicit termination for (non-recursive) CCS}
 \author{liamoc}
 \def\xarrow[body]{\xrightarrow{\body}}
 \def\xarrowstar[body]{\xrightarrow{\body}^\ast}
-\p{We add to [syntax of Basic CCS](pa-0001) an additional process constant, #{\textbf{1}}, which, like #{\mathbf{0}}, has no rules in the [operational semantics](dt-0002), and whose [finite partial traces](dt-0003) are just  #{\sems{\textbf{1}}_\text{PT} = \{\varepsilon\}}. }
+\p{We add to [syntax of CCS](pa-0001) an additional process constant, #{\textbf{1}}, which, like #{\mathbf{0}}, has no rules in the [operational semantics](dt-0002), and whose [finite partial traces](dt-0003) are just  #{\sems{\textbf{1}}_\text{PT} = \{\varepsilon\}}. }
 \p{The difference between #{\textbf{0}} and #{\textbf{1}} only comes in once we introduce a notion of \em{possible successful termination}. Intuitively, we want the ability to denote when it is OK for a process to stop.}
 \transclude{pa-0006}
 \transclude{pa-0007}
