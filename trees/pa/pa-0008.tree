@@ -1,0 +1,15 @@
+\import{table-macros}
+\import{dt-macros}
+\title{Soundness and adequacy of finite completed trace semantics for Basic CCS}
+\taxon{Theorem}
+\author{liamoc}
+\def\xarrow[body]{\xrightarrow{\body}}
+\def\xarrowstar[body]{\xrightarrow{\body}^\ast}
+
+\p{The [finite completed trace semantics of Basic CCS](dt-0007) gives exactly those finite partial traces reachable via the [operational semantics](dt-0002) that end in a [terminating state](pa-0006).}
+##{\sems{P}_\text{CT} = \{ \sigma \mid \exists Q.\ P \xarrowstar{\sigma} Q \land Q \checkmark \} }
+
+
+\proofblock{
+  \p{Proved by induction on #{P}.}
+}

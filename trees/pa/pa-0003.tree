@@ -1,0 +1,27 @@
+\import{table-macros}
+\import{dt-macros}
+\title{Partial trace semantics for Basic CCS}
+\taxon{Definition}
+\author{liamoc}
+\def\PTsems[body]{\sems{\body}_\text{PT}}
+\p{A simple [denotational semantics](dt-0001) for [Basic CCS](pa-0001) is in terms of partial traces: finite sequences of actions.}
+##{
+  \begin{array}{lcl}
+  \PTsems{\textbf{0}} & = & \{ \varepsilon \} \\
+  \PTsems{a.P} & = & \{ a\sigma \mid \sigma \in \PTsems{P} \} \cup \{ \varepsilon \}\\
+  \PTsems{\sum_{i \in I} P_i} & = & \{ \varepsilon \} \cup \bigcup_{i \in I} \PTsems{P_i} \\
+  \PTsems{P|Q} & = & \bigcup_{\sigma \in \PTsems{P}} \bigcup_{\rho \in \PTsems{Q}} \sigma \bowtie \rho \\
+  \PTsems{P \setminus \alpha} & = & \{ \sigma \in \PTsems{P} \mid \alpha \notin \sigma \land \overline{\alpha} \notin \sigma \} \\
+    \PTsems{P \lsquare f \rsquare} & = & \{ \hat{f}(\sigma) \mid \sigma \in \PTsems{P} \}
+  \end{array}
+}
+\p{The trace merge operator #{\bowtie} is defined as follows:}
+##{\begin{array}{lcl}
+  \sigma \bowtie \varepsilon &=& \{\sigma \} \\
+  \varepsilon \bowtie \sigma &=& \{\sigma \} \\
+  a\sigma \bowtie b\rho &=& \{ a\varsigma \mid \varsigma \in \sigma \bowtie b\rho \} \\
+                     &\cup& \{ b\varsigma \mid \varsigma \in a\sigma \bowtie \rho \} \\
+                     &\cup& \{ \tau\varsigma \mid \varsigma \in \sigma \bowtie \rho \land a = \overline{b} \} \\
+\end{array}
+}
+

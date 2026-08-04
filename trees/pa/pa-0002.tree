@@ -1,0 +1,24 @@
+\import{table-macros}
+\import{dt-macros}
+\title{Operational semantics for Basic CCS}
+\taxon{Definition}
+\author{liamoc}
+\def\xarrow[body]{\xrightarrow{\body}}
+\def\xarrowstar[body]{\xrightarrow{\body}^\ast}
+
+\p{We assign an \todo{operational semantics} to [Basic CCS](pa-0001) by describing a series of transition rules #{P \xarrow{a} Q} inductively as follows:}
+##{
+  \begin{gather*}
+  \inferrule{ }{a.P \xarrow{a} P} \quad \inferrule{P_k \xarrow{a} P'}{\sum_{i \in I} P_i \xarrow{a} P'}  \\[2em]
+  \inferrule{ P \xarrow{a} P'}{P|Q \xarrow{a} P'|Q}  \quad \inferrule{ Q \xarrow{a} Q'}{P|Q \xarrow{a} P|Q'}
+    \inferrule{ P \xarrow{a} P' \quad Q \xarrow{\overline{a}} Q'}{P|Q \xarrow{\tau} P'|Q'} \\[2em]
+    \inferrule{ P \xarrow{a} P' \quad a \notin \{\alpha, \overline{\alpha}\}}{ P\setminus \alpha \xarrow{a} P' \setminus \alpha} \quad    \inferrule{ P \xarrow{a} P'}{ P \lsquare f \rsquare \xarrow{f(a)} P' \lsquare f \rsquare}
+  \end{gather*}
+}
+\p{Let the relation #{P \xarrowstar{\sigma} Q} denote the [reflexive](dm-0001), [transitive](dm-0002) closure of the above step relation, where #{\sigma} denotes a \em{finite trace} (a finite sequence of actions):}
+##{
+  \inferrule{ }{P \xarrowstar{\varepsilon} P} \quad \inferrule{P \xarrow{a} P' \quad P' \xarrowstar{\sigma} Q}{P \xarrowstar{a\sigma} Q}
+}
+
+
+

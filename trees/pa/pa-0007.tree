@@ -1,0 +1,19 @@
+\import{table-macros}
+\import{dt-macros}
+\title{Finite completed trace semantics for Basic CCS with #{\textbf{1}}}
+\taxon{Definition}
+\author{liamoc}
+\def\CTsems[body]{\sems{\body}_\text{CT}}
+\p{We offer a [denotational semantics](dt-0001) for [Basic CCS](pa-0001) augmented with a #{\textbf{1}} constant, denoting successful termination. Unlike our [partial trace semantics](pa-0003), this semantics only includes finite \em{completed} traces — traces where the process has terminated.}
+##{
+  \begin{array}{lcl}
+  \CTsems{\textbf{0}} & = & \emptyset \\
+  \CTsems{\textbf{1}} & = & \{ \varepsilon \} \\
+  \CTsems{a.P} & = & \{ a\sigma \mid \sigma \in \CTsems{P} \}\\
+  \CTsems{\sum_{i \in I} P_i} & = & \bigcup_{i \in I} \CTsems{P_i} \\
+  \CTsems{P|Q} & = & \bigcup_{\sigma \in \CTsems{P}} \bigcup_{\rho \in \CTsems{Q}} \sigma \bowtie \rho \\
+  \CTsems{P \setminus \alpha} & = & \{ \sigma \in \CTsems{P} \mid \alpha \notin \sigma \land \overline{\alpha} \notin \sigma \} \\
+    \CTsems{P \lsquare f \rsquare} & = & \{ \hat{f}(\sigma) \mid \sigma \in \CTsems{P} \}
+  \end{array}
+}
+\p{The trace merge operator #{\bowtie} is defined exactly as in the [partial trace semantics](pa-0003). }

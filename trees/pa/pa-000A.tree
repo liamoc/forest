@@ -1,0 +1,9 @@
+\import{table-macros}
+\import{dt-macros}
+\title{Correctness of the #{\Upsilon} translation}
+\taxon{Theorem}
+\author{liamoc}
+\p{Our syntactic transformation #{\Upsilon} gives a process whose [completed traces](pa-0007) are the same as the [partial traces](pa-0003) of the original process.}
+##{\sems{P}_\text{PT} = \sems{\Upsilon(P)}_\text{CT}}
+\proofblock{
+  \p{A very straightforward structural induction on #{P}, where each case follows from the definitions.}}

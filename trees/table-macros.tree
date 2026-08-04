@@ -28,4 +28,5 @@
 \def\hr{
   \<html:hr>{}
 }
+\def\todo[body]{\body}
 \def\kbd[body]{\<html:kbd>{\body}}

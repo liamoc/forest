@@ -1,0 +1,22 @@
+\import{table-macros}
+\import{dt-macros}
+\title{Syntax of Basic CCS}
+\taxon{Definition}
+\author{liamoc}
+\p{The \em{Calculus of Communicating Systems} (CCS) is a process algebra with the following basic syntax.}
+##{
+  \begin{array}{lcll}
+  \alpha & & & \text{(names)}\\
+  a & ::= & \alpha \mid \overline{\alpha} \mid \tau & \text{(actions, co-actions, and internal moves)}\\
+  P & ::= & \textbf{0} & \\
+    & \mid & a.P & \text{(action prefixing)}  \\
+    & \mid & \sum_{i \in I} P_i & \text{(nondeterministic choice)} \\
+    & \mid & P | Q & \text{(parallel composition)} \\ 
+    & \mid & P \setminus \alpha & \text{(restriction)} \\ 
+    & \mid & P \lsquare f \rsquare & \text{(renaming)}
+  \end{array}
+}
+\p{This is called \em{Basic} CCS because recursion is not included. In the above, #{f} denotes a valid \em{renaming} function that satisfies the side-condition #{\forall a.\; f(\overline{a}) = \overline{f(a)}}. Here we have naturally extended the co-action notation (#{\overline{\alpha}}) to an operation on actions #{a}, where #{\overline{\overline{a}} = a} and #{\overline{\tau} = \tau}.}
+\p{We allow for infinite sums in nondeterministic choice. To recover finite choice, we use a two element index set like #{\mathbb{B} = \{\top,\bot\}}, as follows:}
+##{ P + Q \equiv \sum_{i \in \mathbb{B}} R_i\; \text{where}\ R_\top = P\ \text{and}\ R_\bot = Q}  
+

@@ -1,5 +1,13 @@
 \import{table-macros}
-\title{CCS with a Termination predicate}
+\title{CCS with Termination}
 \date{2026-07-25}
 \author{liamoc}
+\p{As part of [[xinloi]]'s project we needed to come up with a version of CCS that supports explicit termination in the style of ACP. There is a [paper](aceto-hennessy-1994) by [[aceto]] and [[mhennessy]] which introduces a termination predicate, but they require that a nondeterministic choice #{P + Q} is judged terminating (written #{P + Q \checkmark}) only when \em{both} #{P \checkmark} and #{Q \checkmark}. In other words, a process is only terminating if it has \em{no choice} but to terminate.  }
+\p{In our case, we want a judgement for \em{possible} termination, not \em{guaranteed} termination. So we had to come up with our own notions. We've formalised this in Isabelle, but what follows is the same but presented as Forester notes. Eventually, these notes may become part of another research notebook or even lecture notes. }
+\transclude{pa-0001}
+\transclude{pa-0002}
+\transclude{pa-0003}
+\transclude{pa-0004}
+\transclude{pa-0005}
+
 

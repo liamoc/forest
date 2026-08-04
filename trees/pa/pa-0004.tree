@@ -1,0 +1,15 @@
+\import{table-macros}
+\import{dt-macros}
+\title{Soundness and adequacy of partial trace semantics for Basic CCS}
+\taxon{Theorem}
+\author{liamoc}
+\def\xarrow[body]{\xrightarrow{\body}}
+\def\xarrowstar[body]{\xrightarrow{\body}^\ast}
+
+\p{The finite partial trace [denotational semantics of Basic CCS](dt-0003) gives exactly those finite partial traces reachable via the [operational semantics](dt-0002).}
+##{\sems{P}_\text{PT} = \{ \sigma \mid \exists Q.\ P \xarrowstar{\sigma} Q \} }
+
+\proofblock{
+  \p{Proved by induction on #{P}.}
+}
+

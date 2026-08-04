@@ -1,0 +1,32 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{10th Sunday after Pentecost 2026}
+\tag{cmc}
+\date{2026-08-02}
+\author{liamoc}
+\quote{
+Deus in adiutórium meum inténde: Dómine ad adiuvándum me festína: confundántur et revereántur inimíci mei, qui quærunt ánimam meam.
+}
+\p{I was once again the director of our choir at [All Saints Ainslie](https://allsaintsainslie.org.au), for the special \em{Missing Persons Sunday} today, with representatives from the Australian Federal Police present to offer special reflections and awareness about those who are missing in our territory and support their loved ones, many of whom were in attendance. We performed Rachmaninoff's [Bogoroditse Devo](https://www.youtube.com/watch?v=InMhSNBlIg8):}
+\quote{
+  \table{
+    \tr{
+    \td{Богородице Дево, радуйся,}
+    \td{Rejoice, virgin mother of God,}
+    }\tr{
+    \td{Благодатная Марие, Господь с тобою.}
+    \td{Mary, full of grace, the Lord is with you.}
+    }\tr{
+    \td{Благословена ты в женах,}
+    \td{Blessed are you among women,}
+  }\tr{
+    \td{и благословен плод чрева твоего,}
+    \td{and blessed is the fruit of your womb,}
+  }\tr{
+    \td{яко Спаса родила еси душ наших. }
+    \td{for you have borne the Saviour of our souls. }
+  }
+  }
+}

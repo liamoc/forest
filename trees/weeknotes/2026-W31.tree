@@ -1,0 +1,12 @@
+\import{table-macros}
+\title{Weeknotes 2026-W31}
+\author{liamoc}
+\date{2026-08-04}
+\p{This weeknotes is two days late, but I was suffering from a bout of rheumatoid symptoms so that's my excuse.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{400px}[src]{\route-asset{assets/cocky.jpeg}}%{}
+ \figcaption{One of the most common birds in Canberra is also one of the loveliest.}
+}
+\transclude{loc-0051}
+\transclude{loc-0053}
+

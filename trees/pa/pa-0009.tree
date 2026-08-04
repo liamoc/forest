@@ -1,0 +1,15 @@
+\import{table-macros}
+\import{dt-macros}
+\title{A translation to turn partial traces into completed traces}
+\taxon{Definition}
+\author{liamoc}
+\p{Define a syntactic transformation on [Basic CCS terms](pa-0001) (augmented with #{\textbf{1}}) #{\Upsilon} as follows:}
+##{\begin{array}{lcl}
+\Upsilon(\textbf{0}) &=& \textbf{1} \\
+\Upsilon(\textbf{1}) &=& \textbf{1} \\
+\Upsilon(a.P) &=& \textbf{1} + a.\Upsilon(P) \\
+\Upsilon(\sum_{i \in I} P_i) &=& \textbf{1} + \sum_{i \in I} \Upsilon(P_i) \\
+\Upsilon(P | Q) &=& \Upsilon(P) | \Upsilon(Q)\\
+\Upsilon(P \setminus \alpha) &=& \Upsilon(P) \setminus \alpha \\
+\Upsilon(P \lsquare f \rsquare) &=& \Upsilon(P) \lsquare f \rsquare
+\end{array}}
