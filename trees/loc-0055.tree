@@ -1,0 +1,35 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{Feast of the Transfiguration 2026}
+\tag{cmc}
+\date{2026-08-09}
+\author{liamoc}
+\quote{
+
+}
+\p{I was once again the director of our choir at [All Saints Ainslie](https://allsaintsainslie.org.au), on a cold and wet Sunday with few choristers and few parishioners, even though it was a transferred feast. We sang Stopford's [Do not be afraid](https://www.youtube.com/watch?v=8aNISuvsP5M), a poem by Gerard Markland based on the words of Isaiah:}
+\quote{
+  \poem{
+    \line{Do not be afraid, for I have redeemed you.}
+    \line{I have called you by your name;}
+    \line{you are mine.}
+    \line{When you walk through the waters,}
+    \line{I'll be with you;}
+    \line{you will never sink beneath the waves.}
+    \line{When the fire is burning all around you,}
+    \line{you will never be consumed by the flames.}
+    \line{When the fear of loneliness is looming,}
+    \line{then remember I am at your side.}
+    \line{When you dwell in the exile of a stranger,}
+    \line{remember you are precious in my eyes.}
+    \line{You are mine, O my child,}
+    \line{I am your Father,}
+    \line{and I love you with a perfect love.}
+    \line{Do not be afraid, for I have redeemed you.}
+    \line{I have called you by your name;}
+    \line{you are mine.}
+  }
+}
+\p{There's something weird going on, because we celebrated the Transfiguration already on [Quinquagesima Sunday](loc-0038), and last year they made no special observance of the feast of the Transfiguration. The transferring of feasts is such a mess! I'm liking [[obrw]]'s policy of never transferring anything and celebrating feasts on the day more and more.}

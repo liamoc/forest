@@ -12,6 +12,7 @@
   \<html:table>[width]{100\startverb%
     \stopverb}{\body}
 }
+\def\todo[body]{\body}
 \def\small[body]{
   \<html:small>{\body}
 }
@@ -28,5 +29,4 @@
 \def\hr{
   \<html:hr>{}
 }
-\def\todo[body]{\body}
 \def\kbd[body]{\<html:kbd>{\body}}

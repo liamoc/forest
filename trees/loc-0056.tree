@@ -1,0 +1,9 @@
+\title{I got an award last year}
+\import{table-macros}
+\author{liamoc}
+\date{2026-08-10}
+\p{Somehow I missed it that I got an award for my supervision last year. It slipped my mind completely until I got this certificate in my inbox: }
+\figure{
+  \<html:img>[loading]{lazy}[width]{420px}[src]{\route-asset{assets/cert.png}}%{}
+}
+\p{Looking at the list of awardees, it seems any supervisor who was nominated was awarded such a commendation (except for the first-place winners). Thank you to whichever of [my students](loc-0002) nominated me!}
