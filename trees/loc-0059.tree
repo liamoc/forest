@@ -1,0 +1,8 @@
+\title{Reviewing is becoming untenable}
+\import{table-macros}
+\author{liamoc}
+\date{2026-08-18}
+\p{As I have previously mentioned, I'm on the PC of [POPL](popl27) this year. There were an unprecedented number of submissions (>600), which meant that even with reserve reviewers, each PC member ended up with 14 papers to review. Seeing as POPL papers are typically dense with a fair bit of maths, this is an extreme amount of work. }
+\p{My workload was exacerbated by the fact that the [Toronto paper matching system](torontopapermatching.org) used by POPL seemed to produce ranks worse than random, so even before being assigned reviews I had to examine (at least the titles of) every submission to the conference to figure out what to bid on.}
+\p{I don't think we want our PL and FM conferences to end up like AI conferences, with enormous PCs and an even higher volume of papers. I don't want our research to turn into a paper mill where we throw papers over the wall that even the reviewers barely read, let alone anyone else (at best, a disgusting AI summary might be all that is left of our papers for human consumption). But if things keep progressing this way, that's exactly where we'll end up — the volume of papers even in this iteration of POPL is such that I'm having to take shortcuts just to get the reviews done in time.}
+\p{Normally, my policy is to write a review, wait a day (while not reading anything else), and then submit it, because often I will keep thinking about the paper while I go about my day. This PC membership has made that impossible.}
