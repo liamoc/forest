@@ -1,0 +1,11 @@
+\title{Holbert-ng in Forester: It works!}
+\import{table-macros}
+\author{liamoc}
+\date{2026-08-24}
+\p{While the proof interface is still very minimal, my students [[joshbrown]] and [[miowu]] have done some amazing work getting the reasoning core of Holbert-ng together. Because I am planning to talk about this work at WadlerFest in two weeks, I began finally to try to realise my [original vision](loc-000V) for this project and integrate the proof assistant into Forester itself.}
+\p{It still has some rough edges, but, it works.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{380px}[src]{\route-asset{assets/holbertng.png}}%{}
+}
+\p{In particular, while it's not demonstrated by the above screenshot, proof and definition nodes can
+span multiple pages, have their own dependency graph (independent of Forester's), can appear in multiple pages, and have all of their state synced to local storage. It's very exciting and motivating to see this in action.}

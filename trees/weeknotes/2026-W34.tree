@@ -1,0 +1,11 @@
+\import{table-macros}
+\title{Weeknotes 2026-W34}
+\author{liamoc}
+\date{2026-08-25}
+\figure{
+  \<html:img>[loading]{lazy}[width]{380px}[src]{\route-asset{assets/cockies.jpeg}}%{}
+ \figcaption{Some brave cockatoos on my morning commute.}
+}
+\p{This week I finally finished the bulk of my reviewing for [POPL](popl27). Glad that's mostly done!}
+\transclude{loc-005B}
+\transclude{loc-005A}
