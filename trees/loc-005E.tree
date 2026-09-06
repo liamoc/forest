@@ -6,4 +6,4 @@
 \figure{
   \<html:img>[loading]{lazy}[width]{450px}[src]{\route-asset{assets/holbertng-pre.png}}%{}    
 }
-\p{The real test will be to actually start writing my PL course notes (similar to my [domain theory](dt-0001) notes but more for an undergraduate PL theory course) with the proof assistant integrated throughout, as per my [original vision](loc-000V). We're now almost at a point where that is a feasible thing to do. I will give a talk about some of my design decisions at the Wadler 70 event on Wednesday.}
+\p{The real test will be to actually start writing my PL course notes (similar to my [domain theory](dt-001Y) notes but more for an undergraduate PL theory course) with the proof assistant integrated throughout, as per my [original vision](loc-000V). We're now almost at a point where that is a feasible thing to do. I will give a talk about some of my design decisions at the Wadler 70 event on Wednesday.}
