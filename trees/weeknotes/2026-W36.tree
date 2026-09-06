@@ -1,0 +1,12 @@
+\import{table-macros}
+\title{Weeknotes 2026-W36}
+\author{liamoc}
+\date{2026-09-06}
+\p{This weeknotes is a bit early, because I'm likely to be busy this Tuesday, and also to compensate for not posting any weeknotes last week — although I had a very good excuse, having caught COVID right before my travel to Scotland for the combined LFCS/Plotkin/Wadler event this week. I did recover and make it to Edinburgh in one piece, though.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{380px}[src]{\route-asset{assets/ediwest.jpeg}}%{}
+ \figcaption{The West End of Edinburgh from my Hotel room.}
+}
+\transclude{loc-005E}
+\transclude{loc-005D}
+\transclude{loc-005C}

@@ -1,0 +1,11 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\date{2026-09-06}
+\author{liamoc}
+\title{Coro Concert: Cloudburst}
+
+\p{[Coro](loc-003G)'s concert has now been officially announced. Please [buy tickets](https://www.corocanberra.com/concerts) as soon as you can! The venue is my usual All Saints Ainslie church so the acoustic is good but seating is limited. A particular favourite from the programme this time is Tallis' Lamentations of Jeremiah, which I love singing.}
+\figure{  
+  [\<html:img>[loading]{lazy}[width]{450px}[src]{\route-asset{assets/corocloud.jpg}}{}](https://www.corocanberra.com/concerts)
+}

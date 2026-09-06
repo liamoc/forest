@@ -1,0 +1,39 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{15th Sunday after Pentecost 2026}
+\tag{cmc}
+\date{2026-09-06}
+\author{liamoc}
+\quote{
+Iustus es Dómine, et rectum iudícium tuum: fac cum servo tuo secúndum misericórdiam tuam.
+}
+\figure{
+  \<html:img>[loading]{lazy}[width]{190px}[src]{\route-asset{assets/smass1.jpeg}}{}
+  \<html:img>[loading]{lazy}[width]{190px}[src]{\route-asset{assets/smass2.jpeg}}{}
+    \<html:img>[loading]{lazy}[width]{190px}[src]{\route-asset{assets/smass3.jpeg}}{}
+  \figcaption{Back again at St. Michael and All Saints.}
+}
+\p{I am in Edinburgh this week for the combined LFCS/Plotkin/Wadler event so I stopped into my favourite church [St. Michael and all Saints](https://smas.church) to sing in their choir for Mass today. We sang Darke's Mass in F (where I sang the tenor solo), chant propers (which I intoned) and Ola Gjeilo's [Ubi Caritas](https://youtu.be/md2pmzJqtNc?t=4230). I linked to our performance in the livestream because SMAS's audio system is quite good and we sang it rather well I think. }
+\quote{
+  \table{
+    \tr{\td{Ubi cáritas et amor, Deus ibi est.}\td{Where there is charity and love, there God is.}}
+    \tr{\td{Congregávit nos in unum Christi amor;}\td{The love of Christ has gathered us as one;}}
+    \tr{\td{Exultémus et in ipso iucundémur;}\td{Let us then exult and delight in him;}}
+    \tr{\td{Timeámus et amémus Deum vivum,}\td{Let us fear and love the living God,}}
+    \tr{\td{Et ex corde diligámus nos sincéro.}\td{And love each other with sincere hearts.}}
+    \tr{\td{Ubi cáritas et amor, Deus ibi est.}\td{Where there is charity and love, there God is.}}
+    \tr{\td{Amen.}\td{Amen.}}
+  }
+}
+\p{I understand my usual choir at All Saints Ainslie sang Pitoni's [Cantate Domino](https://www.youtube.com/watch?v=6G4elpHkBng).}
+\p{I also joined the choir at [Old St. Paul's](https://www.osp.org.uk) for Evensong and Benediction. We sang canticles by Attwood Walmisley (both [Magnificat](https://www.youtube.com/watch?v=Xoup1cor-6Q) and [Nunc Dimittis](https://www.youtube.com/watch?v=sL-VdxLCRG0)), and Wesley's anthem [Lead me, Lord](https://www.youtube.com/watch?v=nIwxmEKdIQw): }
+\quote{\poem{
+  \line{Lead me, Lord.}
+  \line{Lead me in thy righteousness.}
+  \line{Make thy way plain before my face.}
+  \line{For it is thou, Lord,}
+  \line{Thou, Lord, only,}
+  \line{That makest me dwell in safety.}
+}}

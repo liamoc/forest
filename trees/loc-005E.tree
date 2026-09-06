@@ -1,0 +1,9 @@
+\title{Holbert-ng nearing readiness}
+\import{table-macros}
+\author{liamoc}
+\date{2026-09-06}
+\p{I said in my [last post](loc-005B) that proof interface still needed work for Holbert-ng to reach feature parity with Holbert 1, but being sick with COVID meant that suddenly pressing work commitments vanished and I stayed home to isolate myself. This gave me a lot of programming time, so now a preliminary release of Holbert-ng is imminent.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{450px}[src]{\route-asset{assets/holbertng-pre.png}}%{}    
+}
+\p{The real test will be to actually start writing my PL course notes (similar to my [domain theory](dt-0001) notes but more for an undergraduate PL theory course) with the proof assistant integrated throughout, as per my [original vision](loc-000V). We're now almost at a point where that is a feasible thing to do. I will give a talk about some of my design decisions at the Wadler 70 event on Wednesday.}
