@@ -1,0 +1,10 @@
+\title{A nice charity shop find}
+\author{liamoc}
+\date{2026-09-12}
+\p{There was a big movement of "community singing" in the UK during the 1920s (mostly pushed by tory rags). They commissioned Novello and similar music publishers to make score compilations to support community sing-alongs. Today while charity shop perusing, I managed to get the Daily Express compilation (edited by John Goss!) and the News Chronicle compilation, and had a read through. Lots of scottish airs, some hymns and carols, a few american spirituals and folk songs, sea shanties and some British patriotic songs. Interesting charity shop find!}
+
+\figure{
+  \<html:img>[loading]{lazy}[width]{280px}[src]{\route-asset{assets/sb1.jpeg}}%{}
+      \<html:img>[loading]{lazy}[width]{280px}[src]{\route-asset{assets/sb2.jpeg}}%{}
+ \figcaption{The books are still in great condition!}
+}

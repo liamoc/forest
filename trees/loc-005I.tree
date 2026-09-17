@@ -1,0 +1,7 @@
+\title{Wadler 70}
+\author{liamoc}
+\date{2026-09-10}
+\p{While his birthday was back in April, to fit with [Plotkin 80](loc-005G) and [LFCS 40](loc-005H), we had a birthday event for [[wadler]] today, celebrating his 70th year.}
+\p{I really loved [Conor](pigworker)'s talk on dependent session types, which was inspired by a question from Phil ten years earlier at his 60th birthday event. Her proposed design resembles [[peterhancock]]'s interaction structures quite a bit. Very nice work.}
+\p{I also gave my talk, which I peppered with many anecdotes about meeting Phil. I got a lot of interest about potentially using Holbert-ng, including from [[marcelofiore]] among others. Very exciting stuff!}
+\transclude{oconnor-2026-wadler70}

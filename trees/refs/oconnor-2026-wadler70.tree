@@ -1,0 +1,8 @@
+\title{Down with Linear Mathematical Developments}
+\taxon{Reference}
+\meta{venue}{Wadler 70 Meeting, University of Edinburgh, Scotland}
+\author{liamoc}
+\date{2026-09-10}
+\tag{talk}
+\tag{holbert}
+\p{This talk presents some of my recent rough work on educational proof assistants. I spent many years building Holbert — a graphical proof assistant and document preparation system — with the eventual goal of writing a PL textbook in it. But Holbert's design, like that of most proof assistants, forces exposition to follow a single linearisation of the dependency order of definitions and theorems, which is a poor fit for good mathematical writing. This talk demonstrates work in progress on the next generation of Holbert, built on top of Forester, the notes system by Jon Sterling and Kento Okura. Forester's transclusion mechanism lets self-contained notes on definitions and theorems be composed bottom-up into a document. Holbert-NG maintains its own separate graph of mathematical dependencies, independent of Forester's document graph, decoupling how a text is composed from the dependency structure of its mathematics. }

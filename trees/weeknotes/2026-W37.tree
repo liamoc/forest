@@ -1,0 +1,16 @@
+\import{table-macros}
+\title{Weeknotes 2026-W37}
+\author{liamoc}
+\date{2026-09-17}
+\p{This weeknotes is two days late, because I'm still recovering from my arduous travel all the way back to Canberra from Scotland.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{280px}[src]{\route-asset{assets/edi1.jpeg}}%{}
+      \<html:img>[loading]{lazy}[width]{280px}[src]{\route-asset{assets/edi2.jpeg}}%{}
+ \figcaption{Two venues I regularly visited in Edinburgh. [St. Mary's Episcopal Cathedral](https://www.cathedral.net/) for Evensong and the [Caley Picture House](https://en.wikipedia.org/wiki/Caley_Picture_House).}
+}
+\p{I really enjoyed my time in Edinburgh. Special thanks to Fr. [[obrw]] who always makes me feel so welcome in Edinburgh, and for introducing me to the [Caley Picture House](https://en.wikipedia.org/wiki/Caley_Picture_House), pictured above, a converted art-deco movie theatre that's now a pub. I later went back to have lunch with [[wadler]] before I left.}
+\transclude{loc-005G}
+\transclude{loc-005H}
+\transclude{loc-005I}
+\transclude{loc-005J}
+\transclude{loc-005F}
