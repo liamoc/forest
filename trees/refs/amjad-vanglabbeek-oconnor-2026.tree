@@ -1,11 +1,14 @@
 \title{The Infinite, in Finite Time}
 \taxon{Reference}
-\meta{venue}{To appear}
+\import{table-macros}
+\meta{venue}{[[inco]], Volume 313, Article 105510}
 \author{rayhana}
 \author{rvg}
 \author{liamoc}
 \date{2026}
-%\meta{doi}{10.4204/EPTCS.412.4}
+\meta{doi}{10.1016/j.ic.2026.105510}
 \tag{temporal-logic}
 \tag{semantics}
-%\tag{refereed}
+\tag{refereed}
+\p{An expanded version of [[amjad-vanglabbeek-oconnor-2024]].}
+\quote{Linear-time temporal properties, such as those described by Linear-time Temporal Logic, are typically modelled as sets of infinite traces. Yet, in a run-time verification context, such as when testing or monitoring a system, only a finite prefix of the system’s behaviour can be observed. For some properties, these finite prefixes may be definitive—a yes or no answer can be given without further observation. By enriching the semantics of LTL with these definitive prefixes, we give a proper inductive accounting of the semantics of LTL3, a multi-valued variant of Linear-time Temporal Logic for run-time verification applications. The semantic descriptions of LTL3 in previous work are given only in terms of their relationship to conventional LTL. We show that the semantics of LTL and of LTL3 are isomorphic. In addition, we formalise the formula progression evaluation technique, popularly used in runtime verification contexts, and show its soundness and completeness up to finite traces with respect to our semantics. Then, we turn to linear-time properties more generally: using our theory of definitive prefixes, we re-prove the well-known safety-liveness decomposition theorem, and reconstruct the topology of infinite traces. We define monitorability for properties, providing neat topological characterisations for various monitorability classes, and arrange them into a hierarchy. All of our definitions and proofs are mechanised in Isabelle/HOL.}
