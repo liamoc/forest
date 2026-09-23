@@ -1,6 +1,7 @@
 \date{2026-04-17}
-\title{April PhD Monitoring}
+\title{April PhD Monitoring 2026}
 \author{liamoc}
+\import{table-macros}
 \p{Today we had our regular PhD monitoring event, where all students and faculty in the [Foundations](https://comp.anu.edu.au/join/foundations/) cluster go to a remote location for a day, listen to some talks, and hold interviews with students where we ensure they're well supported. We also try to run some fun activities and get the students socialising with each other. It's always an enjoyable day.}
 \figure{  
   \<html:img>[loading]{lazy}[width]{290px}[src]{\route-asset{assets/cuppa1.jpeg}}{}
