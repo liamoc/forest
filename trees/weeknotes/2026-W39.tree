@@ -1,0 +1,11 @@
+\import{table-macros}
+\title{Weeknotes 2026-W39}
+\author{liamoc}
+\date{2026-09-29}
+\figure{
+  \<html:img>[loading]{lazy}[width]{300px}[src]{\route-asset{assets/pretty.jpeg}}%{}
+ \figcaption{Some more of Canberra spring-time.}
+}
+\p{This week there's not much to report work-wise: [[kaiphan]] and I are working hard on our upcoming FoSSaCS submission, which is exciting stuff! It's nice to see a paper coming together.}
+\transclude{loc-005N}
+\transclude{loc-005O}
