@@ -1,0 +1,12 @@
+\import{table-macros}
+\title{OpenAI disgust me yet again}
+\date{2026-10-07}
+\author{liamoc}
+\p{OpenAI have foisted upon the mathematical community a dump of hundreds of new "results" in mathematics, excreted by their machines. I hope it goes without saying that this is a disgusting abuse of the mathematical community and the intellectual commons. I refer to the [statement by the Association for Human Mathematics](https://www.ahmath.org/statements):  }
+\quote{
+Releasing over 700 files at once is not a demonstration of scholarship, but a demonstration of power. We urge mathematicians to discontinue their work with OpenAI and to return to a vision of science that centers human understanding.}
+\p{I also quote [[aeporreca]] from his [excellent reaction](https://aeporreca.org/blog/why-we-should-reject-ai-in-academia/) to this:}
+\quote{
+  I believe that we, as researchers and teachers, must reject AI-powered “papers” like these as legitimate research, because they’re not. And even if they were, it’s research that’s not worth doing. It does not follow any of the rules or the values of academia: building on the work of others with citations, not scooping your colleagues, collaborating, learning, teaching… and, you know, actually writing your own stuff in good faith. We have a right not to read papers like these, we have a right, no, a duty, not to cite them, to refuse refereeing them.}
+\quote{ Even if you, as a “senior” (meaning, with a permanent academic position) believe that it’s OK for yourself to do AI-powered “research”, you should think about your students and your junior and future colleagues. AI-powered “research” is not self-sustaining: you will always need a human expert in the loop, even if it’s just for asking question to your LLM chatbot, filtering all bullshit answers, and interpreting and applying the result (a job I wouldn’t wish on my worst enemy). If AI-powered “research”, let alone “teaching”, becomes the norm, we’ll lose at least a generation of human experts. I’ve personally witnessed whole classes of students pressured (by peers and, above all, by the behaviour of their teachers and the university bureaucrats) into using LLMs to write code. These students are not learning. They will never be the human expert in the loop. And the same thing will happen to our junior colleagues, if you force them to use LLMs to do their job. In fact, one day there will be no expert at all. Even if you don’t believe that, one day you will lose your expertise too if you let LLMs do your science for you. Snap out of it.
+}

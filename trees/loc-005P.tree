@@ -1,0 +1,50 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{Feast of St. Francis of Assisi 2026}
+\tag{cmc}
+\date{2026-10-04}
+\author{liamoc}
+\quote{
+In voluntáte tua, Dómine, univérsa sunt pósita, et non est qui possit resístere voluntáti tuæ: tu enim fecísti ómnia, cælum et terram, et univérsa quæ cæli ámbitu continéntur: Dóminus universórum tu es.\br
+Ego autem sicut olíva fructificávi in domo Dómini, sperávi in misericórdia Dei mei: et exspectábo nomen tuum, quóniam bonum est ante conspéctum sanctórum tuorum.
+}
+
+\p{This morning I sang with a skeleton crew choir at [All Saints Ainslie](https://www.allsaintsainslie.org.au/), for an, uh, \em{interesting} service replete with all the dogs of the congregation. The animal blessing itself was a bit too \em{Common Worship} for my taste, but it was nice to see all the cute animals. We sang [Brother James' Air](https://www.youtube.com/watch?v=Rsw1gix1CvA): }
+\quote{
+\poem{
+  \line{The Lord's my Shepherd, I'll not want.}
+  \line{He makes me down to lie}
+  \line{In pastures green; He leadeth me}
+  \line{The quiet waters by.}
+  \line{He leadeth me, He leadeth me,}
+  \line{the quiet waters by.}
+  \line{\br}
+  \line{My soul He doth restore again;}
+  \line{And me to walk doth make}
+  \line{Within the paths of righteousness,}
+  \line{Ee'n for His own Name's sake.}
+  \line{Within the paths of righteousness,}
+  \line{Ee'n for His own Name's sake.}
+  \line{\br}
+  \line{Yea, though I pass through shadows death,}
+  \line{Yet will I fear no ill;}
+  \line{For Thou art with me; and Thy rod}
+  \line{And staff me comfort still.}
+  \line{Thy rod and staff they comfort still}
+  \line{They comfort still.}
+  \line{\br}
+  \line{My table Thou hast furnishd}
+  \line{In presence of my foes;}
+  \line{My head with oil thou dost anoint,}
+  \line{And my cup overflows.}
+  \line{My head thou dost with oil anoint,}
+  \line{And my cup overflows.}
+  \line{\br}
+  \line{Goodness and mercy all my days}
+  \line{Will surely follow me;}
+  \line{And in my father's heart alway}
+  \line{My dwelling place shall be.}
+}
+}

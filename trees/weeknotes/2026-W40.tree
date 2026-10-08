@@ -1,0 +1,12 @@
+\import{table-macros}
+\title{Weeknotes 2026-W40}
+\author{liamoc}
+\date{2026-10-08}
+\p{This week's weeknotes are late, but it's only because I'm working so hard on our paper on monitorability theory.}
+\figure{
+  \<html:img>[loading]{lazy}[width]{300px}[src]{\route-asset{assets/evening.jpeg}}%{}
+ \figcaption{Daylight savings has kicked in, so my commute home is brighter now.}
+}
+\transclude{loc-005Q}
+\transclude{loc-005P}
+
