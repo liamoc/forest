@@ -1,0 +1,14 @@
+\import{table-macros}
+\title{Weeknotes 2026-W41}
+\author{liamoc}
+\date{2026-10-14}
+\p{This week's weeknotes are late again, but our paper is done and submitted a few days \em{before} the deadline!}
+\figure{
+  \<html:img>[loading]{lazy}[width]{198px}[src]{\route-asset{assets/sumer1.jpeg}}%{}
+      \<html:img>[loading]{lazy}[width]{198px}[src]{\route-asset{assets/sumer2.jpeg}}%{}
+          \<html:img>[loading]{lazy}[width]{198px}[src]{\route-asset{assets/sumer3.jpeg}}%{}
+  \<html:img>[loading]{lazy}[width]{400px}[src]{\route-asset{assets/waters.jpeg}}%{}            
+ \figcaption{Spring is changing to summer.}
+}
+\transclude{loc-005R}
+

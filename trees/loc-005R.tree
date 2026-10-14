@@ -1,0 +1,36 @@
+\import{table-macros}
+\def\percent{\startverb%\stopverb
+   }
+\parent{loc-000P}
+\title{20th Sunday after Pentecost 2026}
+\tag{cmc}
+\date{2026-10-11}
+\author{liamoc}
+\quote{
+Si iniquitátes observáveris Dómine, Dómine quis sustinébit? quia apud te propítiatio est, Deus Israel.
+}
+
+\p{This morning at [All Saints Ainslie](https://www.allsaintsainslie.org.au/) we had a very small choir so we sang some established repertoire with me as the only tenor and our director managing the soprano part, Byrd's [Ave Verum Corpus](https://www.youtube.com/watch?v=R3vuU7XAaUM):}
+\quote{
+  \table{
+    \tr{
+    \td{Ave verum corpus natum de María Vírgine,}
+    \td{Hail, true body, born of the Virgin Mary,}
+    }\tr{
+    \td{Vere passum immolátum in cruce pro hómine,}
+    \td{True suffering, sacrificed on the cross for Man,}
+    }\tr{
+    \td{Cuius latus perforátum unda fluxit sánguine,}
+    \td{From whose pierced side flowed waves of blood,}
+  }\tr{
+    \td{Esto nobis prægustátum in mortis exámine.}
+    \td{Be for us a foretaste in death's trial.}
+  }\tr{
+    \td{O dulcis, O pie, O Iesu fili Maríæ,}
+    \td{O sweet! O blessed! O Jesus, son of Mary, }
+  }\tr{
+    \td{Miserére mei, miserére mei, miserére mei.}
+    \td{Have mercy on me, have mercy on me, have mercy on me. }
+  }
+  }
+}
